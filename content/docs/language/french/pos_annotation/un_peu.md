@@ -16,4 +16,4 @@ We analyse **peu** from **un peu** as a `NOUN` with an `ExtPos=ADV` because it c
 10	.	.	PUNCT	_	_	2	punct	_	_
 {{</conll>}}
 
-> You can find the conversation about this annotation [here](https://github.com/surfacesyntacticud/guidelines/issues/10)
+> You can find the conversation about this annotation [here](https://github.com/surfacesyntacticud/guidelines/issues/1)
