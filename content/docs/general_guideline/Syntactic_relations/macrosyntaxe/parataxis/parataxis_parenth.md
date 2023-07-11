@@ -29,7 +29,7 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 4	paraître	paraître	VERB	CAUSATIVE	VerbForm=Inf	3	comp:aux@caus	_	Gloss=released
 5	ce	ce	DET	_	_	7	det	_	Gloss=this
 6	ce	ce	DET	_	_	5	conj:dicto	_	_
-7	chef	chef	NOUN	_	ExtPos=NOUN	4	comp:obj	_	PhraseType=Idiom|Gloss=chief
+7	chef	chef	NOUN	_	ExtPos=NOUN	4	comp:obj	_	Idiom=Yes|Gloss=chief
 8	-d'	d'	ADP	_	_	7	unk	_	InIdiom=Yes|Gloss=of
 9	oeuvre	oeuvre	NOUN	_	_	8	unk	_	InIdiom=Yes|Gloss=art
 10	pour	pour	ADP	_	_	13	mod	_	Gloss=for
@@ -37,12 +37,12 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	Gloss=it
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:parenth	_	Gloss=is
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Gloss=s
-15	chef	chef	NOUN	_	ExtPos=NOUN	13	comp:pred	_	PhraseType=Idiom|Gloss=chief
+15	chef	chef	NOUN	_	ExtPos=NOUN	13	comp:pred	_	Idiom=Yes|Gloss=chief
 16	-d'	de	ADP	_	_	15	unk	_	InIdiom=Yes|Gloss=of
 17	oeuvre	oeuvre	NOUN	_	_	16	unk	_	InIdiom=Yes|Gloss=art
 18	qui	qui	PRON	_	_	20	subj	_	Gloss=that
 19	s'	se	PRON	_	Person=3|PronType=Prs	20	comp	_	InIdiom=Yes|Gloss=itself
-20	appelle	appeler	VERB	_	ExtPos=VERB	7	mod@relcl	_	PhraseType=Idiom|Gloss=calls
+20	appelle	appeler	VERB	_	ExtPos=VERB	7	mod@relcl	_	Idiom=Yes|Gloss=calls
 21	Un	Un	DET	_	_	22	det	_	Gloss=a
 22	Barrage	Barrage	NOUN	_	ExtPOS=PROPN	20	comp:obj	_	Title=Yes|Gloss=dam
 23	contre	contre	ADP	_	_	22	udep	_	Gloss=against

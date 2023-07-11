@@ -50,7 +50,7 @@ This relation is used for appositions. In an apposition, conjuncts have the same
 2	yes	yes	INTJ	_	_	17	discourse	_	AlignBegin=61905|AlignEnd=62075|Gloss=yes
 3	o	o	PART	_	PartType=Disc	2	mod:emph	_	AlignBegin=62075|AlignEnd=62170|Gloss=EMPH
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=62170|AlignEnd=62200|Gloss=PUNCT
-5	Osun	Osun	PROPN	_	_	7	mod	_	AlignBegin=62200|AlignEnd=62505|ExtPos=PROPN|Gloss=Osun|PhraseType=Title
+5	Osun	Osun	PROPN	_	_	7	mod	_	AlignBegin=62200|AlignEnd=62505|ExtPos=PROPN|Gloss=Osun|Title=Yes
 6	United	United	ADJ	_	_	5	flat	_	AlignBegin=62505|AlignEnd=62821|Gloss=United|InTitle=Yes
 7	coach	coach	NOUN	_	_	17	dislocated	_	AlignBegin=62821|AlignEnd=63045|Gloss=coach
 8	|a	|a	PUNCT	_	_	9	punct	_	AlignBegin=63045|AlignEnd=63075|Gloss=PUNCT

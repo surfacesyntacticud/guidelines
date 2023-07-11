@@ -32,7 +32,7 @@ Direct discourse is attached its governor by the relation `comp:obj` with the fe
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=is
 7	de	de	ADP	_	_	6	comp:pred	_	Gloss=to
 8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes|Gloss=yourself
-9	dire	dire	VERB	_	ExtPos=VERB|VerbForm=Inf	7	comp:obj	_	PhraseType=Idiom|Gloss=say
+9	dire	dire	VERB	_	ExtPos=VERB|VerbForm=Inf	7	comp:obj	_	Idiom=Yes|Gloss=say
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	Gloss=I
 11	n'	ne	ADV	_	Polarity=Neg	13	mod	_	Gloss=not
 12	en	en	PRON	_	Person=3|PronType=Prs	13	comp:obj	_	Gloss=of

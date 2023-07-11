@@ -112,7 +112,7 @@ Below we can see an example when a speaker starts with one word, then decides it
 {{<conll>}}
 # text = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui-même
 # text_en = that means that the virus can do its own work
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	0	root	_	PhraseType=Idiom|Gloss=that_means
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	0	root	_	Idiom=Yes|Gloss=that_means
 2	que	que	SCONJ	_	_	1	comp:obj	_	InIdiom=Yes|Gloss=that
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Gloss=the
 4	m~	m~	X	_	_	8	subj	_	_
