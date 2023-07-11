@@ -14,7 +14,7 @@ bookToc: true
 
 The `@tense` feature is used for the argument of tense auxiliaries.
 
-  
+<!-- tabs:start -->
 > Tense
 {{< conll >}}
 1	This	this	PRON	_	_	2	subj	_	_
@@ -24,7 +24,7 @@ The `@tense` feature is used for the argument of tense auxiliaries.
 5	've	have	AUX	_	_	3	mod@relcl	_	_
 6	earned	earn	VERB	_	_	5	comp:aux@tense	_	_
 {{< /conll >}}
-<!-- tabs:end -->## test 
+<!-- tabs:end -->
 
 
 

@@ -40,7 +40,7 @@ The `@x` feature is used to annotate relationships with verbs that do not have a
 5	use	use	VERB	_	_	4	comp:obj	_	_
 6	another	another	ADJ	_	_	7	mod	_	_
 7	language	language	NOUN	_	_	5	comp:obj	_	_
-8	in	in	ADP	_	_	5	mod@x	_	ExtPos=ADP|PhraseType=Idiom
+8	in	in	ADP	_	ExtPos=ADP	5	mod@x	_	PhraseType=Idiom
 9	order	order	NOUN	_	_	8	unk	_	InIdiom=Yes
 10	to	to	PART	_	_	8	comp@obj	_	_
 11	write	write	VERB	_	_	10	comp@obj	_	_

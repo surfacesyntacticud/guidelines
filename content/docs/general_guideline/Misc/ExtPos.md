@@ -173,7 +173,7 @@ Here, the nouns have the features [ADV](docs/general_guideline/Upos/ADV.md) as [
 14	de	de	ADP	_	_	10	udep	_	_
 15	près	près	ADV	_	_	16	mod	_	_
 16	80	80	NUM	_	Number=Plur	17	det	_	SpaceAfter=No
-17	%	%	SYM	_	Number=Plur	14	comp:obj	_	ExtPos=NOUN|SpaceAfter=No
+17	%	%	SYM	_	ExtPos=NOUN|Number=Plur	14	comp:obj	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
 

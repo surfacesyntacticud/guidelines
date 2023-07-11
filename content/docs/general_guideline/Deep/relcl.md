@@ -16,7 +16,8 @@ The `@relcl` feature is used for the relation between the head of a relative cla
 
   
 > French 
-{{< co1	This	this	PRON	_	_	2	subj	_	_
+{{< conll >}}
+1	This	this	PRON	_	_	2	subj	_	_
 2	is	be	AUX	_	_	0	root	_	_
 3	money	money	NOUN	_	_	2	comp:aux@pass	_	_
 4	you	you	PRON	_	_	5	subj	_	_
