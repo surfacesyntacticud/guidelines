@@ -8,3 +8,8 @@ bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
+
+# General Guideline 
+
+
+This section contain the annotation's instructions for the tags and for the universal constructions. 

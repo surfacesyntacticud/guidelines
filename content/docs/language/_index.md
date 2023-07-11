@@ -9,7 +9,9 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-# Specific Language Guidelines section
+
+# Specific language guidelines sections
+
 
 
 Here, you will find some guidelines to annotate language's specific phenomena. 

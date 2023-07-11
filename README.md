@@ -13,7 +13,7 @@ Before getting started, make sure you have the following tool installed:
 To obtain a copy of this repository on your local machine, use the following commands in your terminal:
 
 ```
-git clone https://github.com/Julie921/guideline_prototype_hugo.git
+git clone https://github.com/Julie921/guidelines.git
 git submodule init
 git submodule update
 ``` 
