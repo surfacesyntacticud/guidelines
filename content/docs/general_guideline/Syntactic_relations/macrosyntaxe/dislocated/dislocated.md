@@ -141,39 +141,23 @@ Let's consider the following example:
   
 >  **French**
 
-{{<conll>}}
+{{< conll >}}
+# text_fr = j'ai des copines euh actuellement euh , je m'entends super bien avec
+# text_fr = I have friends uh currently uh, I get along really well with (them)
+1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|Gloss=I
+2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	dislocated	_	Gloss=have
+3	des	de+le	DET	_	_	4	det	_	Gloss=the
+4	copines	copine	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	Gloss=friends
+5	actuellement	actuellement	ADV	_	_	2	mod	_	Gloss=currently
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	Gloss=I
+8	m'	le	PRON	_	_	9	comp:obj	_	SpaceAfter=No|Gloss=myself
+9	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=get_along
+10	super	super	ADV	_	_	11	mod	_	Gloss=super
+11	bien	bien	ADV	_	_	9	mod	_	Gloss=well
+12	avec	avec	ADP	_	_	9	comp:obl	_	Gloss=with
+{{< /conll >}}
 
-\# text_fr = j'ai des copines euh actuellement euh , je m'entends super bien avec
-
-\# text_fr = I have friends uh currently uh, I get along really well with (them)
-
-1   j'  il  PRON    _   Number=Sing|Person=1|PronType=Prs   2   subj    _   SpaceAfter=No|Gloss=I
-
-2   ai  avoir   VERB    _   Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin   9   dislocated  _   Gloss=have
-
-3   des de+le   DET _   _   4   det _   Gloss=the
-
-4   copines copine  NOUN    _   Gender=Fem|Number=Plur  2   comp:obj    _   Gloss=friends
-
-5   actuellement    actuellement    ADV _   _   2   mod _   Gloss=currently
-
-6   ,   ,   PUNCT   _   _   2   punct   _   _
-
-7   je  il  PRON    _   Number=Sing|Person=1|PronType=Prs   9   subj    _   Gloss=I
-
-8   m'  le  PRON    _   _   9   comp:obj    _   SpaceAfter=No|Gloss=myself
-
-9   entends entendre    VERB    _   Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin   0   root    _   Gloss=get_along
-
-10  super   super   ADV _   _   11  mod _   Gloss=super
-
-11  bien    bien    ADV _   _   9   mod _   Gloss=well
-
-12  avec    avec    ADP _   _   9   comp:obl    _   Gloss=with
-
-{{</conll>}}
-
-  
 
 In this sentence, the proposition *J'ai des copines* (*I have some friends*) doesn't provide any information. The fact that the speaker has some friends is considered as obvious and we cannot negate it or question it. The informational content of this sentence is **about** these friends, not about the fact that the speaker has some.
 
