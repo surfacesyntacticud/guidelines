@@ -81,7 +81,7 @@ As a special case of interjections, we recognize feedback particles such as yes,
 4	d'	de	ADP	_	_	3	udep	_	SpaceAfter=No
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	comp:obj@scrap	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
+7	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 8	ouais	ouais	INTJ	_	_	3	discourse	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -91,7 +91,7 @@ As a special case of interjections, we recognize feedback particles such as yes,
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	repas	repas	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
-17	en	en	ADP	_	_	10	discourse	_	ExtPos=ADV|Idiom=Yes
+17	en	en	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
 18	fait	fait	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	InIdiom=Yes
 19	hein	hein	INTJ	_	_	10	discourse	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	_
@@ -114,7 +114,7 @@ As a special case of interjections, we recognize feedback particles such as yes,
 # text = euh ben en fait juste euh tu verras après.
 1	euh	euh	INTJ	_	_	8	discourse	_	_
 2	ben	ben	INTJ	_	_	8	discourse	_	_
-3	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
 5	juste	juste	ADV	_	_	8	mod	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_

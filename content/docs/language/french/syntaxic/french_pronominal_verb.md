@@ -51,7 +51,7 @@ The semantic dstinction between reflexive meaning (_je me rase_) and reciprocal 
 
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
 2	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs	3	comp@expl	_	InIdiom=Yes|Reflex=Yes
-3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+3	souviens	souvenir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Idiom=Yes
 4	?	?	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 

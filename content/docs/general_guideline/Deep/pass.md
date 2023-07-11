@@ -63,7 +63,7 @@ In case of **passive reflexive constructions**, the subject is analysed with a r
 
 4   complique   compliquer  VERB    _   Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   0   root    _   Gloss=complicates
 
-5   un  un  DET _   Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Art  4   mod _   ExtPos=ADV|PhraseType=Idiom|Gloss=a
+5   un  un  DET _   Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|Person=3|PronType=Art  4   mod _   PhraseType=Idiom|Gloss=a
 
 6   peu peu ADV _   _   5   unk _   InIdiom=Yes|Gloss=little
 

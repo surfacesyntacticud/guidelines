@@ -27,7 +27,7 @@ We use the features `Idiom` and `ExtPos` to consider the initial `ADV` as a `PRO
 9	exquises	exquis	ADJ	_	Gender=Fem|Number=Plur	8	comp:pred	_	_
 10	avec	avec	ADP	_	_	8	mod	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	InIdiom=Yes
-12	peu	peu	ADV	_	_	10	comp:obj	_	ExtPos=PRON|Idiom=Yes
+12	peu	peu	ADV	_	ExtPos=PRON	10	comp:obj	_	Idiom=Yes
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	sauce	sauce	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	!	!	PUNCT	_	_	2	punct	_	_
@@ -60,7 +60,7 @@ We use the features `Idiom` and `ExtPos` to consider the initial `ADV` as a `PRO
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	mod	_	_
 6	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	plein	plein	ADV	_	_	6	comp:obj	_	ExtPos=PRON
+7	plein	plein	ADV	_	ExtPos=PRON	6	comp:obj	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	marques	marque	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
@@ -70,7 +70,7 @@ We use the features `Idiom` and `ExtPos` to consider the initial `ADV` as a `PRO
 
 {{<conll>}}
 # text = Nombre d'investisseurs qui, auparavant, voyaient d'un mauvais œil l'accumulation de liquidités par les entreprises reconnaissent maintenant les avantages de la constitution de réserves de liquidités importantes.
-1	Nombre	nombre	ADV	_	_	20	subj	_	ExtPos=PRON|wordform=nombre
+1	Nombre	nombre	ADV	_	ExtPos=PRON	20	subj	_	wordform=nombre
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	investisseurs	investisseur	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 4	qui	qui	PRON	_	PronType=Rel	8	subj	_	SpaceAfter=No

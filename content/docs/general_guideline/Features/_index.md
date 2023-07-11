@@ -1,5 +1,5 @@
 ---
-title: "Morpho-syntaxic Features"
+title: "Morpho-syntactic Features"
 weight: 2
 # bookFlatSection: false
 # bookToc: true

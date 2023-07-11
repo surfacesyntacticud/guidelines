@@ -72,7 +72,7 @@ tokens with upos=[NOUN](docs/general_guideline/Upos/NOUN.md) and [ExtPos](docs/g
 6	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 7	musicaux	musical	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 8	comme	comme	ADP	_	_	6	udep	_	_
-9	Los	Los	X	_	Foreign=Yes	8	comp:obj	_	ExtPos=PROPN|Lang=es
+9	Los	Los	X	_	ExtPos=PROPN|Foreign=Yes	8	comp:obj	_	Lang=es
 10	Abuelos	Abuelos	X	_	Foreign=Yes	9	flat@name	_	Lang=es
 11	de	de	X	_	Foreign=Yes	10	flat@name	_	Lang=es
 12	la	la	X	_	Foreign=Yes	11	flat@name	_	Lang=es
@@ -106,7 +106,7 @@ Here, the adverbs have the features [NOUN](docs/general_guideline/Upos/NOUN.md) 
 5	Poussette	Poussette	PROPN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	Manon	Manon	PROPN	_	_	6	comp:obj	_	_
-8	peu	peu	ADV	_	_	11	mod	_	ExtPos=PRON
+8	peu	peu	ADV	_	ExtPos=PRON	11	mod	_	_
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 11	après	après	ADV	_	_	3	mod	_	SpaceAfter=No
@@ -130,7 +130,7 @@ Here, the nouns have the features [ADV](docs/general_guideline/Upos/ADV.md) as [
 1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=elle
 2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@pass	_	SpaceAfter=No
 3	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	grâce	grâce	NOUN	_	_	3	mod	_	ExtPos=ADV
+4	grâce	grâce	NOUN	_	ExtPos=ADV	3	mod	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	bond	bond	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_

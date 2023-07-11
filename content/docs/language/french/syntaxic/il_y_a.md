@@ -30,7 +30,7 @@ pattern : N1 [form="il"]; N2 [lemma="y"]; N3 [lemma="avoir"]; N1 << N2; N2 << N3
 3	étiez	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	InIdiom=Yes
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp	_	InIdiom=Yes
-6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	ExtPos=ADP|Idiom=Yes
+6	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	Idiom=Yes
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	longtemps	longtemps	ADV	_	_	6	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -77,7 +77,7 @@ pattern : N1 [form="il"]; N2 [lemma="y"]; N3 [lemma="avoir"]; N1 << N2; N2 << N3
 10	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	11	mod	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	_
 12	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Shared=No|Tense=Past|VerbForm=Part|Voice=Act	11	comp:aux@tense	_	_
-13	par	par	ADP	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
+13	par	par	ADP	_	ExtPos=ADV	12	mod	_	Idiom=Yes
 14	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	InIdiom=Yes
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	17	det	_	_
 16	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing|Shared=No	17	mod	_	_

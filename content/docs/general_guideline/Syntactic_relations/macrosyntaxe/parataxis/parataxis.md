@@ -75,7 +75,7 @@ In the other corpora, we use the `parataxis` relation. There is no distinction. 
 7	sûrement	sûrement	ADV	_	_	6	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	Jean	Jean	PROPN	_	Gender=Masc|Number=Sing	11	subj	_	_
-10	M	M	SYM	_	_	9	mod	_	ExtPos=PROPN
+10	M	M	SYM	_	ExtPos=PROPN	9	mod	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	toujours	toujours	ADV	_	_	11	mod	_	_
 13	dévoué	dévoué	ADJ	_	Gender=Masc|Number=Sing	11	comp:pred	_	SpaceAfter=No
