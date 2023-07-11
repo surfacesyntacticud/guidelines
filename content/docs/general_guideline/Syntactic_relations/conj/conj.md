@@ -50,27 +50,28 @@ In UD, all conjuncts of a coordination are attached to the head of the first con
 The first example below shows the annotation of a coordination in UD and the second one the corresponding annotation in SUD : 
   
 > English
-{{<conll>}}
-1   John    John    PROPN   _   _   7   nsubj   _   _
-2   ,   ,   PUNCT   _   _   3   punct   _   _
-3   Mary    Mary    PROPN   _   _   1   conj    _   _
-4   and and CCONJ   _   _   5   cc  _   _
-5   Peter   Peter   PROPN   _   _   1   conj    _   _
-6   will    will    AUX _   _   7   aux _   _
-7   come    come    VERB    _   _   0   root    _   _
-{{</conll>}}
+{{< conll >}}
+1	John	John	PROPN	_	_	7	nsubj	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	Mary	Mary	PROPN	_	_	1	conj	_	_
+4	and	and	CCONJ	_	_	5	cc	_	_
+5	Peter	Peter	PROPN	_	_	1	conj	_	_
+6	will	will	AUX	_	_	7	aux	_	_
+7	come	come	VERB	_	_	0	root	_	_
+{{< /conll >}}
 
 
 > English
-{{<conll>}}
-1   John    John    PROPN   _   _   6   subj    _   _
-2   ,   ,   PUNCT   _   _   3   punct   _   _
-3   Mary    Mary    PROPN   _   _   1   conj    _   _
-4   and and CCONJ   _   _   5   cc  _   _
-5   Peter   Peter   PROPN   _   _   3   conj    _   _
-6   will    will    AUX _   _   0   root    _   _
-7   come    come    VERB    _   _   6   comp:aux    _   _
-{{</conll>}}
+{{< conll >}}
+1	John	John	PROPN	_	_	6	subj	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	Mary	Mary	PROPN	_	_	1	conj	_	_
+4	and	and	CCONJ	_	_	5	cc	_	_
+5	Peter	Peter	PROPN	_	_	3	conj	_	_
+6	will	will	AUX	_	_	0	root	_	_
+7	come	come	VERB	_	_	6	comp:aux	_	_
+{{< /conll >}}
+
 
 
 

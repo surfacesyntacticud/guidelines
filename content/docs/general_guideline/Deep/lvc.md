@@ -16,28 +16,18 @@ A light verb construction (LVC) is a type of verbal structure in which a verb is
 
   
 > French 
+
 {{< conll >}}
-
-\# text_fr = faire face à la situation
-
-\# text_en = He faces the situation
-
-1   Il  il  PRON    _   _   2   subj    _   Gloss=he
-
-2   fait    faire   VERB    _   _   0   root    _   Gloss=makes
-
-3   face    face    NOUN    _   _   2   comp:obj@lvc    _   Gloss=face
-
-4   à   à   ADP _   _   3   comp:obl    _   Gloss=to
-
-5   la  le  DET _   _   6   det _   Gloss=the
-
-6   situation   situation   NOUN    _   _   4   comp:obj    _   Gloss=situation
-
+# text = faire face à la situation
+# text_en = He faces the situation
+1	Il	il	PRON	_	_	2	subj	_	Gloss=he
+2	fait	faire	VERB	_	_	0	root	_	Gloss=makes
+3	face	face	NOUN	_	_	2	comp:obj@lvc	_	Gloss=face
+4	à	à	ADP	_	_	3	comp:obl	_	Gloss=to
+5	la	le	DET	_	_	6	det	_	Gloss=the
+6	situation	situation	NOUN	_	_	4	comp:obj	_	Gloss=situation
 {{< /conll >}}
 
-  
-  
 
 The complements of these constructions are sometimes attached to the noun rather than the verb because:
 

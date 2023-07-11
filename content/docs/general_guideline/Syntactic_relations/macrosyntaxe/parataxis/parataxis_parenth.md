@@ -21,7 +21,7 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 > French
 
 {{< conll >}}
-# textfr = vous avez fait paraître ce ce chef -d' oeuvre pour moi c' est un chef -d' oeuvre qui s' appelle Un Barrage contre le Pacifique
+# text = vous avez fait paraître ce ce chef -d' oeuvre pour moi c' est un chef -d' oeuvre qui s' appelle Un Barrage contre le Pacifique
 # text_en = you released this masterpiece for me it's a masterpiece called Un Barrage contre le Pacifique
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj@caus	_	Gloss=you
 2	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=have

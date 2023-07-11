@@ -29,7 +29,7 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 
 > French 
 {{< conll >}}
-# text_fr = La nourriture a été cuisinée par plusieurs paires de mains.
+# text = Food was cooked by many hands
 1	Food	food	NOUN	_	_	2	subj	_	_
 2	was	be	AUX	_	_	0	root	_	_
 3	cooked	cook	VERB	_	_	2	comp:aux@pass	_	_
@@ -40,7 +40,8 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 
 > French
 {{< conll >}}
-# text_en = He makes his troops go faster.
+# text = Il fait accélérer ses troupes
+# text_en = He makes his troops go faster
 1	Il	il	PRON	_	_	2	subj@caus	_	Gloss=he
 2	fait	faire	AUX	_	_	0	root	_	Gloss=make
 3	accélérer	accélérer	VERB	_	_	2	comp:aux@caus	_	Gloss=accelerate
@@ -50,7 +51,8 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 
 > French 
 {{< conll >}}
-# text_en = You're making us eat a pizza.
+# text = Il nous fait manger une pizza
+# text_en = You're making us eat a pizza
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj@caus	_	Gloss=you
 2	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	3	comp:obl@agent	_	Gloss=us
 3	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=make

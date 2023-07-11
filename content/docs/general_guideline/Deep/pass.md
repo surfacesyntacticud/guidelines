@@ -27,7 +27,7 @@ The relation between the auxiliary and the verb is marked `comp:aux@pass` and th
 > French
 
 {{< conll >}}
-# text_fr = Le château est ensuite vendu
+# text = Le château est ensuite vendu
 # text_en = Later the castle is sold
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le|Gloss=The
 2	château	château	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	Gloss=castle
@@ -42,7 +42,7 @@ In case of **passive reflexive constructions**, the subject is analysed with a r
   > French
 
 {{< conll >}}
-# text_fr = L'affaire se complique un peu
+# text = L'affaire se complique un peu
 # text_en = The case gets a little complicated
 1	L'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'|Gloss=The
 2	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	Gloss=case
