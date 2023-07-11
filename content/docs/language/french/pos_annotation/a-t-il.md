@@ -1,20 +1,19 @@
 # How to annotate a-**t-il** ? 
 
-We chosse this annotation for **-t-il** : 
+We choose this annotation for **-t-il** : 
 
 {{<conll>}}
-\# text = j'étais communiste à ce moment-là.
-1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
-2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	communiste	communiste	ADJ	_	Number=Sing	2	comp:pred	_	_
-4	à	à	ADP	_	_	2	mod	_	_
-5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
-6	moment	moment	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
-7	-là	là	ADV	_	_	6	mod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	_
+# sent_id = fr-ud-train_04636
+# text = Que se passe-t-il ?
+1	Que	que	PRON	_	Person=3|PronType=Int	3	comp:pred	_	wordform=que
+2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@expl	_	_
+3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
+5	?	?	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 
-Thus, we consider **-t-il** as a `PRON` and **-t** as no syntactic meaning alone. That is why the lemma is **il**. For **-t**, we consider **-t-il** as an allomorph of **il** and **-il**. **-t** is no a syntactic element. It is a morphophonological rule that introduces the sound /t/.
-
+Thus, we consider **-t-il** as a `PRON` with the lemma is **lui**.
+We consider **-t-il** as an allomorph of **il**.
+**-t** is not a syntactic element, it is a morphophonological rule that introduces the sound /t/.
 
 > pattern { N1 [form="-t-il"]}
