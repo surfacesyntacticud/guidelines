@@ -36,5 +36,5 @@ rends -[comp:obl]-> de
 {{< /conll >}}
 
 {{< hint info >}}
-You can find more information about this decisions [here](https://github.com/surfacesyntacticud/guidelines/issues/5)
+You can find more information about this decisions [here](https://github.com/surfacesyntacticud/guidelines/issues/6)
 {{< /hint >}}

@@ -11,6 +11,7 @@ As shown in the page about the [`comp:cleft`](../../../general_guideline/Syntact
 <!-- tabs:start -->
 #### **Example**
 
+
 {{< conll >}}
 # sent_id = fr-ud-train_10423
 # text = C'est l'équipe des Vengeurs de l'âge d'or qui est reconstituée sous l'égide du SHIELD, un peu comme Rob Liefeld et son studio l'avaient tenté avec la version Heroes Reborn.

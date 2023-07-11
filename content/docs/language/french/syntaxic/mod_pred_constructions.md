@@ -14,6 +14,6 @@ Modifiers of predicative constructions in the form ((VERB | AUX )+ ADJ) are atta
 
 
 {{< hint info >}}
-You can find more information about this decisions [here](https://github.com/surfacesyntacticud/guidelines/issues/6)
+You can find more information about this decisions [here](https://github.com/surfacesyntacticud/guidelines/issues/7)
 {{< /hint >}}
 

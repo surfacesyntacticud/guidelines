@@ -11,11 +11,11 @@ bookToc: true
 
 # Il y a 
 
-There are three possible annotation for `il y a` in french : 
+There are three possible annotations for `il y a` in French: 
 
 - Il y a as an adposition
 - Il y a as an expletive construction
-- Il y a as a locativ pronoun
+- Il y a as a locative pronoun
 
 ## `Il y a` as an adposition
 
@@ -56,9 +56,9 @@ pattern : N1 [form="il"]; N2 [lemma="y"]; N3 [lemma="avoir"]; N1 << N2; N2 << N3
 {{< /conll >}}
 
 
-## `Il y a` with `y` as a locativ pronoun 
+## `Il y a` with `y` as a locative pronoun 
 
-Sometimes, the `y` is a locativ pronoun which express a location in the `il y a` expression 
+Sometimes, the `y` is a locative pronoun which express a location in the `il y a` expression 
 
 pattern : N1 [form="il"]; N2 [lemma="y"]; N3 [lemma="avoir"]; N1 << N2; N2 << N3 ; N3-[mod]->N2 ; N3-[subj]-> N1
 

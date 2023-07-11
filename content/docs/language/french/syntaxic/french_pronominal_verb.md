@@ -1,5 +1,5 @@
 ---
-title: "Phenomene"
+title: "Pronominal verbs"
 weight: 3
 # bookFlatSection: false
 bookToc: true
@@ -17,7 +17,7 @@ Four relations are considered for the reflexive marker _se_: `comp:obj`, `comp:o
 
 All reflexive marker (_se_, _me_, _te_, _nous_, _vous_) are analysed as forms of the reflexive pronoun _se_: `PRON`, `Reflex=Yes`, and `lemma=se`.
 
-The semantic dstinction between reflexive meaning (_je me rase_) and reciprocal meaning (_ils s'aiment_) is not marked. 
+The semantic distinction between reflexive meaning (_je me rase_) and reciprocal meaning (_ils s'aiment_) is not marked. 
 
 * `comp:obj`: Reflexive pronouns replacing a direct object.
 {{<conll>}}

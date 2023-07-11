@@ -9,7 +9,7 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-# Beija Guidelines
+# Beja Guidelines
 **NB:** This page is under construction. A overview of the SUD annotation of the Beja corpus is available in the paper: [A morph-based and a word-based treebank for Beja](https://aclanthology.org/2021.tlt-1.5.pdf).
 
   
