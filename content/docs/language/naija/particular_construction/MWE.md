@@ -27,7 +27,7 @@ In Naija, multi-word placenames and organizations are currently annotated with a
 4	born	born	VERB	_	_	3	comp:aux	_	AlignBegin=5131|AlignEnd=5296|Gloss=give_birth
 5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=5296|AlignEnd=5360|Gloss=ACC.SG.1
 6	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=5360|AlignEnd=5856|Gloss=for
-7	Wuse	Wuse	PROPN	_	_	6	comp:obj	_	AlignBegin=5856|AlignEnd=6183|ExtPos=PROPN|Gloss=Wuse|Title=Yes
+7	Wuse	Wuse	PROPN	_	ExtPos=PROPN	6	comp:obj	_	AlignBegin=5856|AlignEnd=6183|Gloss=Wuse|Title=Yes
 8	General	general	ADJ	_	_	7	flat	_	AlignBegin=6183|AlignEnd=6580|Gloss=general|InTitle=Yes
 9	Hospital	hospital	NOUN	_	_	8	flat	_	AlignBegin=6580|AlignEnd=7052|Gloss=hospital|InTitle=Yes
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=7052|AlignEnd=7082|Gloss=PUNCT
@@ -36,7 +36,7 @@ In Naija, multi-word placenames and organizations are currently annotated with a
 #### **Example 3**
 
 {{< conll >}}
-1	Manchester	Manchester	PROPN	_	_	7	dislocated	_	AlignBegin=118620|AlignEnd=119365|ExtPos=PROPN|Gloss=Manchester|Title=Yes
+1	Manchester	Manchester	PROPN	_	ExtPos=PROPN	7	dislocated	_	AlignBegin=118620|AlignEnd=119365|Gloss=Manchester|Title=Yes
 2	United	United	ADJ	_	_	1	flat	_	AlignBegin=119365|AlignEnd=120036|Gloss=United|InTitle=Yes
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=120036|AlignEnd=120066|Gloss=PUNCT
 4	oh	oh	INTJ	_	_	7	discourse	_	AlignBegin=120066|AlignEnd=120355|Gloss=oh
