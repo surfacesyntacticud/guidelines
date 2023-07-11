@@ -28,7 +28,7 @@ Ex: *He comes on wednesday, I think.* In this sentence *I think* is a discourse 
 > French
 
 {{< conll >}}
-# text_fr = Ils sont un peu euh , un peu choqués je pense
+# text = Ils sont un peu euh , un peu choqués je pense
 # text_en = They are a bit um, a bit shocked I think
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	Gloss=they
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=are
@@ -48,7 +48,7 @@ The `discourse` relation is also used for simple discourse markers such as inter
 > French
 
 {{< conll >}}
-# text_fr = Enfin c'était un shooting photo .
+# text = Enfin c'était un shooting photo .
 # text_en = Well it was a photo shooting .
 1	Enfin	enfin	ADV	_	_	3	discourse	_	|Gloss=finally
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No|Gloss=it

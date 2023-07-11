@@ -47,7 +47,7 @@ The [conj:dicto](../Syntactic_relations/conj/conj_dicto.md) relation applies als
 
 > French
 {{<conll>}}
-# text_fr = on sait euh la quantité euh le nombre de kilos de litres effectivement de produits
+# text = on sait euh la quantité euh le nombre de kilos de litres effectivement de produits
 # text_en = we know uh the quantity uh the number of kilos of liters actually of products 
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Gloss=we
 2	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=know
@@ -110,7 +110,7 @@ Below we can see an example when a speaker starts with one word, then decides it
   
 > French
 {{<conll>}}
-# text_fr = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui-même
+# text = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui-même
 # text_en = that means that the virus can do its own work
 1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	0	root	_	PhraseType=Idiom|Gloss=that_means
 2	que	que	SCONJ	_	_	1	comp:obj	_	InIdiom=Yes|Gloss=that

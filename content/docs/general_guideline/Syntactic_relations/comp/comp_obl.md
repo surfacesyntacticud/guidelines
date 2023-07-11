@@ -124,7 +124,7 @@ Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be
 
 > **French - Adverb**
 {{< conll >}}
-# text_fr = beaucoup de bâtiments modernes
+# text = beaucoup de bâtiments modernes
 # text_en = many modern buildings
 1	beaucoup	beaucoup	ADV	_	_	0	root	_	Gloss=many
 2	de	de	ADP	_	_	1	comp:obl	_	Gloss=of

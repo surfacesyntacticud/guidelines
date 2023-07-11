@@ -53,7 +53,7 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
 > Example 
 
 {{< conll >}}
-# text_fr = Christine en veut à son amie
+# text = Christine en veut à son amie
 # text_en = Christine is angry at her friend
 1	Christine	Christine	PROPN	_	_	3	subj	_	Gloss=Christine
 2	en	en	PRON	_	_	3	comp	_	Gloss=of
@@ -70,7 +70,7 @@ In the case of **passive reflexive constructions**, the pronoun is labelled `com
 
 > Example 
 {{< conll >}}
-# text_fr = Il se situe à environ 13 kilomètres au nord-ouest
+# text = Il se situe à environ 13 kilomètres au nord-ouest
 # text_en = It is situated about 13 kilometers to the north-west
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il|Gloss=it
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	Gloss=is

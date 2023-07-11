@@ -21,7 +21,7 @@ The `vocative` relation is used when a speaker directly addresses a listener in 
 
 > French
 {{< conll >}}
-# text_fr = Merci beaucoup monsieur
+# text = Merci beaucoup monsieur
 # text_en = Thank you very much sir
 1	Merci	merci	NOUN	_	_	0	root	_	Gloss=thanks
 2	beaucoup	beaucoup	ADV	_	_	1	mod	_	Gloss=much

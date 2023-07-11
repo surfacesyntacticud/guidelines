@@ -69,7 +69,7 @@ This relation can also be used for pronouns which are detached from the core syn
 > **French**
 
 {{< conll >}}
-# text_fr = Moi je pense qu' il vient pas
+# text = Moi je pense qu' il vient pas
 # text_en = I think he is not coming
 1	Moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	dislocated	_	Gloss=me
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	Gloss=I
@@ -98,11 +98,11 @@ Let's consider the following example:
 >  **French**
 
 {{< conll >}}
-# text_fr = j'ai des copines euh actuellement euh , je m'entends super bien avec
-# text_fr = I have friends uh currently uh, I get along really well with (them)
+# text = j'ai des copines euh actuellement euh , je m'entends super bien avec
+# text_en = I have friends uh currently uh, I get along really well with (them)
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|Gloss=I
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	dislocated	_	Gloss=have
-3	des	de+le	DET	_	_	4	det	_	Gloss=the
+3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	Gloss=the
 4	copines	copine	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	Gloss=friends
 5	actuellement	actuellement	ADV	_	_	2	mod	_	Gloss=currently
 6	,	,	PUNCT	_	_	2	punct	_	_

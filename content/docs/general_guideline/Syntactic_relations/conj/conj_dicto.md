@@ -26,7 +26,7 @@ The ability of `conj:dicto` to anlyse both disfluencies and reformulations is th
 
 > **French 1**
 {{< conll >}}
-# text_fr = puisque les les les les c~ les capitales les grandes villes ne me disaient rien du tout
+# text = puisque les les les les c~ les capitales les grandes villes ne me disaient rien du tout
 # text_en = since I didn't know anything at all about the the the the c ~ the capitals the big cities
 1	puisque	puisque	SCONJ	_	_	0	root	_	Gloss=since
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	Gloss=the
@@ -102,7 +102,7 @@ In SUD we decided to adopt the following analysis.
 > **French**
 
 {{< conll >}}
-# text_fr = C' é~ c' était vraiment
+# text = C' é~ c' était vraiment
 # text_en = It w~ it was really
 1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	Gloss=it
 2	é~	é~	X	_	_	0	root	_	_

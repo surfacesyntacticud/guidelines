@@ -21,7 +21,7 @@ The `parataxis:insert` is used for inserted clause. Contrary to a parenthetical 
 > French
 
 {{< conll >}}
-# text_fr = La France est rose constate La Voix du Nord
+# text = La France est rose constate La Voix du Nord
 # text_en = France is pink notes La Voix du Nord
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Gloss=the
 2	France	France	PROPN	_	_	3	subj	_	Gloss=France
