@@ -111,7 +111,7 @@ In SUD we decided to adopt the following analysis.
 5	vraiment	vraiment	ADV	_	_	4	mod	_	Gloss=really
 {{< /conll >}}
 
-For more examples on disfluencies, you can refer to [this page](../../Particular_construction/disfluency.md).
+For more examples on disfluencies, you can refer to [this page](../../Universal_construction/disfluency.md).
 
 
 

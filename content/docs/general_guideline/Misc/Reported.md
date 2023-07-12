@@ -13,7 +13,7 @@ weight: 1
 
 ## Universal
 
-We use the features `Reported=Yes` to annotate reported speech in the spoken corpora. The features is on the head of the reported speech. 
+We use the feature `Reported=Yes` to annotate reported speech in the spoken corpora. The features is on the head of the reported speech. 
 
 {{< conll >}}
 # text = je fais oui, oui, j'ai l'impression de t'avoir déjà vue !
@@ -37,9 +37,9 @@ We use the features `Reported=Yes` to annotate reported speech in the spoken cor
 
 {{< hint info >}}
 
-You can find more information about the Reported Speech [here](../Particular_construction/reported_speech.md)
+You can find more information about the Reported Speech [here](../Universal_construction/reported_speech.md)
 
-{{< /hint >}}## test 
+{{< /hint >}}
 
 
 ## french

@@ -131,7 +131,7 @@ This helps to reduce cumbersome long-distance relations. We also believe it to b
 {{< /conll >}}
 
 
-For more information about coordination, see the [dedicated page](../../Particular_construction/coordination.md).
+For more information about coordination, see the [dedicated page](../../Universal_construction/coordination.md).
 
 
 

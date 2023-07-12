@@ -1,6 +1,6 @@
 ---
-title: "Deep"
-weight: 2
+title: "Deep edge feature"
+weight: 40
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

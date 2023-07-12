@@ -14,7 +14,7 @@ bookToc: true
 
 ## Universal
 
-The depency relation `parataxis:obj` has been deleted. See [Reported Speech](../../../Particular_construction/reported_speech.md)
+The depency relation `parataxis:obj` has been deleted. See [Reported Speech](../../../Universal_construction/reported_speech.md)
 
   
 Direct discourse is attached its governor by the relation `comp:obj` with the features Reported = "Yes".
@@ -31,8 +31,8 @@ Direct discourse is attached its governor by the relation `comp:obj` with the fe
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	Gloss=that
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=is
 7	de	de	ADP	_	_	6	comp:pred	_	Gloss=to
-8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes|Gloss=yourself
-9	dire	dire	VERB	_	ExtPos=VERB|VerbForm=Inf	7	comp:obj	_	Idiom=Yes|Gloss=say
+8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	Gloss=yourself|InIdiom=Yes
+9	dire	dire	VERB	_	ExtPos=VERB|VerbForm=Inf	7	comp:obj	_	Gloss=say|Idiom=Yes
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	Gloss=I
 11	n'	ne	ADV	_	Polarity=Neg	13	mod	_	Gloss=not
 12	en	en	PRON	_	Person=3|PronType=Prs	13	comp:obj	_	Gloss=of

@@ -328,7 +328,7 @@ if tag == "Other linguistic phenomena":
     ling = st.text_input(f"What is the linguistic phenomena ? ")
 
     if ling.lower() in particular_phenomena_check:
-        st.write("You have to write your phenomena in the Universel Construction section because a page already exists\n Please change.")
+        st.write("You have to write your phenomena in the Universal Construction section because a page already exists\n Please change.")
 
     if  verifier_chaine(ling) == False:
         st.write("You can only have letter or number in the linguistic phenomena's name\n Please change.")

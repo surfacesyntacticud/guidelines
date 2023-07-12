@@ -1,6 +1,6 @@
 ---
 title: "Syntactic Relations"
-weight: 2
+weight: 30
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false

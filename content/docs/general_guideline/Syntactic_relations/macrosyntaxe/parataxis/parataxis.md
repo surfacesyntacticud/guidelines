@@ -23,7 +23,7 @@ In the **Spoken Corpora**, we distinguish :
 
    * [`parataxis:insert`](./parataxis_insert.md) for inserted clauses (that cannot form an independent sentence)
 
-   * [`parataxis:obj`](./parataxis_obj.md) used before for attaching direct discourse. Now deleted. See [Reported Speech](../../../Particular_construction/reported_speech.md)
+   * [`parataxis:obj`](./parataxis_obj.md) used before for attaching direct discourse. Now deleted. See [Reported Speech](../../../Universal_construction/reported_speech.md)
 
 In the other corpora, we use the `parataxis` relation. There is no distinction. We there use the relation `parataxis` for incisive proposal indicating who reports.
 

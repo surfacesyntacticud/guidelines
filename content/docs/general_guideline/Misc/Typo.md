@@ -11,9 +11,10 @@ bookToc: true
 
 # Typo
 
-## Universal
+## Universal
 
-This features is used to indicate that a node has a typographic error. It has always the features `[CorrectForl](CorrectForm.md)` which contains the correct form of the node. 
+The feature `Typo=Yes` is used to indicate that a token has a typographic error.
+The corresponding tokern should have the feature [`CorrectForm`](../CorrectForm) with the expected correct form of the token. 
 
 {{< conll >}}
 # text = Ironiquement, Trois morceaux en forme de poire comporte sept mouvements.

@@ -31,9 +31,6 @@ However, this is not the case when a title is connected to a determiner or other
 6	Biden	Biden	PROPN	_	_	5	flat	_	AlignBegin=18270|AlignEnd=18540|Gloss=Biden
 {{< /conll >}}
 
-  
-  
-
 Official multi-word titles such as *Minister of Foreign Affairs* are treated as titles (see [here](../../../general_guideline/Misc/Idiom_Titles.md) for a detailed guide). The head of the title is given an `ExtPos` of `PROPN`.
 
 {{< conll >}}

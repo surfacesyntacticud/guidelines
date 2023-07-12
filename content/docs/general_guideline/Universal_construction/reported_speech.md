@@ -11,7 +11,7 @@ weight: 1
 # Reported Speech in spoken corpora
 ## Universal 
 
-Reported speech as a feature `Reported=Yes` on its head. It is generally the `comp:obj`of a speech verb, such as _dire_ 'to say'. 
+Reported speech has a feature `Reported=Yes` on its head. It is generally the `comp:obj` of a speech verb, such as _dire_ 'to say'. 
 
 > pattern { GOV -[comp:obj]-> DEP ; DEP [Reported=Yes] }
 
@@ -38,7 +38,7 @@ Reported speech as a feature `Reported=Yes` on its head. It is generally the `co
 {{</conll>}}
 
 {{< hint warning>}}
-We previously annotated reported speech using the syntactic relation parataxis:obj, but this is now considered obsolete.
+We previously annotated reported speech using the syntactic relation `parataxis:obj`, but this is now considered obsolete.
 {{</hint>}}
 
 ## french

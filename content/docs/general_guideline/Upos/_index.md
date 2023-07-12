@@ -1,6 +1,6 @@
 ---
 title: "Upos"
-weight: 2
+weight: 10
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
@@ -11,7 +11,7 @@ bookCollapseSection: true
 
 # Upos
 
-In SUD, we use the same tagset of part of speech as UD : 
+In SUD, we use the same tagset of part of speech as UD:
 - [ADJ](./ADJ.md): adjective
 - [ADP](./ADP.md): adposition
 - [ADV](./ADV.md): adverb
@@ -28,7 +28,8 @@ In SUD, we use the same tagset of part of speech as UD :
 - [SCONJ](./SCONJ.md): subordinating conjunction
 - [SYM](./SYM.md): symbol
 - [VERB](./VERB.md): verb
-- [\X](./X.md): other
+- [ X](./X.md): other
 
-
+{{<hint info>}}
 You can find more information on the [UD website](https://universaldependencies.org/u/pos/all.html). 
+{{< /hint >}}
