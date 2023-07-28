@@ -16,6 +16,7 @@ bookToc: true
 The `comp:cleft` relation is used in cleft sentences for the dependency from the head of the sentence to the head of the complement clause.
 
 > **English**
+
 {{< conll >}}
 1	It	it	PRON	_	_	2	subj	_	_
 2	was	be	AUX	_	_	0	root	_	_
@@ -66,6 +67,7 @@ Sometimes, there is an ambiguity between a relative clause and a cleft clause. C
 If someone utters this sentence in a context where they must choose between a gasoline car and an electric car, the sentence is interpreted as a cleft sentence with the following annotation.
 
 > **English**
+
 {{< conll >}}
 1	It	it	PRON	_	_	2	subj	_	_
 2	is	be	AUX	_	_	0	root	_	_

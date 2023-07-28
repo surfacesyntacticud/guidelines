@@ -50,6 +50,7 @@ In UD, all conjuncts of a coordination are attached to the head of the first con
 The first example below shows the annotation of a coordination in UD and the second one the corresponding annotation in SUD : 
   
 > English
+
 {{< conll >}}
 1	John	John	PROPN	_	_	7	nsubj	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -62,6 +63,7 @@ The first example below shows the annotation of a coordination in UD and the sec
 
 
 > English
+
 {{< conll >}}
 1	John	John	PROPN	_	_	6	subj	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_

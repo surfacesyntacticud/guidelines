@@ -11,6 +11,7 @@ The term *dey* in Naija performs two primary roles. The first is that of a copul
   
 <!-- tabs:start -->
 #### **Example 1**
+
 {{< conll >}}
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=204377|AlignEnd=204666|Gloss=it
 2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=204666|AlignEnd=204954|Gloss=be
@@ -32,6 +33,7 @@ This word is also used as an auxiliary verb which marks the imperfective aspect.
   
 <!-- tabs:start -->
 #### **Example 1**
+
 {{< conll >}}
 1	so	so	ADV	_	_	3	discourse	_	AlignBegin=117700|AlignEnd=118140|Gloss=so
 2	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=118418|AlignEnd=118571|Gloss=she
@@ -65,6 +67,7 @@ In addition to *dey*, Naija contains two other words that can function as copula
   
 <!-- tabs:start -->
 #### **Example 1**
+
 {{< conll >}}
 1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=75500|AlignEnd=75698|Gloss=she
 2	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=75698|AlignEnd=75896|Gloss=CONS
@@ -107,6 +110,7 @@ However, the copula is not always needed to link subjects to their predicates. I
 
 <!-- tabs:start -->
 #### **Example 1**
+
 {{< conll >}}
 1	e	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=97985|AlignEnd=98254|Gloss=it
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98254|AlignEnd=98522|Gloss=NEG

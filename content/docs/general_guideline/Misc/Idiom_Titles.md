@@ -42,6 +42,7 @@ Until version 2.8, the feature `PhraseType=Idiom` was used for the head of idiom
 ### With internal syntactic relations
 
 > English 
+
 {{< conll >}}
 1	Karen	Karen	PROPN	_	_	2	subj	_	_
 2	loved	love	VERB	_	_	0	root	_	_
@@ -97,6 +98,7 @@ When there is no clear internal syntactic structure, the relation `unk` is used.
 {{< /conll >}}
 
 > French
+
 {{< conll >}}
 # sent_id = fr-ud-train_10134__shorten
 # text_en = I found the rates applied here to be quite correct.

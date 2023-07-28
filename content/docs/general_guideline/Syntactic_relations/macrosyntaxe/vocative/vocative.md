@@ -20,6 +20,7 @@ The `vocative` relation is used when a speaker directly addresses a listener in 
 > pattern { GOV-[vocative]->DEP }
 
 > French
+
 {{< conll >}}
 # text = Merci beaucoup monsieur
 # text_en = Thank you very much sir
@@ -30,6 +31,7 @@ The `vocative` relation is used when a speaker directly addresses a listener in 
 
 
 > Naija
+
 {{< conll >}}
 # text = ehn auntie < di ting no easy o //
 # text_en = Uh... auntie, it's not easy.

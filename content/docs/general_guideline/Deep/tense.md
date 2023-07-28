@@ -15,7 +15,8 @@ bookToc: true
 The `@tense` feature is used for the argument of tense auxiliaries.
 
 <!-- tabs:start -->
-> Tense
+> English
+
 {{< conll >}}
 1	This	this	PRON	_	_	2	subj	_	_
 2	is	be	AUX	_	_	0	root	_	_

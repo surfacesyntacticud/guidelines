@@ -21,6 +21,7 @@ This relation is used to link elements connected with a coordinating conjunction
   
 
 > **French**
+
 {{< conll >}}
 # text = Elle a instoré dans ce pays la démocratie politique et sociale
 # text_en = She established in this country political and social democracy.
@@ -38,6 +39,7 @@ This relation is used to link elements connected with a coordinating conjunction
 {{< /conll >}}
 
 > **Naija**
+
 {{< conll >}}
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__51
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_10_Mothers-Against-Mini-Skirts_DG.mp3

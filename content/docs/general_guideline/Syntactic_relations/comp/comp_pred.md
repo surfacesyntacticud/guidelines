@@ -20,6 +20,7 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 
 ### predicative arguments of verbs
 > **English 1**
+
 {{< conll >}}
 1	I	I	PRON	_	_	2	subj	_	_
 2	was	be	AUX	_	_	0	root	_	_
@@ -27,6 +28,7 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 {{< /conll >}}
 
 > **English 2**
+
 {{< conll >}}
 1	Norton	Norton	PROPN	_	_	2	subj	_	_
 2	had	have	AUX	_	_	0	root	_	_
@@ -36,6 +38,7 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 {{< /conll >}}
 
 >  **English 3**
+
 {{< conll >}}
 1	Let	let	VERB	_	_	0	root	_	_
 2	them	them	PRON	_	_	1	comp:obj	_	_
@@ -45,6 +48,7 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 {{< /conll >}}
 
 > **English 4**
+
 {{< conll >}}
 1	Prague	Prague	PROPN	_	_	2	subj	_	_
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -64,6 +68,7 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 {{< /conll >}}
 
 > **French 1**
+
 {{< conll >}}
 # sent_id = fr-ud-train_12228
 # text = Je trouve cette attitude totalement inadmissible !
@@ -78,6 +83,7 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 {{< /conll >}}
 
 > **French 2**
+
 {{< conll >}}
 # text_en = The South is considered a dynamic and rich area in terms of industry.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	Gloss=the
@@ -102,6 +108,7 @@ The `comp:pred` relation can also be used in certain subordinating constructions
 
 
 > **French**
+
 {{< conll >}}
 # text = Mais la réalité est que la Mauritanie n'est pas le Maroc ou l'Algérie
 # text_en = But the reality is that Mauritania isn't Morocco or Algeria.

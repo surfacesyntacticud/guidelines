@@ -48,6 +48,7 @@ Consider the following sentence **analyzed in UD**.
 ### Oblique complement of a verb
 
 > **English 1**
+
 {{< conll >}}
 1	coming	come	VERB	_	_	0	root	_	_
 2	into	into	ADP	_	_	1	comp:obl	_	_
@@ -59,6 +60,7 @@ Consider the following sentence **analyzed in UD**.
 {{< /conll >}}
 
 > **English 2**
+
 {{< conll >}}
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Entity=(person-8)
 2	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -76,6 +78,7 @@ Consider the two following examples:
 
 
 > **French 1**
+
 {{< conll >}}
 # text_en = He's afraid of the spider
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=he
@@ -88,6 +91,7 @@ Consider the two following examples:
 
   
 > **French 2**
+
 {{< conll >}}
 # text = j'ai peur que ça marche
 # text_en = I'm afraid that it works
@@ -107,6 +111,7 @@ Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be
 
   
 > **French**
+
 {{< conll >}}
 # text_en = China is facing serious problems
 # text = la Chine fait face à de sérieux problèmes
@@ -123,6 +128,7 @@ Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be
 ### Oblique complement of an adverb or an adjective
 
 > **French - Adverb**
+
 {{< conll >}}
 # text = beaucoup de bâtiments modernes
 # text_en = many modern buildings
@@ -133,6 +139,7 @@ Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be
 {{< /conll >}}
 
 > **English - Adjective**
+
 {{< conll >}}
 # text = I'm sure you do
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_

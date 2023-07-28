@@ -24,6 +24,7 @@ The `comp:obj` relation is used for direct object complements, including direct 
 
   
 > English
+
 {{< conll >}}
 1	Norton	Norton	PROPN	_	_	2	subj	_	_
 2	spent	spend	VERB	_	_	0	root	_	_
@@ -36,6 +37,7 @@ The `comp:obj` relation is used for direct object complements, including direct 
 
 
 > French
+
 {{< conll >}}
 # text = j'adore ce bar
 # text_en = I love this bar
@@ -63,6 +65,7 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
   
 > Spanish
+
 {{< conll >}}
 # text = Veo su foto
 # text_en = I see his photo
@@ -73,6 +76,7 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 
 > Spanish
+
 {{< conll >}}
 # text = Veo a Clinton
 # text_en = I see Clinton
@@ -87,6 +91,7 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 ### Adposition arguments
 
 > French
+
 {{< conll >}}
 # text = On a décidé d'aller au CROUS de Censier
 # text_en = We decided to go to the Censier CROUS
@@ -148,6 +153,7 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 ### Subordinating conjunction arguments
 > English
+
 {{< conll >}}
 1	this	this	PRON	_	_	2	subj	_	_
 2	means	mean	VERB	_	_	0	root	_	_
@@ -164,6 +170,7 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 
 > Spanish
+
 {{< conll >}}
 # text = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado
 # text_en = He stated that he follows the European criterion and tries to encourage the market
@@ -207,6 +214,7 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 
   
 > English
+
 {{< conll >}}
 # text_en = techniques far more assertive than his predecessors
 1	techniques	technique	NOUN	NNS	Number=Plur	0	root	_	_
@@ -219,6 +227,7 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 {{< /conll >}}
 
 > Russian
+
 {{< conll >}}
 # text = электроны имеют отклик намного более быстрый, чем атомы
 1	электроны	электрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	subj	_	_
@@ -240,6 +249,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
   
 > French
+
 {{< conll >}}
 1	tellement	tellement	ADV	_	_	2	mod	_	_
 2	vaste	vaste	ADJ	_	_	0	root	_	_
@@ -252,6 +262,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
 
 > Russian
+
 {{< conll >}}
 # sent_id = 2007Tele.xml_38
 # text_ru = Изображение настолько хорошее, что все забыли о тестировании
@@ -271,6 +282,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 ### Deep subjects of impersonal constructions
  
  > French
+
 {{< conll >}}
 # text_en = There exist by the way many different types of cleats.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	Gloss=it
@@ -287,6 +299,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
   
 > Russian
+
 {{< conll >}}
 # sent_id = uppsalaGrekova_3.xml_179
 # text = Прошло много времени, пока я к ней приспособилась
@@ -310,6 +323,7 @@ Direct discourse is attached its governor by the relation `comp:obj` with the fe
 
 
 > French
+
 {{< conll >}}
 # text = Ce qui est horrible c' est de se dire je n' en sortirai jamais
 # text_en = What is horrible is to think I will never get out

@@ -4,6 +4,7 @@ Our annotation of Naija makes frequent use of the `compound` relation. In our an
 
 <!-- tabs:start -->
 #### **Example 1**
+
 {{< conll >}}
 1	no	no	PART	_	Polarity=Neg	2	mod	_	AlignBegin=62165|AlignEnd=62648|Gloss=NEG
 2	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=62648|AlignEnd=63130|Gloss=be

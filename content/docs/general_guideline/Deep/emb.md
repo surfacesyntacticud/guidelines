@@ -18,6 +18,7 @@ The `[conj](../Syntactic_relations/conj/conj_coord.md)` label does not make a di
 
   
 > English
+
 {{< conll >}}
 1	John	John	PROPN	_	_	9	subj	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_

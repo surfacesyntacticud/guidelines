@@ -4,6 +4,7 @@
 In Naija, multi-word placenames and organizations are currently annotated with a simple `flat` relation, though their constituents retain their typical parts of speech.
 <!-- tabs:start -->
 #### **Exampe 1**
+
 {{< conll >}}
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=102090|AlignEnd=102457|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=102457|AlignEnd=102537|Gloss=NOM.SG.1

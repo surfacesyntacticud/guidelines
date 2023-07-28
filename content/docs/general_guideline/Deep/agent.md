@@ -15,6 +15,7 @@ bookToc: true
 The `@agent` feature is used for arguments that are agents of their governor at the semantic level in various constructions (e.g., causative, passive, impersonal, etc.).
 
 > English
+
 {{< conll >}}
 1	it	it	PRON	_	_	2	subj	_	_
 2	occurred	occur	VERB	_	_	0	root	_	_
@@ -28,6 +29,7 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 {{< /conll >}}
 
 > French 
+
 {{< conll >}}
 # text = Food was cooked by many hands
 1	Food	food	NOUN	_	_	2	subj	_	_
@@ -39,6 +41,7 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 {{< /conll >}}
 
 > French
+
 {{< conll >}}
 # text = Il fait accélérer ses troupes
 # text_en = He makes his troops go faster
@@ -50,6 +53,7 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 {{< /conll >}}
 
 > French 
+
 {{< conll >}}
 # text = Il nous fait manger une pizza
 # text_en = You're making us eat a pizza

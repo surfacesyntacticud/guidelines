@@ -16,4 +16,6 @@ Thus, we consider **-t-il** as a `PRON` with the lemma is **lui**.
 We consider **-t-il** as an allomorph of **il**.
 **-t** is not a syntactic element, it is a morphophonological rule that introduces the sound /t/.
 
-> pattern { N1 [form="-t-il"]}
+{{< grew >}}
+pattern { N [form="-t-il"]}
+{{< /grew >}}

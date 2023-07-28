@@ -6,6 +6,7 @@
 Honorifics such as *Mister* or *President* are connected to the names they precede with a simple [flat](../../../general_guideline/Syntactic_relations/flat/flat.md) relation.
 
 > Example 1
+
 {{< conll >}}
 1	Mister	Mister	NOUN	_	_	0	conj:appos	_	AlignBegin=228030|AlignEnd=228400|Gloss=Mister
 2	Sunday	Sunday	PROPN	_	_	1	flat	_	AlignBegin=228400|AlignEnd=228820|Gloss=Sunday
@@ -14,6 +15,7 @@ Honorifics such as *Mister* or *President* are connected to the names they prece
 
   
 > Example 2
+
 {{< conll >}}
 1	Presido	presido	NOUN	_	_	0	subj	_	AlignBegin=17490|AlignEnd=17830|Gloss=president
 2	Joe	Joe	PROPN	_	_	1	flat	_	AlignBegin=17830|AlignEnd=18270|Gloss=Joe

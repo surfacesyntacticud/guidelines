@@ -21,7 +21,13 @@ There are three possible annotations for `il y a` in French:
 
 Sometimes, `il y a` is used to express a temporal argument. 
 
-pattern : N1 [form="il"]; N2 [lemma="y"]; N3 [lemma="avoir"]; N1 << N2; N2 << N3 ; N3-[comp]->N2 ; N3-[subj]-> N1
+{{<grew>}}
+pattern {
+  N1 [form="il"]; N2 [lemma="y"]; N3 [lemma="avoir"]; N1 << N2; N2 << N3;
+  N3-[comp]-> N2; 
+  N3-[subj]-> N1
+}
+{{</grew>}}
 
 {{< conll >}}
 # text = vous y étiez il y a pas longtemps.

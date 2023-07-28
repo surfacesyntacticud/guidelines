@@ -7,6 +7,7 @@ Cleft sentences are an extremely common construction in Naija, making the `comp:
   
 <!-- tabs:start -->
 #### **Example 1**
+
 {{< conll >}}
 1	laziness	laziness	NOUN	_	_	3	dislocated	_	AlignBegin=370809|AlignEnd=371360|Gloss=laziness
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=371360|AlignEnd=371390|Gloss=PUNCT
@@ -66,6 +67,7 @@ The `comp:cleft` relation is also used in questions containing interrogative wor
   
 <!-- tabs:start -->
 #### **Example 1**
+
 {{< conll >}}
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=139780|AlignEnd=140131|Gloss=PUNCT
 2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=140131|AlignEnd=140320|Gloss=who.Q
