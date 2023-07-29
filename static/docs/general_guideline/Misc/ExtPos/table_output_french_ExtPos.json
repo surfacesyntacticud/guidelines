@@ -36,7 +36,7 @@
       "row_header": "SUD_French-GSD@latest",
       "adverb_used_as_pronoun": 397,
       "noun_used_in_prespositional_construction": 204,
-      "french_symbols": 682
+      "french_symbols": 684
     },
     {
       "row_header": "SUD_French-ParisStories@latest",
@@ -46,7 +46,7 @@
     },
     {
       "row_header": "SUD_French-Rhapsodie@latest",
-      "adverb_used_as_pronoun": 17,
+      "adverb_used_as_pronoun": 18,
       "noun_used_in_prespositional_construction": 0,
       "french_symbols": 0
     }
