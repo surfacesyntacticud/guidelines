@@ -1,14 +1,55 @@
-# AUX or VERB ?
+# AUX or VERB?
 
-It is sometimes not trivial to chose between the part of speech `AUX` and `VERB` for **être**. We propose this distinction : 
-- when **être** has a predicative complement, it is always considered as a copula and it has the POS `AUX` 
+It is sometimes not trivial to chose between the part of speech `AUX` and `VERB` for **être**.
 
-**Example**
+## AUX
 
+**être** is an AUX:
+ - when it has a predicative complement (it is considered as a copula)
 
-- when **être** has an existensial meaning (*je pense donc je suis* -***I think therefore I am***) or has a locative argument or another argument, which is not a predicative argument (*je suis pour la dépénalisation du cannabis* -***I am for the decriminalization of cannabis***), it has the POS `VERB`.
+{{< conll >}}
+# sent_id = fr-ud-train_05039
+# text = L'entrée est gratuite.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
+2	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gratuite	gratuit	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+{{< /conll >}}
 
-## Locative argument
+{{< conll >}}
+# sent_id = fr-ud-train_12904
+# text = C'est notre cantine !
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
+4	cantine	cantine	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
+5	!	!	PUNCT	_	_	2	punct	_	_
+{{< /conll >}}
+
+ - when it is a tense auxiliary
+ - when it is a passive auxiliary
+
+## VERB
+
+**être** is a VERB:
+ - when it has an existensial meaning (*je pense donc je suis* -***I think therefore I am***)
+ - when it has a locative argument
+ - when it has another argument, which is not a predicative argument (*je suis pour la dépénalisation du cannabis* -***I am for the decriminalization of cannabis***)
+
+> Exitensial meaning
+
+{{< conll >}}
+# text = Pourquoi en serait-il autrement cette fois-ci ?
+1	Pourquoi	pourquoi	ADV	_	_	3	mod	_	wordform=pourquoi
+2	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	3	comp@expl	_	_
+3	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
+5	autrement	autrement	ADV	_	_	3	mod	_	_
+9	?	?	PUNCT	_	_	3	punct	_	_
+{{< /conll >}}
+
+> Locative argument
 
 {{< conll >}}
 # text = Ils sont sur Cherbourg depuis 2007.
@@ -21,22 +62,11 @@ It is sometimes not trivial to chose between the part of speech `AUX` and `VERB`
 7	.	.	PUNCT	_	_	2	punct	_	_
 {{< /conll >}}
 
-## Existensial meaning
-
-{{< conll >}}
-# text = Pourquoi en serait-il autrement cette fois-ci ?
-1	Pourquoi	pourquoi	ADV	_	_	3	mod	_	wordform=pourquoi
-2	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	3	comp@expl	_	_
-3	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
-5	autrement	autrement	ADV	_	_	3	mod	_	_
-9	?	?	PUNCT	_	_	3	punct	_	_
-{{< /conll >}}
 
 {{< hint info >}}
-you can find the discussion about the distinction between `AUX` and `VERB` [here](https://github.com/surfacesyntacticud/guidelines/issues/11)
+you can find a discussion about the distinction between `AUX` and `VERB` in [#11](https://github.com/surfacesyntacticud/guidelines/issues/11)
 {{< /hint >}}
 
-**Table**
+---
 
 {{< agg french_etre_aux_verb >}}
