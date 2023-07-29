@@ -33,15 +33,10 @@ It is sometimes not trivial to chose between the part of speech `AUX` and `VERB`
 9	?	?	PUNCT	_	_	3	punct	_	_
 {{< /conll >}}
 
->[!NOTE]
-> you can find the discussion about the distinction between `AUX` and `VERB` [here](https://github.com/surfacesyntacticud/guidelines/issues/11)
+{{< hint info >}}
+you can find the discussion about the distinction between `AUX` and `VERB` [here](https://github.com/surfacesyntacticud/guidelines/issues/11)
+{{< /hint >}}
 
 **Table**
 
-{{< hint danger >}}
-
-WARNING : cette table ne renvoie pas vers les requêtes grew car j'utilise le lemme "être" et il y a un problème d'encodage.
-
-{{< /hint >}}
-
-{{< agg etre_aux_verb >}}
+{{< agg french_etre_aux_verb >}}

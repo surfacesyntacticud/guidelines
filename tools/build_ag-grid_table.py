@@ -11,6 +11,12 @@ from grewpy import Request, Corpus, set_config
 
 set_config('sud')
 
+def esc_request (r):
+  string_request = str(r)
+  # replace quotes by the urlencoding (%22) for proper rendering when grew-match is called
+  string_request = string_request.replace("\"", "%22")
+  return string_request
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--request_file', help='Path to the JSON file containing the requests')
@@ -37,7 +43,7 @@ if __name__ == '__main__':
         corpus.clean()
 
       columnDefs = [ { "field": "row_header", "headerName": "Treebank", "pinned": "left", "lockPinned": True} ] 
-      columnDefs += [ {"field": id, "headerName": id, "request": str(grew_requests[id])} for id in grew_requests ]
+      columnDefs += [ {"field": id, "headerName": id, "request": esc_request(grew_requests[id])} for id in grew_requests ]
 
       rowData = [ {"row_header": k1 } | { k2: main_dict[k1][k2] for k2 in main_dict[k1]} for k1 in main_dict]
 
@@ -52,4 +58,4 @@ if __name__ == '__main__':
         "rowData": rowData,
       }
 
-      print (json.dumps(data, indent=2))
+      print (json.dumps(data, indent=2, ensure_ascii=False))
