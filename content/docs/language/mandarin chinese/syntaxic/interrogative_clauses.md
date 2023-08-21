@@ -35,28 +35,24 @@ Here are the most common questions words :
 ### Choices questions with 还是
 When you want to present a choice between two or more options in a question, you use the word "还是 (háishì)." It can be likened to the English word "or" when used in questions.
 
-- 你想看电影还是去公园？ (Nǐ xiǎng kàn diànyǐng háishì qù gōngyuán?) "Do you want to watch a movie or go to the park?"
-
 {{< conll_interactive >}}
-# text_en = Say what you want to say, just don't spill secrets.
-# translit = Shuō dōu shuō le, jiù bié shuō zhè shì shénme mìmì le.
-1	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
-2	都	都	ADV	_	_	3	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
-3	说	说	VERB	_	_	1	parataxis	_	Tone=1|Translit=shuō
-4	了	了	PART	_	_	3	discourse	_	Gloss=PRF|Tone=5|Translit=le
-5	，	，	PUNCT	_	_	7	punct	_	Translit=，
-6	就	就	SCONJ	_	_	7	cc	_	Tone=4|Translit=jìu
-7	别	别	AUX	_	_	3	parataxis	_	Tone=2|Translit=bié
-8	说	说	VERB	_	_	7	comp:aux	_	Tone=1|Translit=shuō
-9	这	这	DET	_	_	10	subj	_	Tone=4|Translit=zhè
-10	是	是	AUX	_	_	8	comp:obj	_	Tone=4|Translit=shì
-11	什	什	PRON	_	PronType=Int	13	mod	_	Tone=2|Translit=shén
-12	么	么	PRON	_	_	11	@m	_	Tone=5|Translit=me
-13	秘	秘	NOUN	_	_	10	comp:pred	_	Tone=4|Translit=mì
-14	密	密	NOUN	_	_	13	@m	_	Tone=4|Translit=mì
-15	了	了	PART	_	_	7	discourse	_	Gloss=PRF|Tone=5|Translit=le
-16	。	。	PUNCT	_	_	1	punct	_	Translit=。
-{{< /conll_interactive >}}
+# text_en = Do you want to eat Chinese food or French food?
+# translit = Nǐmen xiǎng chī Zhōngguó cài  háishì Fǎguó cài?
+1	你	你	PRON	_	Number=Plur|Person=2	3	subj	_	Gloss=2SG|Tone=3|Translit=nǐ
+2	们	们	PART	_	Number=Plur|Person=2	1	@m	_	Tone=5|Translit=men
+3	想	想	AUX	_	_	0	root	_	Tone=3|Translit=xiǎng
+4	吃	吃	VERB	_	_	3	comp:aux	_	Tone=1|Translit=chī
+5	中	中	PROPN	_	_	7	mod	_	Tone=1|Translit=zhōng
+6	国	国	PROPN	_	_	5	@m	_	Tone=2|Translit=guó
+7	菜	菜	NOUN	_	_	4	comp:obj	_	Tone=4|Translit=cài
+8	还	还	CCONJ	_	_	12	cc	_	Grammar_Target=Yes|Tone=2|Translit=huán
+9	是	是	CCONJ	_	_	8	@m	_	Grammar_Target=Yes|Tone=4|Translit=shì
+10	法	法	PROPN	_	_	12	mod	_	Tone=3|Translit=fǎ
+11	国	国	PROPN	_	_	10	@m	_	Tone=2|Translit=guó
+12	菜	菜	NOUN	_	_	7	conj	_	Tone=4|Translit=cài
+13	？	？	PUNCT	_	_	3	punct	_	Translit=？
+{{< / conll_interactive >}}
+
 
 
 ## Embedded intterogative clauses
@@ -80,7 +76,26 @@ In Mandarin Chinese, when transforming direct questions into embedded questions,
     (Wǒ zhīdào tā zài nǎlǐ)
     "I know where he is."
 
-
+{{< conll_interactive >}}
+# text_en = Say what you want to say, just don't spill secrets.
+# translit = Shuō dōu shuō le, jiù bié shuō zhè shì shénme mìmì le.
+1	说	说	VERB	_	_	0	root	_	Tone=1|Translit=shuō
+2	都	都	ADV	_	_	3	mod	_	Grammar_Target=Yes|Tone=1|Translit=dū
+3	说	说	VERB	_	_	1	parataxis	_	Tone=1|Translit=shuō
+4	了	了	PART	_	_	3	discourse	_	Gloss=PRF|Tone=5|Translit=le
+5	，	，	PUNCT	_	_	7	punct	_	Translit=，
+6	就	就	SCONJ	_	_	7	cc	_	Tone=4|Translit=jìu
+7	别	别	AUX	_	_	3	parataxis	_	Tone=2|Translit=bié
+8	说	说	VERB	_	_	7	comp:aux	_	Tone=1|Translit=shuō
+9	这	这	DET	_	_	10	subj	_	Tone=4|Translit=zhè
+10	是	是	AUX	_	_	8	comp:obj	_	Tone=4|Translit=shì
+11	什	什	PRON	_	PronType=Int	13	mod	_	Tone=2|Translit=shén
+12	么	么	PRON	_	_	11	@m	_	Tone=5|Translit=me
+13	秘	秘	NOUN	_	_	10	comp:pred	_	Tone=4|Translit=mì
+14	密	密	NOUN	_	_	13	@m	_	Tone=4|Translit=mì
+15	了	了	PART	_	_	7	discourse	_	Gloss=PRF|Tone=5|Translit=le
+16	。	。	PUNCT	_	_	1	punct	_	Translit=。
+{{< /conll_interactive >}}
 ## Miscallaneous
 ##### /!\ Expressing "every" with question words + 都/也
 When used with 都 (dou) or 也(ye), the questions words take the sense of "every"/"any" (where, thing, people). They then act as indefinite references.
