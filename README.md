@@ -1,5 +1,5 @@
 # Annotation guideline
-
+Source code of https://guidelines.surfacesyntacticud.org/ , a guideline for SUD annotation
 This repository contains an annotation guideline and the necessary tools for its creation for a new language. The following instructions will guide you on how to work with this repository.
 
 ## Tools
