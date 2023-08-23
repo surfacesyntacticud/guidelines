@@ -39,8 +39,8 @@ VERB1-[mod]->来-[comp:obj]->VERB2
 6	漂	漂	ADJ	_	_	9	mod	_	_
 7	亮	亮	ADJ	_	_	6	@m	_	_
 8	，	，	PUNCT	_	_	9	punct	_	_
-9	但	但	SCONJ	_	_	0	root	_	hightlight=red
-10	是	是	SCONJ	_	_	9	@m	_	hightlight=red
+9	但	但	SCONJ	_	_	0	root	_	hightlight=#FF0000
+10	是	是	SCONJ	_	_	9	@m	_	hightlight=#FF0000
 11	人	人	NOUN	_	_	13	subj	_	_
 12	太	太	ADV	_	_	13	mod	_	_
 13	多	多	ADJ	_	_	9	comp:obj	_	_
@@ -77,13 +77,13 @@ When the term doesn't introduce an entire clause but gives supplementary informa
 # pinyin = Rúguǒ yǒu kùnnan, jiù gěi wǒ dǎ diànhuà.
 # text_en = If there is any difficulty, give me a call.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGGIVT0
-1	如	如	SCONJ	_	_	7	mod	_	hightlight=red
-2	果	果	SCONJ	_	_	1	@m	_	hightlight=red
+1	如	如	SCONJ	_	_	7	mod	_	hightlight=#FF0000
+2	果	果	SCONJ	_	_	1	@m	_	hightlight=#FF0000
 3	有	有	VERB	_	_	1	comp:obj	_	_
 4	困	困	NOUN	_	_	3	comp:obj	_	_
 5	难	难	NOUN	_	_	4	@m	_	_
 6	，	，	PUNCT	_	_	7	punct	_	_
-7	就	就	SCONJ	_	_	0	root	_	hightlight=red
+7	就	就	SCONJ	_	_	0	root	_	hightlight=#FF0000
 8	给	给	ADP	_	_	10	comp:obl	_	_
 9	我	我	PRON	_	Person=1	8	comp:obj	_	_
 10	打	打	VERB	_	_	7	comp:obj	_	_
@@ -121,7 +121,7 @@ The word "就" (jiù) takes on different linguistic roles based on its contextua
 4	A	a	PROPN	_	_	1	comp:obj	_	_
 5	P	p	PROPN	_	_	4	flat:foreign@m	_	_
 6	P	p	PROPN	_	_	5	flat:foreign@m	_	_
-7	来	来	SCONJ	_	_	1	mod	_	hightlight=red
+7	来	来	SCONJ	_	_	1	mod	_	hightlight=#FF0000
 8	学	学	VERB	_	_	7	comp:obj	_	_
 9	汉	汉	NOUN	_	_	8	comp:obj	_	_
 10	字	字	NOUN	_	_	9	@m	_	_
