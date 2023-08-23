@@ -31,21 +31,21 @@ VERB1-[mod]->来-[comp:obj]->VERB2
 # pinyin = Zhège dìfang hěn piàoliang, dànshì rén tài duō le.
 # text_en = This place is beautiful, but there are too many people.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGUD81S
-1	这	这	DET	_	_	2	det	_	Tone=4|Translit=zhè
-2	个	个	NOUN	_	_	3	clf	_	Gloss=CLF|Tone=4|Translit=gè
-3	地	地	NOUN	_	_	6	subj	_	Tone=4|Translit=dì
-4	方	方	NOUN	_	_	3	@m	_	Tone=1|Translit=fāng
-5	很	很	ADV	_	_	6	mod	_	Tone=3|Translit=hěn
-6	漂	漂	ADJ	_	_	9	mod	_	Tone=1|Translit=piāo
-7	亮	亮	ADJ	_	_	6	@m	_	Tone=4|Translit=liàng
-8	，	，	PUNCT	_	_	9	punct	_	Translit=，
-9	但	但	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=dàn
-10	是	是	SCONJ	_	_	9	@m	_	Grammar_Target=Yes|Tone=4|Translit=shì
-11	人	人	NOUN	_	_	13	subj	_	Tone=2|Translit=rén
-12	太	太	ADV	_	_	13	mod	_	Tone=4|Translit=tài
-13	多	多	ADJ	_	_	9	comp:obj	_	Tone=1|Translit=duō
-14	了	了	PART	_	_	13	discourse	_	Gloss=PRF|Tone=5|Translit=le
-15	。	。	PUNCT	_	_	9	punct	_	Translit=。
+1	这	这	DET	_	_	2	det	_	_
+2	个	个	NOUN	_	_	3	clf	_	_
+3	地	地	NOUN	_	_	6	subj	_	_
+4	方	方	NOUN	_	_	3	@m	_	_
+5	很	很	ADV	_	_	6	mod	_	_
+6	漂	漂	ADJ	_	_	9	mod	_	_
+7	亮	亮	ADJ	_	_	6	@m	_	_
+8	，	，	PUNCT	_	_	9	punct	_	_
+9	但	但	SCONJ	_	_	0	root	_	hightlight=#aa260c
+10	是	是	SCONJ	_	_	9	@m	_	hightlight=#aa260c
+11	人	人	NOUN	_	_	13	subj	_	_
+12	太	太	ADV	_	_	13	mod	_	_
+13	多	多	ADJ	_	_	9	comp:obj	_	_
+14	了	了	PART	_	_	13	discourse	_	_
+15	。	。	PUNCT	_	_	9	punct	_	_
 {{< /conll_interactive >}}
 
 The terms "但是" (dànshì), is not invariably categorized as the subordinating conjunction (SCONJ), here is an counter example :
@@ -55,17 +55,17 @@ The terms "但是" (dànshì), is not invariably categorized as the subordinatin
 # pinyin = Wǒ gēge bù gāo , dànshì hěn shuài.
 # text_en = My older brother is not tall, but he is very handsome.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGIPYFV
-1	我	我	PRON	_	Person=1	2	mod	_	Gloss=1SG|Tone=3|Translit=wǒ
-2	哥	哥	NOUN	_	_	5	subj	_	Tone=1|Translit=gē
-3	哥	哥	NOUN	_	_	2	conj:redup@m	_	Tone=1|Translit=gē
-4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes|Tone=4|Translit=bù
-5	高	高	ADJ	_	_	0	root	_	Gloss=tall|Tone=1|Translit=gāo
-6	，	，	PUNCT	_	_	10	punct	_	Translit=，
-7	但	但	CCONJ	_	_	10	cc	_	hightlight=red
-8	是	是	CCONJ	_	_	7	@m	_	hightlight=red
-9	很	很	ADV	_	_	10	mod	_	Tone=3|Translit=hěn
-10	帅	帅	ADJ	_	_	5	conj	_	Tone=4|Translit=shuài
-11	。	。	PUNCT	_	_	5	punct	_	Translit=。
+1	我	我	PRON	_	Person=1	2	mod	_	_
+2	哥	哥	NOUN	_	_	5	subj	_	_
+3	哥	哥	NOUN	_	_	2	conj:redup@m	_	_
+4	不	不	ADV	_	Polarity=Neg	5	mod	_	_
+5	高	高	ADJ	_	_	0	root	_	_
+6	，	，	PUNCT	_	_	10	punct	_	_
+7	但	但	CCONJ	_	_	10	cc	_	highlight=#3eaa0c
+8	是	是	CCONJ	_	_	7	@m	_	highlight=#3eaa0c
+9	很	很	ADV	_	_	10	mod	_	_
+10	帅	帅	ADJ	_	_	5	conj	_	_
+11	。	。	PUNCT	_	_	5	punct	_	_
 {{< /conll_interactive >}}
 
 When the term doesn't introduce an entire clause but gives supplementary information, it assumes the role of a coordinating conjunction (CCONJ).
@@ -77,19 +77,19 @@ When the term doesn't introduce an entire clause but gives supplementary informa
 # pinyin = Rúguǒ yǒu kùnnan, jiù gěi wǒ dǎ diànhuà.
 # text_en = If there is any difficulty, give me a call.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGGIVT0
-1	如	如	SCONJ	_	_	7	mod	_	Grammar_Target=Yes|Tone=2|Translit=rú
-2	果	果	SCONJ	_	_	1	@m	_	Grammar_Target=Yes|Tone=3|Translit=guǒ
-3	有	有	VERB	_	_	1	comp:obj	_	Tone=3|Translit=yǒu
-4	困	困	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=kùn
-5	难	难	NOUN	_	_	4	@m	_	Tone=2|Translit=nán
-6	，	，	PUNCT	_	_	7	punct	_	Translit=，
-7	就	就	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=jìu
-8	给	给	ADP	_	_	10	comp:obl	_	Tone=3|Translit=gěi
-9	我	我	PRON	_	Person=1	8	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
-10	打	打	VERB	_	_	7	comp:obj	_	Tone=3|Translit=dǎ
-11	电	电	NOUN	_	_	10	comp:obj	_	Tone=4|Translit=diàn
-12	话	话	NOUN	_	_	11	@m	_	Tone=4|Translit=huà
-13	。	。	PUNCT	_	_	7	punct	_	Translit=。
+1	如	如	SCONJ	_	_	7	mod	_	hightlight=#aa260c
+2	果	果	SCONJ	_	_	1	@m	_	hightlight=#aa260c
+3	有	有	VERB	_	_	1	comp:obj	_	_
+4	困	困	NOUN	_	_	3	comp:obj	_	_
+5	难	难	NOUN	_	_	4	@m	_	_
+6	，	，	PUNCT	_	_	7	punct	_	_
+7	就	就	SCONJ	_	_	0	root	_	hightlight=#aa260c
+8	给	给	ADP	_	_	10	comp:obl	_	_
+9	我	我	PRON	_	Person=1	8	comp:obj	_	_
+10	打	打	VERB	_	_	7	comp:obj	_	_
+11	电	电	NOUN	_	_	10	comp:obj	_	_
+12	话	话	NOUN	_	_	11	@m	_	_
+13	。	。	PUNCT	_	_	7	punct	_	_
 {{< /conll_interactive >}}
 
 The word "就" (jiù) takes on different linguistic roles based on its contextual interactions. It functions as a subordinating conjunction when paired with "如果" (rú guǒ), introducing a conditional clause and indicating conditional relationships. In other cases, it serves as an adverbial connector. 
@@ -99,13 +99,13 @@ The word "就" (jiù) takes on different linguistic roles based on its contextua
 # pinyin = Wǒ jiù yào chūguó le.
 # text_en = I'm about to go abroad.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9B210
-1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
-2	就	就	ADV	_	_	3	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu
-3	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=yào
-4	出	出	VERB	_	_	3	comp:aux	_	Tone=1|Translit=chū
-5	国	国	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=guó
-6	了	了	PART	_	_	3	discourse	_	Gloss=PRF|Tone=5|Translit=le
-7	。	。	PUNCT	_	_	3	punct	_	Translit=。
+1	我	我	PRON	_	Person=1	3	subj	_	_
+2	就	就	ADV	_	_	3	mod	_	highlight=#3eaa0c
+3	要	要	AUX	_	_	0	root	_	_
+4	出	出	VERB	_	_	3	comp:aux	_	_
+5	国	国	NOUN	_	_	4	comp:obj	_	_
+6	了	了	PART	_	_	3	discourse	_	_
+7	。	。	PUNCT	_	_	3	punct	_	_
 {{< /conll_interactive >}}
 
 ### - 来
@@ -115,18 +115,18 @@ The word "就" (jiù) takes on different linguistic roles based on its contextua
 # pinyin = Yòng zhège APP lái xué Hànzì gèng róngyì.
 # text_en = It's easier to use this app to study Chinese characters.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGBZ578
-1	用	用	VERB	_	_	12	subj	_	Tone=4|Translit=yòng
-2	这	这	DET	_	_	3	det	_	Tone=4|Translit=zhè
-3	个	个	NOUN	_	_	4	clf	_	Gloss=CLF|Tone=4|Translit=gè
-4	A	a	PROPN	_	_	1	comp:obj	_	Translit=A
-5	P	p	PROPN	_	_	4	flat:foreign@m	_	Translit=P
-6	P	p	PROPN	_	_	5	flat:foreign@m	_	Translit=P
-7	来	来	SCONJ	_	_	1	mod	_	Grammar_Target=Yes|Tone=2|Translit=lái
-8	学	学	VERB	_	_	7	comp:obj	_	Tone=2|Translit=xué
-9	汉	汉	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=hàn
-10	字	字	NOUN	_	_	9	@m	_	Tone=4|Translit=zì
-11	更	更	ADV	_	_	12	mod	_	Tone=4|Translit=gèng
-12	容	容	ADJ	_	_	0	root	_	Tone=2|Translit=róng
-13	易	易	ADJ	_	_	12	@m	_	Tone=4|Translit=yì
-14	。	。	PUNCT	_	_	12	punct	_	Translit=。
+1	用	用	VERB	_	_	12	subj	_	_
+2	这	这	DET	_	_	3	det	_	_
+3	个	个	NOUN	_	_	4	clf	_	_
+4	A	a	PROPN	_	_	1	comp:obj	_	_
+5	P	p	PROPN	_	_	4	flat:foreign@m	_	_
+6	P	p	PROPN	_	_	5	flat:foreign@m	_	_
+7	来	来	SCONJ	_	_	1	mod	_	hightlight=#aa260c
+8	学	学	VERB	_	_	7	comp:obj	_	_
+9	汉	汉	NOUN	_	_	8	comp:obj	_	_
+10	字	字	NOUN	_	_	9	@m	_	_
+11	更	更	ADV	_	_	12	mod	_	_
+12	容	容	ADJ	_	_	0	root	_	_
+13	易	易	ADJ	_	_	12	@m	_	_
+14	。	。	PUNCT	_	_	12	punct	_	_
 {{< /conll_interactive >}}
