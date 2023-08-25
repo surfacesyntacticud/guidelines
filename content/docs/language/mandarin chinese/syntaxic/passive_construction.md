@@ -24,7 +24,7 @@ The agent of the action will be its object and the recipient will be its subject
 # text_en = I was deceived by him.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGHF9F1
 1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
-2	被	被	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bèi  highlight=red
+2	被	被	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bèi|highlight=red
 3	他	他	PRON	_	Person=3	2	comp:obj	_	Tone=1|Translit=tā
 4	骗	骗	VERB	_	_	2	comp:aux	_	Tone=4|Translit=piàn
 5	了	了	PART	_	_	2	aspect	_	Gloss=PRF|Tone=5|Translit=le
@@ -42,7 +42,7 @@ The agent of the action will be its object and the recipient will be its subject
 3	点	点	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=3|Translit=diǎn
 4	儿	儿	PART	_	_	3	@m	_	Grammar_Target=Yes|Tone=2|Translit=ér
 5	没	没	ADV	_	Polarity=Neg	6	mod	_	Grammar_Target=Yes|Tone=2|Translit=méi
-6	被	被	AUX	_	_	0	root	_	Tone=4|Translit=bèi highlight=red
+6	被	被	AUX	_	_	0	root	_	Tone=4|Translit=bèi|highlight=red
 7	发	发	VERB	_	_	6	comp:aux	_	Tone=1|Translit=fā
 8	现	现	NOUN	_	_	7	@m	_	Tone=4|Translit=xiàn
 9	。	。	PUNCT	_	_	6	punct	_	Translit=。
