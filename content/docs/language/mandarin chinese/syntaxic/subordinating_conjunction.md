@@ -39,8 +39,8 @@ VERB1-[mod]->来-[comp:obj]->VERB2
 6	漂	漂	ADJ	_	_	9	mod	_	Tone=1|Translit=piāo
 7	亮	亮	ADJ	_	_	6	@m	_	Tone=4|Translit=liàng
 8	，	，	PUNCT	_	_	9	punct	_	Translit=，
-9	但	但	SCONJ	_	_	0	root	highlight=red	Grammar_Target=Yes|Tone=4|Translit=dàn
-10	是	是	SCONJ	_	_	9	@m	highlight=red	Grammar_Target=Yes|Tone=4|Translit=shì
+9	但	但	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=dàn|highlight=red
+10	是	是	SCONJ	_	_	9	@m	_	Grammar_Target=Yes|Tone=4|Translit=shì|highlight=red
 11	人	人	NOUN	_	_	13	subj	_	Tone=2|Translit=rén
 12	太	太	ADV	_	_	13	mod	_	Tone=4|Translit=tài
 13	多	多	ADJ	_	_	9	comp:obj	_	Tone=1|Translit=duō
@@ -61,8 +61,8 @@ The terms "但是" (dànshì), is not invariably categorized as the subordinatin
 4	不	不	ADV	_	Polarity=Neg	5	mod	_	Grammar_Target=Yes|Tone=4|Translit=bù
 5	高	高	ADJ	_	_	0	root	_	Gloss=tall|Tone=1|Translit=gāo
 6	，	，	PUNCT	_	_	10	punct	_	Translit=，
-7	但	但	CCONJ	_	_	10	cc	highlight=#3eaa0c	Tone=4|Translit=dàn
-8	是	是	CCONJ	_	_	7	@m	highlight=#3eaa0c	Tone=4|Translit=shì
+7	但	但	CCONJ	_	_	10	cc	_	Tone=4|Translit=dàn|highlight=#3eaa0c
+8	是	是	CCONJ	_	_	7	@m	_	Tone=4|Translit=shì|highlight=#3eaa0c
 9	很	很	ADV	_	_	10	mod	_	Tone=3|Translit=hěn
 10	帅	帅	ADJ	_	_	5	conj	_	Tone=4|Translit=shuài
 11	。	。	PUNCT	_	_	5	punct	_	Translit=。
@@ -77,13 +77,13 @@ When the term doesn't introduce an entire clause but gives supplementary informa
 # pinyin = Rúguǒ yǒu kùnnan, jiù gěi wǒ dǎ diànhuà.
 # text_en = If there is any difficulty, give me a call.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGGIVT0
-1	如	如	SCONJ	_	_	7	mod	highlight=red	Grammar_Target=Yes|Tone=2|Translit=rú
-2	果	果	SCONJ	_	_	1	@m	highlight=red	Grammar_Target=Yes|Tone=3|Translit=guǒ
+1	如	如	SCONJ	_	_	7	mod	_	Grammar_Target=Yes|Tone=2|Translit=rú|highlight=red
+2	果	果	SCONJ	_	_	1	@m	_	Grammar_Target=Yes|Tone=3|Translit=guǒ|highlight=red
 3	有	有	VERB	_	_	1	comp:obj	_	Tone=3|Translit=yǒu
 4	困	困	NOUN	_	_	3	comp:obj	_	Tone=4|Translit=kùn
 5	难	难	NOUN	_	_	4	@m	_	Tone=2|Translit=nán
 6	，	，	PUNCT	_	_	7	punct	_	Translit=，
-7	就	就	SCONJ	_	_	0	root	highlight=red	Grammar_Target=Yes|Tone=4|Translit=jìu
+7	就	就	SCONJ	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=jìu|highlight=red
 8	给	给	ADP	_	_	10	comp:obl	_	Tone=3|Translit=gěi
 9	我	我	PRON	_	Person=1	8	comp:obj	_	Gloss=1SG|Tone=3|Translit=wǒ
 10	打	打	VERB	_	_	7	comp:obj	_	Tone=3|Translit=dǎ
@@ -100,7 +100,7 @@ The word "就" (jiù) takes on different linguistic roles based on its contextua
 # text_en = I'm about to go abroad.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASG9B210
 1	我	我	PRON	_	Person=1	3	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
-2	就	就	ADV	_	_	3	mod	highlight=#3eaa0c	Grammar_Target=Yes|Tone=4|Translit=jìu
+2	就	就	ADV	_	_	3	mod	_	Grammar_Target=Yes|Tone=4|Translit=jìu|highlight=#3eaa0c
 3	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=yào
 4	出	出	VERB	_	_	3	comp:aux	_	Tone=1|Translit=chū
 5	国	国	NOUN	_	_	4	comp:obj	_	Tone=2|Translit=guó
@@ -121,7 +121,7 @@ The word "就" (jiù) takes on different linguistic roles based on its contextua
 4	A	a	PROPN	_	_	1	comp:obj	_	Translit=A
 5	P	p	PROPN	_	_	4	flat:foreign@m	_	Translit=P
 6	P	p	PROPN	_	_	5	flat:foreign@m	_	Translit=P
-7	来	来	SCONJ	_	_	1	mod	highlight=red	Grammar_Target=Yes|Tone=2|Translit=lái
+7	来	来	SCONJ	_	_	1	mod	_	Grammar_Target=Yes|Tone=2|Translit=lái|highlight=red
 8	学	学	VERB	_	_	7	comp:obj	_	Tone=2|Translit=xué
 9	汉	汉	NOUN	_	_	8	comp:obj	_	Tone=4|Translit=hàn
 10	字	字	NOUN	_	_	9	@m	_	Tone=4|Translit=zì
