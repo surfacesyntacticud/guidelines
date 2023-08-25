@@ -23,12 +23,12 @@ The agent of the action will be its object and the recipient will be its subject
 # pinyin = Wǒ bèi tā piàn le.
 # text_en = I was deceived by him.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGHF9F1
-1	我	我	PRON	_	Person=1	2	subj	_	_
-2	被	被	AUX	_	_	0	root	_	highlight=red
-3	他	他	PRON	_	Person=3	2	comp:obj	_	_
-4	骗	骗	VERB	_	_	2	comp:aux	_	_
-5	了	了	PART	_	_	2	aspect	_	_
-6	。	。	PUNCT	_	_	2	punct	_	_
+1	我	我	PRON	_	Person=1	2	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	被	被	AUX	_	_	0	root	_	Grammar_Target=Yes|Tone=4|Translit=bèi  highlight=red
+3	他	他	PRON	_	Person=3	2	comp:obj	_	Tone=1|Translit=tā
+4	骗	骗	VERB	_	_	2	comp:aux	_	Tone=4|Translit=piàn
+5	了	了	PART	_	_	2	aspect	_	Gloss=PRF|Tone=5|Translit=le
+6	。	。	PUNCT	_	_	2	punct	_	Translit=。
 {{< /conll_interactive >}}
 
 {{< conll_interactive >}}
@@ -37,15 +37,15 @@ The agent of the action will be its object and the recipient will be its subject
 # pinyin = Wǒ chàdiǎnr méi bèi fāxiàn.
 # text_en = I was almost discovered.
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGGOUJB
-1	我	我	PRON	_	Person=1	6	subj	_	_
-2	差	差	VERB	ADV	_	6	mod	_	_
-3	点	点	NOUN	_	_	2	mod@m	_	_
-4	儿	儿	PART	_	_	3	@m	_	_
-5	没	没	ADV	_	Polarity=Neg	6	mod	_	_
-6	被	被	AUX	_	_	0	root	_	highlight=red
-7	发	发	VERB	_	_	6	comp:aux	_	_
-8	现	现	NOUN	_	_	7	@m	_	_
-9	。	。	PUNCT	_	_	6	punct	_	_
+1	我	我	PRON	_	Person=1	6	subj	_	Gloss=1SG|Tone=3|Translit=wǒ
+2	差	差	ADV	_	_	6	mod	_	Grammar_Target=Yes|Tone=4|Translit=chà
+3	点	点	ADV	_	_	2	@m	_	Grammar_Target=Yes|Tone=3|Translit=diǎn
+4	儿	儿	PART	_	_	3	@m	_	Grammar_Target=Yes|Tone=2|Translit=ér
+5	没	没	ADV	_	Polarity=Neg	6	mod	_	Grammar_Target=Yes|Tone=2|Translit=méi
+6	被	被	AUX	_	_	0	root	_	Tone=4|Translit=bèi highlight=red
+7	发	发	VERB	_	_	6	comp:aux	_	Tone=1|Translit=fā
+8	现	现	NOUN	_	_	7	@m	_	Tone=4|Translit=xiàn
+9	。	。	PUNCT	_	_	6	punct	_	Translit=。
 {{< /conll_interactive >}}
 
 ### - Subj + 叫/让 + Doer + V
