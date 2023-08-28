@@ -72,5 +72,3 @@ The verbs in this category include (non-neutral-tone versions of): 着 / zháo, 
 8	。	。	PUNCT	_	_	2	punct	_	Translit=。
 {{< / conll_interactive >}}
 
-
-## negative potential
