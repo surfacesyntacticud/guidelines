@@ -2,7 +2,7 @@
 
 “Passive construction”, also known as “passive voice”, is a grammatical structure that shifts the focus from the agent of the action to the recipient. In passive voice, the subject of the sentence becomes the entity affected by the action, while the doer is often omitted or indicated by the passive marker (typically auxiliary verbs) in Madarin Chinese.
 
-Here are the most commun three auxiliary verbs used as the passive voice indicator :
+Here are the most commun four auxiliary verbs used as the passive voice indicator :
 1) 被 (bèi)
 2) 叫 (jiào)
 3) 让 (ràng)
