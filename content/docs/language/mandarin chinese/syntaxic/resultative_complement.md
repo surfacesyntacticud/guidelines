@@ -72,3 +72,13 @@ The verbs in this category include (non-neutral-tone versions of): 着 / zháo, 
 8	。	。	PUNCT	_	_	2	punct	_	Translit=。
 {{< / conll_interactive >}}
 
+
+## remarks 
+It seems, in what we currently annotate comp:res, there are in fact different types of paradigm : 
+- 我 打 碎 瓶子 I hit the bottle shatter (or is it 2 actions ?)
+- 他 哭 类 了 he cried tired   (reflexif)
+- 我 摔 破 了脚 I fall breaking my leg (looks more like comp:svc)
+- 我 看 到 了他 (phase compound in UD guidelines)
+
+
+In french : concomitance
