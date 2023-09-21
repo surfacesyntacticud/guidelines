@@ -143,3 +143,7 @@ In these cases, we annotated the pronoun as an ADV modifying either the referenc
 - "However" with 怎么 + 都/也
 
 [Reference to allsetlearning page](https://resources.allsetlearning.com/chinese/grammar/Expressing_%22every%22_with_question_words)
+
+
+### Questions
+- is 干吗 an interogative pronoun ? (eg : 你 老 是 这 么 凶 干 吗 ？ )
