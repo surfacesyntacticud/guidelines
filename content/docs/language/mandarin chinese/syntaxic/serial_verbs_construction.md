@@ -25,6 +25,18 @@ English Translation: We go to the park to play.
 
 In this example, going (去) is the action and playing (玩) is the purpose of the action.
 
+## IS NOT SVC :
 
+When the two (or more) verbs are not coding a single event, a concurrence or a causally-related event, it should not be seen as a SVC construction.
+
+Example: 我洗脸刷牙。
+
+
+## Remarks
+When a clause act as a "manner" modifier clause, we don't know YET if it should be a comp:svc (from first to second verb) or a mod@manner (from second to first). At the moment (25 sept 2023), we annotate them as comp:svc, but we know it might be wrong.
+
+Example: 
+    - 我打电话告诉他。
+    - 我坐飞机去北京。
 ## /!\ Directionnal complement
 See page about directional complement, as they are a special type of serial verbs construction
