@@ -17,7 +17,7 @@ In many cases, the 没有 (méiyǒu) construction is simplified to just 没 (mé
 
 ### 听说 (tingshuo) 
 What is the dependency ?
-- It can't be a comp:svc as the doer is not the same in both verb (I heard (other people) said)
+- It can't be a compound:svc as the doer is not the same in both verb (I heard (other people) said)
 - It can't be a comp:res as SAY is not the result of LISTEN
 
 It seems to me that it's either a normal comp:obj, or a /m relation. As we can insert a noun or a pronoun between both characters, I (KG) think it's a comp:obj

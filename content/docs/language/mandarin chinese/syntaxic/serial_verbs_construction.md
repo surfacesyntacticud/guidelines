@@ -1,4 +1,4 @@
-# Serial Verbs Construction in Mandarin Chinese (comp:svc)
+# Serial Verbs Construction in Mandarin Chinese (compound:svc)
 
 
 In Mandarin Chinese, a Serial Verb Construction (SVC) is a sequence of verbs or verb phrases that share the same subject without any explicit conjunction or marker of subordination between them. This grammatical structure is used to express various complex actions, states, and events. SVCs are very common in Mandarin and provide a concise way to express complex ideas.
@@ -33,7 +33,7 @@ Example: 我洗脸刷牙。
 
 
 ## Remarks
-When a clause act as a "manner" modifier clause, we don't know YET if it should be a comp:svc (from first to second verb) or a mod@manner (from second to first). At the moment (25 sept 2023), we annotate them as comp:svc, but we know it might be wrong.
+When a clause act as a "manner" modifier clause, we don't know YET if it should be a compound:svc (from first to second verb) or a mod@manner (from second to first). At the moment (25 sept 2023), we annotate them as compound:svc, but we know it might be wrong.
 
 Example: 
     - 我打电话告诉他。
