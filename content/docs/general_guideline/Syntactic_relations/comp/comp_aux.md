@@ -14,20 +14,19 @@ bookToc: true
 
 ## Universal
 
-The `comp:aux` relation is used for the argument of auxiliaries, and corresponds to the `aux` relationship as defined by UD.
+The `comp:aux` relation is used for the argument of auxiliaries.
 
+The relation `comp:aux` can be used with the following deep features:
+ - [`@tense`](../../Deep/tense.md)
+ - [`@pass`](../../Deep/pass.md)
+ - [`@caus`](../../Deep/caus.md)
 
-> The relation `comp:aux` can have these features:
-> * [@tense](../../Deep/tense.md)
-> * [@pass](../../Deep/pass.md)
-> * [@caus](../../Deep/caus.md)
-
-
-> pattern { GOV-[comp:aux]->DEP }
+```grew
+pattern { GOV-[comp:aux]->DEP }
+```
 
   
 > English
-
 {{<conll>}}
 1	Do	do	AUX	_	_	0	root	_	_
 2	you	you	PRON	_	_	1	subj	_	_
@@ -37,7 +36,6 @@ The `comp:aux` relation is used for the argument of auxiliaries, and corresponds
 
 
 > English
-
 {{<conll>}}
 1	It	it	PRON	_	_	2	subj	_	_
 2	had	had	AUX	_	_	0	root	_	_
@@ -51,7 +49,6 @@ The `comp:aux` relation is used for the argument of auxiliaries, and corresponds
 Multiple auxiliaries, such as those permitted in [English varieties spoken in the Southeastern United States](https://en.wikipedia.org/wiki/Southern_American_English), are annotated as so.
 
 > Southern American English
-
 {{<conll>}}
 # text_en = We might be able to go.
 1	We	we	PRON	_	_	2	subj	_	_
@@ -63,7 +60,6 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 
 
 > Naija
-
 {{<conll>}}
 # text_en = I can't even sleep.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	Gloss=I
@@ -75,10 +71,9 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 
 
 > Slovak
-
 {{<conll>}}
+# text = Ak by som mal podobnú šancu, ja ju nepremrhám.
 # text_en = If I had a similar chance, I wouldn't waste it
-# text_sk = Ak by som mal podobnú šancu, ja ju nepremrhám.
 1	Ak	ak	SCONJ	_	_	10	mod	_	Gloss=if
 2	by	by	AUX	_	_	1	comp:obj	_	Gloss=AUX.cond
 3	som	byť	AUX	_	_	2	comp:aux	_	Gloss=am
@@ -93,10 +88,9 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 
 
 > Wolof
-
 {{<conll>}}
+# text = Képp ku wuute dees na la mbugal.
 # text_en = Every man that is missing is punished (for you)
-# text_wo = Képp ku wuute dees na la mbugal.
 1	Képp	képp	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Tot	5	dislocated	_	Gloss=every_man
 2	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	3	subj	_	Gloss=who
 3	wuute	wuute	VERB	VERB	Mood=Ind|VerbForm=Fin	1	mod@relcl	_	Gloss=be_missing
@@ -108,7 +102,6 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 
 
 > German
-
 {{<conll>}}
 # text_en = It was agreed with the group of investors not to disclose any information.
 1	Mit	Mit	ADP	APPR	AdpType=Prep|Case=Dat	4	udep	_	Gloss=with

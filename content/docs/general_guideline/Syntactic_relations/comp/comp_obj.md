@@ -15,16 +15,17 @@ bookToc: true
  
 The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
 
-> The relation `comp:obj` can have these features:
-> * [@agent](../../Deep/agent.md)
-> * [@lvc](../../Deep/lvc.md)
-> pattern { GOV-[comp:obj]->DEP }
+`comp:obj` can have the following deep features:
+ - [`@agent`](../../Deep/agent.md)
+ - [`@lvc`](../../Deep/lvc.md)
+
+```grew
+pattern { GOV-[comp:obj]->DEP }
+```
 
 ### Direct object complements
 
-  
 > English
-
 {{< conll >}}
 1	Norton	Norton	PROPN	_	_	2	subj	_	_
 2	spent	spend	VERB	_	_	0	root	_	_
@@ -37,7 +38,6 @@ The `comp:obj` relation is used for direct object complements, including direct 
 
 
 > French
-
 {{< conll >}}
 # text = j'adore ce bar
 # text_en = I love this bar
@@ -49,7 +49,6 @@ The `comp:obj` relation is used for direct object complements, including direct 
 
 
 > Russian
-
 {{< conll >}}
 # text = Я ставлю точку
 # text_en = I put a point
@@ -61,11 +60,10 @@ The `comp:obj` relation is used for direct object complements, including direct 
 
 Usually, in order to determine whether an object is direct or not, it suffices to know if it forms a construction with a preposition. If it doesn't, the object is direct. According to different languages, this criterion may be insufficient.
 
-In the following examples we can see direct objects of the Spanish verb *ver*. With animate objects this verb takes the preposition *a*, however the object is still considered direct and therefore the relation stays `comp:obj`.
+In the following examples we can see direct objects of the Spanish verb *ver*.
+With animate objects this verb takes the preposition *a*, however the object is still considered direct and therefore the relation stays `comp:obj`.
 
-  
 > Spanish
-
 {{< conll >}}
 # text = Veo su foto
 # text_en = I see his photo
@@ -76,7 +74,6 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 
 > Spanish
-
 {{< conll >}}
 # text = Veo a Clinton
 # text_en = I see Clinton
@@ -85,13 +82,10 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 3	Clinton	Clinton	PROPN	_	_	2	comp:obj	_	Gloss=Clinton
 {{< /conll >}}
 
-  
-  
 
 ### Adposition arguments
 
 > French
-
 {{< conll >}}
 # text = On a décidé d'aller au CROUS de Censier
 # text_en = We decided to go to the Censier CROUS
@@ -109,7 +103,6 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 
 > English
-
 {{< conll >}}
 1	Get	get	VERB	VB	VerbForm=Inf	0	root	_	_
 2	feedback	feedback	NOUN	NN	Number=Sing	1	comp:obj	_	Entity=(abstract-120
@@ -148,12 +141,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 9	колокольней	колокольня	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	comp:obj	_	Gloss=bell tower
 {{</conll>}}
 
-  
-  
-
 ### Subordinating conjunction arguments
 > English
-
 {{< conll >}}
 1	this	this	PRON	_	_	2	subj	_	_
 2	means	mean	VERB	_	_	0	root	_	_
@@ -170,7 +159,6 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 
 > Spanish
-
 {{< conll >}}
 # text = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado
 # text_en = He stated that he follows the European criterion and tries to encourage the market
@@ -189,10 +177,7 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 13	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	Gloss=market
 {{< /conll >}}
 
-
-  
 > French
-
 {{< conll >}}
 # text = il faut que tu deviennes script girl.
 # text_en = You need to become a script girl.
@@ -212,11 +197,10 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 Constructions such as: *plus... que* (French), *more... than* (English), *più... di* (Italian), *bardziej... niż* (Polish), *более... чем* (Russian).
 
-  
-> English
 
+> English
 {{< conll >}}
-# text_en = techniques far more assertive than his predecessors
+# text = techniques far more assertive than his predecessors
 1	techniques	technique	NOUN	NNS	Number=Plur	0	root	_	_
 2	far	far	ADV	RB	Degree=Pos	3	mod	_	_
 3	more	more	ADV	RBR	_	4	mod	_	_
@@ -227,7 +211,6 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 {{< /conll >}}
 
 > Russian
-
 {{< conll >}}
 # text = электроны имеют отклик намного более быстрый, чем атомы
 1	электроны	электрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	subj	_	_
@@ -241,16 +224,14 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 9	атомы	атом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	comp:obj	_	_
 {{< /conll >}}
 
-  
-  
 ### Complement in consecutive constructions
 
 Constructions such as: *tellement... que* (French), *so... that* (English), *così... che* (Italian), *tak... że* (Polish), *настолько... что* (Russian).
 
-  
-> French
 
+> French
 {{< conll >}}
+# text_en = so vast that you get lost
 1	tellement	tellement	ADV	_	_	2	mod	_	_
 2	vaste	vaste	ADJ	_	_	0	root	_	_
 3	qu'	que	SCONJ	_	_	1	comp:obj	_	_
@@ -262,10 +243,9 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
 
 > Russian
-
 {{< conll >}}
 # sent_id = 2007Tele.xml_38
-# text_ru = Изображение настолько хорошее, что все забыли о тестировании
+# text = Изображение настолько хорошее, что все забыли о тестировании
 # text_en = The image was so good that everyone forgot about testing
 1	Изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	subj	_	Gloss=image
 2	настолько	настолько	ADV	_	Degree=Pos	3	mod	_	Gloss=so
@@ -280,9 +260,8 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
 
 ### Deep subjects of impersonal constructions
- 
- > French
 
+ > French
 {{< conll >}}
 # text_en = There exist by the way many different types of cleats.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	Gloss=it
@@ -299,7 +278,6 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
   
 > Russian
-
 {{< conll >}}
 # sent_id = uppsalaGrekova_3.xml_179
 # text = Прошло много времени, пока я к ней приспособилась
@@ -319,13 +297,12 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
 ### Direct Speech
 
-Direct discourse is attached its governor by the relation `comp:obj` with the features `Reported = "Yes"` (link). It used to be annotate with the depency relation `parataxis:obj`. It has now been deleted.
-
+Direct discourse is attached to its governor by the relation `comp:obj`.
+The head of the reported phrase has the features `Reported=Yes`.
 
 > French
-
 {{< conll >}}
-# text = Ce qui est horrible c' est de se dire je n' en sortirai jamais
+# text = Ce qui est horrible c'est de se dire je n'en sortirai jamais
 # text_en = What is horrible is to think I will never get out
 1	Ce	ce	PRON	_	_	6	dislocated	_	Gloss=this
 2	qui	qui	PRON	_	_	3	subj	_	Gloss=that
@@ -344,7 +321,6 @@ Direct discourse is attached its governor by the relation `comp:obj` with the fe
 {{< /conll >}}
 
 > Naija
-
 {{< conll >}}
 # sent_id = ABJ_GWA_02_Market-Food-Church_DG__58
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_GWA_02_Market-Food-Church_DG.mp3
@@ -383,12 +359,9 @@ TODO
 ## haitien
 
 ### Overview
-
- The [comp:obj](docs/general_guideline/Syntactic_relations/comp/comp_obj.md) relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction. In Haitian Creole the constructions with two direct object complements exist. In this case we use the [comp:obj](docs/general_guideline/Syntactic_relations/comp/comp_obj.md)@R and [comp:obj](docs/general_guideline/Syntactic_relations/comp/comp_obj.md)@T relations.
-
+The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
 
 {{<conll>}} 
-# sent_id = my_sample__2
 # text = Nikese Toussaint di ke gang te kidnape frè l, madanm li ak yon twazyèm moun ki t ap vwayaje avèk yo 18 mas pase.
 # text_fr = Nikese Toussaint a dit que les gangs ont kidnappé son frère, sa femme et une troisième personne qui voyageaient avec eux le 18 mars dernier.
 1	Nikese	Nikese	PROPN	_	_	3	subj	_	Gloss=Nikese
@@ -417,17 +390,18 @@ TODO
 24	mas	mas	NOUN	_	_	23	mod	_	Gloss=mars
 25	pase	pase	ADJ	_	_	24	mod	_	Gloss=passé|SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
-
 {{</conll>}}
 
-### Specific Pattern
+### Specific usage
 
-#### direct object complement - recipient 
+In Haitian Creole, the construction with two direct object complements exists.
+In this case, two deep features are used:
+ - `comp:obj@R` for direct object complement that marks the recipient
+ - `comp:obj]@T` for direct object complement that marks the theme
 
-- Description: In the case of the construction with two direct object complements the [comp:obj](docs/general_guideline/Syntactic_relations/comp/comp_obj.md)@R relation is used for direct object complement that marks the recipient. 
-
-- Pattern: GOV-[comp:obj@R]->DEP
-
+```grew
+pattern { V -[comp:obj@R]-> R; V -[comp:obj@T]-> T;  }
+```
 
 {{<conll>}}
 # sent_id = my_sample__3
@@ -463,15 +437,7 @@ TODO
 28	di	di	VERB	_	Number=Sing|Person=3|Tense=Past	23	mod@relcl	_	Gloss=dire
 29	CNN	CNN	NOUN	_	_	28	comp:obj@R	_	Gloss=CNN|SpaceAfter=No
 30	.	.	PUNCT	_	_	28	punct	_	_
-
 {{</conll>}}
-
-#### direct object complement - theme 
-
-- Description: In the case of the construction with two direct object complements the [comp:obj](docs/general_guideline/Syntactic_relations/comp/comp_obj.md)@T relation is used for direct object complement that marks the theme. 
-
-- Pattern: GOV-[comp:obj@T]->DEP
-
 
 {{<conll>}}
 # sent_id = my_sample__3
@@ -506,15 +472,10 @@ TODO
 27	sa	sa	DET	_	Number=Sing|PronType=Dem	26	det	_	Gloss=cet
 28	a	a	DET	_	_	27	mod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	2	punct	_	_
-
 {{</conll>}}
 
-#### Tables
-
- Here is the table where you can find the pattern in the treebanks.
-
 {{< agg table_output_haitien_comp_obj >}}
- 
+
 
 
 

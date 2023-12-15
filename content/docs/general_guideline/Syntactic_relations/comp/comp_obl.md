@@ -15,15 +15,15 @@ bookToc: true
 
 The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form. Unlike UD, SUD does not make a distinction between indirect objects and oblique arguments. SUD instead makes the distinction between arguments and modifiers.
 
+The relation `comp:obl` can have these deep features:
+- [`@agent`](../../Deep/agent.md)
+- [`@lvc`](../../Deep/lvc.md)
 
-> The relation `comp:obl` can have these features:
-> * [@agent](../../Deep/agent.md)
-> * [@lvc](../../Deep/lvc.md)
-> pattern { GOV-[comp:obl]->DEP }
+```grew
+pattern { GOV-[comp:obl]->DEP }
+```
 
 > **English UD**
-Consider the following sentence **analyzed in UD**.
-
 {{< conll >}}
 1	it	it	PRON	_	_	2	nsubj	_	_
 2	belongs	belong	VERB	_	_	0	root	_	_
@@ -33,9 +33,6 @@ Consider the following sentence **analyzed in UD**.
 {{< /conll >}}
 
 > **English SUD**
-
-**In SUD**, it would be analyzed as follows:
-
 {{< conll >}}
 1	it	it	PROPN	_	_	2	subj	_	_
 2	belongs	belong	VERB	_	_	0	root	_	_
@@ -47,8 +44,7 @@ Consider the following sentence **analyzed in UD**.
 
 ### Oblique complement of a verb
 
-> **English 1**
-
+> **English**
 {{< conll >}}
 1	coming	come	VERB	_	_	0	root	_	_
 2	into	into	ADP	_	_	1	comp:obl	_	_
@@ -59,8 +55,7 @@ Consider the following sentence **analyzed in UD**.
 7	concerts	concert	NOUN	_	_	6	comp:obj	_	_
 {{< /conll >}}
 
-> **English 2**
-
+> **English**
 {{< conll >}}
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Entity=(person-8)
 2	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -77,8 +72,7 @@ The `comp:obl` relation is also used for clausal complements commuting with an a
 Consider the two following examples:
 
 
-> **French 1**
-
+> **French**
 {{< conll >}}
 # text_en = He's afraid of the spider
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=he
@@ -89,9 +83,7 @@ Consider the two following examples:
 6	araignée	araignée	PROPN	_	_	4	comp:obj	_	Gloss=spider
 {{< /conll >}}
 
-  
-> **French 2**
-
+> **French**
 {{< conll >}}
 # text = j'ai peur que ça marche
 # text_en = I'm afraid that it works
@@ -109,12 +101,10 @@ In the last sentence, *que ça marche* commutes with *de l'araignée*, therefore
 
 Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. For more information about these constructions, please visit our [dedicated page](../../Deep/lvc.md).
 
-  
 > **French**
-
 {{< conll >}}
-# text_en = China is facing serious problems
 # text = la Chine fait face à de sérieux problèmes
+# text_en = China is facing serious problems
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	Gloss=the
 2	Chine	Chine	PROPN	_	_	3	subj	_	Gloss=China
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=does
@@ -127,19 +117,25 @@ Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be
 
 ### Oblique complement of an adverb or an adjective
 
-> **French - Adverb**
-
+> **French**
 {{< conll >}}
-# text = beaucoup de bâtiments modernes
-# text_en = many modern buildings
-1	beaucoup	beaucoup	ADV	_	_	0	root	_	Gloss=many
-2	de	de	ADP	_	_	1	comp:obl	_	Gloss=of
-3	bâtiments	bâtiment	NOUN	_	_	2	comp:obj	_	Gloss=buildings
-4	modernes	moderne	ADJ	_	_	3	mod	_	Gloss=modern
+# sent_id = fr-ud-train_02712
+# text = Nous n'hésiterons pas à la recommander auprès de notre entourage.
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	3	subj	_	wordform=nous
+2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
+3	hésiterons	hésiter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
+5	à	à	ADP	_	_	3	comp:obl	_	_
+6	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
+7	recommander	recommander	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
+8	auprès	auprès	ADV	_	_	7	mod	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
+10	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	entourage	entourage	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
 {{< /conll >}}
 
-> **English - Adjective**
-
+> **English**
 {{< conll >}}
 # text = I'm sure you do
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_

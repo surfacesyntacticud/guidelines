@@ -13,36 +13,33 @@ weight: 1
 
 ## Universal
 
-SUD offers several traits which allow annotators to mark idiomatic expressions and titles while still preserving the internal syntactic relationships between their various components. We have decided to distinguish these two categories from Multi-Word Expressions (MWEs), which represent a broader category which also includes named entities.
+SUD offers several features which allow annotators to mark idiomatic expressions and titles while still preserving the internal syntactic structure between their various components. We have decided to distinguish these two categories from Multi-Word Expressions (MWEs), which represent a broader category which also includes named entities.
 
-For our purposes, "titles" refer to any title given to a film, book, painting, or other work of art, such as *Planet of the Apes*, *Dark Side of the Moon*, *American Gothic*, or *Super Mario Bros*. However, this excludes other named entities like events, holidays or locations, such as *The Gulf War*, *Good Friday*, or *The Eiffel Tower*.
+For our purposes, "title" refer to any title given to a film, book, painting, or other work of art, such as *Planet of the Apes*, *Dark Side of the Moon*, *American Gothic*, or *Super Mario Bros*. However, this excludes other named entities like events, holidays or locations, such as *The Gulf War*, *Good Friday*, or *The Eiffel Tower*.
 
 Idioms, meanwhile, refer to any figurative expression ranging from classic examples like *kick the bucket* to to extremely common phrases like *in general* whose precise meaning cannot directly be deduced from its constituents. Pronominal verbs, such as those common in Romance languages, are also treated as idioms.
 
 Idioms and titles are annotated in the following way:
-- The **head** of the idiom or title contains the feature `Idiom=Yes` or `Title=Yes`
+ - The **head** of the idiom or title contains the feature `Idiom=Yes` or `Title=Yes`
+ - The **head** also contains an "external part of speech" feature (`ExtPos`) which denotes the element's function within the wider sentence. For title, the `ExtPos` value is always `PROPN`.
+- The **remaining components** of the element contain the feature `InIdiom=Yes` or `InTitle=Yes`.
 
-- The **head** also contains an "external part of speech" feature (`ExtPos`) which denotes the element's function within the wider sentence. Please note that all titles will carry the `ExtPos` value of `PROPN`.
+By marking these categories with features rather than a `fixed` relation, we are able to preserve their internal syntactic structure.
 
-- The **remaining components** of the element will contain the feature `InIdiom=Yes` or `InTitle=Yes`.
-
-  
-This approach has several advantages. By marking these categories with features rather than a `fixed` relation, we are able to preserve its internal syntactic relationships.
-
-{{< hint info >}}
-Grew pattern : 
-- pattern { N[Idiom] }
-- pattern { N[Title] }
-{{< /hint >}}
+```grew
+pattern { N[Idiom] }
+```
+```grew
+pattern { N[Title] }
+```
 
 {{< hint warning >}}
-Until version 2.8, the feature `PhraseType=Idiom` was used for the head of idioms (now replaced by `Idiom=Yes`) and the feature `PhraseType=Title` was used for the head of titles (now replaced by `Title=Yes`)
+Until SUD version 2.8, the feature `PhraseType=Idiom` was used for the head of idioms (now replaced by `Idiom=Yes`) and the feature `PhraseType=Title` was used for the head of titles (now replaced by `Title=Yes`)
 {{< /hint >}}
 
 ### With internal syntactic relations
 
 > English 
-
 {{< conll >}}
 1	Karen	Karen	PROPN	_	_	2	subj	_	_
 2	loved	love	VERB	_	_	0	root	_	_
@@ -56,7 +53,6 @@ Until version 2.8, the feature `PhraseType=Idiom` was used for the head of idiom
 {{< /conll >}}
 
 > English
-
 {{< conll >}}
 1	That	that	PRON	_	_	2	subj@pass	_	InIdiom=Yes
 2	said	say	VERB	_	ExtPos=ADV	5	mod	_	Idiom=Yes
@@ -69,7 +65,6 @@ Until version 2.8, the feature `PhraseType=Idiom` was used for the head of idiom
 {{< /conll >}}
 
 > Spanish
-
 {{< conll >}}
 # text_en = His name is Alejandro.
 1	Se	se	PRON	_	_	2	comp	_	Gloss=himself|InIdiom=Yes
@@ -82,7 +77,6 @@ Until version 2.8, the feature `PhraseType=Idiom` was used for the head of idiom
 When there is no clear internal syntactic structure, the relation `unk` is used.
 
 > English
-
 {{< conll >}}
 1	Let	let	VERB	_	_	0	root	_	_
 2	me	I	PRON	_	_	1	comp:obj	_	_
@@ -98,7 +92,6 @@ When there is no clear internal syntactic structure, the relation `unk` is used.
 {{< /conll >}}
 
 > French
-
 {{< conll >}}
 # sent_id = fr-ud-train_10134__shorten
 # text_en = I found the rates applied here to be quite correct.
