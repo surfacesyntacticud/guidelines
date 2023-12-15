@@ -11,7 +11,7 @@ bookToc: true
 
 # Voice
 
-## Universal
+## Universal
 
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Voice.html)*
 

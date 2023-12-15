@@ -12,7 +12,7 @@ bookToc: true
 
 # Case
 
-## Universal
+## Universal
 
 
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Case.html)*
@@ -35,7 +35,7 @@ Note that Indian corpora based on the so-called Paninian model use a related fea
 
 
 
-### Values
+### Values
 
 See the [UD page](https://universaldependencies.org/u/feat/Case.html) for more informations about the value.
 

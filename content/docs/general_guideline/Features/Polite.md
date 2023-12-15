@@ -11,7 +11,7 @@ weight: 1
 
 # Polite
 
-## Universal
+## Universal
 
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Person.html)*
 
@@ -27,7 +27,7 @@ In German, Spanish or Hindi, both number and person are changed (informal third 
 
 In Japanese, verbs and other words have polite and informal forms but the polite forms are not referring to the addressee (they are not in second person). They are just used because of who the addressee is, even if the topic does not involve the addressee at all. This kind of polite language is called teineigo (丁寧語) and belongs to the speaker-addressee axis. Nevertheless, we currently use the same values for both axes, i.e. Polite=Form can be used for teineigo too. This approach may be refined in future.
 
-### Values
+### Values
 
 [Informal register](https://universaldependencies.org/u/feat/Polite.html#Infm),
 [Formal register](https://universaldependencies.org/u/feat/Polite.html#Form),

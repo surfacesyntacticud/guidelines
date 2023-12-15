@@ -16,7 +16,7 @@ bookToc: true
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Degree.html)*
 Degree of comparison is typically an inflectional feature of some adjectives and adverbs. A different flavor of degree is diminutives and augmentatives, which often apply to nouns but are not restricted to them.
 
-### Values
+### Values
 
 
 [Positiv](https://universaldependencies.org/u/feat/Degree.html#Pos),

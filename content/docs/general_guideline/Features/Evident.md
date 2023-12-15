@@ -23,7 +23,7 @@ Aikhenvald also distinguishes reported evidentiality, occurring in Estonian and 
 
 Note: Evident is a new universal feature in UD version 2. It was used as a language-specific feature (under the name Evidentiality) in UD v1 for Turkish.
 
-### Values
+### Values
 
 [firsthand](https://universaldependencies.org/u/feat/Evident.html#Fh),
 [non-firsthand](https://universaldependencies.org/u/feat/Evident.html#Nfh).

@@ -15,19 +15,20 @@ bookToc: true
 
 The `parataxis` relation is used to analyse two elements that are placed side by side with no explicit marker of coordination, subordination, or argument relation with the head word. 
 
-> pattern { GOV-[parataxis]->DEP }
+```grew
+pattern { GOV-[parataxis]->DEP }
+```
 
-In the **Spoken Corpora**, we distinguish :
+In spoken data, we distinguish:
 
-   * [`parataxis:parenth`](./parataxis_parenth.md) for parenthetical clauses (that can form independent sentences)
+ - [`parataxis:parenth`](./parataxis_parenth.md) for parenthetical clauses (that can form independent sentences)
+ - [`parataxis:insert`](./parataxis_insert.md) for inserted clauses (that cannot form an independent sentence)
+ - ⚠️ [deprecated] [`parataxis:obj`](./parataxis_obj.md) used before for attaching direct discourse.
+ See [Reported Speech](../../../Universal_construction/reported_speech.md)
 
-   * [`parataxis:insert`](./parataxis_insert.md) for inserted clauses (that cannot form an independent sentence)
+In other corpora, we use the `parataxis` relation. There is no distinction. We there use the relation `parataxis` for incisive proposal indicating who reports.
 
-   * [`parataxis:obj`](./parataxis_obj.md) used before for attaching direct discourse. Now deleted. See [Reported Speech](../../../Universal_construction/reported_speech.md)
-
-In the other corpora, we use the `parataxis` relation. There is no distinction. We there use the relation `parataxis` for incisive proposal indicating who reports.
-
-### Incisive proposal 
+### Incisive proposal 
 
 > French
 {{<conll>}}
@@ -62,8 +63,9 @@ In the other corpora, we use the `parataxis` relation. There is no distinction. 
 11	.	.	PUNCT	.	_	2	punct	_	_
 {{</conll>}}
 
-### **Other example**
+### Other example
 
+> French
 {{<conll>}}
 # text = Très demandé, vous le connaissez sûrement, Jean M est toujours dévoué, un vrai professionnel qui ne compte pas ses heures pour nous soigner.
 1	Très	très	ADV	_	_	2	mod	_	wordform=très

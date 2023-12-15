@@ -91,7 +91,7 @@ tag = st.radio("What do you want to documentate ? ", ('Syntactic relation','Morp
 ##################################################################################
 ######################## PARTICULAR CONSTRUCTION #################################
 ##################################################################################
-## particular construction -> as define in the guideline ! If it exist, we cannot create an "other linguistic phenomena"
+## particular construction -> as define in the guideline ! If it exist, we cannot create an "other linguistic phenomena"
 if tag == 'Universal construction':
 
     tag = 'Universal_construction'
@@ -129,7 +129,7 @@ if tag == 'Universal construction':
     # description
     overview = st.text_area(f"Can you give a short description of the strategy {which_strat} in your language ? ", height=200) 
 
-    # give general example
+    # give general example
     general_ex = st.text_area(f"Conll example",height=200)
 
     # THe user can add some pattern to describe in his page 
@@ -173,7 +173,7 @@ if tag == 'Morphological features' or tag =="Additional features":
         # short description of the features
         overview = st.text_area(f"Can you give a short description of the feature {feats} in your language ? ", height=200) 
 
-        # give general example
+        # give general example
         general_ex = st.text_area(f"Conll example",height=200)
         
         # which upos can have the features 
@@ -223,7 +223,7 @@ if tag == 'Part of Speech':
         # short description of the features
         overview = st.text_area(f"Can you give a short description of the feature {upos} in your language ? ", height=200) 
 
-        # give general example
+        # give general example
         general_ex = st.text_area(f"Conll example",height=200)
 
         # which upos can have the features 
@@ -285,7 +285,7 @@ if tag == 'Syntactic relation' or tag == 'Deep relation tag':
         # short description of the features
         overview = st.text_area(f"Can you give a short description of the feature {deprel} in your language ? ",height=200) 
         
-        # give general example
+        # give general example
         general_ex = st.text_area(f"Conll example",height=200)
 
         # which upos can have the features 
@@ -337,7 +337,7 @@ if tag == "Other linguistic phenomena":
         # short description of the features
         overview = st.text_area(f"Can you give a short description of the linguistic phenomena {ling} in your language ? ",height=200) 
         
-        # give general example
+        # give general example
         general_ex = st.text_area(f"Conll example",height=200)
 
     
@@ -369,7 +369,7 @@ if st.button("Delete"):
 if st.button('Enregistrer au format JSON'):
     if tag == 'Syntactic_relations' or tag == 'Features' or tag =='Misc' or tag=='Upos' or tag =="Deep":
         named = data['value'][0]
-    # on ajoute des underscore pour la page du phenomen linguistic pour le nom du fichier. 
+    # on ajoute des underscore pour la page du phenomen linguistic pour le nom du fichier. 
     if tag == 'Other linguistic phenomena':
         named = str(data['value'][0])
         named = named.split(" ")
@@ -486,7 +486,7 @@ if st.button('Enregistrer au format JSON'):
                 new_path = f"../static/docs/general_guideline/{tag}/{named}/table_output_{str(language).lower()}_{named}.json"
                 os.rename(old_path,new_path)
         
-            # traitement différent si deprel
+            # traitement différent si deprel
             if tag == "Syntactic_relations":
                 old_path = f"{str(language).lower()}/{str(language).lower()}_table_json/table_output_{str(language).lower()}_{named}.json"
                 
@@ -532,7 +532,7 @@ if st.button('Enregistrer au format JSON'):
                         f.write(md_output)
                     st.markdown(f"Guideline's page has been creating.")
                     st.write("Mooving the table in the right place...")
-                    # Et on bouge la table à l'endroit correspondant dans la partie static (TODO : vérifier que ça fonctionne bien)
+                    # Et on bouge la table à l'endroit correspondant dans la partie static (TODO : vérifier que ça fonctionne bien)
                     old_path = f"{str(language).lower()}/{str(language).lower()}_table_json/table_output_{str(language).lower()}_{name}.json"
                     new_path = f"../static/docs/language/{str(language).lower()}/{name}/table_output_{str(language).lower()}_{name}.json"
                     os.rename(old_path,new_path)

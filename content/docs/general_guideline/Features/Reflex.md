@@ -12,7 +12,7 @@ bookToc: true
 # Reflex
 
 
-## Universal
+## Universal
 
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Person.html)*
 Boolean feature, typically of pronouns or determiners. It tells whether the word is reflexive, i.e. refers to the subject of its clause.
@@ -25,7 +25,7 @@ For example, reflexive clitics in European languages often have a wide array of 
 
 Note that while some languages also have reflexive verbs, these are in fact fused verbs with reflexive pronouns, as in Spanish despertarse or Russian проснуться (both meaning “to wake up”). Thus in these cases the fused token will be split to two syntactic words, one of them being a reflexive pronoun. In languages where the reflexive pronoun is not split, it may be more appropriate to mark the verb as the middle Voice than using Reflex=Yes with the verb.
 
-### Values
+### Values
 
 [Yes](https://universaldependencies.org/u/feat/Reflex.html#Yes).
 

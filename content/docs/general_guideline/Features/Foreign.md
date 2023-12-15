@@ -11,7 +11,7 @@ weight: 1
 
 # Foreign
 
-## Universal
+## Universal
 
 
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Foreign.html)*
@@ -19,7 +19,7 @@ Boolean feature. Is this a foreign word? Not a loan word and not a foreign name 
 
 Note: This feature is new in UD version 2. It was used as a language-specific addition in several treebanks in version 1 but it was not considered boolean and three values were foreseen. Since the additional values were used extremely rarely, they are not part of the universal definition of this feature in UD v2.
 
-### Values
+### Values
 
 [Yes](https://universaldependencies.org/u/feat/Foreign.html#Yes).
 

@@ -13,14 +13,14 @@ weight: 1
 
 In oral language, speakers form sentences while speaking, which means that sometimes they might search for words while speaking.
 
-They may repeat a word until they find the right one, or they may try with one word and then decide to change.
+They may repeat a word until they find the right one, or they may try with one word and then decide to change it.
 
 
 ## Repetitions and reformulations
 
-To analyse constructions of repetition or reformulation, we use the relation `[conj:dicto](../Syntactic_relations/conj/conj_dicto.md)`.
+To analyse repetition or reformulation, we use the relation [`conj:dicto`](../Syntactic_relations/conj/conj_dicto.md).
 
-> French   
+> French
 {{<conll>}}
 # text = Euh, et c'était, bah c'était super bien, euh super spacieux.
 # text_en = Um, it was, well it was really great, um super spacious. 
@@ -43,7 +43,7 @@ To analyse constructions of repetition or reformulation, we use the relation `[c
 {{</conll>}}
   
 
-The [conj:dicto](../Syntactic_relations/conj/conj_dicto.md) relation applies also when the linked words are not the same.
+The [`conj:dicto`](../Syntactic_relations/conj/conj_dicto.md) relation applies also when the linked words are not the same.
 
 > French
 {{<conll>}}
@@ -65,13 +65,14 @@ The [conj:dicto](../Syntactic_relations/conj/conj_dicto.md) relation applies als
 14	de	de	ADP	_	_	12	udep	_	Gloss=of
 15	produits	produit	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	Gloss=products
 {{</conll>}}
-  
 
-> pattern { GOV-[conj:dicto]->DEP }
+```grew
+pattern { GOV-[conj:dicto]->DEP }
+```
 
 ## Unfinished constructions
 
-Sometimes speakers utter a half-finished construction. In that case, it may happen that a word cannot be attached to its head, because the speaker decided not to utter it.
+Sometimes speakers utter a half-finished construction. In this case, a word cannot be attached to its head, because the speaker decided not to say it.
 
 > French  
 {{<conll>}}
@@ -89,9 +90,9 @@ Sometimes speakers utter a half-finished construction. In that case, it may happ
 10	héros	héros	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=hero
 {{</conll>}}
 
-In this example we can see the construction *Je lis son le portrait de notre de votre héros* (English: *I'im reading his the portrayal of our of your hero*). This construction causes some issues because we can't attach the word *notre* to its semantic head *héros* because of the presence of the second *de*.
+In this example, the construction *Je lis son le portrait de notre de votre héros* (English: *I'im reading his the portrayal of our of your hero*). This construction causes some issues because we cannot attach the word *notre* to its semantic head *héros* because of the presence of the second *de*.
 
-If the sentence was *portrait de notre votre héros* (English: *portrayal of our your hero*) we could use the `[conj:dicto](../Syntactic_relations/conj/conj_dicto.md)` relation to attach *votre* to *notre*.
+If the sentence was *portrait de notre votre héros* (English: *portrayal of our your hero*) we could use the [`conj:dicto`](../Syntactic_relations/conj/conj_dicto.md) relation to attach *votre* to *notre*.
 
 > French
 {{<conll>}}
@@ -104,10 +105,10 @@ If the sentence was *portrait de notre votre héros* (English: *portrayal of our
 5	héros	héros	NOUN	_	Gender=Masc	2	comp:obj	_	Gloss=hero
 {{</conll>}}
 
-In these cases we prefer to attach the two words *de* with a `conj:dicto` relation and link the word *notre* to the first *de* as an incomplete object - `comp:obj@[scrap](../Deep/scrap.md)`.
+In these cases, we prefer to attach the two words *de* with a [`conj:dicto`](../Syntactic_relations/conj/conj_dicto.md) relation and link the word *notre* to the first *de* as an incomplete object - [`comp:obj@scrap`](../Deep/scrap.md).
 
 Below we can see an example when a speaker starts with one word, then decides it doesn't fit and searches for a more fitting word.
-  
+
 > French
 {{<conll>}}
 # text = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui-même
@@ -128,7 +129,9 @@ Below we can see an example when a speaker starts with one word, then decides it
 14	lui-même	lui-même	PRON	_	_	13	comp:obj	_	Gloss=himself
 {{</conll>}}
 
->pattern { GOV-[deep=scrap]->DEP }## test 
+```grew
+pattern { GOV-[deep=scrap]->DEP }
+```
 
 
 
@@ -136,8 +139,6 @@ Below we can see an example when a speaker starts with one word, then decides it
 
 
 
-
-## TODO
 ### french
 
 TODO

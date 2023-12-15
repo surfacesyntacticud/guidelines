@@ -29,7 +29,7 @@ For example, the `comp:ben` relation is used when the complement is the benefici
 
 ## comp:goal
 
-In the same way,  the `comp:goal` relation is used when the complement is the goal of the action, and will also be different from the `comp:obj` relation.
+In the same way, the `comp:goal` relation is used when the complement is the goal of the action, and will also be different from the `comp:obj` relation.
 
   
 

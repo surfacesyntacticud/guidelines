@@ -14,7 +14,7 @@ bookCollapseSection: true
 ## Universal 
 
 
-The `flat` relation plays a similar role to the [`compound`](../compound/compound.md) one, and its exact usage also varies on a language-by-language basis. However, it is most frequently used to connect the various elements of proper names to one another, including titles and honorifics.  
+The `flat` relation plays a similar role to the [`compound`](../compound/compound.md) one, and its exact usage also varies on a language-by-language basis. However, it is most frequently used to connect the various elements of proper names to one another, including titles and honorifics.
 
 > pattern { GOV-[flat]->DEP }
   

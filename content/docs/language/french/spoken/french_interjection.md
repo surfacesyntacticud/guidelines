@@ -4,7 +4,7 @@
 BOUGER cette section dans les INTJ !!!
 {{</hint>}}
 
-Pure interjections (such as _ah_, _hein_, _ouais_, _euh_, etc.) are analysed as INTJs. Discourse markers coming from other POS (such as _enfin_, _chouette_, _disons_, etc.), as well as idioms (such as _en fait_, _tu sais_, etc.), keep their original POS but have an additional `ExtPos = INTJ` feature. Except 4 of them which are frequent and are analysed as pure INTJs:  _bon_, _ben_, _quoi_, and _tiens_.
+Pure interjections (such as _ah_, _hein_, _ouais_, _euh_, etc.) are analysed as INTJs. Discourse markers coming from other POS (such as _enfin_, _chouette_, _disons_, etc.), as well as idioms (such as _en fait_, _tu sais_, etc.), keep their original POS but have an additional `ExtPos = INTJ` feature. Except 4 of them which are frequent and are analysed as pure INTJs: _bon_, _ben_, _quoi_, and _tiens_.
 
 {{< conll >}}
 # text_en = So it was the price of, I mean, the price of a full course you know. 

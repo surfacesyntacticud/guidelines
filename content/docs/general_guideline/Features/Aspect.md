@@ -9,7 +9,7 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# Aspect
+# Aspect
 
 ## Universal
 
@@ -23,7 +23,7 @@ In Czech and other Slavic languages, aspect is a lexical feature. Pairs of imper
 
 Since we proceed bottom-up, the current standard covers only a few aspect values found in corpora. See Wikipedia (http://en.wikipedia.org/wiki/Grammatical_aspect) for a long list of other possible aspects.
 
-### Values 
+### Values 
 
 [Imp](https://universaldependencies.org/u/feat/Aspect.html#Imp),
 [Perf](https://universaldependencies.org/u/feat/Aspect.html#Perf),

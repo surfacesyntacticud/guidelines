@@ -12,7 +12,7 @@ weight: 1
 # wordform and textform
 
 
-## Universal
+## Universal
 
 ## french
 

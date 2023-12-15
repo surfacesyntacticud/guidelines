@@ -8,15 +8,16 @@ bookToc: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Name 
+
+# Name 
 
 ## Universal 
 
 TODO
 
-## French 
+## French 
 
-The deep `name` is used with the relation `flat` for composed proper noun : 
+The deep feature `name` is used with the relation `flat` for composed proper noun:
 
 {{<conll>}}
 # text = c'est euh ça s'appelle Casela Aventures.
@@ -29,7 +30,7 @@ The deep `name` is used with the relation `flat` for composed proper noun :
 7	Casela	Casela	PROPN	_	_	6	comp:obj	_	_
 8	Aventures	aventures	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
-{{</conll>}}## test 
+{{</conll>}}
 
 
 

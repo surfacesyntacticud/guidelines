@@ -11,12 +11,12 @@ weight: 1
 
 # Person 
 
-## Universal
+## Universal
 
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Person.html)*
 Person is typically feature of personal and possessive pronouns / determiners, and of verbs. On verbs it is in fact an agreement feature that marks the person of the verb’s subject (some languages, e.g. Basque, can also mark person of objects). Person marked on verbs makes it unnecessary to always add a personal pronoun as subject and thus subjects are sometimes dropped (pro-drop languages).
 
-### Values
+### Values
 
 [0](https://universaldependencies.org/u/feat/Person.html#0),
 [1](https://universaldependencies.org/u/feat/Person.html#1),

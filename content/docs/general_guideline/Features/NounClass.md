@@ -23,7 +23,7 @@ In Bantu languages, the noun class also encodes Number; therefore it is a lexica
 
 The set of values of this feature is specific for a language family or group. Within the group, it is possible to identify classes that have similar meaning across languages (although some classes may have merged or disappeared in some languages in the group). The value of the NounClass feature consists of a short identifier of the language group (e.g., Bantu), and the number of the class (there is a standardized class numbering system accepted by scholars of the various Bantu languages; similar numbering systems should be created for the other families that have noun classes).
 
-### Values
+### Values
 
 See the [UD page](https://universaldependencies.org/u/feat/NounClass.html) for more informations about the values.
 

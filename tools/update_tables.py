@@ -154,7 +154,7 @@ if __name__ == "__main__":
     # get all the subdirectories' name and path from the actual directory
     subdirectories_list = get_subdirectories_paths_with_name(directory_path)
 
-    # create dict to save files per language
+    # create dict to save files per language
     get_files_per_language = {}
 
     # for language and folder in the subdirectories_list
@@ -181,17 +181,17 @@ if __name__ == "__main__":
             if name.endswith("request_json"):
                 # get all files from this directory
                 liste_files = get_files_in_directory(path)
-        # save information in the dict[language]=(corpora json file, liste of request files)
+        # save information in the dict[language]=(corpora json file, liste of request files)
         get_tuple_request_table[key]=(corpora_information,liste_files)
 
     # lsit to save all the new table create
     get_all_table=[]
 
-    # create the new table avec the new data
+    # create the new table avec the new data
     for key,value in get_tuple_request_table.items():
         corpora_inf = value[0]
         for element in value[1]:
-            # for each files of the list saved in the dict, we create the new tables
+            # for each files of the list saved in the dict, we create the new tables
             result = process_files(f"{key}/{key}_request_json/{element}",f"{key}/{corpora_inf}/sud_{key}.json")
             real_name = element.split("_")
             new = "_".join(real_name[1:])

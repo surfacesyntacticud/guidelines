@@ -12,7 +12,7 @@ weight: 1
 
 ## Universal
 
-This fetaures `CorrectForm` is used to annotate typo correction.
+The `CorrectForm` feature is used to annotate typo correction.
 
 {{< conll >}}
 # text = Ironiquement, Trois morceaux en forme de poire comporte sept mouvements.
@@ -30,10 +30,10 @@ This fetaures `CorrectForm` is used to annotate typo correction.
 12	.	.	PUNCT	_	_	9	punct	_	_
 {{< /conll >}}
 
-There is always the features `[Typo](Typo.md)=Yes` with the node which has the features `CorrectForm`. ## test 
+There is always the features [`Typo=Yes`](Typo.md) with the node which has the features `CorrectForm`.
 
 
-## french
+## French
 
 TODO
 ### Overview

@@ -35,7 +35,7 @@ def add_text(fichier:str, texte_a_ajouter:str, texte_repere:str):
     ---------
     None
     """
-    # on crée une nouvelle liste pour récupérer le nouveau contenu
+    # on crée une nouvelle liste pour récupérer le nouveau contenu
     new_contenu = []
     # Lire le contenu existant du fichier
     with open(fichier, 'r') as f:
@@ -97,7 +97,7 @@ def univ_add_text(fichier:str, texte_a_ajouter:str, texte_repere:str, langue:str
     ---------
     None
     """
-    # on crée une nouvelle liste pour récupérer le nouveau contenu
+    # on crée une nouvelle liste pour récupérer le nouveau contenu
     new_contenu = []
     # Lire le contenu existant du fichier
     with open(fichier, 'r') as f:
@@ -313,7 +313,7 @@ def read_partial_markdown(filename:str)->str:
         output_lines = []
         # variable pour compter sous titre
         subheading_count = 0
-        # exclure les métadonnées
+        # exclure les métadonnées
         exclude_metadata = False
         # exclure les balises pour les conlls
         exclude_code_block = False

@@ -27,7 +27,7 @@ Idioms and titles are annotated in the following way:
 - The **remaining components** of the element will contain the feature `InIdiom=Yes` or `InTitle=Yes`.
 
   
-This approach has several advantages. By marking these categories with features rather than a `fixed` relation, we are able to preserve its internal syntactic relationships.  
+This approach has several advantages. By marking these categories with features rather than a `fixed` relation, we are able to preserve its internal syntactic relationships.
 
 {{< hint info >}}
 Grew pattern : 
@@ -116,11 +116,11 @@ When there is no clear internal syntactic structure, the relation `unk` is used.
 11	ici	ici	ADV	_	_	10	mod	_	Gloss=here
 {{< /conll >}}
 
-<!-- ## French 
+<!-- ## French 
 
 {{< hint info >}}
 AJOUT DES TABLES ICI 
-{{< /hint >}}## test 
+{{< /hint >}}
  -->
 
 

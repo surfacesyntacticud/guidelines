@@ -23,7 +23,7 @@ From the syntactic point of view, some numtypes behave like adjectives and some 
 - ADJ: definite adjectival, e.g. ordinal numerals
 - ADV: adverbial (e.g. ordinal and multiplicative) numerals, both definite and pronominal
 
-### Values 
+### Values 
 
 [Cardinal number](https://universaldependencies.org/u/feat/NumType.html#Card),
 [Ordinal number](https://universaldependencies.org/u/feat/NumType.html#Ord),

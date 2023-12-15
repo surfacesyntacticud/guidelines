@@ -26,17 +26,12 @@ In the UD repository, the word-based corpus is released as `UD_Beja-NSC`.
 
 The two other combinations are also available:
 
- * `SUD_Beja-NSC_WB` the data following SUD guidelines but at the word level
-
- * `UD_Beja-NSC_MB` the data following UD guidelines but at the morph level
-
-  
+ - `SUD_Beja-NSC_WB` the data following SUD guidelines but at the word level
+ - `UD_Beja-NSC_MB` the data following UD guidelines but at the morph level
 
 The table below shows how the conversions are made in order to produce all the corpora described above.
 
-  
-
-|   | SUD | | UD |
+|  | SUD | | UD |
 
 |:-:|:-----:|:-:|:----:|
 

@@ -10,7 +10,7 @@ weight: 1
 ---
 # Mood
 
-## Universal
+## Universal
 
 *Definition from de [UD website](https://universaldependencies.org/u/feat/Mood.html)*
 

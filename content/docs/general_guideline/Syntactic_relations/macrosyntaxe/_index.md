@@ -11,7 +11,7 @@ bookCollapseSection: true
 
 # Macrosyntax relations
 
-In this part we will present relations that we use to analyse relations beyond the microsyntactic analysis between a governor and its dependant.
+In this part we will present the relations used to analyse relations beyond the microsyntactic analysis between a governor and its dependant.
 
 We call this type of analysis `macrosyntax`.
 
@@ -25,18 +25,13 @@ This phenomenon is frequent in languages and especially in oral speech. We gathe
 
 We distinguish:
 
-   * [`parataxis:parenth`](./parataxis/parataxis_parenth.md) for parenthetical clauses (that can form independent sentences)
+- [`parataxis:parenth`](./parataxis/parataxis_parenth.md) for parenthetical clauses (that can form independent sentences)
+- [`parataxis:insert`](./parataxis//parataxis_insert.md) for inserted clauses (that cannot form an independent sentence)
+- ⚠️ [Deprecated] [`parataxis:obj`](./parataxis//parataxis_obj.md) used before for attaching direct discourse.
 
-   * [`parataxis:insert`](./parataxis//parataxis_insert.md) for inserted clauses (that cannot form an independent sentence)
-
-   * [`parataxis:obj`](./parataxis//parataxis_obj.md) used before for attaching direct discourse. Now deleted.
-
-  
 
 However, there are three other cases that are not gathered under the `parataxis` relationship. The following three relations link elements to the main proposition on a macrosyntactic level. In some cases, these elements can be propositions, but also simple elements.
 
-   * [`dislocated`](./dislocated/dislocated.md)
-
-   * [`vocative`](./vocative/vocative.md)
-
-   * [`discourse`](./discourse/discourse.md)
+ - [`dislocated`](./dislocated/dislocated.md)
+ - [`vocative`](./vocative/vocative.md)
+ - [`discourse`](./discourse/discourse.md)

@@ -1,7 +1,7 @@
 ### Numbers and dates
 
 
-If the number contains a decimal, the *point* is marked as a noun and is integrated into the number with a simple `flat` relation.  
+If the number contains a decimal, the *point* is marked as a noun and is integrated into the number with a simple `flat` relation.
 
 {{< conll >}}
 1	one	one	NUM	_	NumType=Card	0	det:num	_	AlignBegin=17090|AlignEnd=17300|Gloss=one
@@ -48,7 +48,7 @@ Note that references to radio stations which use this format nevertheless contai
 {{< /conll >}}
 
 
-When annotating dates, the `mod:appos` relation is used to connect the month to the numerical day. Meanwhile, the year is connected to the month using the `mod` relation.  
+When annotating dates, the `mod:appos` relation is used to connect the month to the numerical day. Meanwhile, the year is connected to the month using the `mod` relation.
 
 {{< conll >}}
 1	sey	sey	SCONJ	_	_	2	discourse	_	AlignBegin=49550|AlignEnd=49730|Gloss=COMP

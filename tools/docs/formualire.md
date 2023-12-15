@@ -4,7 +4,7 @@ This formulaire.py script used different modules. This documentation is used to 
 
 The update can be done because of the structure of the file's name, and the structures of the guideline's page. They must not be changed. 
 
-## formulaire.py 
+## formulaire.py 
 
 It is the main script. It usesd the json information given by the user to update the tables. THe name of the folders are used to update the guidelines. It is important to not change neither the names or the structures of the files in the guidelines.
 

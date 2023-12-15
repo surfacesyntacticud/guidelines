@@ -50,7 +50,7 @@ def json_to_markdown_fwith_pattern(file_json:str,table_json:str)->str:
     md = ""
     md_bis = ""
     md_tres = ""
-    # for each element in the list
+    # for each element in the list
     for d in data:
         md += f"## {d['Language']}\n\n"
         md += f"### Overview\n\n {d['overview']}\n\n"
@@ -115,7 +115,7 @@ def univ_json_to_markdown_fwith_pattern(file_json:str,table_json:str)->str:
     md = ""
     md_bis = ""
     md_tres = ""
-    # for each element in the list
+    # for each element in the list
     for d in data:
         md += f"### {d['Language']}\n\n"
         md += f"#### Overview\n\n {d['overview']}\n\n"
@@ -178,7 +178,7 @@ def json_to_markdown_no_pattern(file_json:str)->str:
     # variable to add the content for the markdown file
     md = ""
     other_md = ""
-    # for each element in the list
+    # for each element in the list
     for d in data:
         md += f"## {d['Language']}\n\n"
         md += f"### Overview\n\n {d['overview']}\n\n"
@@ -213,7 +213,7 @@ def univ_json_to_markdown_no_pattern(file_json:str)->str:
     # variable to add the content for the markdown file
     md = ""
     other_md = ""
-    # for each element in the list
+    # for each element in the list
     for d in data:
         md += f"### {d['Language']}\n\n"
         md += f"#### Overview\n\n {d['overview']}\n\n"

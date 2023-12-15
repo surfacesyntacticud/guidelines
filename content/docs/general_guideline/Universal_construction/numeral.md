@@ -13,16 +13,17 @@ weight: 1
 
 ## Written in Letter
 
-[Grew-match](http://universal.grew.fr/?corpus=SUD_French-GSD@latest)
-The number written in letter are annoted with the depency [flat](../Syntactic_relations/flat/flat.md)
+The numbers written in letter are annoted with the dependency relation [`flat`](../Syntactic_relations/flat/flat.md)
 
-Numbers composed of more than one word, such as *five hundred* or *six thousand* are primarily chained together with the `flat` relation. If the number contains the coordinating conjunction *and*, such as in *one hundred and one*, the integer directly preceding the coordinating conjunction is connected to one directly following it with a [conj:coord](../Syntactic_relations/conj/conj_coord.md) relation.
+Numbers composed of more than one word, such as *five hundred* or *six thousand* are primarily chained together with the [`flat`](../Syntactic_relations/flat/flat.md) relation.
+If the number contains the coordinating conjunction *and*, such as in *one hundred and one*, the integer directly preceding the coordinating conjunction is connected to one directly following it with a [`conj:coord`](../Syntactic_relations/conj/conj_coord.md) relation.
 
-> pattern { N1 [upos=NUM]; N2 [upos=NUM]; N1-[flat]->N2 }
+```grew
+pattern { N1 [upos=NUM]; N2 [upos=NUM]; N1-[flat]->N2 }
+```
 
 > Naija
 {{<conll>}}
-
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=136812|AlignEnd=137203|Gloss=PUNCT
 2	den	den	ADV	_	_	3	mod:periph	_	AlignBegin=137203|AlignEnd=137405|Gloss=den|LeftOverlap=False|RightOverlap=False|Syl1AvgHeightGlo=L|Syl1AvgHeightLoc=M|Syl1Glo=ll|Syl1Loc=mm|Syl1PitchRangeGlo=L|Syl1PitchRangeLoc=L|Syl1SlopeGlo=Flat|Syl1SlopeLoc=Flat|SyllableCount=1|WordContour=ll
 3	housing	housing	NOUN	_	_	0	root	_	AlignBegin=137405|AlignEnd=137841|Gloss=housing|LeftOverlap=False|RightOverlap=True|Syl1AvgHeightGlo=M|Syl1AvgHeightLoc=M|Syl1Glo=lh|Syl1Loc=lh|Syl1PitchRangeGlo=M|Syl1PitchRangeLoc=M|Syl1SlopeGlo=Rise|Syl1SlopeLoc=Rise|Syl2AvgHeightGlo=H|Syl2AvgHeightLoc=H|Syl2Glo=mh|Syl2Loc=mh|Syl2PitchRangeGlo=L|Syl2PitchRangeLoc=L|Syl2SlopeGlo=Rise|Syl2SlopeLoc=Rise|Syl3AvgHeightGlo=M|Syl3AvgHeightLoc=M|Syl3Glo=hl|Syl3Loc=hl|Syl3PitchRangeGlo=M|Syl3PitchRangeLoc=M|Syl3SlopeGlo=Fall|Syl3SlopeLoc=Fall|SyllableCount=3|WordContour=lh
@@ -39,15 +40,15 @@ Numbers composed of more than one word, such as *five hundred* or *six thousand*
 
 > English
 {{<conll>}}
-1   you you PRON    _   Case=Nom|Person=2|PronType=Prs  2   subj    _   AlignBegin=98152|AlignEnd=98230|Gloss=NOM.2
-2   invest  invest  VERB    _   _   0   root    _   AlignBegin=98230|AlignEnd=98757|Gloss=invest
-3   #   #   PUNCT   _   _   4   punct   _   AlignBegin=98757|AlignEnd=98980|Gloss=PUNCT
-4   one one NUM _ NumType=Card  2 comp:obj  _ AlignBegin=98980|AlignEnd=99090|Gloss=one
-5   hundred hundred NUM _ NumType=Card  4 flat  _ AlignBegin=99090|AlignEnd=99390|Gloss=hundred.CARD
-6   and and CCONJ _ _ 7 cc  _ AlignBegin=99390|AlignEnd=99520|Gloss=and
-7   thirty  thirty  NUM _ NumType=Card  5 conj:coord  _ AlignBegin=99520|AlignEnd=99760|Gloss=thirty.CARD
-8   seven seven NUM _ NumType=Card  7 flat  _ AlignBegin=99760|AlignEnd=100080|Gloss=seven.CARD
-9   thousand  thousand  NUM _ NumType=Card  8 flat  _ AlignBegin=100080|AlignEnd=100448|Gloss=thousand.CARD
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=98152|AlignEnd=98230|Gloss=NOM.2
+2	invest	invest	VERB	_	_	0	root	_	AlignBegin=98230|AlignEnd=98757|Gloss=invest
+3	#	#	PUNCT	_	_	4	punct	_	AlignBegin=98757|AlignEnd=98980|Gloss=PUNCT
+4	one	one	NUM	_	NumType=Card	2	comp:obj	_	AlignBegin=98980|AlignEnd=99090|Gloss=one
+5	hundred	hundred	NUM	_	NumType=Card	4	flat	_	AlignBegin=99090|AlignEnd=99390|Gloss=hundred.CARD
+6	and	and	CCONJ	_	_	7	cc	_	AlignBegin=99390|AlignEnd=99520|Gloss=and
+7	thirty	thirty	NUM	_	NumType=Card	5	conj:coord	_	AlignBegin=99520|AlignEnd=99760|Gloss=thirty.CARD
+8	seven	seven	NUM	_	NumType=Card	7	flat	_	AlignBegin=99760|AlignEnd=100080|Gloss=seven.CARD
+9	thousand	thousand	NUM	_	NumType=Card	8	flat	_	AlignBegin=100080|AlignEnd=100448|Gloss=thousand.CARD
 {{</conll>}}
 
 > French
@@ -64,13 +65,13 @@ Numbers composed of more than one word, such as *five hundred* or *six thousand*
 
 ## Written in number
 
-The number have the [NUM](../Upos/NUM.md) part of speech
+The number have the [`NUM`](../Upos/NUM.md) part of speech
 
 
 
 
 
-## TODO
+## TODO
 ### french
 
 TODO

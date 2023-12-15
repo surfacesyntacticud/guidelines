@@ -1,12 +1,12 @@
 # Subject
 
-## Universal
+## Universal
 
 `@x` has been introduced to be able to get back the UD distinction between xcomp and ccomp.
 Nevertheless for an infinitive verb in a dependent position, the default case is to be `@x`. It would be better to encode the particular case where there is no raising and the logical subject of the infinitive has a generic interpretation.
 Thus, we replaced the `@x` feature on the relation by the feature `Subject`. 
 
-### Values
+### Values
 
 **`Subject=SubjRaising`**
 {{<conll>}}

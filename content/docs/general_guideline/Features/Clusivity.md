@@ -17,7 +17,7 @@ bookToc: true
 
 Clusivity is a feature of first-person plural personal pronouns. As such, it can also be reflected by inflection of verbs, e.g. in Plains Cree (Wolvengrey 2011 p. 66).
 
-### Values
+### Values
 
 [inclusive](https://universaldependencies.org/u/feat/Clusivity.html#In),
 [exclusive](https://universaldependencies.org/u/feat/Clusivity.html#Ex).

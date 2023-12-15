@@ -9,9 +9,9 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-#  Subordinating conjunction  
+# Subordinating conjunction
 
-##   Universal  
+## Universal
 
 
 *Definition from de [UD website](https://universaldependencies.org/u/pos/SCONJ.html)*

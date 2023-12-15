@@ -34,7 +34,7 @@ def create_request_file(file:str):
                     id = keyz.split(" ")
                     # and we join with underscore
                     dict_pattern["id"]="_".join(id)
-                    # get the pattern 
+                    # get the pattern 
                     for kk,vv in valuez.items():
                         if kk == "pattern":
                             # manage the "" or '' for the grewpy_backend module !

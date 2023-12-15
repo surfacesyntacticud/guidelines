@@ -26,20 +26,20 @@ In UD there are three relations :
 
 that SUD only uses for analysing written texts.
 
-These three relations work as paradigmatic lists. That's why in SUD for oral speech, we decided to gather these three relations under the relation `conj` to underline the similarity between the three.
+These three relations work as paradigmatic lists. That's why in SUD for oral speech, we decided to gather these three relations under the main relation `conj` to underline the similarity between the three.
 
-> pattern { e : GOV-[1=conj]->DEP}
-> you can find more [here](http://universal.grew.fr/?custom=63ff56c2f1034)
+```grew
+pattern { e : GOV-[1=conj]->DEP}
+```
 
 We distinguish:
 
-   * [`conj:dicto`](./conj_dicto.md) for disfluencies when the speaker corrects his speech (parallel to `reparandum` in written texts)
+ * [`conj:dicto`](./conj_dicto.md) for disfluencies when the speaker corrects his speech (parallel to `reparandum` in written texts)
 
-   * [`conj:coord`](./conj_coord.md) for elements connected by a coordinating conjunction (parallel to `conj` in written texts)
+ * [`conj:coord`](./conj_coord.md) for elements connected by a coordinating conjunction (parallel to `conj` in written texts)
 
-   * [`conj:appos`](./conj_appos.md) for appositional modifiers that serve to define better the previous noun (parallel to `appos` in written texts)
+ * [`conj:appos`](./conj_appos.md) for appositional modifiers that serve to define better the previous noun (parallel to `appos` in written texts)
 
-Note : for analysing oral speech we never use the `conj` relationship alone.
 
 
 ### Chained conjuncts
@@ -50,7 +50,6 @@ In UD, all conjuncts of a coordination are attached to the head of the first con
 The first example below shows the annotation of a coordination in UD and the second one the corresponding annotation in SUD : 
   
 > English
-
 {{< conll >}}
 1	John	John	PROPN	_	_	7	nsubj	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -63,7 +62,6 @@ The first example below shows the annotation of a coordination in UD and the sec
 
 
 > English
-
 {{< conll >}}
 1	John	John	PROPN	_	_	6	subj	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
