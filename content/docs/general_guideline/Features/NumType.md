@@ -33,7 +33,7 @@ From the syntactic point of view, some numtypes behave like adjectives and some 
 [Distributive numeral](https://universaldependencies.org/u/feat/NumType.html#Dist),
 [Range of values](https://universaldependencies.org/u/feat/NumType.html#Range).
 
-## french
+## French
 
 TODO
 ### Overview

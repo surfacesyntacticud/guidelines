@@ -29,7 +29,7 @@ In many cases, the existence of a `compound` relation can be determined with a s
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -39,7 +39,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

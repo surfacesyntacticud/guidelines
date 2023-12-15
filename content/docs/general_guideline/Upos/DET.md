@@ -43,7 +43,7 @@ possessive determiners (which modify a nominal) (note that some languages use PR
 - quantity determiners (quantifiers): indefinite any, universal: all, and negative no as in “We have no cars available.”
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -55,7 +55,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 ### Overview
 

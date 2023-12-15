@@ -37,7 +37,7 @@ The deep feature `name` is used with the relation `flat` for composed proper nou
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -47,7 +47,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

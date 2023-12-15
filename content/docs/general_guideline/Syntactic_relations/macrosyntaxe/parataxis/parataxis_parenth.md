@@ -98,7 +98,7 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -108,7 +108,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

@@ -14,7 +14,7 @@ weight: 1
 
 ## Universal
 
-## french
+## French
 
 TODO
 ### Overview
@@ -24,7 +24,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

@@ -64,7 +64,7 @@ As shown in the [correspondences between SUD and UD](../../../../_index.md#corre
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -76,7 +76,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 ### Overview
 

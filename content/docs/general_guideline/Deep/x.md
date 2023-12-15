@@ -66,7 +66,7 @@ While this feature is most often used in relationships between finite verbs and 
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -76,7 +76,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

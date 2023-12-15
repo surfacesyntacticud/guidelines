@@ -28,7 +28,7 @@ Related features: NumForm, NumType
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -38,7 +38,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

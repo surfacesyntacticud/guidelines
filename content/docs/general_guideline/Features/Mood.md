@@ -33,7 +33,7 @@ Mood is a feature that expresses modality and subclassifies finite verb forms.
 [Irr](https://universaldependencies.org/u/feat/Mood.html#Irr),
 [Adm](https://universaldependencies.org/u/feat/Mood.html#Adm).
 
-## french
+## French
 
 TODO
 ### Overview
@@ -43,7 +43,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

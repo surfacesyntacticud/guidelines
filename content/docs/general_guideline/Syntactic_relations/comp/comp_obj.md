@@ -344,7 +344,7 @@ The head of the reported phrase has the features `Reported=Yes`.
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -356,7 +356,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 ### Overview
 The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.

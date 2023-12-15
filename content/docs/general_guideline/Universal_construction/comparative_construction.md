@@ -126,14 +126,14 @@ These constructions are similar to other constructions organized around pairs of
 
 
 ## TODO
-### french
+### French
 
 TODO
 #### Overview
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

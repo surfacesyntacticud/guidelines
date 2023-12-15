@@ -34,7 +34,7 @@ In Japanese, verbs and other words have polite and informal forms but the polite
 [Referent elevation](https://universaldependencies.org/u/feat/Polite.html#Elev),
 [Speaker humbling](https://universaldependencies.org/u/feat/Polite.html#Humb).
 
-## french
+## French
 
 TODO
 ### Overview

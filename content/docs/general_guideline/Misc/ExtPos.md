@@ -52,7 +52,7 @@ In French, it is mainly used for:
  * tokens with [`upos=NOUN` and `ExtPos=ADV`](../Upos/ADV.md#upos-noun--extpos--adv) for phrases like *grâce à NOUN*, *face à NOUN* [Grew-match on SUD_French-GSD](http://match.grew.fr/?corpus=SUD_French-GSD@latest&custom=613e0370bf8ee&clustering=N.lemma)
  
 
-## french
+## French
 
 ### Overview
 
@@ -148,7 +148,7 @@ Here, the nouns have the features [ADV](docs/general_guideline/Upos/ADV.md) as [
 
 {{</conll>}}
 
-#### french symbols 
+#### French symbols 
 
 - Description: The features [ExtPos](docs/general_guideline/Misc/ExtPos.md) is mainly used for the tokens with the symbols [SYM](docs/general_guideline/Upos/SYM.md) part of speech.
 
@@ -190,7 +190,7 @@ Here, the nouns have the features [ADV](docs/general_guideline/Upos/ADV.md) as [
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -200,7 +200,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

@@ -132,7 +132,7 @@ The `comp:pred` relation can also be used in certain subordinating constructions
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -142,7 +142,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

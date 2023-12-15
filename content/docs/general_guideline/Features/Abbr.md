@@ -23,7 +23,7 @@ Note: This feature is new in UD version 2. It was used as a language-specific ad
 
 [Yes](https://universaldependencies.org/u/feat/Abbr.html#Yes)
 
-## french
+## French
 
 TODO
 ### Overview

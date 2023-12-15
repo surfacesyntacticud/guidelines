@@ -72,14 +72,14 @@ The number have the [`NUM`](../Upos/NUM.md) part of speech
 
 
 ## TODO
-### french
+### French
 
 TODO
 #### Overview
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

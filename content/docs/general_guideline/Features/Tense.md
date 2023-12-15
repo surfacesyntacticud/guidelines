@@ -28,7 +28,7 @@ Note that we are defining features that apply to a single word. If a tense is co
 [Pres](https://universaldependencies.org/u/feat/Tense.html#Pres),
 [Past](https://universaldependencies.org/u/feat/Tense.html#Past).
 
-## french
+## French
 
 TODO
 ### Overview
@@ -38,7 +38,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

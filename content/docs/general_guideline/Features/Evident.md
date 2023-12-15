@@ -29,7 +29,7 @@ Note: Evident is a new universal feature in UD version 2. It was used as a langu
 [non-firsthand](https://universaldependencies.org/u/feat/Evident.html#Nfh).
 
 
-## french
+## French
 
 TODO
 ### Overview

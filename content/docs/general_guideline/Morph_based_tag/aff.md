@@ -14,7 +14,7 @@ bookToc: true
 
 ## Universal
 
-## french
+## French
 
 TODO
 ### Overview

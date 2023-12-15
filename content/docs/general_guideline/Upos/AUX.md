@@ -17,7 +17,7 @@ bookToc: true
 An aux (auxiliary) of a clause is a function word associated with a verbal predicate that expresses categories such as tense, mood, aspect, voice or evidentiality. It is often a verb (which may have non-auxiliary uses as well) but many languages have nonverbal TAME markers and these are also treated as instances of aux. Auxiliares used to construct the passive voice are now also labeled aux.
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -27,7 +27,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

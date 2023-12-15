@@ -150,7 +150,7 @@ Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -160,7 +160,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

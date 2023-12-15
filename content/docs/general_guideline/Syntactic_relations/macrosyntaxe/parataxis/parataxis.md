@@ -98,7 +98,7 @@ In other corpora, we use the `parataxis` relation. There is no distinction. We t
 {{</conll>}}
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -108,7 +108,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

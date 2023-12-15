@@ -28,7 +28,7 @@ The `@caus` feature is used for the argument of causative auxiliaries.
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -38,7 +38,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

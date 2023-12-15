@@ -52,7 +52,7 @@ The `vocative` relation is used when a speaker directly addresses a listener in 
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -62,7 +62,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

@@ -37,7 +37,7 @@ In this example we can see the construction Je lis son le portrait de notre de v
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -47,7 +47,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

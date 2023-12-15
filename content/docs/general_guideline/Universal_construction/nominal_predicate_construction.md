@@ -36,7 +36,7 @@ Example :
 
 ## TODO 
 
-### french
+### French
 
 TODO
 #### Overview

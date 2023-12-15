@@ -34,7 +34,7 @@ Examples
 - john.doe@universal.org, http://universaldependencies.org/, 1-800-COMPANY
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -44,7 +44,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

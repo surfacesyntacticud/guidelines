@@ -32,7 +32,7 @@ Since we proceed bottom-up, the current standard covers only a few aspect values
 [Hab](https://universaldependencies.org/u/feat/Aspect.html#Hab),
 [Iter](https://universaldependencies.org/u/feat/Aspect.html#Iter).
 
-## french
+## French
 
 TODO
 ### Overview

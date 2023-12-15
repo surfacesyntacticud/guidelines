@@ -41,7 +41,7 @@ Reported speech has a feature `Reported=Yes` on its head. It is generally the `c
 We previously annotated reported speech using the syntactic relation `parataxis:obj`, but this is now considered obsolete.
 {{</hint>}}
 
-## french
+## French
 
 TODO
 ### Overview
@@ -51,7 +51,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

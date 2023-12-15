@@ -98,7 +98,7 @@ But if the sentence is uttered in a context where the speaker is referring to on
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -108,7 +108,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

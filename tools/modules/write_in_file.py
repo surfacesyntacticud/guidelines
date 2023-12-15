@@ -362,7 +362,7 @@ if __name__ == '__main__':
     #         texte_a_ajouter = texte_a_ajouter + line
     #         line = f.readline()
 
-    position_dans_le_fichier = "## french\n"
+    position_dans_le_fichier = "## French\n"
 
     #add_text(fichier, texte_a_ajouter, position_dans_le_fichier)
 

@@ -25,7 +25,7 @@ While many tagsets would have “possessive” as one of the various pronoun typ
 [Yes](https://universaldependencies.org/u/feat/Poss.html#Yes).
 
 
-## french
+## French
 
 TODO
 ### Overview

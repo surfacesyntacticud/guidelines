@@ -29,7 +29,7 @@ See the [UD page](https://universaldependencies.org/u/feat/NounClass.html) for m
 
 
 
-## french
+## French
 
 TODO
 ### Overview

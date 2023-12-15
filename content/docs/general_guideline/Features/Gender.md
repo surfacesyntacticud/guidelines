@@ -38,7 +38,7 @@ African languages have an analogous feature of noun classes: there might be sepa
 La suite est générée depuis un formulaire - page TEST pour la formalisation et l'aide à la rédaction.
 {{</hint>}}
 
-## french
+## French
 
 TODO
 ### Overview
@@ -48,7 +48,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

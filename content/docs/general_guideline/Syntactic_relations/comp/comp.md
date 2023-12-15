@@ -113,7 +113,7 @@ You can find more information on the [`pronomional verb`](../../../language/Fren
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

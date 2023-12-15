@@ -31,7 +31,7 @@ The `@relcl` feature is used for the relation between the head of a relative cla
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -41,7 +41,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

@@ -121,7 +121,7 @@ In this sentence, the proposition *J'ai des copines* (*I have some friends*) doe
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -131,7 +131,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

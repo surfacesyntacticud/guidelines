@@ -115,7 +115,7 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 {{</conll>}}
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -123,7 +123,7 @@ TODO
 ### Specific Pattern
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

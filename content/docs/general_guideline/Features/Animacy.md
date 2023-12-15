@@ -40,7 +40,7 @@ More generally: Some languages distinguish animate vs. inanimate (e.g. Czech mas
 [Human](https://universaldependencies.org/u/feat/Animacy.html#Hum),
 [Non human](https://universaldependencies.org/u/feat/Animacy.html#Nhum).
 
-## french
+## French
 
 TODO
 ### Overview

@@ -82,7 +82,7 @@ The `mod` relation is used for modifiers of verbs, nouns, adjectives, adverbs, a
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -92,7 +92,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

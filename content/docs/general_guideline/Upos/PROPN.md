@@ -31,7 +31,7 @@ Examples
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -41,7 +41,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

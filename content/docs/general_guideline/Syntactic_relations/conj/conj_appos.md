@@ -77,7 +77,7 @@ This relation is used for appositions. In an apposition, conjuncts have the same
 {{< /conll >}}
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -87,7 +87,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

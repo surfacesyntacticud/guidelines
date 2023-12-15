@@ -67,7 +67,7 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -77,7 +77,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

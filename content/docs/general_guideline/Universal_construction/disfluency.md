@@ -139,7 +139,7 @@ pattern { GOV-[deep=scrap]->DEP }
 
 
 
-### french
+### French
 
 TODO
 #### Overview
@@ -148,7 +148,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

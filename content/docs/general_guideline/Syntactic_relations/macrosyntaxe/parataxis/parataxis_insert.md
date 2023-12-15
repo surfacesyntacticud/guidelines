@@ -43,7 +43,7 @@ The `parataxis:insert` is used for inserted clause. Contrary to a parenthetical 
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -53,7 +53,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

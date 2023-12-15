@@ -30,7 +30,7 @@ The Polarity feature can be also used to distinguish response interjections yes 
 [Pos](https://universaldependencies.org/u/feat/Polarity.html#Pos).
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -40,7 +40,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

@@ -117,7 +117,7 @@ For more examples on disfluencies, you can refer to [this page](../../Universal_
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -127,7 +127,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

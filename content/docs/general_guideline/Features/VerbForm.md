@@ -28,7 +28,7 @@ Even though the name of the feature seems to suggest that it is used exclusively
 [Vnoun](https://universaldependencies.org/u/feat/VerbForm.html#Vnoun).
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -38,7 +38,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

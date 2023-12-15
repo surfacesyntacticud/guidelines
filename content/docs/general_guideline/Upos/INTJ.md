@@ -66,7 +66,7 @@ As a special case of interjections, we recognize feedback particles such as yes,
 14	…	…	PUNCT	_	_	3	punct	_	AlignBegin=88176|AlignEnd=88176
 {{</conll>}} 
 
-## french
+## French
 
 ### Overview
 
@@ -133,7 +133,7 @@ As a special case of interjections, we recognize feedback particles such as yes,
 
 ### Specific Pattern
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

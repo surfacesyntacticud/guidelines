@@ -67,7 +67,7 @@ Direct discourse is attached its governor by the relation `comp:obj` with the fe
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -77,7 +77,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

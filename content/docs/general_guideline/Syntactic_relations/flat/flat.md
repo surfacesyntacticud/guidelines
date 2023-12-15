@@ -87,7 +87,7 @@ The syntactic relation ̀`flat` can have the deep `[name](../../Deep/name.md)` t
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -97,7 +97,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

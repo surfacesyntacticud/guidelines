@@ -22,7 +22,7 @@ Clusivity is a feature of first-person plural personal pronouns. As such, it can
 [inclusive](https://universaldependencies.org/u/feat/Clusivity.html#In),
 [exclusive](https://universaldependencies.org/u/feat/Clusivity.html#Ex).
 
-## french
+## French
 
 TODO
 ### Overview

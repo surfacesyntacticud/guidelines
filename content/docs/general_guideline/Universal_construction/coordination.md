@@ -75,7 +75,7 @@ As a consequence, left and right dependents on a coordination are marked with fe
 
 
 ## TODO
-### french
+### French
 
 TODO
 #### Overview
@@ -86,7 +86,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

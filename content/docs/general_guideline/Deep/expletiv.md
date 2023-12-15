@@ -59,7 +59,7 @@ This feature can also be used to annotate repeated subjects, such as those which
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -69,7 +69,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

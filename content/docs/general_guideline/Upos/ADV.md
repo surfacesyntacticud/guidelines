@@ -38,7 +38,7 @@ Examples
 - [de] usw. “etc.” (see conj)
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -48,7 +48,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

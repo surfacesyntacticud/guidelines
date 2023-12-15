@@ -28,7 +28,7 @@ Examples
 - Question particle: [ja] か / ka (adding this particle to the end of a clause turns the clause into a question); [tr] mu
 - Sentence modality: [cs] ať, kéž, nechť (Let’s do it! If only I could do it over. May you have an enjoyable stay!)
 
-## french
+## French
 
 TODO
 ### Overview
@@ -38,7 +38,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

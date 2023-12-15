@@ -42,7 +42,7 @@ You can find more information about the Reported Speech [here](../Universal_cons
 {{< /hint >}}
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -52,7 +52,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

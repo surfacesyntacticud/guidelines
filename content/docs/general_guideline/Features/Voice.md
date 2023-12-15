@@ -33,7 +33,7 @@ For Indo-European speakers, voice means mainly the active-passive distinction. I
 [Bfoc](https://universaldependencies.org/u/feat/Voice.html#Bfoc).
 
 
-## french
+## French
 
 TODO
 ### Overview

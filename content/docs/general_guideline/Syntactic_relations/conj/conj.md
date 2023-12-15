@@ -76,7 +76,7 @@ The first example below shows the annotation of a coordination in UD and the sec
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -86,7 +86,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

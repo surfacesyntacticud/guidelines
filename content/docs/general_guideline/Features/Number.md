@@ -62,7 +62,7 @@ It can have severals [values](https://universaldependencies.org/u/feat/all.html#
 {{< /conll >}}
 
 
-## french 
+## French 
 
 ### Overview
 
@@ -115,7 +115,7 @@ On peut se servir des différents patterns pour construire le validateur
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -125,7 +125,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

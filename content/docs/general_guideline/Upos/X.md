@@ -22,7 +22,7 @@ A special usage of X is for cases of code-switching where it is not possible (or
 Examples
 - And then he just ***xfgh pdl jklw*** (keyboard smash)
 
-## french
+## French
 
 TODO
 ### Overview
@@ -32,7 +32,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

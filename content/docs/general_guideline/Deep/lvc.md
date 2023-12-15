@@ -114,7 +114,7 @@ The `@lvc` feature is used for arguments of light verbs.
 {{< /conll >}}
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -124,7 +124,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

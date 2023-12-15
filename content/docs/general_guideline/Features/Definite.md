@@ -27,7 +27,7 @@ Definiteness is typically a feature of nouns, adjectives and articles. Its value
 
 
 
-## french
+## French
 
 TODO
 ### Overview

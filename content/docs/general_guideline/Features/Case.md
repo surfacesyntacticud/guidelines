@@ -41,7 +41,7 @@ See the [UD page](https://universaldependencies.org/u/feat/Case.html) for more i
 
 
 
-## french
+## French
 
 TODO
 ### Overview

@@ -146,7 +146,7 @@ Sometimes, you can find `Subject=NoRaising` which corresponds to `Subject=Generi
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -156,7 +156,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

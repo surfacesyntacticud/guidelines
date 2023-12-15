@@ -31,7 +31,7 @@ Note that while some languages also have reflexive verbs, these are in fact fuse
 
 
 
-## french
+## French
 
 TODO
 ### Overview

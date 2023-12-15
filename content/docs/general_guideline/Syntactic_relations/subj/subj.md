@@ -108,7 +108,7 @@ You can find more information about passive constructions on this [page](../../D
 
 
 
-## french
+## French
 
 ### Overview
 
@@ -220,7 +220,7 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 
 
 
-## haitien
+## Haitian Creole
 
 ### Overview
 

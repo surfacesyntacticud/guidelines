@@ -36,7 +36,7 @@ The corresponding tokern should have the feature [`CorrectForm`](../CorrectForm)
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -46,7 +46,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview

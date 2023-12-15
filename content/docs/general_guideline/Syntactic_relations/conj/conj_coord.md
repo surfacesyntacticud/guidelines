@@ -138,7 +138,7 @@ For more information about coordination, see the [dedicated page](../../Universa
 
 
 
-## french
+## French
 
 TODO
 ### Overview
@@ -148,7 +148,7 @@ TODO
 
 
 
-## haitien
+## Haitian Creole
 
 TODO
 ### Overview
