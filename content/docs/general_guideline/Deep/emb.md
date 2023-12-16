@@ -3,22 +3,20 @@ title: "emb"
 weight: 3
 bookFlatSection: true
 bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
-# Embedded coordination
+
+# `@emb`: Embedded Coordination
 
 ## Universal
 
-The conjunct of a coordination can itself be a coordination. Theoretically, this embedding can be nested indefinitely. In natural corpora, however, there is typically only one level of iteration.
+The conjunct of a coordination can itself be a coordination.
+Theoretically, this embedding can be nested indefinitely.
+However, in corpora, there is typically only one level of iteration.
 
-The `[conj](../Syntactic_relations/conj/conj_coord.md)` label does not make a distinction between embedded relations and surface relations because they form a single chain. However, these relations can be distinguished with the use of the extension `@emb` for embedded coordinations, as the following example shows.
+The [`conj:coord`](../Syntactic_relations/conj/conj_coord.md) relation does not make a distinction between embedded relations and surface relations because they form a single chain.
+However, these relations can be distinguished with the use of the extension `@emb` for embedded coordinations.
 
-  
 > English
-
 {{< conll >}}
 1	John	John	PROPN	_	_	9	subj	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_

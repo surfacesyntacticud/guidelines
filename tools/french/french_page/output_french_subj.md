@@ -5,7 +5,7 @@
   The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is usualy between a [VERB](docs/general_guideline/Upos/VERB.md) or anAUX (often the root) and a nominal group ([NOUN](docs/general_guideline/Upos/NOUN.md), [PROPN](docs/general_guideline/Upos/PROPN.md) or [PRON](docs/general_guideline/Upos/PRON.md)). You can see all the pattern in this table. In french, we can have three deep syntactic sub-relations :
 
 @[pass](docs/general_guideline/Deep/pass.md) :  expressing a passiv subject
-@expl : expressing an [expletiv](docs/general_guideline/Deep/expletiv.md) subject
+@expl : expressing an [expletiv](docs/general_guideline/Deep/expl.md) subject
 @[caus](docs/general_guideline/Deep/caus.md) :: expressing a causative construction
 
 {{<conll>}} 
@@ -80,9 +80,9 @@
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=62406|AlignEnd=62406
 {{</conll>}}
 
-#### [expletiv](docs/general_guideline/Deep/expletiv.md) subject 
+#### [expletiv](docs/general_guideline/Deep/expl.md) subject 
 
-- Description: Exemple of an [expletiv](docs/general_guideline/Deep/expletiv.md) subject in french.
+- Description: Exemple of an [expletiv](docs/general_guideline/Deep/expl.md) subject in french.
 
 - Pattern: GOV-[subj@expl]->DEP
 

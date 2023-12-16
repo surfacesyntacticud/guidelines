@@ -28,7 +28,7 @@ The `subj` relation is used for all subjects, regardless of their form, nominal 
 The `subj` relation can be used with two deep syntactic features.
 
 #### `subj@expl`
-The `subj@expl` relation indicates that the subject is present to fill in an obligatory syntactic position bit it has no semantic value (see [`@expl` page](../../Deep/expletiv.md)).
+The `subj@expl` relation indicates that the subject is present to fill in an obligatory syntactic position bit it has no semantic value (see [`@expl` page](../../Deep/expl.md)).
 
 > French
 {{<conll>}}
@@ -140,7 +140,7 @@ The `subj` in French is usualy between a [VERB](docs/general_guideline/Upos/VERB
 
 In French, three deep syntactic features are used:
  - [`@pass`](docs/general_guideline/Deep/pass.md) for passive subject
- - [`@expl`](docs/general_guideline/Deep/expletiv.md): for expletive subject
+ - [`@expl`](docs/general_guideline/Deep/expl.md): for expletive subject
  - [`@caus`](docs/general_guideline/Deep/caus.md): for subject in causative construction
 
 #### passive subject 

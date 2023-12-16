@@ -15,7 +15,6 @@ bookToc: true
 The `@expl` feature is used for arguments of predicates without semantic contents (impersonal subjects for instance).
 
 > English
-
 {{< conll >}}
 1	it	it	PRON	_	_	2	subj@expl	_	_
 2	is	be	AUX	_	_	0	root	_	_
@@ -27,7 +26,6 @@ The `@expl` feature is used for arguments of predicates without semantic content
 {{< /conll >}}
 
 > English
-
 {{< conll >}}
 1	it	it	PRON	_	_	2	subj@expl	_	_
 2	rains	rain	VERB	_	_	0	root	_	_
@@ -41,7 +39,6 @@ The `@expl` feature is used for arguments of predicates without semantic content
 This feature can also be used to annotate repeated subjects, such as those which are common in certain French interrogative constructions.
 
 > French 
-
 {{< conll >}}
 # text = Jean vient-il demain ?
 # text_en = Is Jean coming tomorrow?
