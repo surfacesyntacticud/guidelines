@@ -1,12 +1,7 @@
 ---
 title: "Deep edge feature"
 weight: 40
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
 bookCollapseSection: true
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Deep 
@@ -16,7 +11,7 @@ In SUD, dependency relations are designed to describe syntactic surface relation
 The deep features are:
 - @[agent](./agent.md)
 - @[caus](./caus.md)
-- @[expl](./expletiv.md)
+- @[expl](./expl.md)
 - @[lvc](./lvc.md)
 - @[pass](./pass.md)
 - @[relcl](./relcl.md)

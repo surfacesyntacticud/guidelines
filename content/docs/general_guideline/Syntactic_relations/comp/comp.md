@@ -86,7 +86,7 @@ In the case of **passive reflexive constructions**, the pronoun is labelled `com
 10	nord-ouest	nord-ouest	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	Gloss=north-west
 {{< /conll >}}
 
-We can also have the deep syntactic feature [`@expl`](../../Deep/expletiv.md) for the label ̀`comp`. 
+We can also have the deep syntactic feature [`@expl`](../../Deep/expl.md) for the label ̀`comp`. 
 
 > Example 
 {{<conll>}}

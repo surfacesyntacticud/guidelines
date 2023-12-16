@@ -8,14 +8,13 @@ bookToc: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Causativ
+# `@caus`: Causative
 
 ## Universal
 
 The `@caus` feature is used for the argument of causative auxiliaries.
 
 > French
-
 {{< conll >}}
 # text = Il fait accélérer ses troupes
 # text_en = He makes his troops go faster
