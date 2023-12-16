@@ -88,4 +88,4 @@
 
  Here is the table where you can find the pattern in the treebanks.
 
-{{< agg table_output_haitien_udep >}}
+{{< agg table_output_haitian_creole_udep >}}

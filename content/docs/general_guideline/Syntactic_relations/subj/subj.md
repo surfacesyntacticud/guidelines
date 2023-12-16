@@ -300,4 +300,4 @@ pattern { GOV -[subj]-> DEP; GOV[upos=ADP] }
 
 #### Tables
 
-{{< agg table_output_haitien_subj >}}
+{{< agg table_output_haitian_creole_subj >}}

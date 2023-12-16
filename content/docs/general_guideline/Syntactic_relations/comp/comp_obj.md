@@ -474,7 +474,7 @@ pattern { V -[comp:obj@R]-> R; V -[comp:obj@T]-> T;  }
 29	.	.	PUNCT	_	_	2	punct	_	_
 {{</conll>}}
 
-{{< agg table_output_haitien_comp_obj >}}
+{{< agg table_output_haitian_creole_comp_obj >}}
 
 
 
