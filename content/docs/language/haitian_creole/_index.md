@@ -1,4 +1,5 @@
-# haitien 
+# Haitian Creole
+
 ## General information 
 
 ## Treebank information 

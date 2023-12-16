@@ -152,7 +152,7 @@ TODO
 
  Here is the table where you can find the pattern in the treebanks.
 
-{{< agg table_output_haitien_DET >}}
+{{< agg table_output_haitian_creole_DET >}}
  
 
 

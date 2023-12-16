@@ -2,7 +2,7 @@
   "corpora": [
     {
       "id": "SUD_Haitian_Creole-Autogramm@latest",
-      "directory":  "haitien/corpora/SUD_Haitian_Creole-Autogramm"
+      "directory": "haitian_creole/corpora/SUD_Haitian_Creole-Autogramm"
     }
   ]
 }
