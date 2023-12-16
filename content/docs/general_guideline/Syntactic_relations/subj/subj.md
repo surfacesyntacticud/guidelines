@@ -11,96 +11,94 @@ bookToc: true
 
 # The `subj` relation 
 
-
 ## Universal
 
-The `subj` relation is used for all subjects, regardless of their form (nominal or verbal). This relationship encompasses both the `nsubj` and `csubj` relationships as defined by UD, as the following examples show.
+The `subj` relation is used for all subjects, regardless of their form, nominal or clausal.
 
 > English
-
 {{<conll>}}
-      1	A	a	DET	_	_	2	det	_	_
-      2	man	man	NOUN	_	_	3	subj	_	_
-      3	walks	walk	VERB	_	_	0	root	_	_
+1	A	a	DET	_	_	2	det	_	_
+2	man	man	NOUN	_	_	3	subj	_	_
+3	walks	walk	VERB	_	_	0	root	_	_
 {{</conll>}}
+
 
 ### Deep syntactic features
 
-The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj@expl` is used to indicate that the subject is present to fill in an obligatory syntactic position and has no semantic value. You can find more information about the expletive constructions on this [page](../../Deep/expletiv.md).
+The `subj` relation can be used with two deep syntactic features.
+
+#### `subj@expl`
+The `subj@expl` relation indicates that the subject is present to fill in an obligatory syntactic position bit it has no semantic value (see [`@expl` page](../../Deep/expletiv.md)).
 
 > French
-
 {{<conll>}}
-      # sent_fr = Il pleut dans ma maison
-      # text_en = It's raining in my house
-      1	Il	il	PRON	_	_	2	subj@expl	_	Gloss=it
-      2	pleut	pleuvoir	VERB	_	_	0	root	_	Gloss=rains
-      3	dans	dans	ADP	_	_	2	mod	_	Gloss=in
-      4	ma	son	DET	_	_	5	det	_	Gloss=my
-      5	maison	maison	NOUN	_	_	3	comp:obj	_	Gloss=house
+# sent_fr = Il pleut dans ma maison
+# text_en = It's raining in my house
+1	Il	il	PRON	_	_	2	subj@expl	_	Gloss=it
+2	pleut	pleuvoir	VERB	_	_	0	root	_	Gloss=rains
+3	dans	dans	ADP	_	_	2	mod	_	Gloss=in
+4	ma	son	DET	_	_	5	det	_	Gloss=my
+5	maison	maison	NOUN	_	_	3	comp:obj	_	Gloss=house
 {{</conll>}}
 
 Meanwhile, the sub-relation `subj@pass` is used to indicate a passive construction. This sub-relation can be used for both standard passive constructions, and for mediopassive constructions.
 You can find more information about passive constructions on this [page](../../Deep/pass.md).
 
-#### Passive constructions
+#### `subj@pass`
+
+The `subj@pass` is used for subject in passive constructions.
 
 > English
-
 {{<conll>}}
-      # text = This shall be applauded
-      1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj@pass	_	Entity=(event-70)
-      2	shall	shall	AUX	MD	VerbForm=Fin	0	root	_	_
-      3	be	be	AUX	VB	VerbForm=Inf	2	comp:aux	_	_
-      4	applauded	applaud	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	comp:aux@pass	_	_
+# text = This shall be applauded
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj@pass	_	Entity=(event-70)
+2	shall	shall	AUX	MD	VerbForm=Fin	0	root	_	_
+3	be	be	AUX	VB	VerbForm=Inf	2	comp:aux	_	_
+4	applauded	applaud	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	comp:aux@pass	_	_
 {{</conll>}}
 
 
 > French
-
 {{<conll>}}
-      # text = Il fut bâti en 1998.
-      # text_en = It was build in 1998.
-      1	Il	il	PRON	_	_	2	subj@pass	_	Gloss=It
-      2	fut	être	AUX	_	_	0	root	_	Gloss=was
-      3	bâti	bâtir	VERB	_	_	2	comp:aux@pass	_	Gloss=built
-      4	en	en	ADP	_	_	2	mod	_	Gloss=in
-      5	1998	1998	NUM	_	_	4	comp:obj	_	Gloss=1998
+# text = Il fut bâti en 1998.
+# text_en = It was build in 1998.
+1	Il	il	PRON	_	_	2	subj@pass	_	Gloss=It
+2	fut	être	AUX	_	_	0	root	_	Gloss=was
+3	bâti	bâtir	VERB	_	_	2	comp:aux@pass	_	Gloss=built
+4	en	en	ADP	_	_	2	mod	_	Gloss=in
+5	1998	1998	NUM	_	_	4	comp:obj	_	Gloss=1998
 {{</conll>}}
 
-#### Mediopassive constructions
+The `subj@pass` is also used for subject in mediopassive constructions.
 
 > Czech
-
 {{<conll>}}
-      # text_en = the number of employees decreased
-      # text_cs = počet zaměstnanců se snížil
-      1	počet	počet	NOUN	_	_	4	subj@pass	_	Gloss=number
-      2	zaměstnanců	zaměstnanec	NOUN	_	_	1	mod	_	Gloss=employees.PL.GEN
-      3	se	se	PRON	_	_	4	comp@pass	_	Gloss=itself
-      4	snížil	snížit	VERB	_	_	0	root	_	Gloss=decrease
+# text_en = the number of employees decreased
+# text_cs = počet zaměstnanců se snížil
+1	počet	počet	NOUN	_	_	4	subj@pass	_	Gloss=number
+2	zaměstnanců	zaměstnanec	NOUN	_	_	1	mod	_	Gloss=employees.PL.GEN
+3	se	se	PRON	_	_	4	comp@pass	_	Gloss=itself
+4	snížil	snížit	VERB	_	_	0	root	_	Gloss=decrease
 {{</conll>}}
 
 > French
-
 {{<conll>}}
-      # text_en = the book is selling well
-      # text_cs = le livre se vend bien
-      1	le	le	DET	_	_	2	det	_	Gloss=the
-      2	livre	livre	NOUN	_	_	4	subj@pass	_	Gloss=book
-      3	se	se	PRON	_	_	4	comp@pass	_	Gloss=itself
-      4	vend	vendre	VERB	_	_	0	root	_	Gloss=sell
-      5	bien	bien	ADV	_	_	4	mod	_	Gloss=well
+# text_en = the book is selling well
+# text_cs = le livre se vend bien
+1	le	le	DET	_	_	2	det	_	Gloss=the
+2	livre	livre	NOUN	_	_	4	subj@pass	_	Gloss=book
+3	se	se	PRON	_	_	4	comp@pass	_	Gloss=itself
+4	vend	vendre	VERB	_	_	0	root	_	Gloss=sell
+5	bien	bien	ADV	_	_	4	mod	_	Gloss=well
 {{</conll>}}
 
 > Russian
-
 {{<conll>}}
-      # text_en = the book is selling well
-      # text_ru = книга хорошо продаётся
-      1	книга	книга	NOUN	_	_	3	subj@pass	_	Gloss=book
-      2	хорошо	хорошо	ADV	_	_	3	mod	_	Gloss=well
-      3	продаётся	продаваться	VERB	_	_	0	root	_	Gloss=is selling
+# text_en = the book is selling well
+# text_ru = книга хорошо продаётся
+1	книга	книга	NOUN	_	_	3	subj@pass	_	Gloss=book
+2	хорошо	хорошо	ADV	_	_	3	mod	_	Gloss=well
+3	продаётся	продаваться	VERB	_	_	0	root	_	Gloss=is selling
 {{</conll>}}
 
 
@@ -112,11 +110,7 @@ You can find more information about passive constructions on this [page](../../D
 
 ### Overview
 
-The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is usualy between a [VERB](docs/general_guideline/Upos/VERB.md) or anAUX (often the root) and a nominal group ([NOUN](docs/general_guideline/Upos/NOUN.md), [PROPN](docs/general_guideline/Upos/PROPN.md) or [PRON](docs/general_guideline/Upos/PRON.md)). You can see all the pattern in this table. In french, we can have three deep syntactic sub-relations :
-
-@[pass](docs/general_guideline/Deep/pass.md) :  expressing a passiv subject
-@[expl](docs/general_guideline/Deep/expletiv.md) : expressing an [expletiv](docs/general_guideline/Deep/expletiv.md) subject
-@[caus](docs/general_guideline/Deep/caus.md) :: expressing a causative construction
+The `subj` in French is usualy between a [VERB](docs/general_guideline/Upos/VERB.md) or an [AUX](docs/general_guideline/Upos/AUX.md) and a nominal ([NOUN](docs/general_guideline/Upos/NOUN.md), [PROPN](docs/general_guideline/Upos/PROPN.md) or [PRON](docs/general_guideline/Upos/PRON.md)).
 
 {{<conll>}} 
 # text = L'œuvre est située dans la galerie des batailles, dans le château de Versailles.
@@ -140,20 +134,20 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 17	.	.	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 
-- The upos [VERB](docs/general_guideline/Upos/VERB.md) has the values : ['[NUM](docs/general_guideline/Upos/NUM.md)', '[PROPN](docs/general_guideline/Upos/PROPN.md)', '[NOUN](docs/general_guideline/Upos/NOUN.md)']
 
 
-- The upos [AUX](docs/general_guideline/Upos/AUX.md) has the values : ['[NUM](docs/general_guideline/Upos/NUM.md)', '[NOUN](docs/general_guideline/Upos/NOUN.md)', '[PROPN](docs/general_guideline/Upos/PROPN.md)', '[PRON](docs/general_guideline/Upos/PRON.md)']
+### Deep features
 
-
-### Specific Pattern
+In French, three deep syntactic features are used:
+ - [`@pass`](docs/general_guideline/Deep/pass.md) for passive subject
+ - [`@expl`](docs/general_guideline/Deep/expletiv.md): for expletive subject
+ - [`@caus`](docs/general_guideline/Deep/caus.md): for subject in causative construction
 
 #### passive subject 
 
-- Description: Exemple of a passiv subject in french.
-
-- Pattern: GOV-[subj@pass]->DEP
-
+{{<grew>}}
+pattern { GOV -[subj@pass]-> DEP } 
+{{</grew>}}
 
 {{<conll>}}
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
@@ -164,15 +158,13 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 6	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	7	det	_	_
 7	fois	fois	NOUN	_	Gender=Fem|Number=Plur	3	mod	_	_
 8	;	;	PUNCT	_	_	3	punct	_	_
-
 {{</conll>}}
 
 #### causativ subject 
 
-- Description: Exemple of a causativ subject in french.
-
-- Pattern: GOV-[subj@caus]->DEP
-
+{{<grew>}}
+pattern { GOV -[subj@caus]-> DEP } 
+{{</grew>}}
 
 {{<conll>}}
 # text = et donc, je le fais même rentrer dans la maison.
@@ -190,12 +182,11 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=62406|AlignEnd=62406
 {{</conll>}}
 
-#### [expletiv](docs/general_guideline/Deep/expletiv.md) subject 
+#### expletive subject 
 
-- Description: Exemple of an [expletiv](docs/general_guideline/Deep/expletiv.md) subject in french.
-
-- Pattern: GOV-[subj@expl]->DEP
-
+{{<grew>}}
+pattern { GOV -[subj@expl]-> DEP } 
+{{</grew>}}
 
 {{<conll>}}
 # text = il y avait Maxime aussi, pas mal.
@@ -210,9 +201,7 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=14506|AlignEnd=14506
 {{</conll>}}
 
-#### Tables
-
- Here is the table where you can find the pattern in the treebanks.
+### Table
 
 {{< agg table_output_french_subj >}}
  
@@ -224,7 +213,8 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 
 ### Overview
 
- In Haitian creole The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) relation is used for all subjects, regardless of their form. The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) label in Haitian Creole is usually used to mark relations between a [VERB](docs/general_guideline/Upos/VERB.md) and a nominal group ( [NOUN](docs/general_guideline/Upos/NOUN.md), [PROPN](docs/general_guideline/Upos/PROPN.md) or [PRON](docs/general_guideline/Upos/PRON.md)). You can see all the patterns in the table below.
+In Haitian Creole, the `subj` relation is used for all subjects, regardless of their form.
+The `subj` dependency in Haitian Creole is usually used between a [VERB](docs/general_guideline/Upos/VERB.md) and a nominal ([NOUN](docs/general_guideline/Upos/NOUN.md), [PROPN](docs/general_guideline/Upos/PROPN.md) or [PRON](docs/general_guideline/Upos/PRON.md)).
 
 {{<conll>}} 
 # text = Yon pòt pawòl Depatman d Eta deklare Samdi, gouvènman Ameriken an o kouran de rapò ki di kòm kwa gen 2 sitwayen Ameriken ki disparèt an Ayiti, apre laprès nan eta Florid rapòte yo kidnape yon koup.
@@ -273,16 +263,17 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 
 ### Specific Pattern
 
-#### Causative construction with [ADP](docs/general_guideline/Upos/ADP.md) governor 
+#### Construction with [ADP](docs/general_guideline/Upos/ADP.md) governor 
 
-- Description: In Haitian Creole a causative construction can be expressed with [ADP](docs/general_guideline/Upos/ADP.md) in the role of the root instead of a [VERB](docs/general_guideline/Upos/VERB.md) or an [AUX](docs/general_guideline/Upos/AUX.md). Then the governor of the [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) is an [ADP](docs/general_guideline/Upos/ADP.md).
+In Haitian Creole, the `subj` relation can be used with an [ADP](docs/general_guideline/Upos/ADP.md) governor.
 
-- Pattern: GOV -[subj]-> DEP; GOV[upos=ADP]
-
+{{<grew>}}
+pattern { GOV -[subj]-> DEP; GOV[upos=ADP] }
+{{</grew>}}
 
 {{<conll>}}
 # text = Batay ant gang yo pou kontwòl teritwa lakoz anpil san koule epi plizyè santèn milye moun oblije kouri kite kay yo.
-# text_fr = La lutte entre les gangs pour le contrôle des territoires  a fait couler beaucoup de sang et plusieurs  centaines de gens sont obligés de courir en laissant leur maison.
+# text_fr = La lutte entre les gangs pour le contrôle des territoires  a fait couler beaucoup de sang et plusieurs centaines de gens sont obligés de courir en laissant leur maison.
 1	Batay	Batay 	NOUN	_	_	8	subj	_	Gloss=Lutte
 2	ant	ant 	ADP	_	_	1	udep	_	Gloss=entre
 3	gang	gang	NOUN	_	_	2	comp:obj	_	Gloss=gangs
@@ -309,10 +300,4 @@ The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) in french is
 
 #### Tables
 
- Here is the table where you can find the pattern in the treebanks.
-
 {{< agg table_output_haitien_subj >}}
- 
-
-
-
