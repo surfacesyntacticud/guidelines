@@ -1,23 +1,17 @@
 ---
 title: "ExtPos"
-weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
+weight: 10
 ---
 
-# ExtPos 
+# ExtPos
 
 ## Universal
 
-The `ExtPos` feature was introduced to facilitate the annotation of idioms, titles, and other multi-word units which behave like a certain part of speech, even though none of their constituents necessarily carry that part of speech. This feature allows the annotator to preserve the internal syntactic relationships between the various components of these units.
+The `ExtPos` feature was introduced to facilitate the annotation of idioms, titles, and other multi-word units which behave like a certain part of speech, even though none of their constituents necessarily carry that part of speech. This feature allows the annotator to preserve the internal syntactic relationships between the components of these units.
 
-See [Idioms and titles](./Idiom_Titles.md) page for examples of idioms and titles annotations.
+See [Idioms and titles](../Misc/Idiom_Titles.md) for examples.
 
-The usage of `ExtPos` was also generalized to cases of single tokens which are given a `upos`  but they are used in the syntactic structure with another role.
+The usage of `ExtPos` was also generalized to cases of single tokens which are given a `upos` but they are used in the syntactic structure with another role.
 
 ## Naija
 
@@ -26,7 +20,6 @@ In Naija, it is mostly used for adjective used as verbs.
 ![Extpos cluster in Naija](/images/General_Guideline/Misc/ExtPos/naija_extpos_cluster.png)
 
 > Naija
-
 {{< conll >}}
 # text_en = It'll get better.
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=307749|AlignEnd=308144|Gloss=NOM.SG.3
@@ -35,7 +28,11 @@ In Naija, it is mostly used for adjective used as verbs.
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=308935|AlignEnd=308935|Gloss=PUNCT
 {{< /conll >}}
 
-See [More examples on Grew-match](http://match.grew.fr/?corpus=SUD_Naija-NSC@latest&custom=613dff2609468).
+{{<grew>}}
+pattern { N [upos=ADJ, ExtPos=VERB] }
+{{</grew>}}
+
+
 
 ## French 
 
@@ -56,7 +53,7 @@ In French, it is mainly used for:
 
 ### Overview
 
- In French, it is mainly used for:
+In French, it is mainly used for:
 
 tokens with upos=[SYM](docs/general_guideline/Upos/SYM.md) 
 tokens with upos=[ADV](docs/general_guideline/Upos/ADV.md) and [ExtPos](docs/general_guideline/Misc/ExtPos.md)=[PRON](docs/general_guideline/Upos/PRON.md) for phrases like beaucoup de [NOUN](docs/general_guideline/Upos/NOUN.md), plus de [NOUN](docs/general_guideline/Upos/NOUN.md)
