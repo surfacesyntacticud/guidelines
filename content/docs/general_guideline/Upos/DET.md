@@ -70,8 +70,8 @@ TODO
 The *yon* determiner is an indefinite singular article.
 It has an exceptional behaviour compared to other determiners in Haitian Creole and it is always placed before a noun.
 
-{{<grew>}}
-pattern { GOV -[det]-> DEP; DEP[lemma="yon"] }
+{{<grew whether1="GOV << DEP" whether2="DEP.lemma=yon" >}}
+pattern { GOV -[det]-> DEP; }
 {{</grew>}}
 
 {{<conll>}}
