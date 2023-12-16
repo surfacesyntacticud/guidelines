@@ -4,12 +4,24 @@
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
-<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<body style="padding-top: 35px" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
+
+  <nav class="navbar navbar-light fixed-top" style="background-color: #e3f2fd; padding: 5px;">
+    <div class="container-fluid">
+      <div>
+        <img src="{{ .Site.BaseURL }}/images/sud.svg" alt="Grew-match" width="26" height="26">
+        <span class="navbar-text">
+          Guidelines
+        </span>
+        </div>
+      </div>
+  </nav>
+
   <main class="container flex">
     <aside class="book-menu">
-      <div class="book-menu-content">
+      <div class="book-menu-content" style="padding-top: 45px;">
         {{ template "menu" . }} <!-- Left menu Content -->
       </div>
     </aside>
@@ -35,7 +47,7 @@
 
     {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
     <aside class="book-toc">
-      <div class="book-toc-content">
+      <div class="book-toc-content" style="padding-top: 45px;">
         {{ template "toc" . }} <!-- Table of Contents -->
       </div>
     </aside>
@@ -73,7 +85,7 @@
 {{ end }}
 
 {{ define "main" }}
-  <article class="markdown book-article">
+  <article class="markdown">
     {{- .Content -}}
   </article>
 {{ end }}
