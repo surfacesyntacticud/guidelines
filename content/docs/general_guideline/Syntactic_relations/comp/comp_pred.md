@@ -14,15 +14,20 @@ bookToc: true
 
 The `comp:pred` relation is used for predicative arguments introduced by a copula or a verb.
 
-```grew
+{{< grew >}}
 pattern { GOV -[comp:pred]-> DEP }
-```
+{{< /grew >}}
 
 ### predicative arguments of copula
 
-```grew
-pattern { GOV -[comp:pred]-> DEP; GOV [upos=AUX] }
-```
+{{< grew >}}
+pattern { 
+	GOV -[comp:pred]-> DEP; 
+	GOV [upos=AUX] 
+}
+{{< /grew >}}
+
+
 > **English** `comp:pred` introduced by the copula *to be*
 {{< conll >}}
 1	I	I	PRON	_	_	2	subj	_	_
@@ -43,9 +48,9 @@ pattern { GOV -[comp:pred]-> DEP; GOV [upos=AUX] }
 
 ### `comp:pred` introduced by a verb
 
-```grew
+{{< grew >}}
 pattern { GOV -[comp:pred]-> DEP; GOV [upos=VERB] }
-```
+{{< /grew >}}
 
 > **English**
 {{< conll >}}
@@ -96,9 +101,9 @@ pattern { GOV -[comp:pred]-> DEP; GOV [upos=VERB] }
 
 ### `comp:pred` for predication of the object
 
-```grew
+{{< grew >}}
 pattern { GOV -[comp:pred]-> DEP; GOV -[comp:obj]-> OBJ }
-```
+{{< /grew >}}
 
 > **English**
 {{< conll >}}
@@ -140,9 +145,10 @@ pattern { GOV -[comp:pred]-> DEP; GOV -[comp:obj]-> OBJ }
 ### subordinating constructions
 The `comp:pred` relation can also be used in some subordinating constructions.
 
-```grew
+{{< grew >}}
 pattern { GOV -[comp:pred]-> DEP; DEP[upos=SCONJ] }
-```
+{{< /grew >}}
+
 
 
 > **English**

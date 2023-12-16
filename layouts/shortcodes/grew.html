@@ -1,1 +1,6 @@
-<pre><code class="language-grew">{{.Inner}}</code></pre>
+<div style="position: relative;">
+	<pre><code class="language-grew">{{ trim .Inner "\n\r" }}</code></pre>
+	<button class="btn-clipboard" onclick="grew_match_search({{ trim .Inner "\n\r" }})">
+		<img src="{{ .Site.BaseURL }}/images/square_g.svg" alt="Grew-match" width="18" height="18"> 
+	</button>
+</div>
