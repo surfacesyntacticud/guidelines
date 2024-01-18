@@ -1,5 +1,5 @@
 ---
-title: "Morpho-syntactic Features"
+title: "UD Morpho-syntactic Features"
 weight: 20
 # bookFlatSection: false
 # bookToc: true
@@ -9,7 +9,7 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-# Features
+# UD Morpho-syntactic Features
 
 You can find more information about the features on the [UD webpage](https://universaldependencies.org/u/feat/) : *"The features distinguish additional lexical and grammatical properties of words, not covered by the POS tags"*
 

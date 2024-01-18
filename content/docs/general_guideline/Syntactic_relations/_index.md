@@ -11,3 +11,4 @@ bookCollapseSection: true
 
 # Syntactic relations
 
+![Image alt](/images/taxo_2023.png)

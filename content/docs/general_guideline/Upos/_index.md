@@ -1,17 +1,13 @@
 ---
-title: "Upos"
+title: "upos"
 weight: 10
-# bookFlatSection: false
 bookToc: true
-# bookHidden: false
 bookCollapseSection: true
-# bookComments: false
-# bookSearchExclude: false
 ---
 
-# Upos
+# upos
 
-In SUD, we use the same tagset of part of speech as UD:
+**SUD** uses the same pos tagset as **UD**:
 - [ADJ](./ADJ.md): adjective
 - [ADP](./ADP.md): adposition
 - [ADV](./ADV.md): adverb

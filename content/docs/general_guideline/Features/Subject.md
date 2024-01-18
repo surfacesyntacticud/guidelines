@@ -1,14 +1,29 @@
+---
+title: "Subject"
+weight: 2
+bookToc: true
+---
+
 # Subject
 
 ## Universal
 
-`@x` has been introduced to be able to get back the UD distinction between xcomp and ccomp.
-Nevertheless for an infinitive verb in a dependent position, the default case is to be `@x`. It would be better to encode the particular case where there is no raising and the logical subject of the infinitive has a generic interpretation.
-Thus, we replaced the `@x` feature on the relation by the feature `Subject`. 
+The `Subject` feature is specific to SUD. It is used to annotate the control of infinitive subject.
+In version 2.13, it is annotated in the Naija corpus and in the four French corpora.
+
+{{<hint info>}}
+See discussion [#29](https://github.com/surfacesyntacticud/guidelines/issues/29) on GitHub.
+{{</hint>}}
+
+{{<hint warning>}}
+⚠️ In previous versions of SUD, control were annotated with the deep edge feature `@x`.
+
+The `@x` feature is now deprecated and must not be used in new annotations.
+{{</hint>}}
 
 ### Values
 
-**`Subject=SubjRaising`**
+> **`Subject=SubjRaising`**
 {{<conll>}}
 # text = Les experts sont unanimes pour dater ce manuscrit du VIe siècle.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
@@ -96,10 +111,9 @@ Thus, we replaced the `@x` feature on the relation by the feature `Subject`.
 
 
 > **`Subject=Instantiated`** 
-
 {{<conll>}}
 #text = Condamné à dix ans, il passe le reste de sa vie en prison.
-1	Condamné	condamner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	Subject=Instantiated|wordform=condamné|highlight=red
+1	Condamné	condamner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	mod	_	Subject=Instantiated|highlight=red
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	dix	dix	NUM	_	Number=Plur	4	det	_	_
 4	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	SpaceAfter=No
@@ -116,8 +130,13 @@ Thus, we replaced the `@x` feature on the relation by the feature `Subject`.
 15	.	.	PUNCT	_	_	7	punct	_	_
 {{</conll>}}
 
->[!Warning]
-Sometimes, you can find `Subject=NoRaising` which corresponds to `Subject=Generic` and Subject=Instantiated. You can find this annotation in the treebank [Rhapsodie](http://universal.grew.fr/?corpus=SUD_French-Rhapsodie@latest) and [ParisStories](http://universal.grew.fr/?corpus=SUD_French-ParisStories@latest).
+
+{{<hint warning>}}
+⚠️ Sometimes, the feature `Subject=NoRaising` is used.
+It corresponds to an undespecified annoation covering both `Subject=Generic` or `Subject=Instantiated`.
+You can find this annotation in the treebank [**French-Rhapsodie**](http://universal.grew.fr/?corpus=SUD_French-Rhapsodie@latest) and [**French_ParisStories**](http://universal.grew.fr/?corpus=SUD_French-ParisStories@latest).
+{{</hint>}}
+
 
 {{<conll>}}
 #text = au début, il voulait pas venir dans la salle pour faire des activités.
