@@ -1,12 +1,7 @@
 ---
 title: "UD Morpho-syntactic Features"
 weight: 20
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
 bookCollapseSection: true
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # UD Morpho-syntactic Features

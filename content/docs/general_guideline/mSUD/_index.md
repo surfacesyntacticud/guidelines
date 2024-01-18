@@ -1,5 +1,5 @@
 ---
-title: "Morph-based tag"
+title: "mSUD"
 weight: 80
 # bookFlatSection: false
 bookToc: true
@@ -9,4 +9,4 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-# morph-based tag
+# mSUD: annotation at the morph level

@@ -1,11 +1,11 @@
 ---
-title: "upos"
+title: "POS tagging"
 weight: 10
-bookToc: true
+bookToc: false
 bookCollapseSection: true
 ---
 
-# upos
+# POS tagging
 
 **SUD** uses the same pos tagset as **UD**:
 - [ADJ](./ADJ.md): adjective

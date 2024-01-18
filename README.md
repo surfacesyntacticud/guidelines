@@ -1,6 +1,7 @@
-# Annotation guideline
-Source code of https://guidelines.surfacesyntacticud.org/ , a guideline for SUD annotation
-This repository contains an annotation guideline and the necessary tools for its creation for a new language. The following instructions will guide you on how to work with this repository.
+# Annotation guidelines
+Source code of https://guidelines.surfacesyntacticud.org/, guidelines for SUD annotation
+This repository contains an annotation guidelines and the necessary tools for its creation for a new language.
+The following instructions will guide you on how to work with this repository.
 
 ## Tools
 
@@ -20,7 +21,7 @@ git submodule update
 
 ## Writings in guidelines
 
-You have the option to add information directly in the guideline or utilize the various tools provided in the "tools" folder. More information about these tools can be found within the same folder.
+You have the option to add information directly in the guidelines or utilize the various tools provided in the "tools" folder. More information about these tools can be found within the same folder.
 
 ## Visualisation 
 
