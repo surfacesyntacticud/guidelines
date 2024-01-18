@@ -7,89 +7,107 @@
 <body style="padding-top: 35px" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
-
+  
   <nav class="navbar navbar-light fixed-top" style="background-color: #e3f2fd; padding: 5px;">
     <div class="container-fluid">
-      <div>
-        <img src="{{ .Site.BaseURL }}/images/sud.svg" alt="Grew-match" width="26" height="26">
+      <span>
+        <a href="https://surfacesyntacticud.org/" style="text-decoration: none;">
+          <img src="{{ .Site.BaseURL }}/images/sud.svg" alt="Grew-match" width="26" height="26">
+        </a>
         <span class="navbar-text">
           Guidelines
         </span>
+      </span>
+      <div>
+        <span class="navbar-text navbar-right">
+          <a href="https://github.com/surfacesyntacticud" style="text-decoration: none;">
+            GitHub
+          </a>
+          <a href="https://arboratorgrew.elizia.net" style="text-decoration: none;">
+            <img src="https://arboratorgrew.elizia.net/svg/arborator.grew.svg" height="22">
+          </a>
+          <a href="https://autogramm.github.io" style="text-decoration: none;">
+            <img src="https://autogramm.github.io/images/logo_autogramm.jpg" height="22">
+          </a>
+          <a href="https://universal.grew.fr" style="text-decoration: none;">
+            <img src="https://match.grew.fr/images/grew-match.svg" height="22">
+          </a>
+        </span>
+      </div>
+    </nav>
+    
+    
+    <main class="container flex">
+      <aside class="book-menu">
+        <div class="book-menu-content" style="padding-top: 45px;">
+          {{ template "menu" . }} <!-- Left menu Content -->
         </div>
+      </aside>
+      
+      <div class="book-page">
+        <header class="book-header">
+          {{ template "header" . }} <!-- Mobile layout header -->
+        </header>
+        
+        {{ partial "docs/inject/content-before" . }}
+        {{ template "main" . }} <!-- Page Content -->
+        {{ partial "docs/inject/content-after" . }}
+        
+        <footer class="book-footer">
+          {{ template "footer" . }} <!-- Footer under page content -->
+          {{ partial "docs/inject/footer" . }}
+        </footer>
+        
+        {{ template "comments" . }} <!-- Comments block -->
+        
+        <label for="menu-control" class="hidden book-menu-overlay"></label>
       </div>
-  </nav>
-
-  <main class="container flex">
-    <aside class="book-menu">
-      <div class="book-menu-content" style="padding-top: 45px;">
-        {{ template "menu" . }} <!-- Left menu Content -->
-      </div>
-    </aside>
-
-    <div class="book-page">
-      <header class="book-header">
-        {{ template "header" . }} <!-- Mobile layout header -->
-      </header>
-
-      {{ partial "docs/inject/content-before" . }}
-      {{ template "main" . }} <!-- Page Content -->
-      {{ partial "docs/inject/content-after" . }}
-
-      <footer class="book-footer">
-        {{ template "footer" . }} <!-- Footer under page content -->
-        {{ partial "docs/inject/footer" . }}
-      </footer>
-
-      {{ template "comments" . }} <!-- Comments block -->
-
-      <label for="menu-control" class="hidden book-menu-overlay"></label>
-    </div>
-
-    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-    <aside class="book-toc">
-      <div class="book-toc-content" style="padding-top: 45px;">
-        {{ template "toc" . }} <!-- Table of Contents -->
-      </div>
-    </aside>
-    {{ end }}
-  </main>
-
-  {{ partial "docs/inject/body" . }}
-</body>
-</html>
-
-{{ define "menu" }}
+      
+      {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+      <aside class="book-toc">
+        <div class="book-toc-content" style="padding-top: 45px;">
+          {{ template "toc" . }} <!-- Table of Contents -->
+        </div>
+      </aside>
+      {{ end }}
+    </main>
+    
+    {{ partial "docs/inject/body" . }}
+  </body>
+  </html>
+  
+  {{ define "menu" }}
   {{ partial "docs/menu" . }}
-{{ end }}
-
-{{ define "header" }}
+  {{ end }}
+  
+  {{ define "header" }}
   {{ partial "docs/header" . }}
-
+  
   {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
   <aside class="hidden clearfix">
     {{ template "toc" . }}
   </aside>
   {{ end }}
-{{ end }}
-
-{{ define "footer" }}
+  {{ end }}
+  
+  {{ define "footer" }}
   {{ partial "docs/footer" . }}
-{{ end }}
-
-{{ define "comments" }}
+  {{ end }}
+  
+  {{ define "comments" }}
   {{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
   <div class="book-comments">
     {{- partial "docs/comments" . -}}
   </div>
   {{ end }}
-{{ end }}
-
-{{ define "main" }}
+  {{ end }}
+  
+  {{ define "main" }}
   <article class="markdown">
     {{- .Content -}}
   </article>
-{{ end }}
-
-{{ define "toc" }}
+  {{ end }}
+  
+  {{ define "toc" }}
   {{ partial "docs/toc" . }}
-{{ end }}
+  {{ end }}
