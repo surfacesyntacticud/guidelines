@@ -4,19 +4,24 @@ weight: 40
 bookCollapseSection: true
 ---
 
-# Deep 
+# Deep edge features
 
-In SUD, dependency relations are designed to describe syntactic surface relations. Information related to deep syntax or semantics is given on dependencies with deep features which are extensions to dependency label introduced by the @ symbol.
+In SUD, dependency relations are designed to describe syntactic surface relations.
+Information related to deep syntax or semantics is given on dependencies with deep features which are extensions to dependency label introduced by the `@` symbol.
 
 The deep features are:
-- @[agent](./agent.md)
-- @[caus](./caus.md)
-- @[expl](./expl.md)
-- @[lvc](./lvc.md)
-- @[pass](./pass.md)
-- @[relcl](./relcl.md)
-- @[tense](./tense.md)
-- @[scrap](./scrap.md)
+- [@agent](./agent.md)
+- [@caus](./caus.md)
+- [@emb](./emb.md)
+- [@expl](./expl.md)
+- [@foreign](./foreign.md)
+- [@lvc](./lvc.md)
+- [@name](./name.md)
+- [@pass](./pass.md)
+- [@relcl](./relcl.md)
+- [@scrap](./scrap.md)
+- [@tense](./tense.md)
 
 Obsolete deep features:
-- @[ x](./x.md)
+- [@ fixed](./fixed.md)
+- [@ x](./x.md)
