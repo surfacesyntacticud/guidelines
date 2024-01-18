@@ -23,8 +23,8 @@ The other layers of annotations follow the UD guidelines. Please refer to UD for
 
   * [Tokenization and word segmentation](https://universaldependencies.org/u/overview/tokenization.html)
   * [Morphology](https://universaldependencies.org/u/overview/morphology.html)
-  * [POS tags](https://universaldependencies.org/u/pos) ([single document](https://universaldependencies.org/u/pos/all.html))
-  * [Features](https://universaldependencies.org/u/feat) ([single document](https://universaldependencies.org/u/feat/all.html))
+  * [POS tags](https://universaldependencies.org/u/pos), [single document](https://universaldependencies.org/u/pos/all.html)
+  * [Features](https://universaldependencies.org/u/feat), [single document](https://universaldependencies.org/u/feat/all.html)
     * [Layered features](https://universaldependencies.org/u/overview/feat-layers.html)
     * [Language-specific features](https://universaldependencies.org/ext-feat-index.html)
 

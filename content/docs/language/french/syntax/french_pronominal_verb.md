@@ -13,7 +13,7 @@ bookToc: true
 
 Four relations are considered for the reflexive marker _se_: `comp:obj`, `comp:obl`, `comp@expl`, and `comp@pass`.
 
-![Pronominal Verb](/images/language/French/syntaxic/french_pronominal_verb/pron_verb.png)
+![Pronominal Verb](/images/language/French/syntax/french_pronominal_verb/pron_verb.png)
 
 All reflexive marker (_se_, _me_, _te_, _nous_, _vous_) are analysed as forms of the reflexive pronoun _se_: `PRON`, `Reflex=Yes`, and `lemma=se`.
 
@@ -23,7 +23,6 @@ The semantic distinction between reflexive meaning (_je me rase_) and reciprocal
 {{<conll>}}
 # text = donc ils se retournent.
 # text_en = and then they turn around
-
 1	donc	donc	ADV	_	_	4	cc	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
 3	se	le	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	Reflex=Yes
@@ -35,7 +34,6 @@ The semantic distinction between reflexive meaning (_je me rase_) and reciprocal
 {{<conll>}}
 # text = ils se racontent leurs vacances.
 # text_en =  they tell each other about their vacation.
-
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 2	se	lui	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	Reflex=Yes
 3	racontent	raconter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -48,7 +46,6 @@ The semantic distinction between reflexive meaning (_je me rase_) and reciprocal
 {{<conll>}}
 # text = tu te souviens ?
 # text_en = do you remember ?
-
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
 2	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs	3	comp@expl	_	InIdiom=Yes|Reflex=Yes
 3	souviens	souvenir	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Idiom=Yes
@@ -59,7 +56,6 @@ The semantic distinction between reflexive meaning (_je me rase_) and reciprocal
 {{<conll>}}
 # text = donc ça s'est fait.
 # text_en = and then it was done 
-
 1	donc	donc	ADV	_	_	4	discourse	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	Reflex=Yes|SpaceAfter=No

@@ -104,7 +104,7 @@ We can also have the deep syntactic feature [`@expl`](../../Deep/expl.md) for th
 11	.	.	PUNCT	_	_	5	punct	_	_
 {{</conll>}}
 
-You can find more information on the [`pronomional verb`](../../../language/French/syntaxic/french_pronominal_verb.md) page or on the [`il y a`](../../../language/French/syntaxic/il_y_a.md) annotation page. 
+You can find more information on the [`pronomional verb`](../../../language/French/syntax/french_pronominal_verb.md) page or on the [`il y a`](../../../language/French/syntax/il_y_a.md) annotation page. 
 
 
 {{<agg comp_french>}}

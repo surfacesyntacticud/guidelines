@@ -1,10 +1,18 @@
-### Cleft sentences and questions
+---
+title: "Cleft constructions"
+weight: 3
+# bookFlatSection: false
+bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+---
 
-  
+### Cleft sentences and questions
 
 Cleft sentences are an extremely common construction in Naija, making the `comp:cleft` relation a particularly important for the the annotation of this language. The basic cleft construction in Naija includes the phrase *na im* (it's him), followed by a verb phrase, though a number of variants exist. The following provides several such examples.
 
-  
 <!-- tabs:start -->
 #### **Example 1**
 

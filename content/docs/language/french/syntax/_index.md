@@ -1,5 +1,5 @@
 ---
-title: "Syntaxic"
+title: "Syntax"
 weight: 4
 # bookFlatSection: false
 bookToc: true
