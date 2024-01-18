@@ -1,24 +1,19 @@
 ---
-title: "pass"
+title: "@pass"
 weight: 3
 bookFlatSection: true
 bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
-# Passiv
+# @pass
 
 ## Universal
 
-The `@pass` feature is used for the arguments of **passive auxiliaries**.
+The `@pass` deep feature is used for the arguments of **passive auxiliaries**.
 
-The relation between the auxiliary and the verb is marked `comp:aux@pass` and the subject of the auxiliary bears the `subj@pass` feature.
+The relation between the auxiliary and the verb is marked `comp:aux@pass` and the subject of the auxiliary bears the `subj@pass` relation.
 
-  
+
 > English
-
 {{< conll >}}
 1	They	they	PRON	_	_	2	subj@pass	_	_
 2	were	be	AUX	_	_	0	root	_	_
@@ -26,7 +21,6 @@ The relation between the auxiliary and the verb is marked `comp:aux@pass` and th
 {{< /conll >}}
 
 > French
-
 {{< conll >}}
 # text = Le château est ensuite vendu
 # text_en = Later the castle is sold
@@ -38,10 +32,10 @@ The relation between the auxiliary and the verb is marked `comp:aux@pass` and th
 {{< /conll >}}
 
 
-In case of **passive reflexive constructions**, the subject is analysed with a regular `subj` relation and the pronoun with the `comp@pass` relation. For more information about the usage of `comp`, see the [dedicated page](../Syntactic_relations/comp/_index.md).
+In case of **passive reflexive constructions**, the subject is analysed with a regular `subj` relation and the pronoun with the `comp@pass` relation.
+For more information, see the [`comp` page](../Syntactic_relations/comp/comp).
 
-  > French
-
+> French
 {{< conll >}}
 # text = L'affaire se complique un peu
 # text_en = The case gets a little complicated
@@ -56,7 +50,6 @@ In case of **passive reflexive constructions**, the subject is analysed with a r
 Complements of the verbs in a passive construction are marked `comp:obj@pass`
 
 > French
-
 {{< conll >}}
 # text_en = It is decided that the execution of the sentence is postponed
 # text = Il est décidé que l'exécution de la sentence soit différé

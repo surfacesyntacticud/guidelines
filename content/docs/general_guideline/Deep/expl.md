@@ -1,5 +1,5 @@
 ---
-title: "expl"
+title: "@expl"
 weight: 3
 bookFlatSection: true
 bookToc: true
@@ -8,7 +8,7 @@ bookToc: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Expletive
+# `@expl`: expletive
 
 ## Universal 
 

@@ -1,5 +1,5 @@
 ---
-title: "lvc"
+title: "@lvc"
 weight: 3
 bookFlatSection: true
 bookToc: true
@@ -8,7 +8,7 @@ bookToc: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Light Verb Construction 
+# `@lvc`: Light Verb Construction 
 
 ## Universal 
 
@@ -30,17 +30,12 @@ A light verb construction (LVC) is a type of verbal structure in which a verb is
 
 
 The complements of these constructions are sometimes attached to the noun rather than the verb because:
+- the noun can form a phrase with the complement: _the projectile has the tendency to get in the way_ &rarr; _this tendency to get in the way needs to be resolved_
+- it's the noun that is the predicate and controls the valency. In the previous example, _HAVE_ is binary predicate, not a ternary predicate.
 
-* the noun can form a phrase with the complement : "the projectile has the tendency to get in the way" -> "this tendency to get in the way needs to be resolved"
-
-* it's the noun that is the predicate and controls the valency. In the previous example, HAVE is binary predicate, not a ternary predicate.
-
-  
-
-This first criterion explains the differing interpretations of the following two sentences. "A date with his girlfriend" forms a perfectly coherent phrase which allows for reformulations such as "the date with his girlfriend, it was pleasant". However, "part in the discussion" is less semantically transparent and therefore less prone to such reformulations. Because of this, the verb "take" is treated as the head of the complement.
+This first criterion explains the differing interpretations of the following two sentences. _A date with his girlfriend_ forms a perfectly coherent phrase which allows for reformulations such as _the date with his girlfriend, it was pleasant_. However, _part in the discussion_ is less semantically transparent and therefore less prone to such reformulations. Because of this, the verb _take_ is treated as the head of the complement.
 
 > English 
-
 {{< conll >}}
 1	He	he	PRON	_	_	2	subj	_	_
 2	has	have	VERB	_	_	0	root	_	_
@@ -52,7 +47,6 @@ This first criterion explains the differing interpretations of the following two
 {{< /conll >}}
 
 > English 
-
 {{< conll >}}
 1	take	take	VERB	_	_	0	root	_	_
 2	part	part	NOUN	_	_	1	comp:obj@lvc	_	_
@@ -63,10 +57,12 @@ This first criterion explains the differing interpretations of the following two
 
 
 
-In cases of ambiguity, pronominalization can be a useful test for determining dependencies. Pronominalizing "He has a date with his girlfriend" as "the date, he has it with his girlfriend" would sound awkward to most native English speakers. However, pronominalizing "He took a walk with his wife" as "the walk, he took it with his wife" sounds much more natural. This explains the different syntactic interpretations of the following sentences.
+In cases of ambiguity, pronominalization can be a useful test for determining dependencies.
+Pronominalizing _He has a date with his girlfriend_ as _the date, he has it with his girlfriend_ would sound awkward to most native English speakers.
+However, pronominalizing _He took a walk with his wife_ as _the walk, he took it with his wife_ sounds much more natural.
+This explains the different syntactic interpretations of the following sentences.
 
 > English
-
 {{< conll >}}
 1	He	he	PRON	_	_	2	subj	_	_
 2	has	have	VERB	_	_	0	root	_	_
@@ -78,7 +74,6 @@ In cases of ambiguity, pronominalization can be a useful test for determining de
 {{< /conll >}}
 
 > English
-
 {{< conll >}}
 1	He	he	PRON	_	_	2	subj	_	_
 2	took	take	VERB	_	_	0	root	_	_
@@ -89,20 +84,7 @@ In cases of ambiguity, pronominalization can be a useful test for determining de
 7	wife	wife	NOUN	_	_	5	comp:obj	_	_
 {{< /conll >}}
 
-The `@lvc` feature is used for arguments of light verbs.
-
-> English
-
-{{< conll >}}
-1	take	take	VERB	_	_	0	root	_	_
-2	part	part	NOUN	_	_	1	comp:obj@lvc	_	_
-3	in	in	ADP	_	_	1	comp:obl	_	_
-4	the	the	DET	_	_	5	det	_	_
-5	discussion	discussion	NOUN	_	_	3	comp:obj	_	_
-{{< /conll >}}
-
 > French
-
 {{< conll >}}
 # text_en = He's afraid of the spider
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=he

@@ -1,10 +1,10 @@
 ---
-title: "fixed"
-weight: 3
+title: "@fixed • Deprecated"
+weight: 99
 bookFlatSection: true
 bookToc: true
 ---
-# Fixed
+# `@fixed` • Deprecated
 
 ## Universal
 

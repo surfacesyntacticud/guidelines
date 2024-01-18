@@ -1,5 +1,5 @@
 ---
-title: "caus"
+title: "@caus"
 weight: 3
 bookFlatSection: true
 bookToc: true
@@ -12,7 +12,7 @@ bookToc: true
 
 ## Universal
 
-The `@caus` feature is used for the argument of causative auxiliaries.
+The `@caus` feature is used mainly in French for the argument of causative auxiliaries.
 
 > French
 {{< conll >}}

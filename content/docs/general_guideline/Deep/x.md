@@ -1,6 +1,6 @@
 ---
-title: "x"
-weight: 3
+title: "@x • Deprecated"
+weight: 99
 bookFlatSection: true
 bookToc: true
 # bookHidden: false
@@ -8,19 +8,19 @@ bookToc: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# X
+# @x • Deprecated
 
 ## Universal
 
 {{<hint danger>}}
-NOT USE ANYMORE. REPLACE BY FEATURES `Subject`
+NOT USED ANYMORE. REPLACE BY FEATURES [`Subject`](../SUD_features/Subject)
 {{</hint>}}
 
-
-The `@x` feature is used to annotate relationships with verbs that do not have an explicitly marked subject, but whose semantic subject can nevertheless be found in the sentence. This relationship therefore applies essentially to infinitive verbs which relate to a subject introduced earlier in the sentence. For example, in the sentence *he wants to eat*, *he* has a clear semantic relationship with *to eat*.
+The `@x` deep feature was used to annotate relationships with verbs that do not have an explicitly marked subject, but whose semantic subject can nevertheless be found in the sentence.
+This relationship therefore applies essentially to infinitive verbs which relate to a subject introduced earlier in the sentence.
+For example, in the sentence *he wants to eat*, *he* has a clear semantic relationship with *to eat*.
 
 > English
-
 {{< conll >}}
 1	He	he	PRON	_	_	2	subj	_	_
 2	did	do	AUX	_	_	0	root	_	_
@@ -33,7 +33,6 @@ The `@x` feature is used to annotate relationships with verbs that do not have a
 {{< /conll >}}
 
 > English
-
 {{< conll >}}
 1	the	the	DET	_	_	2	det	_	_
 2	developer	developer	NOUN	_	_	3	subj	_	_
@@ -51,7 +50,6 @@ The `@x` feature is used to annotate relationships with verbs that do not have a
 While this feature is most often used in relationships between finite verbs and the infinitives they govern, note that the governing element does not necessarily need to be a verb. The following example highlights how the `@x`feature can apply to the relation between an infinitive and a governing adjective.
 
 > English
-
 {{< conll >}}
 1	I	I	PRON	_	_	2	subj	_	_
 2	am	be	VERB	_	_	0	root	_	_

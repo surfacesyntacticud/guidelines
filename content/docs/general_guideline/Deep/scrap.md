@@ -1,5 +1,5 @@
 ---
-title: "scrap"
+title: "@scrap"
 weight: 10
 ---
 
@@ -30,7 +30,7 @@ pattern { GOV -[deep=scrap]-> DEP }
 10	héros	héros	NOUN	_	Gender=Masc	8	comp:obj	_	Gloss=hero
 {{</conll>}}
 
-In this example, the construction *Je lis son le portrait de notre de votre héros* (English: *I’im reading his the portrayal of our of your hero*).
+In this example, the construction *Je lis son le portrait de notre de votre héros* (English: *I’m reading his the portrayal of our of your hero*).
 This construction causes some issues because the word *notre* cannot be attached to its semantic head *héros* because of the presence of the second *de*.
 For these cases, the two words *de* are linked with a `conj:dicto` relation and the word *notre* is linked to the first *de* as an incomplete object `comp:obj@scrap`.
 

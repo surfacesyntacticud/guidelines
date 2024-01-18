@@ -1,5 +1,5 @@
 ---
-title: "name"
+title: "@name"
 weight: 3
 bookFlatSection: true
 bookToc: true
@@ -9,16 +9,26 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# Name 
+# `@name`
 
 ## Universal 
+The deep feature `@name` is used in combination with the `flat` relation, moslty in proper nouns.
+See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=@name) for the use of `flat@name` in SUD 2.13.
 
-TODO
+> Finnish
+{{<conll>}}
+# sent_id = w01142031
+# text = Juhana Gent kuoli vuonna 1399.
+# text_en = John of Gaunt died in 1399.
+1	Juhana	Juhana	PROPN	_	Case=Nom|Number=Sing	3	subj	_	_
+2	Gent	Gent	PROPN	_	Case=Nom|Number=Sing	1	flat@name	_	_
+3	kuoli	kuolla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	vuonna	vuosi	NOUN	_	Case=Ess|Number=Sing	3	udep	_	_
+5	1399	1399	NUM	_	NumType=Card	4	mod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+{{</conll>}}
 
-## French 
-
-The deep feature `name` is used with the relation `flat` for composed proper noun:
-
+> French
 {{<conll>}}
 # text = c'est euh ça s'appelle Casela Aventures.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
