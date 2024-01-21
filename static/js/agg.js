@@ -1,16 +1,16 @@
 var global = 0 // global counting to prevent multi rendering of tables
 
-function cell(data) {
+function cell(requests, data) {
   if (data.colDef.field == "row_header") {
     return (`<b>${data.value}</b>`)
   } else {
-    console.log(data)
-    return `<a class="btn btn-success btn-sm" onclick='grew_match("${data.data.row_header}","${data.colDef.request}")'>${data.value}</a>`;
+    let request = requests[data.colDef.headerName];
+    return `<a class="btn btn-success btn-sm" onclick='grew_match("${data.data.row_header}","${request}")'>${data.value}</a>`;
   }
 }
 
 function grew_match(treebank,request) {
-  let url = `http://universal.grew.fr?corpus=${treebank}&request=${request}`
+  let url = `https://universal.grew.fr?corpus=${treebank}&request=${request}`
   console.log(url);
   window.open(url, '_blank');
 }
@@ -25,8 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
       fetch('./'+table.id+'.json')
       .then((response) => response.json())
       .then((json) => {
-        json.defaultColDef.cellRenderer = cell;
-        new agGrid.Grid(table, json)
+        let grid = json.grid
+        grid.defaultColDef.cellRenderer = (data => cell (json.requests, data));
+        agGrid.createGrid(table, grid)
       });
     })
   }

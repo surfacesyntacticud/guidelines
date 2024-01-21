@@ -42,20 +42,24 @@ if __name__ == '__main__':
         main_dict[corpus_name] = { id: corpus.count(grew_requests[id]) for id in grew_requests }
         corpus.clean()
 
+      requests = { id: esc_request(grew_requests[id]) for id in grew_requests }
       columnDefs = [ { "field": "row_header", "headerName": "Treebank", "pinned": "left", "lockPinned": True} ] 
-      columnDefs += [ {"field": id, "headerName": id, "request": esc_request(grew_requests[id])} for id in grew_requests ]
+      columnDefs += [ {"field": id, "headerName": id } for id in grew_requests ]
 
       rowData = [ {"row_header": k1 } | { k2: main_dict[k1][k2] for k2 in main_dict[k1]} for k1 in main_dict]
 
-      data = { 
-        "defaultColDef": {
-          "width": 150,
-          "sortable": True,
-          "sortingOrder": ["desc", "asc"],
-          "resizable": True
-        },
-        "columnDefs": columnDefs,
-        "rowData": rowData,
+      data = {
+        "requests": requests,
+        "grid": {
+          "defaultColDef": {
+            "width": 150,
+            "sortable": True,
+            "sortingOrder": ["desc", "asc"],
+            "resizable": True
+          },
+          "columnDefs": columnDefs,
+          "rowData": rowData
+        }
       }
 
       print (json.dumps(data, indent=2, ensure_ascii=False))
