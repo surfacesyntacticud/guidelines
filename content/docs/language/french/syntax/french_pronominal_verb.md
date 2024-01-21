@@ -9,7 +9,7 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-## [Pronominal verbs](http://universal.grew.fr/?custom=642d856e524ac)
+## [Pronominal verbs](https://universal.grew.fr/?custom=642d856e524ac)
 
 Four relations are considered for the reflexive marker _se_: `comp:obj`, `comp:obl`, `comp@expl`, and `comp@pass`.
 

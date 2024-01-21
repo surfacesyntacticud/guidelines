@@ -134,7 +134,7 @@ The `@x` feature is now deprecated and must not be used in new annotations.
 {{<hint warning>}}
 ⚠️ Sometimes, the feature `Subject=NoRaising` is used.
 It corresponds to an undespecified annoation covering both `Subject=Generic` or `Subject=Instantiated`.
-You can find this annotation in the treebank [**French-Rhapsodie**](http://universal.grew.fr/?corpus=SUD_French-Rhapsodie@latest) and [**French_ParisStories**](http://universal.grew.fr/?corpus=SUD_French-ParisStories@latest).
+You can find this annotation in the treebank [**French-Rhapsodie**](https://universal.grew.fr/?corpus=SUD_French-Rhapsodie@latest) and [**French_ParisStories**](https://universal.grew.fr/?corpus=SUD_French-ParisStories@latest).
 {{</hint>}}
 
 

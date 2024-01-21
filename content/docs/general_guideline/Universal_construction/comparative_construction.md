@@ -32,7 +32,7 @@ Note that the first grammatical word of the comparison (*plus*) is considered a 
 Sometimes, there is no grammatical word introducing the first term of the comparison; the property being compared has a particular inflection or it is represented with a specific word. In this case, the dependency `comp:obj` would be used to link the property directly to the *than* term, with no modifier relationship.
 
 {{< hint info >}}
-Find more french example [here](http://universal.grew.fr/?custom=63ff5989189d5)
+Find more french example [here](https://universal.grew.fr/?custom=63ff5989189d5)
 pattern { N1 [lemma="plus"|"moins"]; N2 [lemma="que"]; N1 << N2 ; N1-[comp:obj]->N2}
 {{< /hint >}}
 
@@ -73,7 +73,7 @@ pattern { N1 [lemma="plus"|"moins"]; N2 [lemma="que"]; N1 << N2 ; N1-[comp:obj]-
 
 
 {{< hint info >}}
-Find more example [here](http://universal.grew.fr/?custom=63ff5abf81e54) and [here]()
+Find more example [here](https://universal.grew.fr/?custom=63ff5abf81e54) and [here]()
 {{< /hint >}}
   
   
@@ -98,7 +98,7 @@ In **consecutive constructions**, such as *so... that* or in other languages: *t
 
   
 {{< hint info>}}
-Find more example [here](http://universal.grew.fr/?custom=63ff5b51e4921)
+Find more example [here](https://universal.grew.fr/?custom=63ff5b51e4921)
 pattern { N1 [lemma="tellement"]; N2 [lemma="que"]; N1 << N2 ; N1-[comp:obj]->N2}
 {{< /hint>}}
 
