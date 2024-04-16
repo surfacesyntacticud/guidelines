@@ -1,6 +1,6 @@
 ---
-title: "conj"
-weight: 1
+title: "conj…"
+weight: 5
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
@@ -9,7 +9,7 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-# conj
+# `conj` and extensions
 
 In UD there are three relations :
 

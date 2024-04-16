@@ -1,6 +1,6 @@
 ---
 title: "udep"
-weight: 1
+weight: 2
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
@@ -9,16 +9,17 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# Udep 
-
+# `udep` relation
 
 
 ## Universal 
 
 The `udep` relation is used for complements when one does not wish to or is unable to distinguish between arguments and modifiers. This relationship can notably be used in cases where the complement's relationship with its governor is ambiguous. When there is little debate about the nature of the relationship, the more specific label is preferred.
 
-
->pattern { GOV-[udep]->DEP} 
+{{<grew>}}
+pattern { X -[udep]-> Y }
+{{</grew>}}
+ 
 
 The governor and the dependent of a `udep` relation can have any POS. The `udep` relation is frequently given to the complements of nouns, since it is generally more difficult to distinguish between arguments and modifiers for nouns than it is for verbs.
 
@@ -27,8 +28,7 @@ The governor and the dependent of a `udep` relation can have any POS. The `udep`
 As shown in the [correspondences between SUD and UD](../../../../_index.md#correspondences-between-ud-and-sud), the `udep` label is used while automatically converting an `obl` label from a UD annotation. This is because `obl` can correspond to both `comp:obl` and `mod` in SUD.
 
 
-> English
-
+> __English__
 {{< conll >}}
 1	An	a	DET	_	_	2	det	_	_
 2	act	act	NOUN	_	_	0	root	_	_
@@ -36,8 +36,7 @@ As shown in the [correspondences between SUD and UD](../../../../_index.md#corre
 4	creation	creation	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
 
-> English
-
+> __English__
 {{< conll >}}
 1	She	she	PRON	_	_	2	subj	_	_
 2	smiles	smile	VERB	_	_	0	root	_	_
@@ -47,8 +46,7 @@ As shown in the [correspondences between SUD and UD](../../../../_index.md#corre
 {{< /conll >}}
 
 
-> Spanish
-
+> __Spanish__
 {{< conll >}}
 # text = Ficha de Juanjo Ciércolen en Don Balón
 # text_en = File of Juan Ciércoles in Don Balón

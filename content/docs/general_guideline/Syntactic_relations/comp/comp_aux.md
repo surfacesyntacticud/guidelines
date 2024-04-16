@@ -9,24 +9,21 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# comp:aux
-
+# `comp:aux`
 
 ## Universal
 
-The `comp:aux` relation is used for the argument of auxiliaries.
-
-The relation `comp:aux` can be used with the following deep features:
+The relation `comp:aux` is used for the argument of auxiliaries.
+It can be used with the following deep features:
  - [`@tense`](../../Deep/tense.md)
  - [`@pass`](../../Deep/pass.md)
  - [`@caus`](../../Deep/caus.md)
 
-```grew
+{{< grew >}}
 pattern { GOV-[comp:aux]->DEP }
-```
+{{< /grew >}}
 
-  
-> English
+> **English**
 {{<conll>}}
 1	Do	do	AUX	_	_	0	root	_	_
 2	you	you	PRON	_	_	1	subj	_	_
@@ -35,7 +32,7 @@ pattern { GOV-[comp:aux]->DEP }
 {{</conll>}}
 
 
-> English
+> **English**
 {{<conll>}}
 1	It	it	PRON	_	_	2	subj	_	_
 2	had	had	AUX	_	_	0	root	_	_
@@ -45,10 +42,9 @@ pattern { GOV-[comp:aux]->DEP }
 6	.	.	PUNCT	_	_	2	punct	_	_
 {{</conll >}}
 
-
 Multiple auxiliaries, such as those permitted in [English varieties spoken in the Southeastern United States](https://en.wikipedia.org/wiki/Southern_American_English), are annotated as so.
 
-> Southern American English
+> **Southern American English**
 {{<conll>}}
 # text_en = We might be able to go.
 1	We	we	PRON	_	_	2	subj	_	_
@@ -59,7 +55,7 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 {{</conll>}}
 
 
-> Naija
+> **Naija**
 {{<conll>}}
 # text_en = I can't even sleep.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	Gloss=I
@@ -70,7 +66,7 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 {{</conll>}}
 
 
-> Slovak
+> **Slovak**
 {{<conll>}}
 # text = Ak by som mal podobnú šancu, ja ju nepremrhám.
 # text_en = If I had a similar chance, I wouldn't waste it
@@ -87,7 +83,7 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 {{</conll>}}
 
 
-> Wolof
+> **Wolof**
 {{<conll>}}
 # text = Képp ku wuute dees na la mbugal.
 # text_en = Every man that is missing is punished (for you)
@@ -101,7 +97,7 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 {{</conll>}}
 
 
-> German
+> **German**
 {{<conll>}}
 # text_en = It was agreed with the group of investors not to disclose any information.
 1	Mit	Mit	ADP	APPR	AdpType=Prep|Case=Dat	4	udep	_	Gloss=with

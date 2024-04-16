@@ -9,17 +9,18 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# Parataxis:parenth
+# `parataxis:parenth`
 
 
 ## Universal
 
 The `parataxis:parenth` relation is used for parenthetical clauses, in the sense that the clause is backgrounded (as if it were inside parentheses). A parenthetical clause could form an independent sentence.
 
-> pattern { GOV-[parataxis:parenth]->DEP }
-  
-> French
+{{<grew corpus="SUD_French-Rhapsodie@latest">}}
+pattern { X -[parataxis:parenth]-> Y }
+{{</grew>}}
 
+> __French__
 {{< conll >}}
 # text = vous avez fait paraître ce ce chef -d' oeuvre pour moi c' est un chef -d' oeuvre qui s' appelle Un Barrage contre le Pacifique
 # text_en = you released this masterpiece for me it's a masterpiece called Un Barrage contre le Pacifique
@@ -29,13 +30,13 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 4	paraître	paraître	VERB	CAUSATIVE	VerbForm=Inf	3	comp:aux@caus	_	Gloss=released
 5	ce	ce	DET	_	_	7	det	_	Gloss=this
 6	ce	ce	DET	_	_	5	conj:dicto	_	_
-7	chef	chef	NOUN	_	ExtPos=NOUN	4	comp:obj	_	Idiom=Yes|Gloss=chief
+7	chef	chef	NOUN	_	ExtPos=NOUN	4	comp:obj	_	Idiom=Yes|Gloss=chief|highlight=red
 8	-d'	d'	ADP	_	_	7	unk	_	Gloss=of|InIdiom=Yes
 9	oeuvre	oeuvre	NOUN	_	_	8	unk	_	Gloss=art|InIdiom=Yes
 10	pour	pour	ADP	_	_	13	mod	_	Gloss=for
 11	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	comp:obj	_	Gloss=me
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	Gloss=it
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:parenth	_	Gloss=is
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:parenth	_	Gloss=is|highlight=red
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Gloss=s
 15	chef	chef	NOUN	_	ExtPos=NOUN	13	comp:pred	_	Gloss=chief|Idiom=Yes
 16	-d'	de	ADP	_	_	15	unk	_	Gloss=of|InIdiom=Yes
@@ -50,8 +51,7 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 25	Pacifique	Pacifique	PROPN	_	_	23	comp:obj	_	Gloss=Pacific
 {{< /conll >}}
 
-> Naija
-
+> __Naija__
 {{< conll >}}
 # text = en mille neuf cent cinquante quand vous avez fait paraître ce ce chef -d' oeuvre pour moi c' est un chef -d' oeuvre qui s' appelle Un Barrage contre le Pacifique
 # sent_id = ABJ_INF_08_Impatience_DG__27
@@ -62,7 +62,7 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 # text_ortho = From primary four (dat time, I even still dey seven years, ), one day, naim my papa just, my papa just come school.
 1	from	from	ADP	_	_	29	mod:periph	_	AlignBegin=58888|AlignEnd=59237|Gloss=from
 2	primary	primary	NOUN	_	_	1	comp:obj	_	AlignBegin=59237|AlignEnd=59585|Gloss=primary
-3	four	four	NUM	_	NumType=Card	2	mod:num	_	AlignBegin=59585|AlignEnd=59934|Gloss=four.CARD
+3	four	four	NUM	_	NumType=Card	2	mod:num	_	AlignBegin=59585|AlignEnd=59934|Gloss=four.CARD|highlight=red
 4	(	(	PUNCT	_	_	11	punct	_	AlignBegin=59934|AlignEnd=59934|Gloss=PUNCT
 5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=59934|AlignEnd=60283|Gloss=SG.DEM
 6	time	time	NOUN	_	_	11	mod:periph	_	AlignBegin=60283|AlignEnd=60632|Gloss=time
@@ -70,7 +70,7 @@ The `parataxis:parenth` relation is used for parenthetical clauses, in the sense
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=60632|AlignEnd=60980|Gloss=NOM.SG.1
 9	even	even	ADV	_	_	11	mod	_	AlignBegin=60980|AlignEnd=61329|Gloss=even
 10	still	still	ADV	_	_	11	mod	_	AlignBegin=61329|AlignEnd=61678|Gloss=still
-11	dey	dey	VERB	_	VerbType=Cop	3	parataxis:parenth	_	AlignBegin=61678|AlignEnd=62027|Gloss=be2
+11	dey	dey	VERB	_	VerbType=Cop	3	parataxis:parenth	_	AlignBegin=61678|AlignEnd=62027|Gloss=be2|highlight=red
 12	seven	seven	NUM	_	NumType=Card	13	det:num	_	AlignBegin=62027|AlignEnd=62375|Gloss=seven.CARD
 13	years	year	NOUN	_	Number=Plur	11	comp:pred	_	AlignBegin=62375|AlignEnd=62724|Gloss=year.PL
 14	//)	//)	PUNCT	_	_	11	punct	_	AlignBegin=62724|AlignEnd=62724|Gloss=PUNCT

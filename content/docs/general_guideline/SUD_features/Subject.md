@@ -90,7 +90,7 @@ The `@x` feature is now deprecated and must not be used in new annotations.
 #text = Dieu (Ned Flanders) leur apprend qu'il est interdit de manger les fruits de l'arbre.
 1	Dieu	Dieu	PROPN	_	_	7	subj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	Ned	Ned	PROPN	_	_	1	appos	_	_
+3	Ned	Ned	PROPN	_	_	1	conj:appos	_	_
 4	Flanders	Flanders	PROPN	_	_	3	flat@name	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	3	punct	_	_
 6	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	7	comp:obl	_	_

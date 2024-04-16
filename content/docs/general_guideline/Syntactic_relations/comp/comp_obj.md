@@ -9,23 +9,23 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# comp:obj 
+# `comp:obj` 
 
 ## Universal 
  
-The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
+The relation `comp:obj` is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
 
 `comp:obj` can have the following deep features:
  - [`@agent`](../../Deep/agent.md)
  - [`@lvc`](../../Deep/lvc.md)
 
-```grew
+{{< grew >}}
 pattern { GOV-[comp:obj]->DEP }
-```
+{{< /grew >}}
 
 ### Direct object complements
 
-> English
+> **English**
 {{< conll >}}
 1	Norton	Norton	PROPN	_	_	2	subj	_	_
 2	spent	spend	VERB	_	_	0	root	_	_
@@ -37,7 +37,7 @@ pattern { GOV-[comp:obj]->DEP }
 {{< /conll >}}
 
 
-> French
+> **French**
 {{< conll >}}
 # text = j'adore ce bar
 # text_en = I love this bar
@@ -48,7 +48,7 @@ pattern { GOV-[comp:obj]->DEP }
 {{< /conll >}}
 
 
-> Russian
+> **Russian**
 {{< conll >}}
 # text = Я ставлю точку
 # text_en = I put a point
@@ -63,7 +63,7 @@ Usually, in order to determine whether an object is direct or not, it suffices t
 In the following examples we can see direct objects of the Spanish verb *ver*.
 With animate objects this verb takes the preposition *a*, however the object is still considered direct and therefore the relation stays `comp:obj`.
 
-> Spanish
+> **Spanish**
 {{< conll >}}
 # text = Veo su foto
 # text_en = I see his photo
@@ -73,7 +73,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 {{< /conll >}}
 
 
-> Spanish
+> **Spanish**
 {{< conll >}}
 # text = Veo a Clinton
 # text_en = I see Clinton
@@ -85,7 +85,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 
 ### Adposition arguments
 
-> French
+> **French**
 {{< conll >}}
 # text = On a décidé d'aller au CROUS de Censier
 # text_en = We decided to go to the Censier CROUS
@@ -102,7 +102,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 {{< /conll >}}
 
 
-> English
+> **English**
 {{< conll >}}
 1	Get	get	VERB	VB	VerbForm=Inf	0	root	_	_
 2	feedback	feedback	NOUN	NN	Number=Sing	1	comp:obj	_	Entity=(abstract-120
@@ -125,7 +125,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 {{< /conll >}}
 
   
-> Russian
+> **Russian**
 {{<conll>}}
 # sent_id = dev-s184
 # text = С запада к храму примыкала трапезная часть с колокольней
@@ -142,7 +142,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 {{</conll>}}
 
 ### Subordinating conjunction arguments
-> English
+> **English**
 {{< conll >}}
 1	this	this	PRON	_	_	2	subj	_	_
 2	means	mean	VERB	_	_	0	root	_	_
@@ -158,7 +158,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 {{< /conll >}}
 
 
-> Spanish
+> **Spanish**
 {{< conll >}}
 # text = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado
 # text_en = He stated that he follows the European criterion and tries to encourage the market
@@ -177,7 +177,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 13	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	Gloss=market
 {{< /conll >}}
 
-> French
+> **French**
 {{< conll >}}
 # text = il faut que tu deviennes script girl.
 # text_en = You need to become a script girl.
@@ -198,7 +198,7 @@ With animate objects this verb takes the preposition *a*, however the object is 
 Constructions such as: *plus... que* (French), *more... than* (English), *più... di* (Italian), *bardziej... niż* (Polish), *более... чем* (Russian).
 
 
-> English
+> **English**
 {{< conll >}}
 # text = techniques far more assertive than his predecessors
 1	techniques	technique	NOUN	NNS	Number=Plur	0	root	_	_
@@ -210,7 +210,7 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 7	predecessors	predecessor	NOUN	NNS	Number=Plur	5	comp:obj	_	_
 {{< /conll >}}
 
-> Russian
+> **Russian**
 {{< conll >}}
 # text = электроны имеют отклик намного более быстрый, чем атомы
 1	электроны	электрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	subj	_	_
@@ -229,7 +229,7 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 Constructions such as: *tellement... que* (French), *so... that* (English), *così... che* (Italian), *tak... że* (Polish), *настолько... что* (Russian).
 
 
-> French
+> **French**
 {{< conll >}}
 # text_en = so vast that you get lost
 1	tellement	tellement	ADV	_	_	2	mod	_	_
@@ -242,7 +242,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 {{< /conll >}}
 
 
-> Russian
+> **Russian**
 {{< conll >}}
 # sent_id = 2007Tele.xml_38
 # text = Изображение настолько хорошее, что все забыли о тестировании
@@ -261,7 +261,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 
 ### Deep subjects of impersonal constructions
 
- > French
+ > **French**
 {{< conll >}}
 # text_en = There exist by the way many different types of cleats.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	Gloss=it
@@ -277,7 +277,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 {{< /conll >}}
 
   
-> Russian
+> **Russian**
 {{< conll >}}
 # sent_id = uppsalaGrekova_3.xml_179
 # text = Прошло много времени, пока я к ней приспособилась
@@ -300,7 +300,7 @@ Constructions such as: *tellement... que* (French), *so... that* (English), *cos
 Direct discourse is attached to its governor by the relation `comp:obj`.
 The head of the reported phrase has the features `Reported=Yes`.
 
-> French
+> **French**
 {{< conll >}}
 # text = Ce qui est horrible c'est de se dire je n'en sortirai jamais
 # text_en = What is horrible is to think I will never get out
@@ -399,9 +399,9 @@ In this case, two deep features are used:
  - `comp:obj@R` for direct object complement that marks the recipient
  - `comp:obj]@T` for direct object complement that marks the theme
 
-```grew
+{{< grew >}}
 pattern { V -[comp:obj@R]-> R; V -[comp:obj@T]-> T;  }
-```
+{{< /grew >}}
 
 {{<conll>}}
 # sent_id = my_sample__3

@@ -19,20 +19,11 @@ The relation `comp:obl` can have these deep features:
 - [`@agent`](../../Deep/agent.md)
 - [`@lvc`](../../Deep/lvc.md)
 
-```grew
+{{<grew>}}
 pattern { GOV-[comp:obl]->DEP }
-```
+{{</grew>}}
 
-> **English UD**
-{{< conll >}}
-1	it	it	PRON	_	_	2	nsubj	_	_
-2	belongs	belong	VERB	_	_	0	root	_	_
-3	to	to	ADP	_	_	5	case	_	_
-4	a	a	DET	_	_	5	det	_	_
-5	past	past	NOUN	_	_	2	obl	_	_
-{{< /conll >}}
-
-> **English SUD**
+> **English**
 {{< conll >}}
 1	it	it	PROPN	_	_	2	subj	_	_
 2	belongs	belong	VERB	_	_	0	root	_	_
@@ -40,6 +31,16 @@ pattern { GOV-[comp:obl]->DEP }
 4	a	a	DET	_	_	5	det	_	_
 5	past	past	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
+
+> **English UD**
+{{< conll_ud >}}
+1	it	it	PRON	_	_	2	nsubj	_	_
+2	belongs	belong	VERB	_	_	0	root	_	_
+3	to	to	ADP	_	_	5	case	_	_
+4	a	a	DET	_	_	5	det	_	_
+5	past	past	NOUN	_	_	2	obl	_	_
+{{< /conll_ud >}}
+
 
 
 ### Oblique complement of a verb
@@ -99,7 +100,8 @@ In the last sentence, *que ça marche* commutes with *de l'araignée*, therefore
 
 ### Oblique complement of a noun
 
-Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. For more information about these constructions, please visit our [dedicated page](../../Deep/lvc.md).
+Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be used for the complement of a noun.
+This happens when the noun is part of a light verb construction (for more information, see [`@lvc`](../../Deep/lvc.md)).
 
 > **French**
 {{< conll >}}

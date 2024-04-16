@@ -8,13 +8,16 @@ weight: 1
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Reported Speech in spoken corpora
+# Reported Speech in Spoken Corpora
+
 ## Universal 
 
-Reported speech has a feature `Reported=Yes` on its head. It is generally the `comp:obj` of a speech verb, such as _dire_ 'to say'. 
+Reported speech has a feature `Reported=Yes` on its head.
+It is generally the `comp:obj` of a speech verb, such as _dire_ 'to say'. 
 
-> pattern { GOV -[comp:obj]-> DEP ; DEP [Reported=Yes] }
-
+{{<grew corpus="SUD_French-Rhapsodie@latest">}}
+pattern { X -[comp:obj]-> Y; Y[Reported=Yes] }
+{{</grew>}}
 
 > French
 {{<conll>}}

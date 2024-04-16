@@ -9,27 +9,27 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# comp 
+# `comp` 
 
 ## Universal  
 
-The `comp` relation is used for arguments of verbs, nouns, adjectives, adverbs, auxiliaries, adpositions and conjunctions.
-
-This relation is refined into several sub-relations: [`comp:aux`](./comp_aux) (auxiliary argument), [`comp:cleft`](./comp_cleft) (cleft clauses), [`comp:obj`](./comp_obj) (direct object),[`comp:obl`](./comp_obl) (oblique argument), [`comp:pred`](./comp_pred) (predicative argument).
-
-In most cases, SUD native corpora are directly annotated with the sub-relations, rather than with the `comp` relation. However, `comp` may sometimes be used when one has difficulty deciding between `comp:obj` and `comp:obl`.
-
-You can find more examples in this [table](http://tables.grew.fr/?data=sud_deps/comp)
+The `comp` relation (without extension) is used when one has difficulty deciding between `comp:obj` and `comp:obl`.
 
 ## French
 
+{{<grew key1="e.label" corpus="SUD_French-GSD@latest" >}}
+pattern { e: X -[1=comp, !2]-> Y }
+{{</grew>}}
+
+
 ### Overview
 
-In **French**, the `comp` label is frequently used to annotate reflexive pronouns and other pronominal clitics which contribute to the formation of pronominal verbs when it is difficult to determine the role of a pronoun. In constructions such as *Il s'en sort* the pronoun *se* no longer provides the semantic value of an argument of the verb. However, it fits so well into the typical argument structure that it is hard to recognize that it cannot be de-pronominalized. For this reason, we annotate the relation with a `comp` label.
+In **French**, the `comp` label is frequently used to annotate reflexive pronouns and other pronominal clitics which contribute to the formation of pronominal verbs when it is difficult to determine the role of the pronoun.
+In constructions such as *Il s'en sort* (en: *He's doing well*) the pronoun *se* no longer provides the semantic value of an argument of the verb.
+However, it fits so well into the typical argument structure that it is hard to recognize that it cannot be de-pronominalized.
+For this reason, it is annotated with the `comp` relation.
 
-> Example 
-
-{{< conll >}}
+> {{< conll >}}
 # text = Il s'en sort bien
 # text_en = He's doing well
 1	Il	il	PRON	_	_	4	subj	_	Gloss=he
@@ -40,9 +40,7 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
 {{< /conll >}}
 
 
-> Example 
-
-{{< conll >}}
+> {{< conll >}}
 # text = Il se souvient
 # text_en = He remembers
 1	Il	il	PRON	_	_	3	subj	_	Gloss=he
@@ -50,9 +48,7 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
 3	souvient	souvenir	VERB	_	_	0	root	_	Gloss=remembers
 {{< /conll >}}
 
-> Example 
-
-{{< conll >}}
+> {{< conll >}}
 # text = Christine en veut à son amie
 # text_en = Christine is angry at her friend
 1	Christine	Christine	PROPN	_	_	3	subj	_	Gloss=Christine
@@ -65,12 +61,10 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
 
 ### Deep syntactic features
 
-In the case of **passive reflexive constructions**, the pronoun is labelled `comp` with the deep syntactic feature @[`pass`](../../Deep/pass.md).
+In the case of **passive reflexive constructions**, the pronoun is labelled `comp` with the deep syntactic feature [`@pass`](../../Deep/pass.md).
 
 
-> Example 
-
-{{< conll >}}
+> {{< conll >}}
 # text = Il se situe à environ 13 kilomètres au nord-ouest
 # text_en = It is situated about 13 kilometers to the north-west
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il|Gloss=it
@@ -86,10 +80,9 @@ In the case of **passive reflexive constructions**, the pronoun is labelled `com
 10	nord-ouest	nord-ouest	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	Gloss=north-west
 {{< /conll >}}
 
-We can also have the deep syntactic feature [`@expl`](../../Deep/expl.md) for the label ̀`comp`. 
+We can also have the deep syntactic feature [`@expl`](../../Deep/expl.md) for the label `comp`. 
 
-> Example 
-{{<conll>}}
+> {{<conll>}}
 # text = euh, il y a un stade aussi à côté.
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -104,8 +97,7 @@ We can also have the deep syntactic feature [`@expl`](../../Deep/expl.md) for th
 11	.	.	PUNCT	_	_	5	punct	_	_
 {{</conll>}}
 
-You can find more information on the [`pronomional verb`](../../../language/French/syntax/french_pronominal_verb.md) page or on the [`il y a`](../../../language/French/syntax/il_y_a.md) annotation page. 
-
+More information can be found on the French [pronomional verb](../../../language/French/syntax/french_pronominal_verb.md) page or on the page about the annotation of the idiom [*il y a*](../../../language/French/syntax/il_y_a.md).
 
 {{<agg comp_french>}}
 

@@ -1,6 +1,6 @@
 ---
 title: "subj"
-weight: 3
+weight: 1
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
@@ -9,13 +9,13 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# The `subj` relation 
+# The `subj` relation
 
 ## Universal
 
 The `subj` relation is used for all subjects, regardless of their form, nominal or clausal.
 
-> English
+> __English__
 {{<conll>}}
 1	A	a	DET	_	_	2	det	_	_
 2	man	man	NOUN	_	_	3	subj	_	_
@@ -28,9 +28,9 @@ The `subj` relation is used for all subjects, regardless of their form, nominal 
 The `subj` relation can be used with two deep syntactic features.
 
 #### `subj@expl`
-The `subj@expl` relation indicates that the subject is present to fill in an obligatory syntactic position bit it has no semantic value (see [`@expl` page](../../Deep/expl.md)).
+The `subj@expl` relation indicates that the subject is present to fill in an obligatory syntactic position bit it has no semantic value (see [`@expl`](../../Deep/expl.md)).
 
-> French
+> __French__
 {{<conll>}}
 # sent_fr = Il pleut dans ma maison
 # text_en = It's raining in my house
@@ -41,14 +41,13 @@ The `subj@expl` relation indicates that the subject is present to fill in an obl
 5	maison	maison	NOUN	_	_	3	comp:obj	_	Gloss=house
 {{</conll>}}
 
-Meanwhile, the sub-relation `subj@pass` is used to indicate a passive construction. This sub-relation can be used for both standard passive constructions, and for mediopassive constructions.
-You can find more information about passive constructions on this [page](../../Deep/pass.md).
 
 #### `subj@pass`
 
-The `subj@pass` is used for subject in passive constructions.
+The relation `subj@pass` is used to indicate a passive construction.
+This can be used for both standard passive constructions, and for mediopassive constructions (see [`@pass`](../../Deep/pass.md)).
 
-> English
+> __English__
 {{<conll>}}
 # text = This shall be applauded
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj@pass	_	Entity=(event-70)
@@ -58,7 +57,7 @@ The `subj@pass` is used for subject in passive constructions.
 {{</conll>}}
 
 
-> French
+> __French__
 {{<conll>}}
 # text = Il fut bâti en 1998.
 # text_en = It was build in 1998.
@@ -71,7 +70,7 @@ The `subj@pass` is used for subject in passive constructions.
 
 The `subj@pass` is also used for subject in mediopassive constructions.
 
-> Czech
+> __Czech__
 {{<conll>}}
 # text_en = the number of employees decreased
 # text_cs = počet zaměstnanců se snížil
@@ -81,7 +80,7 @@ The `subj@pass` is also used for subject in mediopassive constructions.
 4	snížil	snížit	VERB	_	_	0	root	_	Gloss=decrease
 {{</conll>}}
 
-> French
+> __French__
 {{<conll>}}
 # text_en = the book is selling well
 # text_cs = le livre se vend bien
@@ -92,7 +91,7 @@ The `subj@pass` is also used for subject in mediopassive constructions.
 5	bien	bien	ADV	_	_	4	mod	_	Gloss=well
 {{</conll>}}
 
-> Russian
+> __Russian__
 {{<conll>}}
 # text_en = the book is selling well
 # text_ru = книга хорошо продаётся
@@ -267,7 +266,7 @@ The `subj` dependency in Haitian Creole is usually used between a [VERB](docs/ge
 
 In Haitian Creole, the `subj` relation can be used with an [ADP](docs/general_guideline/Upos/ADP.md) governor.
 
-{{<grew>}}
+{{<grew corpus="SUD_Haitian_Creole-Autogramm@latest">}}
 pattern { GOV -[subj]-> DEP; GOV[upos=ADP] }
 {{</grew>}}
 
