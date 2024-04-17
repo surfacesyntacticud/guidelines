@@ -13,9 +13,7 @@ weight: 1
 
 ## Written in Letter
 
-The numbers written in letter are annoted with the dependency relation [`flat`](../Syntactic_relations/flat/flat.md)
-
-Numbers composed of more than one word, such as *five hundred* or *six thousand* are primarily chained together with the [`flat`](../Syntactic_relations/flat/flat.md) relation.
+Numbers composed of more than one word, such as *five hundred* or *six thousand* are primarily chained together with the [`flat`](../Syntactic_relations/shared_ud/flat/flat.md) relation.
 If the number contains the coordinating conjunction *and*, such as in *one hundred and one*, the integer directly preceding the coordinating conjunction is connected to one directly following it with a [`conj:coord`](../Syntactic_relations/conj/conj_coord.md) relation.
 
 ```grew

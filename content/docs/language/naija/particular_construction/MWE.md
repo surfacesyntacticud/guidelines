@@ -1,5 +1,16 @@
-### Multi-word placenames and organizations
+---
+title: "Multi-word placenames and organizations"
+weight: 3
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookHidden: false
+# bookCollapseSection: true
+# bookComments: false
+# bookSearchExclude: false
+---
 
+# Multi-word placenames and organizations
 
 In Naija, multi-word placenames and organizations are currently annotated with a simple `flat` relation, though their constituents retain their typical parts of speech.
 <!-- tabs:start -->

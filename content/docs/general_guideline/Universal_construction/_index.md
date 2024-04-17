@@ -16,5 +16,5 @@ This section brings together the different constructions that are common in tree
 - [comparative construction](comparative_construction.md)
 - [coordination](coordination.md)
 - [disfluency](disfluency.md)
-- [number](number.md)
+- [numeral](numeral.md)
 - [reported speech](reported_speech.md)

@@ -87,8 +87,9 @@ The `flat` relation can also be used to link individual elements of numbers to o
 {{</conll>}}
 
 The syntactic relation `flat` is mainly used with two deep syntactic features:
- - [`@name`](../../../../Deep/name) in proper names
- - [`@foreign`](../../../../Deep/foreign) in expressions in a different langauge
+ - [`@name`](../../../Deep/name) in proper names
+ - [`@foreign`](../../../Deep/foreign) in expressions in a different langauge
+
 
 See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=flat) for more `flat` based relations.
 

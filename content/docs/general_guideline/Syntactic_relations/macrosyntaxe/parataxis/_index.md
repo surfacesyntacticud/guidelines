@@ -16,5 +16,5 @@ The `parataxis` relation is used to analyse two elements that are placed side by
  - [`parataxis`](./parataxis)
  - [`parataxis:insert`](./parataxis_insert)
  - [`parataxis:obj`](./parataxis_obj)
- - [`parataxis:parent`](./parataxis_parent)
+ - [`parataxis:parent`](./parataxis_parenth)
 

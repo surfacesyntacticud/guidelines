@@ -9,13 +9,14 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# Typo
+# `Typo`
 
 ## Universal
 
 The feature `Typo=Yes` is used to indicate that a token has a typographic error.
-The corresponding tokern should have the feature [`CorrectForm`](../CorrectForm) with the expected correct form of the token. 
+The corresponding tokern should have the feature [`CorrectForm`](../Misc/CorrectForm) with the expected form of the token. 
 
+> __French__
 {{< conll >}}
 # text = Ironiquement, Trois morceaux en forme de poire comporte sept mouvements.
 1	Ironiquement	ironiquement	ADV	_	_	9	mod	_	SpaceAfter=No|wordform=ironiquement
@@ -26,7 +27,7 @@ The corresponding tokern should have the feature [`CorrectForm`](../CorrectForm)
 6	forme	forme	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	poire	poire	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-9	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=comportent|CorrectNumber=Plur
+9	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=comportent|CorrectNumber=Plur|highlight=red
 10	sept	sept	NUM	_	Number=Plur	11	det	_	_
 11	mouvements	mouvement	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	9	punct	_	_

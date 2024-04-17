@@ -21,13 +21,13 @@
       "request": "pattern {N [ExtPos=PRON, !Idiom, !Title, upos=ADV]}"
     },
     {
-      "field": "noun_used_in_prespositional_construction",
-      "headerName": "noun_used_in_prespositional_construction",
+      "field": "noun_as_adverb",
+      "headerName": "noun_as_adverb",
       "request": "pattern {N [ExtPos=ADV, !Idiom, !Title, upos=NOUN]}"
     },
     {
-      "field": "french_symbols",
-      "headerName": "french_symbols",
+      "field": "symbols",
+      "headerName": "symbols",
       "request": "pattern {N [ExtPos, !Idiom, !Title, upos=SYM]}"
     }
   ],
@@ -35,20 +35,20 @@
     {
       "row_header": "SUD_French-GSD@latest",
       "adverb_used_as_pronoun": 397,
-      "noun_used_in_prespositional_construction": 204,
-      "french_symbols": 684
+      "noun_as_adverb": 204,
+      "symbols": 684
     },
     {
       "row_header": "SUD_French-ParisStories@latest",
       "adverb_used_as_pronoun": 0,
-      "noun_used_in_prespositional_construction": 0,
-      "french_symbols": 0
+      "noun_as_adverb": 0,
+      "symbols": 0
     },
     {
       "row_header": "SUD_French-Rhapsodie@latest",
       "adverb_used_as_pronoun": 18,
-      "noun_used_in_prespositional_construction": 0,
-      "french_symbols": 0
+      "noun_as_adverb": 0,
+      "symbols": 0
     }
   ]
 }

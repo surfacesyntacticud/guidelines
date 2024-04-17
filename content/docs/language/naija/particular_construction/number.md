@@ -1,5 +1,16 @@
-### Numbers and dates
+---
+title: "Numbers and dates"
+weight: 3
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookHidden: false
+# bookCollapseSection: true
+# bookComments: false
+# bookSearchExclude: false
+---
 
+# Numbers and dates
 
 If the number contains a decimal, the *point* is marked as a noun and is integrated into the number with a simple `flat` relation.
 

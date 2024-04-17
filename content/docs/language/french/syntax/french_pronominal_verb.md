@@ -13,24 +13,21 @@ bookToc: true
 
 Four relations are considered for the reflexive marker _se_: `comp:obj`, `comp:obl`, `comp@expl`, and `comp@pass`.
 
-![Pronominal Verb](/images/language/French/syntax/french_pronominal_verb/pron_verb.png)
-
-All reflexive marker (_se_, _me_, _te_, _nous_, _vous_) are analysed as forms of the reflexive pronoun _se_: `PRON`, `Reflex=Yes`, and `lemma=se`.
+Reflexive marker (_se_, _me_, _te_, _nous_, _vous_) are analysed as forms of the reflexive pronoun _se_: `PRON`, `Reflex=Yes`, and `lemma=se`.
 
 The semantic distinction between reflexive meaning (_je me rase_) and reciprocal meaning (_ils s'aiment_) is not marked. 
 
-* `comp:obj`: Reflexive pronouns replacing a direct object.
+> `comp:obj`: Reflexive pronouns replacing a direct object.
 {{<conll>}}
-# text = donc ils se retournent.
+# text = donc ils se retournent
 # text_en = and then they turn around
 1	donc	donc	ADV	_	_	4	cc	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
-3	se	le	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	Reflex=Yes
-4	retournent	retourner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
+3	se	le	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	Reflex=Yes|highlight=red
+4	retournent	retourner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	highlight=red
 {{</conll>}}
 
-* `comp:obl`: Reflexive pronouns replacing an oblique complement.
+> `comp:obl`: Reflexive pronouns replacing an oblique complement.
 {{<conll>}}
 # text = ils se racontent leurs vacances.
 # text_en =  they tell each other about their vacation.
@@ -42,7 +39,7 @@ The semantic distinction between reflexive meaning (_je me rase_) and reciprocal
 6	.	.	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 
-* `comp@expl` : For pronominal verbs i.e. verbs that can only be used with a relexive pronoun (such as _se souvenir_, _s'évaporer_, etc.), or lexicalised verb senses (such as _s'entendre_).
+> `comp@expl` : For pronominal verbs *i.e.* verbs that can only be used with a relexive pronoun (such as _se souvenir_, _s'évaporer_, etc.), or lexicalised verb senses (such as _s'entendre_).
 {{<conll>}}
 # text = tu te souviens ?
 # text_en = do you remember ?
@@ -52,7 +49,7 @@ The semantic distinction between reflexive meaning (_je me rase_) and reciprocal
 4	?	?	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 
-* `comp@pass`: For passive reflexive constructions, where the the object has been promoted in the subject position: _je vend des livres_ => _les livres se vendent bien_. The marker _se_ is still analysed as a reflexive pronoun, even if it has no pronominal vlue.
+> * `comp@pass`: For passive reflexive constructions, where the the object has been promoted in the subject position: _je vend des livres_ => _les livres se vendent bien_. The marker _se_ is still analysed as a reflexive pronoun, even if it has no pronominal vlue.
 {{<conll>}}
 # text = donc ça s'est fait.
 # text_en = and then it was done 
@@ -63,3 +60,8 @@ The semantic distinction between reflexive meaning (_je me rase_) and reciprocal
 5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 {{</conll>}}
+
+{{< hint warning >}}
+There is an open issue about these annoations: see [#38](https://github.com/surfacesyntacticud/guidelines/issues/38)
+{{< /hint >}}
+

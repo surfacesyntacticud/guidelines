@@ -8,7 +8,7 @@
     ]
   },
   {
-    "id": "noun_used_in_prespositional_construction",
+    "id": "noun_as_adverb",
     "request": [
       {
         "pattern": ["N [ExtPos=ADV, !Idiom, !Title, upos=NOUN]"]
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "id": "french_symbols",
+    "id": "symbols",
     "request": [
       {
         "pattern": ["N [ExtPos, !Idiom, !Title, upos=SYM]"]

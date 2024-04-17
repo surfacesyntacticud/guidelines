@@ -30,7 +30,7 @@ The `CorrectForm` feature is used to annotate typo correction.
 12	.	.	PUNCT	_	_	9	punct	_	_
 {{< /conll >}}
 
-There is always the features [`Typo=Yes`](Typo.md) with the node which has the features `CorrectForm`.
+There is always the features [`Typo=Yes`](../Features/Typo) with the node which has the features `CorrectForm`.
 
 
 ## French
