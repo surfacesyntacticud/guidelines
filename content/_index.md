@@ -66,7 +66,7 @@ UD relations that are not used in **SUD**:
 [`case`](https://universaldependencies.org/u/dep/case.html),
 [`mark`](https://universaldependencies.org/u/dep/mark.html).
 These 17 relations are replaced by three major relations in SUD --
-[`subj`](docs/general_guideline/Syntactic_relations/subj/subj.md),
+[`subj`](docs/general_guideline/Syntactic_relations/subj.md),
 [`comp`](docs/general_guideline/Syntactic_relations/comp/_index.md),
 [`mod`](./docs/general_guideline/Syntactic_relations/mod/mod.md)
 (subject, complement, modifier) -- with possible sub-relations, in addition to the general [`udep`](docs/general_guideline/Syntactic_relations/udep/udep.md) (underspecified dependency) to a more marginal extent.

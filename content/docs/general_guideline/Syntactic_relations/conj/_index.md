@@ -1,5 +1,5 @@
 ---
-title: "conj…"
+title: "conj & subrels"
 weight: 5
 # bookFlatSection: false
 # bookToc: true

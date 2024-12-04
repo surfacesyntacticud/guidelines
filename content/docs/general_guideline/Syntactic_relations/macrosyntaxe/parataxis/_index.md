@@ -1,5 +1,5 @@
 ---
-title: "parataxis…"
+title: "parataxis & extensions"
 weight: 3
 # bookFlatSection: false
 # bookToc: true

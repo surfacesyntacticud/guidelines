@@ -1,5 +1,5 @@
 ---
-title: "comp…"
+title: "comp & subrels"
 weight: 3
 # bookFlatSection: false
 # bookToc: true
