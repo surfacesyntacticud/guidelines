@@ -26,4 +26,4 @@ This relation is refined into several extensions:
 In most cases, SUD native corpora are directly annotated with the extensions, rather than with the `comp` relation.
 However, `comp` may sometimes be used when one has difficulty deciding between `comp:obj` and `comp:obl`.
 
-A global view of `comp` usage in the last release (2.13) of SUD if given in this [table](http://tables.grew.fr/?data=sud_deps/comp).
+A global view of `comp` usage in the last release of SUD if given in this [table](http://tables.grew.fr/?data=sud_deps/comp).

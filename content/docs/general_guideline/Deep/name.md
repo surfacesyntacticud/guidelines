@@ -13,7 +13,7 @@ bookToc: true
 
 ## Universal 
 The deep feature `@name` is used in combination with the `flat` relation, moslty in proper nouns.
-See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=@name) for the use of `flat@name` in SUD 2.13.
+See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=@name) for the use of `flat@name` in SUD 2.15.
 
 > Finnish
 {{<conll>}}

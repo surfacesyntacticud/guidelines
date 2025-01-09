@@ -15,17 +15,17 @@ bookToc: true
 
 This relation is used for appositions. In an apposition, conjuncts have the same referent, but two clearly different denotations. The conjunct in apposition forms a predication in the background (in *Mary, my best friend*, the second conjunct *my best friend* is a predication on the first conjunct *Mary*, it is equivalent to *Mary is my best friend*).
 
->[!tip]
-> pattern { GOV-[conj:appos]->DEP }
+{{<grew corpus="SUD_French-Rhapsodie@2.15" >}}
+pattern { X -[conj:appos]-> Y }
+{{</grew>}}
 
 > **Spoken French**
-
 {{< conll >}}
 # text = Nietzsche le philosophe allemand parle de a une définition de l'art
 # text_en = Nietzsche the German philosopher speaks of has an art definition
-1	Nietzsche	Nietzsche	PROPN	_	_	5	subj	_	Gloss=Niezsche
+1	Nietzsche	Nietzsche	PROPN	_	_	5	subj	_	Gloss=Niezsche|highlight=red
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Gloss=the
-3	philosophe	philosophe	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	Gloss=philosopher
+3	philosophe	philosophe	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	Gloss=philosopher|highlight=red
 4	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	Gloss=German
 5	parle	parler	VERB	_	_	0	root	_	Gloss=talks
 6	de	de	ADP	_	_	5	comp:obl	_	Gloss=about
@@ -39,7 +39,6 @@ This relation is used for appositions. In an apposition, conjuncts have the same
 
 
 > **Naija**
-
 {{< conll >}}
 # sent_id = WAZA_01_Triplea-Sports_MG__10
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZA_01_Triplea-Sports_MG.mp3
@@ -53,9 +52,9 @@ This relation is used for appositions. In an apposition, conjuncts have the same
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=62170|AlignEnd=62200|Gloss=PUNCT
 5	Osun	Osun	PROPN	_	_	7	mod	_	AlignBegin=62200|AlignEnd=62505|ExtPos=PROPN|Gloss=Osun|Title=Yes
 6	United	United	ADJ	_	_	5	flat	_	AlignBegin=62505|AlignEnd=62821|Gloss=United|InTitle=Yes
-7	coach	coach	NOUN	_	_	17	dislocated	_	AlignBegin=62821|AlignEnd=63045|Gloss=coach
+7	coach	coach	NOUN	_	_	17	dislocated	_	AlignBegin=62821|AlignEnd=63045|Gloss=coach|highlight=red
 8	|a	|a	PUNCT	_	_	9	punct	_	AlignBegin=63045|AlignEnd=63075|Gloss=PUNCT
-9	Rier	Rier	PROPN	_	_	7	conj:appos	_	AlignBegin=63075|AlignEnd=63315|Gloss=Rier
+9	Rier	Rier	PROPN	_	_	7	conj:appos	_	AlignBegin=63075|AlignEnd=63315|Gloss=Rier|highlight=red
 10	Duke	duke	NOUN	_	_	9	flat	_	AlignBegin=63315|AlignEnd=63651|Gloss=duke
 11	Udi	Udi	PROPN	_	_	10	flat	_	AlignBegin=63651|AlignEnd=63845|Gloss=Udi
 12	}	}	PUNCT	_	_	9	punct	_	AlignBegin=63845|AlignEnd=63875|Gloss=PUNCT

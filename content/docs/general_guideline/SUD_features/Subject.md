@@ -9,7 +9,7 @@ bookToc: true
 ## Universal
 
 The `Subject` feature is specific to SUD. It is used to annotate the control of infinitive subject.
-In version 2.13, it is annotated in the Naija corpus and in the four French corpora.
+In version 2.15, it is annotated in the Naija corpus and in the four French corpora.
 
 {{<hint info>}}
 See discussion [#29](https://github.com/surfacesyntacticud/guidelines/issues/29) on GitHub.
@@ -133,7 +133,7 @@ The `@x` feature is now deprecated and must not be used in new annotations.
 
 {{<hint warning>}}
 ⚠️ Sometimes, the feature `Subject=NoRaising` is used.
-It corresponds to an undespecified annoation covering both `Subject=Generic` or `Subject=Instantiated`.
+It corresponds to an undespecified annotation covering both `Subject=Generic` or `Subject=Instantiated`.
 You can find this annotation in the treebank [**French-Rhapsodie**](https://universal.grew.fr/?corpus=SUD_French-Rhapsodie@latest) and [**French_ParisStories**](https://universal.grew.fr/?corpus=SUD_French-ParisStories@latest).
 {{</hint>}}
 
@@ -153,7 +153,7 @@ You can find this annotation in the treebank [**French-Rhapsodie**](https://univ
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=26424|AlignEnd=26730
 11	salle	salle	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	AlignBegin=26730|AlignEnd=27036
 12	pour	pour	ADP	_	_	8	mod	_	AlignBegin=27036|AlignEnd=27345
-13	faire	faire	VERB	_	VerbForm=Inf	12	comp:obj	_	AlignBegin=27345|AlignEnd=27654|Subject=NoRaising
+13	faire	faire	VERB	_	VerbForm=Inf	12	comp:obj	_	AlignBegin=27345|AlignEnd=27654|Subject=NoRaising|highlight=red
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	AlignBegin=27654|AlignEnd=27963
 15	activités	activité	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	AlignBegin=27963|AlignEnd=28272|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	AlignBegin=28272|AlignEnd=28272

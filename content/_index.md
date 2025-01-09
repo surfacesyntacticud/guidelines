@@ -50,8 +50,8 @@ The main differences with respect to UD are the following:
 In **SUD**, three major relations are used: 
 [`subj`](docs/general_guideline/Syntactic_relations/subj.md),
 [`comp`](docs/general_guideline/Syntactic_relations/comp/_index.md),
-[`mod`](./docs/general_guideline/Syntactic_relations/mod/mod.md)
-(subject, complement, modifier) -- with possible sub-relations, in addition to the general [`udep`](docs/general_guideline/Syntactic_relations/udep/udep.md) (underspecified dependency) to a more marginal extent.
+[`mod`](./docs/general_guideline/Syntactic_relations/mod.md)
+(subject, complement, modifier) -- with possible sub-relations, in addition to the general [`udep`](docs/general_guideline/Syntactic_relations/udep.md) (underspecified dependency) to a more marginal extent.
 
 This three major relations replace the following UD relations:
 [`nsubj`](https://universaldependencies.org/u/dep/nsubj.html),

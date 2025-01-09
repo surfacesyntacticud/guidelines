@@ -17,7 +17,7 @@ bookToc: true
 The `flat` relation plays a similar role to the [`compound`](../compound/compound.md) one, and its exact usage also varies on a language-by-language basis. However, it is most frequently used to connect the various elements of proper names to one another, including titles and honorifics.
 
 Some examples in **SUD_English-EWT**:
-{{<grew corpus="SUD_English-EWT@2.13" >}}
+{{<grew corpus="SUD_English-EWT@2.15" >}}
 pattern { X -[flat]-> Y }
 {{</grew>}}
 

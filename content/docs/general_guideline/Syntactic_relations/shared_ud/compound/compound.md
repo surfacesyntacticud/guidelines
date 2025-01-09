@@ -34,7 +34,7 @@ SUD annotations for some languages, such as French, do not use the `compound` re
 {{< /conll >}}
 
 More examples in **SUD_English-EWT**:
-{{<grew corpus="SUD_English-EWT@2.13" >}}
+{{<grew corpus="SUD_English-EWT@2.15" >}}
 pattern { X -[compound]-> Y }
 {{</grew>}}
 
@@ -43,7 +43,7 @@ However, it is also used to annotate phrasal verbs as well as a more limited sub
 For more information, see [Naija's page](../../../../language/naija/syntax/compound_phrasal_verbs).
 
 See examples in **SUD_Naija-NSC**:
-{{<grew corpus="SUD_Naija-NSC@2.13" >}}
+{{<grew corpus="SUD_Naija-NSC@2.15" >}}
 pattern { X -[compound]-> Y }
 {{</grew>}}
 

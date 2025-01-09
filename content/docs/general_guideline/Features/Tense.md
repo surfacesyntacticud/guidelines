@@ -18,10 +18,10 @@ See [UD `Tense` page](https://universaldependencies.org/u/feat/Tense.html) for a
 
 ## French
  - [UD page about `Tense` in French](https://universaldependencies.org/fr/feat/Tense.html)
- - [Usage of `Tense` in French UD treebanks 2.13](https://tables.grew.fr/?data=ud_feats/Tense&rows=UD_French)
+ - [Usage of `Tense` in French UD treebanks 2.15](https://tables.grew.fr/?data=ud_feats/Tense&rows=UD_French)
 
 
 ## Haitian Creole
- - [Usage of `Tense` in Haitian Creole UD treebank 2.13](https://tables.grew.fr/?data=ud_feats/Tense&rows=Haitian_Creole)
+ - [Usage of `Tense` in Haitian Creole UD treebank 2.15](https://tables.grew.fr/?data=ud_feats/Tense&rows=Haitian_Creole)
 
 
