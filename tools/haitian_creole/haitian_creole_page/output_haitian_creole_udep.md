@@ -51,7 +51,7 @@
 
 #### Causative construction with [ADP](docs/general_guideline/Upos/ADP.md) governor 
 
-- Description: In Haitian Creole a causative construction can be expressed with [ADP](docs/general_guideline/Upos/ADP.md) in the role of the root instead of a [VERB](docs/general_guideline/Upos/VERB.md) or an [AUX](docs/general_guideline/Upos/AUX.md). Then the governor of the [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) is en [ADP](docs/general_guideline/Upos/ADP.md).
+- Description: In Haitian Creole a causative construction can be expressed with [ADP](docs/general_guideline/Upos/ADP.md) in the role of the root instead of a [VERB](docs/general_guideline/Upos/VERB.md) or an [AUX](docs/general_guideline/Upos/AUX.md). Then the governor of the [subj](docs/general_guideline/Syntactic_relations/subj.md) is en [ADP](docs/general_guideline/Upos/ADP.md).
 
 - Pattern: GOV -[subj]-> DEP; GOV[upos=ADP]
 

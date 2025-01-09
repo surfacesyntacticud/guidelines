@@ -30,7 +30,7 @@ comp:cleft,docs/general_guideline/Syntactic_relations/comp/comp_cleft.md
 comp:obl,docs/general_guideline/Syntactic_relations/comp/comp_obl.md
 comp:pred,docs/general_guideline/Syntactic_relations/comp/comp_pred.md
 comp ,docs/general_guideline/Syntactic_relations/comp/_index.md
-subj,docs/general_guideline/Syntactic_relations/subj/subj.md
+subj,docs/general_guideline/Syntactic_relations/subj.md
 number,docs/general_guideline/Particular_construction/number.md
 disfluency,docs/general_guideline/Particular_construction/disfluency.md
 comparative_construction,docs/general_guideline/Particular_construction/comparative_construction.md

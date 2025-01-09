@@ -21,15 +21,15 @@ You will find informations about :
 
 The other layers of annotations follow the UD guidelines. Please refer to UD for these aspects:
 
-  - [Tokenization and word segmentation](https://universaldependencies.org/u/overview/tokenization.html)
-  - [Morphology](https://universaldependencies.org/u/overview/morphology.html)
-  - [POS tags](https://universaldependencies.org/u/pos), [single document](https://universaldependencies.org/u/pos/all.html)
-  - [Features](https://universaldependencies.org/u/feat), [single document](https://universaldependencies.org/u/feat/all.html)
-    - [Layered features](https://universaldependencies.org/u/overview/feat-layers.html)
-    - [Language-specific features](https://universaldependencies.org/ext-feat-index.html)
+  - [UD: Tokenization and word segmentation](https://universaldependencies.org/u/overview/tokenization.html)
+  - [UD: Morphology](https://universaldependencies.org/u/overview/morphology.html)
+  - [UD: POS tags](https://universaldependencies.org/u/pos), [single document](https://universaldependencies.org/u/pos/all.html)
+  - [UD: Features](https://universaldependencies.org/u/feat), [single document](https://universaldependencies.org/u/feat/all.html)
+    - [UD: Layered features](https://universaldependencies.org/u/overview/feat-layers.html)
+    - [UD: Language-specific features](https://universaldependencies.org/ext-feat-index.html)
 
-## General Principles 
 
+## General SUD Principles 
 
 The main differences with respect to UD are the following:
 
@@ -47,7 +47,13 @@ The main differences with respect to UD are the following:
 
  - There is a strict distinction between surface-syntactic relations and deep-syntactic features expressed as extensions of syntactic relation names using the `@` symbol.
 
-UD relations that are not used in **SUD**:
+In **SUD**, three major relations are used: 
+[`subj`](docs/general_guideline/Syntactic_relations/subj.md),
+[`comp`](docs/general_guideline/Syntactic_relations/comp/_index.md),
+[`mod`](./docs/general_guideline/Syntactic_relations/mod/mod.md)
+(subject, complement, modifier) -- with possible sub-relations, in addition to the general [`udep`](docs/general_guideline/Syntactic_relations/udep/udep.md) (underspecified dependency) to a more marginal extent.
+
+This three major relations replace the following UD relations:
 [`nsubj`](https://universaldependencies.org/u/dep/nsubj.html),
 [`csubj`](https://universaldependencies.org/u/dep/csubj.html),
 [`obj`](https://universaldependencies.org/u/dep/obj.html),
@@ -65,11 +71,6 @@ UD relations that are not used in **SUD**:
 [`cop`](https://universaldependencies.org/u/dep/cop.html),
 [`case`](https://universaldependencies.org/u/dep/case.html),
 [`mark`](https://universaldependencies.org/u/dep/mark.html).
-These 17 relations are replaced by three major relations in SUD --
-[`subj`](docs/general_guideline/Syntactic_relations/subj.md),
-[`comp`](docs/general_guideline/Syntactic_relations/comp/_index.md),
-[`mod`](./docs/general_guideline/Syntactic_relations/mod/mod.md)
-(subject, complement, modifier) -- with possible sub-relations, in addition to the general [`udep`](docs/general_guideline/Syntactic_relations/udep/udep.md) (underspecified dependency) to a more marginal extent.
+These relations are not used SUD.
 
 
-## Authors and contributors 

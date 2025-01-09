@@ -2,7 +2,7 @@
 
 ### Overview
 
- In Haitian creole The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) relation is used for all subjects, regardless of their form. The [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) label in Haitian Creole is usually used to mark relations between a [VERB](docs/general_guideline/Upos/VERB.md) and a nominal group ( [NOUN](docs/general_guideline/Upos/NOUN.md), [PROPN](docs/general_guideline/Upos/PROPN.md) or [PRON](docs/general_guideline/Upos/PRON.md)). You can see all the patterns in the table below.
+ In Haitian creole The [subj](docs/general_guideline/Syntactic_relations/subj.md) relation is used for all subjects, regardless of their form. The [subj](docs/general_guideline/Syntactic_relations/subj.md) label in Haitian Creole is usually used to mark relations between a [VERB](docs/general_guideline/Upos/VERB.md) and a nominal group ( [NOUN](docs/general_guideline/Upos/NOUN.md), [PROPN](docs/general_guideline/Upos/PROPN.md) or [PRON](docs/general_guideline/Upos/PRON.md)). You can see all the patterns in the table below.
 
 {{<conll>}} 
 # sent_id = my_sample__1
@@ -54,7 +54,7 @@
 
 #### Causative construction with [ADP](docs/general_guideline/Upos/ADP.md) governor 
 
-- Description: In Haitian Creole a causative construction can be expressed with [ADP](docs/general_guideline/Upos/ADP.md) in the role of the root instead of a [VERB](docs/general_guideline/Upos/VERB.md) or an [AUX](docs/general_guideline/Upos/AUX.md). Then the governor of the [subj](docs/general_guideline/Syntactic_relations/subj/subj.md) is en [ADP](docs/general_guideline/Upos/ADP.md).
+- Description: In Haitian Creole a causative construction can be expressed with [ADP](docs/general_guideline/Upos/ADP.md) in the role of the root instead of a [VERB](docs/general_guideline/Upos/VERB.md) or an [AUX](docs/general_guideline/Upos/AUX.md). Then the governor of the [subj](docs/general_guideline/Syntactic_relations/subj.md) is en [ADP](docs/general_guideline/Upos/ADP.md).
 
 - Pattern: GOV -[subj]-> DEP; GOV[upos=ADP]
 
