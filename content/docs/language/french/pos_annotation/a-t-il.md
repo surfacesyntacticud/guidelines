@@ -1,6 +1,19 @@
-# How to annotate a-**t-il** ? 
+---
+title: "-t-il"
+weight: 1
+# bookFlatSection: false
+bookToc: true
+# bookHidden: false
+# bookCollapseSection: true
+# bookComments: false
+# bookSearchExclude: false
+---
 
-We choose this annotation for **-t-il** : 
+
+
+# How to annotate a-*t-il* ? 
+
+We choose this annotation for *-t-il* : 
 
 {{<conll>}}
 # sent_id = fr-ud-train_04636
@@ -12,10 +25,12 @@ We choose this annotation for **-t-il** :
 5	?	?	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 
-Thus, we consider **-t-il** as a `PRON` with the lemma is **lui**.
-We consider **-t-il** as an allomorph of **il**.
-**-t** is not a syntactic element, it is a morphophonological rule that introduces the sound /t/.
+Thus, we consider *-t-il* as a `PRON` with the lemma *lui*.
+We consider *-t-il* as an allomorph of *il*.
+*-t* is not a syntactic element, it is a morphophonological rule that introduces the sound /t/.
+
+Similar annotation are used for *-t-elle* and *-t-on* 
 
 {{< grew >}}
-pattern { N [form="-t-il"]}
+pattern { X [form="-t-il"|"-t-elle"|"-t-on"]}
 {{< /grew >}}

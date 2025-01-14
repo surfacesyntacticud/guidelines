@@ -13,7 +13,8 @@ weight: 1
 
 ## Universal
 
-We use the feature `Reported=Yes` to annotate reported speech in the spoken corpora. The features is on the head of the reported speech. 
+The feature `Reported=Yes` is used to annotate reported speech in the spoken corpora.
+The features is on the head of the reported speech. 
 
 {{< conll >}}
 # text = je fais oui, oui, j'ai l'impression de t'avoir déjà vue !
@@ -24,7 +25,7 @@ We use the feature `Reported=Yes` to annotate reported speech in the spoken corp
 5	oui	oui	ADV	_	ExtPos=INTJ	3	conj:coord	_	AlignBegin=11743|AlignEnd=11886|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=11886|AlignEnd=11886
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=11886|AlignEnd=12024|SpaceAfter=No
-8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=12024|AlignEnd=12162|Reported=Yes
+8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=12024|AlignEnd=12162|Reported=Yes|highlight=red
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=12162|AlignEnd=12300|SpaceAfter=No
 10	impression	impression	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj@lvc	_	AlignBegin=12300|AlignEnd=12438
 11	de	de	ADP	_	_	10	udep	_	AlignBegin=12438|AlignEnd=12577
@@ -36,27 +37,6 @@ We use the feature `Reported=Yes` to annotate reported speech in the spoken corp
 {{< /conll >}}
 
 {{< hint info >}}
-
-You can find more information about the Reported Speech [here](../Universal_construction/reported_speech.md)
-
+See also the [page about reported speech](../Universal_construction/reported_speech.md).
 {{< /hint >}}
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
 

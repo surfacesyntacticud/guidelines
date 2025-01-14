@@ -64,7 +64,7 @@ It is sometimes not trivial to chose between the part of speech `AUX` and `VERB`
 
 
 {{< hint info >}}
-you can find a discussion about the distinction between `AUX` and `VERB` in [#11](https://github.com/surfacesyntacticud/guidelines/issues/11)
+See issue [#11](https://github.com/surfacesyntacticud/guidelines/issues/11) about the distinction between `AUX` and `VERB`.
 {{< /hint >}}
 
 ---

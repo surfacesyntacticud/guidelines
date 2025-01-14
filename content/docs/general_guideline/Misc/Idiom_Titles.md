@@ -17,7 +17,7 @@ SUD offers several features which allow annotators to mark idiomatic expressions
 
 For our purposes, "title" refer to any title given to a film, book, painting, or other work of art, such as *Planet of the Apes*, *Dark Side of the Moon*, *American Gothic*, or *Super Mario Bros*. However, this excludes other named entities like events, holidays or locations, such as *The Gulf War*, *Good Friday*, or *The Eiffel Tower*.
 
-Idioms, meanwhile, refer to any figurative expression ranging from classic examples like *kick the bucket* to to extremely common phrases like *in general* whose precise meaning cannot directly be deduced from its constituents. Pronominal verbs, such as those common in Romance languages, are also treated as idioms.
+Idioms, meanwhile, refer to any figurative expression ranging from classic examples like *kick the bucket* to extremely common phrases like *in general* whose precise meaning cannot directly be deduced from its constituents. Pronominal verbs, such as those common in Romance languages, are also treated as idioms.
 
 Idioms and titles are annotated in the following way:
  - The **head** of the idiom or title contains the feature `Idiom=Yes` or `Title=Yes`
@@ -26,12 +26,14 @@ Idioms and titles are annotated in the following way:
 
 By marking these categories with features rather than a `fixed` relation, we are able to preserve their internal syntactic structure.
 
-```grew
-pattern { N[Idiom] }
-```
-```grew
-pattern { N[Title] }
-```
+{{< grew >}}
+pattern { X[Idiom] }
+{{< /grew >}}
+
+{{< grew >}}
+pattern { X[Title] }
+{{< /grew >}}
+
 
 {{< hint warning >}}
 Until SUD version 2.8, the feature `PhraseType=Idiom` was used for the head of idioms (now replaced by `Idiom=Yes`) and the feature `PhraseType=Title` was used for the head of titles (now replaced by `Title=Yes`)
@@ -43,19 +45,19 @@ Until SUD version 2.8, the feature `PhraseType=Idiom` was used for the head of i
 {{< conll >}}
 1	Karen	Karen	PROPN	_	_	2	subj	_	_
 2	loved	love	VERB	_	_	0	root	_	_
-3	One	one	PRON	_	_	4	subj	_	InTitle=Yes
-4	Flew	fly	VERB	_	ExtPos=PROPN	2	comp:obj	_	Title=Yes
-5	Over	over	ADP	_	_	4	comp:obl	_	InTitle=Yes
-6	the	the	DET	_	_	7	det	_	InTitle=Yes
-7	Cuckoo	cuckoo	NOUN	_	_	8	comp:obj	_	InTitle=Yes
-8	's	's	PART	_	_	9	mod@poss	_	InTitle=Yes
-9	Nest	nest	VERB	_	_	5	comp:obj	_	InTitle=Yes
+3	One	one	PRON	_	_	4	subj	_	InTitle=Yes|highlight=red
+4	Flew	fly	VERB	_	ExtPos=PROPN	2	comp:obj	_	Title=Yes|highlight=red
+5	Over	over	ADP	_	_	4	comp:obl	_	InTitle=Yes|highlight=red
+6	the	the	DET	_	_	7	det	_	InTitle=Yes|highlight=red
+7	Cuckoo	cuckoo	NOUN	_	_	8	comp:obj	_	InTitle=Yes|highlight=red
+8	's	's	PART	_	_	9	mod@poss	_	InTitle=Yes|highlight=red
+9	Nest	nest	VERB	_	_	5	comp:obj	_	InTitle=Yes|highlight=red
 {{< /conll >}}
 
 > English
 {{< conll >}}
-1	That	that	PRON	_	_	2	subj@pass	_	InIdiom=Yes
-2	said	say	VERB	_	ExtPos=ADV	5	mod	_	Idiom=Yes
+1	That	that	PRON	_	_	2	subj@pass	_	InIdiom=Yes|highlight=red
+2	said	say	VERB	_	ExtPos=ADV	5	mod	_	Idiom=Yes|highlight=red
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	it	it	PRON	_	_	5	subj	_	_
 5	was	be	AUX	_	_	0	root	_	_
@@ -67,8 +69,8 @@ Until SUD version 2.8, the feature `PhraseType=Idiom` was used for the head of i
 > Spanish
 {{< conll >}}
 # text_en = His name is Alejandro.
-1	Se	se	PRON	_	_	2	comp	_	Gloss=himself|InIdiom=Yes
-2	llama	llamar	VERB	_	ExtPos=VERB	0	root	_	Gloss=calls|Idiom=Yes
+1	Se	se	PRON	_	_	2	comp	_	Gloss=himself|InIdiom=Yes|highlight=red
+2	llama	llamar	VERB	_	ExtPos=VERB	0	root	_	Gloss=calls|Idiom=Yes|highlight=red
 3	Alejandro	Alejandro	PROPN	_	_	2	comp:pred	_	Gloss=Alejandro
 {{< /conll >}}
 
@@ -84,9 +86,9 @@ When there is no clear internal syntactic structure, the relation `unk` is used.
 4	what	what	PRON	_	_	5	subj	_	_
 5	's	be	AUX	_	_	3	comp:obj	_	_
 6	happening	happen	VERB	_	_	5	comp:aux	_	_
-7	as	as	SCONJ	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes
-8	soon	soon	ADV	_	_	7	unk	_	InIdiom=Yes
-9	as	as	SCONJ	_	_	8	unk	_	InIdiom=Yes
+7	as	as	SCONJ	_	ExtPos=SCONJ	5	mod	_	Idiom=Yes|highlight=red
+8	soon	soon	ADV	_	_	7	unk	_	InIdiom=Yes|highlight=red
+9	as	as	SCONJ	_	_	8	unk	_	InIdiom=Yes|highlight=red
 10	you	you	PRON	_	_	11	subj	_	_
 11	can	can	AUX	_	_	7	comp:obj	_	_
 {{< /conll >}}
@@ -99,39 +101,13 @@ When there is no clear internal syntactic structure, the relation `unk` is used.
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	Gloss=I
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=--
 3	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	Gloss=found
-4	tout	tout	ADV	_	ExtPos=ADV	7	mod	_	Gloss=quite|Idiom=Yes
-5	à	à	ADP	_	_	4	unk	_	Gloss=--|InIdiom=Yes
-6	fait	fait	NOUN	_	Gender=Masc|Number=Sing	5	unk	_	Gloss=--|InIdiom=Yes
+4	tout	tout	ADV	_	ExtPos=ADV	7	mod	_	Gloss=quite|Idiom=Yes|highlight=red
+5	à	à	ADP	_	_	4	unk	_	Gloss=--|InIdiom=Yes|highlight=red
+6	fait	fait	NOUN	_	Gender=Masc|Number=Sing	5	unk	_	Gloss=--|InIdiom=Yes|highlight=red
 7	correct	correct	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	3	comp:pred	_	Gloss=correct
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	Gloss=the
 9	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	Gloss=rates
 10	appliqués	appliquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	mod	_	Gloss=applied
 11	ici	ici	ADV	_	_	10	mod	_	Gloss=here
 {{< /conll >}}
-
-<!-- ## French 
-
-{{< hint info >}}
-AJOUT DES TABLES ICI 
-{{< /hint >}}
- -->
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
 

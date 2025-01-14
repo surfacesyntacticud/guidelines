@@ -8,11 +8,13 @@ weight: 1
 # bookComments: false
 # bookSearchExclude: false
 ---
-# CorrectForm 
+
+# `CorrectForm` 
 
 ## Universal
 
-The `CorrectForm` feature is used to annotate typo correction.
+The `CorrectForm` feature is used in the annotation of typographical errors; it gives the expected corrected form.
+It is always used with the features [`Typo=Yes`](../Features/Typo)
 
 {{< conll >}}
 # text = Ironiquement, Trois morceaux en forme de poire comporte sept mouvements.
@@ -24,30 +26,9 @@ The `CorrectForm` feature is used to annotate typo correction.
 6	forme	forme	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	de	de	ADP	_	_	6	udep	_	_
 8	poire	poire	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-9	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=comportent|CorrectNumber=Plur
+9	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=comportent|CorrectNumber=Plur|highlight=red
 10	sept	sept	NUM	_	Number=Plur	11	det	_	_
 11	mouvements	mouvement	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	9	punct	_	_
 {{< /conll >}}
-
-There is always the features [`Typo=Yes`](../Features/Typo) with the node which has the features `CorrectForm`.
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
 

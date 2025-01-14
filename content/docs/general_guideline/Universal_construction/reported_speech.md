@@ -29,7 +29,7 @@ pattern { X -[comp:obj]-> Y; Y[Reported=Yes] }
 5	oui	oui	ADV	_	ExtPos=INTJ	3	conj:coord	_	AlignBegin=11743|AlignEnd=11886|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=11886|AlignEnd=11886
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=11886|AlignEnd=12024|SpaceAfter=No
-8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=12024|AlignEnd=12162|Reported=Yes
+8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	AlignBegin=12024|AlignEnd=12162|Reported=Yes|highlight=red
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=12162|AlignEnd=12300|SpaceAfter=No
 10	impression	impression	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj@lvc	_	AlignBegin=12300|AlignEnd=12438
 11	de	de	ADP	_	_	10	udep	_	AlignBegin=12438|AlignEnd=12577
@@ -41,24 +41,5 @@ pattern { X -[comp:obj]-> Y; Y[Reported=Yes] }
 {{</conll>}}
 
 {{< hint warning>}}
-We previously annotated reported speech using the syntactic relation `parataxis:obj`, but this is now considered obsolete.
+Reported speech was previously annotated using the syntactic relation `parataxis:obj`, but this is now considered obsolete.
 {{</hint>}}
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-

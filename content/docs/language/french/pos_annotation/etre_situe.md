@@ -27,4 +27,13 @@ For `VERB` that are in relation of `comp:pred` with the `AUX` **être**, we chos
 {{</
 conll>}}
 
-> You can find the discussion about this case [here](https://universal.grew.fr/?custom=63f763da72f60)
+The same relation `comp:pred` with a verbal dependant can be find with several other verbs:
+{{< grew key1="Y.lemma" >}}
+pattern { X[lemma="être"]; X -[comp:pred]-> Y; Y[upos=VERB] }
+{{< /grew >}}
+
+
+{{< hint info >}}
+See [#8](https://github.com/surfacesyntacticud/guidelines/issues/8)
+{{< /hint >}}
+

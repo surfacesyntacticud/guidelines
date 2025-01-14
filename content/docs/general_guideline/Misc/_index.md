@@ -13,5 +13,4 @@ These features are not specific to a particular part of speech, but can be appli
 - [Idiom and Titles](./Idiom_Titles.md)
 - [Reported](./Reported.md)
 
-More information about the MISC features are available on the [UD website](https://universaldependencies.org/misc.html)
-More information about the MISC features are available on the [UD website](https://universaldependencies.org/misc.html)UD_Beja
+More information about the MISC features are available on the [UD website](https://universaldependencies.org/misc.html).

@@ -66,9 +66,9 @@ The [`conj:dicto`](../Syntactic_relations/conj/conj_dicto.md) relation applies a
 15	produits	produit	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	Gloss=products
 {{</conll>}}
 
-```grew
-pattern { GOV-[conj:dicto]->DEP }
-```
+{{<grew corpus="SUD_French-Rhapsodie@latest">}}
+pattern { X -[conj:dicto]-> Y }
+{{< /grew >}}
 
 ## Unfinished constructions
 
@@ -129,30 +129,7 @@ Below we can see an example when a speaker starts with one word, then decides it
 14	lui-même	lui-même	PRON	_	_	13	comp:obj	_	Gloss=himself
 {{</conll>}}
 
-```grew
-pattern { GOV-[deep=scrap]->DEP }
-```
-
-
-
-
-
-
-
-### French
-
-TODO
-#### Overview
-
-#### Specific Pattern
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
+{{<grew corpus="SUD_French-Rhapsodie@latest">}}
+pattern { X -[deep=scrap]-> Y }
+{{< /grew >}}
 

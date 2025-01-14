@@ -115,7 +115,7 @@ VERB <-[comp:dir]- A <-[comp:dir]- B
 {{< / conll_interactive >}}
 
 ## A + B
-A+B directional construction can occur by itself without complementing a verb (it's in fact the most frequent form of this construction).d*
+A+B directional construction can occur by itself without complementing a verb (it's in fact the most frequent form of this construction).
 
 {{< conll_interactive >}}
 # text_en = May I come in?
@@ -130,7 +130,7 @@ A+B directional construction can occur by itself without complementing a verb (i
 {{< / conll_interactive >}}
 
 ## Remarks
-- You can find a SVC (see SVC in mandarin) construction at the end of directional complement verbs chain (我出去玩). The head of this word is the last verb of the directional complement verb chain (here 去) and the label is `compound:svc`.
+- You can find a SVC (see [SVC in mandarin](../serial_verbs_construction)) construction at the end of directional complement verbs chain (我出去玩). The head of this word is the last verb of the directional complement verb chain (here 去) and the label is `compound:svc`.
 
 - For V + 出/起 (+ 来), we annotate this as comp:dir. It serves as an (imagé). 
 

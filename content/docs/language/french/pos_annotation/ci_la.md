@@ -1,9 +1,21 @@
-# Annotation of **-ci** and **-là** 
+---
+title: "suffixes -ci and -là"
+weight: 1
+# bookFlatSection: false
+bookToc: true
+# bookHidden: false
+# bookCollapseSection: true
+# bookComments: false
+# bookSearchExclude: false
+---
 
-In French, we consider **-ci** and **-là** as `ADV`. 
+# Annotation of *-ci* and *-là* 
 
->pattern { N [form="-ci"|"-là"] }
+In French, we consider *-ci* and *-là* as `ADV`. 
 
+{{< grew >}}
+pattern { N [form="-ci"|"-là"] }
+{{< /grew >}}
 
 
 {{<conll>}}
@@ -32,4 +44,6 @@ In French, we consider **-ci** and **-là** as `ADV`.
 8	.	.	PUNCT	_	_	2	punct	_	_
 {{</conll>}}
 
-> You can find the conversation about this issues [here](https://github.com/surfacesyntacticud/guidelines/issues/12)
+{{< hint info >}}
+See [#12](https://github.com/surfacesyntacticud/guidelines/issues/12)
+{{< /hint >}}

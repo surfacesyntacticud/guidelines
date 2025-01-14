@@ -15,7 +15,7 @@ and, on nominalized forms, determiners (15%) and copulas (8%).
 Beja adpositions are postpositions, either as independent words (Figure 10) or as enclitics  
 (Figure 11)
 
-enclitics : 
+enclitics :
 # sent_id = BEJ_MV_NARR_01_shelter_065-070
 # text = bak ʔabk -i -n i- ni =oː =hoːb / hoːj sallam -am -an =t // ontʔa / doːr =ka toː= ʃa kitʔ -a =t tam -a =t ni- ki /
 # text_wb = bak ʔabkin ini =oː =hoːb / hoːj sallamaman =t // ontʔa / doːr =ka toː= ʃa kitʔa =t tama =t niki /
