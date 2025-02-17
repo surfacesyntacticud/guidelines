@@ -78,7 +78,7 @@ TODO
 
 ### Overview
 
- The governor and the dependent of an [udep](docs/general_guideline/Syntactic_relations/udep/udep.md) relation can have any POS. The [udep](docs/general_guideline/Syntactic_relations/udep/udep.md) relation is frequently given to the complements of nouns, since it is generally more difficult to distinguish between arguments and modifiers for nouns than it is for verbs. In most cases the dependent of an [udep](docs/general_guideline/Syntactic_relations/udep/udep.md) can have a [ADP](docs/general_guideline/Upos/ADP.md) pos. 
+ The governor and the dependent of an [udep](docs/general_guideline/Syntactic_relations/udep.md) relation can have any POS. The [udep](docs/general_guideline/Syntactic_relations/udep.md) relation is frequently given to the complements of nouns, since it is generally more difficult to distinguish between arguments and modifiers for nouns than it is for verbs. In most cases the dependent of an [udep](docs/general_guideline/Syntactic_relations/udep.md) can have a [ADP](docs/general_guideline/Upos/ADP.md) pos. 
 
 {{<conll>}} 
 # text = Gen 17 misyonè ki moun Etazini ak Kanada ke yon gang te kenbe pou ranson an 2021 pandan yo tap travay pou Christian Aid Ministries ki gen katye jeneral li nan eta Ohio nan sant wès Etazini.
