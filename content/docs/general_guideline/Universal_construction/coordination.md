@@ -47,7 +47,7 @@ However, these relations can be distinguished with the use of the extension `@em
 
 > English 
 {{<conll>}}
-# text = zpeojf
+# text = John, Mary or her brother and Peter will come
 1	John	John	PROPN	_	_	9	subj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	Mary	Mary	PROPN	_	_	1	conj:coord	_	highlight=red
