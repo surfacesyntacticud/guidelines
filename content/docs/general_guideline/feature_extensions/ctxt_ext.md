@@ -19,7 +19,7 @@ The `ctxt` feature was introduced in French to specify when the Gender or Number
 # sent_id = fr-ud-train_01762
 # text = Les sandwichs sont relativement variés et pas mauvais.
 # timestamp = 1749489420114.754
-1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	sandwichs	sandwich	NOUN	_	Number=Plur	3	subj	_	Gender[lex]=Masc
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	relativement	relativement	ADV	_	Shared=No	5	mod	_	_
@@ -92,8 +92,12 @@ pattern { X [upos=ADJ, Number=Plur]; X<Y; Y[upos=NOUN, form=re"[a|e|i|o|u|é|è]
 
 Adjectives ending in *-t*, *-s*, *-x*, or *-n* are often pronounced identically in masculine and feminine forms when followed by a vowel-initial noun. In such cases, they are marked with `Gender[ctxt]`.
 
-{{< grew >}}
-pattern { X [upos=ADJ, Gender__ctxt, Number__ctxt=Sing]; X<Y; Y[upos=NOUN, form=re"[a|e|i|o|u|é|è].*"] }
+{{< grew corpus="SUD_French-Rhapsodie@latest" >}}
+pattern { 
+	X [upos=ADJ, Gender__ctxt, Number__ctxt=Sing];
+	Y[upos=NOUN, form=re"[a|e|i|o|u|é|è].*"];
+	X<Y
+}
 {{< /grew >}}
 
 {{< conll >}}
