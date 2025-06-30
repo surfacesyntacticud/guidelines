@@ -18,6 +18,7 @@ The `ctxt` feature was introduced in French to specify when the Gender or Number
 {{< conll >}}
 # sent_id = fr-ud-train_01762
 # text = Les sandwichs sont relativement variés et pas mauvais.
+# text_en = The sandwiches are relatively varied and not bad.
 # timestamp = 1749489420114.754
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	sandwichs	sandwich	NOUN	_	Number=Plur	3	subj	_	Gender[lex]=Masc
@@ -39,6 +40,7 @@ This phenomenon becomes even more pronounced in spoken French. In many cases, th
 # macrosyntax = la compagne de l'un des détenus est toujours en garde à vue //
 # sent_id = Rhap_M2006-55
 # text = la compagne de l'un des détenus est toujours en garde à vue.
+# text_en = the partner of one of the detainees is still in custody.
 # timestamp = 1749235252573.8699
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	compagne	compagne	NOUN	_	_	9	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -75,6 +77,7 @@ pattern { X [upos=ADJ, Number=Plur]; X<Y; Y[upos=NOUN, form=re"[a|e|i|o|u|é|è]
 # sent_id = Rhap_D0020-2
 # speaker = L1
 # text = il y a plein d'autres itinéraires possibles.
+# text_en = there are plenty of other possible routes.
 # timestamp = 1750072418889
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
@@ -105,6 +108,7 @@ pattern {
 # sent_id = Rhap_D2005-49
 # speaker = L2
 # text = et j'étais pas un très bon élève.
+# text_en = and i wasn't a very good student.
 # timestamp = 1750087111947
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
