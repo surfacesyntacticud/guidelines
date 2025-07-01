@@ -10,7 +10,8 @@ In French, adjectives agree with nouns in gender and number. Gender on adjective
 
 Although French adjectives generally agree in gender, many share the same form for masculine and feminine. This raises questions about whether such adjectives should be assigned a `Gender` feature. This phenomenon, already frequent in written French, is even more prevalent in spoken French.
 
-The `ctxt` suffix (e.g., `Gender[ctxt]`, `Number[ctxt]`) indicates that a morphological feature is only recoverable through context rather than from surface form.
+The ctxt suffix (e.g., Gender[ctxt], Number[ctxt]) is used when a morphological feature cannot be retrieved directly from the surface form but must be inferred from syntactic or semantic context.
+This situation arises both in written and spoken French, but is especially frequent in oral corpora, where final inflectional endings are often not pronounced.
 
 ### __Written corpora__
 The `ctxt` feature was introduced in French to specify when the Gender or Number of adjectives, participles, pronouns, or common nouns can only be inferred from context. In written French, some adjectives maintain the same form regardless of gender or number, as illustrated in the example below:
@@ -34,7 +35,7 @@ The `ctxt` feature was introduced in French to specify when the Gender or Number
 
 ### __Oral corpora__
 
-This phenomenon becomes even more pronounced in spoken French. In many cases, the *-s* marking plural nouns or adjectives is not pronounced, which makes the `Number` feature dependent on context.
+This phenomenon becomes even more pronounced in spoken French. In oral corpora, we annotate what is actually pronounced, not the standard written transcription. In many cases, the *-s* marking plural nouns or adjectives is not pronounced, which makes the `Number` feature dependent on context.
 
 {{< conll >}}
 # macrosyntax = la compagne de l'un des détenus est toujours en garde à vue //
