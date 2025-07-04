@@ -28,7 +28,7 @@ pattern { X -[conj:appos]-> Y }
 3	philosophe	philosophe	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	Gloss=philosopher|highlight=red
 4	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	Gloss=German
 5	parle	parler	VERB	_	_	0	root	_	Gloss=talks
-6	de	de	ADP	_	_	5	comp:obl	_	Gloss=about
+6	de	de	ADP	_	_	5	comp:obl@scrap	_	Gloss=about
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	Gloss=has
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Gloss=a
 9	définition	définition	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	Gloss=definition
@@ -75,6 +75,7 @@ pattern { X -[conj:appos]-> Y }
 27	//	//	PUNCT	_	_	17	punct	_	AlignBegin=66220|AlignEnd=66250|Gloss=PUNCT
 {{< /conll >}}
 
+Related discussion: [#59](https://github.com/surfacesyntacticud/guidelines/issues/59)
 
 ## French
 

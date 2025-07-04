@@ -13,7 +13,6 @@ bookCollapseSection: true
 
 ## Universal
 
-
 The `vocative` relation is used when a speaker directly addresses a listener in an utterance.
 
 {{<grew >}}

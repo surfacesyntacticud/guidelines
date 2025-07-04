@@ -129,7 +129,4 @@ Below we can see an example when a speaker starts with one word, then decides it
 14	lui-même	lui-même	PRON	_	_	13	comp:obj	_	Gloss=himself
 {{</conll>}}
 
-{{<grew corpus="SUD_French-Rhapsodie@latest">}}
-pattern { X -[deep=scrap]-> Y }
-{{< /grew >}}
-
+See also [`@scrap`](../Deep/scrap) page.

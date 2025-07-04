@@ -14,14 +14,13 @@ bookToc: true
 
 ## Universal 
 
-This relation is used to link elements connected with a coordinating conjunction such as *and* and *or*. The conjunction itself is linked to the second element with a `cc` relation. It is analogous to [`conj`](https://universaldependencies.org/u/dep/conj.html) relation in UD and SUD for written language.
+This relation is used to link elements connected with a coordinating conjunction such as *and* and *or*. The conjunction itself is linked to the second element with a `cc` relation. It is analogous to [`conj`](https://universaldependencies.org/u/dep/conj.html) relation in UD.
 
 >[!tip]
 > pattern { GOV-[conj:coord]->DEP }
-  
+
 
 > **French**
-
 {{< conll >}}
 # text = Elle a instoré dans ce pays la démocratie politique et sociale
 # text_en = She established in this country political and social democracy.
@@ -34,12 +33,9 @@ This relation is used to link elements connected with a coordinating conjunction
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Gloss=the
 8	démocratie	démocratie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	Gloss=democracy
 9	politique	politique	ADJ	_	Number=Sing	8	mod	_	Gloss=political
-10	et	et	CCONJ	_	_	11	cc	_	Gloss=and
-11	sociale	sociale	NOUN	_	_	9	conj:coord	_	Gloss=social
 {{< /conll >}}
 
 > **Naija**
-
 {{< conll >}}
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__51
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_10_Mothers-Against-Mini-Skirts_DG.mp3
@@ -73,7 +69,6 @@ This helps to reduce cumbersome long-distance relations. We also believe it to b
 
   
 > **French**
-
 {{< conll >}}
 # text = Elle saura conjuguer le changement et la cohésion sociale l' esprit d' initiative et la sécurité la modernité et le bien vivre ensemble
 # text_en = She will be able to combine change and social cohesion, a spirit of initiative and security, modernity and living well together.
@@ -103,7 +98,6 @@ This helps to reduce cumbersome long-distance relations. We also believe it to b
 {{< /conll >}}
 
 > **Naija**
-
 {{< conll >}}
 # sent_id = KAD_22_Chatting-At-The-Restaurant_DG__134
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_22_Chatting-At-The-Restaurant_DG.mp3

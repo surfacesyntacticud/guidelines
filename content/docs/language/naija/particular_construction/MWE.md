@@ -13,8 +13,6 @@ weight: 3
 # Multi-word placenames and organizations
 
 In Naija, multi-word placenames and organizations are currently annotated with a simple `flat` relation, though their constituents retain their typical parts of speech.
-<!-- tabs:start -->
-#### **Exampe 1**
 
 {{< conll >}}
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=102090|AlignEnd=102457|Gloss=PUNCT
@@ -30,7 +28,6 @@ In Naija, multi-word placenames and organizations are currently annotated with a
 {{< /conll >}}
 
 
-#### **Exampe 2**
 
 {{< conll >}}
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=4080|AlignEnd=4899|Gloss=PUNCT
@@ -45,8 +42,6 @@ In Naija, multi-word placenames and organizations are currently annotated with a
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=7052|AlignEnd=7082|Gloss=PUNCT
 {{< /conll >}}
 
-#### **Example 3**
-
 {{< conll >}}
 1	Manchester	Manchester	PROPN	_	ExtPos=PROPN	7	dislocated	_	AlignBegin=118620|AlignEnd=119365|Gloss=Manchester|Title=Yes
 2	United	United	ADJ	_	_	1	flat	_	AlignBegin=119365|AlignEnd=120036|Gloss=United|InTitle=Yes
@@ -57,4 +52,3 @@ In Naija, multi-word placenames and organizations are currently annotated with a
 7	club	club	NOUN	_	_	0	root	_	AlignBegin=120905|AlignEnd=121280|Gloss=club
 8	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=121280|AlignEnd=121310|Gloss=PUNCT
 {{< /conll >}}
-<!-- tabs:end -->

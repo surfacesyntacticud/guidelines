@@ -17,13 +17,13 @@ The term _dey_ in Naija performs two primary roles.
 The first is that of a copula.
 In these instances, _dey_ is annotated as a verb and is connected to its complement with a `comp:pred` relation, as in the examples below.
 
->{{< conll >}}
+{{< conll >}}
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=204377|AlignEnd=204666|Gloss=it
 2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=204666|AlignEnd=204954|Gloss=be|highlight=red
 3	sweet	sweet	ADJ	_	_	2	comp:pred	_	AlignBegin=204954|AlignEnd=205243|Gloss=sweet
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=5030|AlignEnd=5260|Gloss=I
 2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=5260|AlignEnd=5490|Gloss=be|highlight=red
 3	fine	fine	ADJ	_	_	2	comp:pred	_	AlignBegin=5490|AlignEnd=5720|Gloss=fine
@@ -32,7 +32,7 @@ In these instances, _dey_ is annotated as a verb and is connected to its complem
 This word is also used as an auxiliary verb which marks the imperfective aspect.
 In these cases, dey is annotated as an auxiliary and is connected to the following verb with a `comp:aux` relation.
 
->{{< conll >}}
+{{< conll >}}
 1	so	so	ADV	_	_	3	discourse	_	AlignBegin=117700|AlignEnd=118140|Gloss=so
 2	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=118418|AlignEnd=118571|Gloss=she
 3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=118601|AlignEnd=118811|Gloss=IPFV
@@ -44,7 +44,7 @@ In these cases, dey is annotated as an auxiliary and is connected to the followi
 9	everyting	everyting	PRON	_	_	6	conj:coord	_	AlignBegin=119891|AlignEnd=120391|Gloss=everything
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=131630|AlignEnd=131917|Gloss=you
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=131917|AlignEnd=132204|Gloss=NEG
 3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=132204|AlignEnd=132491|Gloss=IPFV|highlight=red
@@ -59,7 +59,7 @@ In these cases, dey is annotated as an auxiliary and is connected to the followi
 
 In addition to _dey_, Naija contains two other words that can function as copulas: _be_ and _na_. Like _dey_, _be_, is annotated as a verb, and is connected to the subject via a `subj` relationship and to the predicate via the `comp:pred` relationship. We also treat _na_ in a similar fashion, though it is tagged as a particle rather than a verb.
 
->{{< conll >}}
+{{< conll >}}
 1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=75500|AlignEnd=75698|Gloss=she
 2	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=75698|AlignEnd=75896|Gloss=CONS
 3	dey	dey	AUX	_	Aspect=Imp	2	comp:aux	_	AlignBegin=75896|AlignEnd=76094|Gloss=IPFV
@@ -72,7 +72,7 @@ In addition to _dey_, Naija contains two other words that can function as copula
 10	o	o	PART	_	PartType=Disc	9	mod:emph	_	AlignBegin=77282|AlignEnd=77480|Gloss=EMPH
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	daddy	daddy	NOUN	_	_	2	subj	_	AlignBegin=9040|AlignEnd=9340|Gloss=daddy
 2	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=9340|AlignEnd=9500|Gloss=be|highlight=red
 3	reverend	reverend	NOUN	_	_	2	comp:pred	_	AlignBegin=9500|AlignEnd=10050|Gloss=reverend
@@ -88,13 +88,13 @@ In addition to _dey_, Naija contains two other words that can function as copula
 
 However, the copula is not always needed to link subjects to their predicates. In cases where no copula is present, the predicate is connected to its subject via a `subj` relationship.
 
->{{< conll >}}
+{{< conll >}}
 1	e	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=97985|AlignEnd=98254|Gloss=it
 2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98254|AlignEnd=98522|Gloss=NEG
 3	good	good	ADJ	_	_	0	root	_	AlignBegin=98522|AlignEnd=98791|Gloss=good
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=74280|AlignEnd=74920|Gloss=it
 2	plenty	plenty	ADJ	_	_	0	root	_	AlignBegin=74920|AlignEnd=75560|Gloss=plenty
 {{< /conll >}}

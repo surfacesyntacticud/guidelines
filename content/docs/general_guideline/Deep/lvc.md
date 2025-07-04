@@ -16,7 +16,6 @@ A light verb construction (LVC) is a type of verbal structure in which a verb is
 
 
 > French 
-
 {{< conll >}}
 # text = faire face à la situation
 # text_en = He faces the situation
@@ -95,6 +94,7 @@ This explains the different syntactic interpretations of the following sentences
 6	araignée	araignée	PROPN	_	_	4	comp:obj	_	Gloss=spider
 {{< /conll >}}
 
+See [issue #5](https://github.com/surfacesyntacticud/guidelines/issues/5) for a discussion about light verb construction annotation in SUD.
 
 ## French
 

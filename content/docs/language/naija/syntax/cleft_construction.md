@@ -15,7 +15,7 @@ Cleft sentences are an extremely common construction in Naija, making the `comp:
 The basic cleft construction in Naija includes the phrase *na im* (it's him), followed by a verb phrase, though a number of variants exist.
 The following provides several such examples.
 
->{{< conll >}}
+{{< conll >}}
 1	laziness	laziness	NOUN	_	_	3	dislocated	_	AlignBegin=370809|AlignEnd=371360|Gloss=laziness
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=371360|AlignEnd=371390|Gloss=PUNCT
 3	na	na	PART	_	ExtPos=SCONJ|PartType=Cop	0	root	_	AlignBegin=371390|AlignEnd=371510|Gloss=be|Idiom=Yes|highlight=red
@@ -26,7 +26,7 @@ The following provides several such examples.
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=372090|AlignEnd=372120|Gloss=PUNCT  
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	after	after	ADP	_	_	4	mod:periph	_	AlignBegin=161950|AlignEnd=162120|Gloss=after
 2	all	all	DET	_	_	1	comp:obj	_	AlignBegin=162120|AlignEnd=162160|Gloss=all
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=162160|AlignEnd=162190|Gloss=PUNCT
@@ -38,7 +38,7 @@ The following provides several such examples.
 9	up	up	ADP	_	_	8	compound:prt	_	AlignBegin=162890|AlignEnd=162990|Gloss=up
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=39139|AlignEnd=39299|Gloss=be|highlight=red
 2	so	so	ADV	_	_	1	comp:pred	_	AlignBegin=39299|AlignEnd=39389|Gloss=so
 3	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=39389|AlignEnd=39419|Gloss=PUNCT
@@ -48,7 +48,7 @@ The following provides several such examples.
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=39968|AlignEnd=39998|Gloss=PUNCT
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=271340|AlignEnd=278340|Gloss=PUNCT
 2	hm	hm	INTJ	_	_	3	discourse	_	AlignBegin=276082|AlignEnd=276400|Gloss=hm
 3	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=276400|AlignEnd=276540|Gloss=be|highlight=red
@@ -67,7 +67,7 @@ The `comp:cleft` relation is also used in questions containing interrogative wor
 In such cases, the wh-word is annotated as the root, and is connected to the verb via a `comp:cleft` relation.
 
 
->{{< conll >}}
+{{< conll >}}
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=139780|AlignEnd=140131|Gloss=PUNCT
 2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=140131|AlignEnd=140320|Gloss=who.Q|highlight=red
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	subj	_	AlignBegin=140320|AlignEnd=140540|Gloss=NOM.2
@@ -76,7 +76,7 @@ In such cases, the wh-word is annotated as the root, and is connected to the ver
 6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=140950|AlignEnd=140980|Gloss=PUNCT
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=134010|AlignEnd=134323|Gloss=what.Q|highlight=red
 2	be	be	VERB	_	PartType=Cop	1	comp:cleft	_	AlignBegin=134323|AlignEnd=134462|Gloss=be|highlight=red
 3	Ponzi	Ponzi	PROPN	_	_	4	compound	_	AlignBegin=134462|AlignEnd=134803|Gloss=Ponzi
@@ -84,7 +84,7 @@ In such cases, the wh-word is annotated as the root, and is connected to the ver
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=135070|AlignEnd=135100|Gloss=PUNCT
 {{< /conll >}}
 
->{{< conll >}}
+{{< conll >}}
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=69065|AlignEnd=69421|Gloss=PUNCT
 2	where	where	ADV	_	PronType=Int	0	root	_	AlignBegin=69421|AlignEnd=69661|Gloss=where.Q|highlight=red
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=69661|AlignEnd=69761|Gloss=DEF.ART

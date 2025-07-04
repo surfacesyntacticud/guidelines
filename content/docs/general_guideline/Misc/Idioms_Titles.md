@@ -9,7 +9,7 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# Idiom and Title
+# Idioms and Titles
 
 ## Universal
 
@@ -64,6 +64,18 @@ Until SUD version 2.8, the feature `PhraseType=Idiom` was used for the head of i
 6	not	not	ADV	_	_	5	mod	_	_
 7	my	my	DET	_	_	8	det	_	_
 8	favorite	favorite	NOUN	_	_	5	comp:pred	_	_
+{{< /conll >}}
+
+> English
+{{< conll >}}
+1	Finance	finance	NOUN	_	_	4	subj	_	_
+2	and	and	CCONJ	_	_	3	cc	_	_
+3	mentorship	mentorship	NOUN	_	_	1	conj	_	_
+4	should	shall	AUX	_	_	0	root	_	_
+5	go	go	VERB	_	_	4	comp:aux	_	_
+6	hand	hand	NOUN	_	ExtPos=ADV|Idiom=Yes	5	mod	_	highlight=red
+7	in	in	ADP	_	InIdiom=Yes	6	udep	_	highlight=red
+8	hand	hand	NOUN	_	InIdiom=Yes	7	comp:obj	_	highlight=red
 {{< /conll >}}
 
 > Spanish

@@ -8,7 +8,7 @@ weight: 10
 In spoken data, sometimes speakers utter a half-finished construction.
 In that case, it may happen that a word cannot be attached to its head, because the speaker decided not to utter it.
 
-{{<grew>}}
+{{<grew corpus="SUD_French-Rhapsodie@latest">}}
 pattern { GOV -[deep=scrap]-> DEP }
 {{</grew>}}
 

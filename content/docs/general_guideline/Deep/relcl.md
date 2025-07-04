@@ -13,7 +13,7 @@ bookToc: true
 ## Universal
 
 The `@relcl` feature is used for the relation between the head of a relative clause and its antecedent.
-See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=@relcl) for the use of `@relcl` in SUD 2.15.
+See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=@relcl) for the use of `@relcl` in SUD 2.16.
 
 > English 
 {{< conll >}}

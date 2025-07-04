@@ -19,13 +19,12 @@ bookToc: true
 
 This relation is used to indicate difluencies when a speaker corrects his speech and to analyse reformulations. The relation `conj:coord` is used to link two different objects, two referants (ex: *Mary and John* are two different referents). The relation `conj:dicto` on the other hand is used to link two denotations of the same referent (ex: *the desert in Kenya, the Kenya desert* is denoting the same referant).
 
-The ability of `conj:dicto` to anlyse both disfluencies and reformulations is the reason why we don't use the the [`reparandum`](https://universaldependencies.org/u/dep/reparandum.html) relationship as used in UD. For the moment, it is only used in SUD for analysis of written texts.
+The ability of `conj:dicto` to anlyse both disfluencies and reformulations is the reason why we don't use the the [`reparandum`](https://universaldependencies.org/u/dep/reparandum.html) relationship as used in UD.
 
 >[!tip]
 > pattern { GOV-[conj:dicto]->DEP }
 
-> **French 1**
-
+> **French**
 {{< conll >}}
 # text = puisque les les les les c~ les capitales les grandes villes ne me disaient rien du tout
 # text_en = since I didn't know anything at all about the the the the c ~ the capitals the big cities
@@ -50,8 +49,7 @@ The ability of `conj:dicto` to anlyse both disfluencies and reformulations is th
 18	tout	tout	ADV	_	_	16	comp:obj	_	Gloss=all
 {{< /conll >}}
 
-> **French 2**
-
+> **French**
 {{< conll >}}
 # sent_id = ParisStories_2019_stagePrimaire_15
 # text = j'ai j'ai vraiment adoré ce côté là .
@@ -69,7 +67,6 @@ The ability of `conj:dicto` to anlyse both disfluencies and reformulations is th
 {{< /conll >}}
 
 > **Naija**
-
 {{< conll >}}
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__79
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_10_Mothers-Against-Mini-Skirts_DG.mp3
@@ -100,8 +97,8 @@ This is because UD relies more on the semantics - it is the last element that ho
 This may result in some incoherencies. Note the following example. In this sentence we have two options of annotation. We can annotate the *é~* with an unknown POS (`X`). In that case `X` is the head of a `subj` relation which is undesirable (only `VERB` and `AUX` should be head of a `subj` relation). The other option would be to guess the POS and lemma of the unfinished word with the risk of guessing it wrong. In our case the token *é~* would be annotated with the lemma *être* and POS `AUX`. In this scenario, *é~* becomes part of the paradigm of the conjugated verb *être* which is also undesirable.
 
 In SUD we decided to adopt the following analysis.
-> **French**
 
+> **French**
 {{< conll >}}
 # text = C' é~ c' était vraiment
 # text_en = It w~ it was really
@@ -112,7 +109,7 @@ In SUD we decided to adopt the following analysis.
 5	vraiment	vraiment	ADV	_	_	4	mod	_	Gloss=really
 {{< /conll >}}
 
-For more examples on disfluencies, you can refer to [this page](../../Universal_construction/disfluency.md).
+For more examples on disfluencies, you can refer to the [disfluency](../../Universal_construction/disfluency.md) page.
 
 
 

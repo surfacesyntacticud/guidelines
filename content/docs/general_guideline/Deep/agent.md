@@ -26,6 +26,19 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 6	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll >}}
 
+> English
+{{< conll >}}
+1	it	it	PRON	_	_	2	subj	_	_
+2	occurred	occur	VERB	_	_	0	root	_	_
+3	to	to	ADP	_	_	2	comp:obl	_	_
+4	Quinn	Quinn	PROPN	_	_	3	comp:obj	_	_
+5	that	that	SCONJ	_	_	2	comp:obj@agent	_	_
+6	perhaps	perhaps	ADV	_	_	8	mod	_	_
+7	Stillmann	Stillmann	PROPN	_	_	8	subj	_	_
+8	was	be	PROPN	_	_	5	comp:obj	_	_
+9	blind	blind	ADJ	_	_	8	comp:pred	_	_
+{{< /conll >}}
+
 > French 
 {{< conll >}}
 # text = Food was cooked by many hands
