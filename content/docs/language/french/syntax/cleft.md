@@ -15,14 +15,14 @@ As shown in the page about the [`comp:cleft`](../../../general_guideline/Syntact
 {{< conll >}}
 # sent_id = fr-ud-train_10423
 # text = C'est l'équipe des Vengeurs de l'âge d'or qui est reconstituée sous l'égide du SHIELD, un peu comme Rob Liefeld et son studio l'avaient tenté avec la version Heroes Reborn.
-1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	Vengeurs	vengeur	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	wordform=vengeurs
+7	Vengeurs	vengeur	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	âge	âge	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -51,7 +51,7 @@ In the other cases, the cleft clause is analysed as a complement clause, with **
 # sent_id = fr-ud-train_01065
 # text = C'est d'ailleurs à ce style que se rattache la majorité du mobilier.
 # text_en = Most of the furniture is actually associated with this style.
-1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No|wordform=c'
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	ExtPos=ADV	2	mod	_	Idiom=Yes|SpaceAfter=No
 4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes

@@ -24,7 +24,7 @@ rends -[comp:obl]-> de
 
 {{< conll >}}
 # text = Il fait partie de la section de Nobressart.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	partie	partie	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj@lvc	_	_
 4	de	de	ADP	_	_	2	comp:obl	_	_

@@ -24,7 +24,7 @@ The relation between the auxiliary and the verb is marked `comp:aux@pass` and th
 {{< conll >}}
 # text = Le château est ensuite vendu
 # text_en = Later the castle is sold
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	wordform=le|Gloss=The
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	Gloss=The
 2	château	château	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	Gloss=castle
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=is
 4	ensuite	ensuite	ADV	_	_	3	mod	_	Gloss=then
@@ -39,7 +39,7 @@ For more information, see the [`comp` page](../Syntactic_relations/comp/comp).
 {{< conll >}}
 # text = L'affaire se complique un peu
 # text_en = The case gets a little complicated
-1	L'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'|Gloss=The
+1	L'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	2	det	_	SpaceAfter=No|Gloss=The
 2	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	Gloss=case
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp@pass	_	Gloss=PRON.refl
 4	complique	compliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=complicates
@@ -53,7 +53,7 @@ Complements of the verbs in a passive construction are marked `comp:obj@pass`
 {{< conll >}}
 # text_en = It is decided that the execution of the sentence is postponed
 # text = Il est décidé que l'exécution de la sentence soit différé
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il|Gloss=It
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	Gloss=It
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=is
 3	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	Gloss=decided
 4	que	que	SCONJ	_	_	3	comp:obj@pass	_	Gloss=that

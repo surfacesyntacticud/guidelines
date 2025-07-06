@@ -39,7 +39,7 @@ pattern {
 {{< conll >}}
 # sent_id = fr-ud-train_06493
 # text = L'utilisation est intuitive.
-1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	intuitive	intuitif	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	SpaceAfter=No

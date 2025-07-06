@@ -26,7 +26,7 @@ The `@x` feature is now deprecated and must not be used in new annotations.
 > **`Subject=SubjRaising`**
 {{<conll>}}
 # text = Les experts sont unanimes pour dater ce manuscrit du VIe siècle.
-1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	experts	expert	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	unanimes	unanime	ADJ	_	Gender=Masc|Number=Plur	3	comp:pred	_	_
@@ -45,7 +45,7 @@ The `@x` feature is now deprecated and must not be used in new annotations.
 > **`Subject=ObjRaising`** 
 {{<conll>}}
 # text = D'un coup de pied, il le fait tomber de la main du prêtre, par terre.
-1	D'	de	ADP	_	_	9	mod	_	SpaceAfter=No|wordform=d'
+1	D'	de	ADP	_	_	9	mod	_	SpaceAfter=No
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
@@ -71,7 +71,7 @@ The `@x` feature is now deprecated and must not be used in new annotations.
 > **`Subject=OblRaising`** 
 {{<conll>}}
 #text = Ce mécanisme peut permettre à la fraude de durer plusieurs années ;
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	wordform=ce
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	mécanisme	mécanisme	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	permettre	permettre	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising|highlight=red
@@ -141,7 +141,7 @@ You can find this annotation in the treebank [**French-Rhapsodie**](https://univ
 {{<conll>}}
 #text = au début, il voulait pas venir dans la salle pour faire des activités.
 1-2	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	mod	_	AlignBegin=24280|AlignEnd=24586|wordform=au
+1	à	à	ADP	_	_	6	mod	_	AlignBegin=24280|AlignEnd=24586
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	début	début	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	AlignBegin=24586|AlignEnd=24892|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=24892|AlignEnd=24892

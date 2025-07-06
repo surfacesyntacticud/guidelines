@@ -24,7 +24,7 @@ pattern { X -[parataxis]-> Y }
 > __French__
 {{<conll>}}
 # text = Il faudra encore du temps », avait-il déclaré.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	faudra	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	highlight=red
 3	encore	encore	ADV	_	_	2	mod	_	_
 4	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -32,7 +32,7 @@ pattern { X -[parataxis]-> Y }
 6	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	parataxis	_	SpaceAfter=No|highlight=red
-9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	wordform=il
+9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 10	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 {{</conll>}}
@@ -58,7 +58,7 @@ pattern { X -[parataxis]-> Y }
 > __French__
 {{<conll>}}
 # text = Très demandé, vous le connaissez sûrement, Jean M est toujours dévoué, un vrai professionnel qui ne compte pas ses heures pour nous soigner.
-1	Très	très	ADV	_	_	2	mod	_	wordform=très
+1	Très	très	ADV	_	_	2	mod	_	_
 2	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	mod	_	SpaceAfter=No|Subject=Instantiated
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_

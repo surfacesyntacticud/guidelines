@@ -123,7 +123,7 @@ This happens when the noun is part of a light verb construction (for more inform
 {{< conll >}}
 # sent_id = fr-ud-train_02712
 # text = Nous n'hésiterons pas à la recommander auprès de notre entourage.
-1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	3	subj	_	wordform=nous
+1	Nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	hésiterons	hésiter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_

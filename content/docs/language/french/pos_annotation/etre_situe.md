@@ -6,7 +6,7 @@ For `VERB` that are in relation of `comp:pred` with the `AUX` **être**, we chos
 
 {{<conll>}}
 # text = Le village est située sur une hauteur, à 5 km environ au sud de Soissons
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	village	village	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	3	comp:pred	_	CorrectForm=situé|CorrectGender=Masc

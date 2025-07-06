@@ -50,7 +50,7 @@ pattern { X [ExtPos] }
 > *peu* is an ADV used as a PRON:
 {{<conll>}}
 # text = Elle y incarnera la Poussette de Manon peu de temps après.
-1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=elle
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	3	mod	_	_
 3	incarnera	incarner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -73,7 +73,7 @@ pattern { X [ExtPos] }
 > *grâce* is an NOUN used as an ADV:
 {{<conll>}}
 # text = Elle s'impose grâce à un bond à 7,23 m établi à son sixième et dernier essai.
-1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=elle
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
 2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@pass	_	SpaceAfter=No
 3	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	grâce	grâce	NOUN	_	ExtPos=ADV	3	mod	_	highlight=red
@@ -100,7 +100,7 @@ pattern { X [ExtPos] }
 {{<conll>}}
 # sent_id = fr-ud-train_02956
 # text = Le Nasdaq a quant à lui cédé 8,1%
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Nasdaq	Nasdaq	PROPN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quant	quant	ADV	_	ExtPos=ADP	3	mod	_	Idiom=Yes

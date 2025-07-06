@@ -4,7 +4,7 @@ We analyse **peu** from **un peu** as a `NOUN` with an `ExtPos=ADV` because it c
 
 {{<conll>}}
 # text = Je dis que je trouve ça un peu limite.
-1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	wordform=je
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_

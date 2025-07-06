@@ -70,7 +70,7 @@ The `flat` relation can also be used to link individual elements of numbers to o
 # sent_id = fr-ud-train_04922
 # text = Il s'agit d'album de quarante quatre pages en grand format cartonné.
 # text_en = This is a large format hardback album of forty-four pages.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	wordform=il
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@expl	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	comp:obl	_	SpaceAfter=No

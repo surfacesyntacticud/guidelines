@@ -16,7 +16,7 @@ We use the features `Idiom` and `ExtPos` to consider the initial `ADV` as a `PRO
 
 {{<conll>}}
 # text = Je souligne que les brochettes de poulet sont exquises avec un peu de sauce !
-1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	wordform=je
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -37,7 +37,7 @@ We use the features `Idiom` and `ExtPos` to consider the initial `ADV` as a `PRO
 
 {{<conll>}}
 # text = Il a la particularité de marquer beaucoup de la tête.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	wordform=il
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	particularité	particularité	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -54,7 +54,7 @@ We use the features `Idiom` and `ExtPos` to consider the initial `ADV` as a `PRO
 
 {{<conll>}}
 # text = Boutique agréable, on y trouve plein de marques.
-1	Boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	wordform=boutique
+1	Boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
 2	agréable	agréable	ADJ	_	Gender=Fem|Number=Sing	1	mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
@@ -70,7 +70,7 @@ We use the features `Idiom` and `ExtPos` to consider the initial `ADV` as a `PRO
 
 {{<conll>}}
 # text = Nombre d'investisseurs qui, auparavant, voyaient d'un mauvais œil l'accumulation de liquidités par les entreprises reconnaissent maintenant les avantages de la constitution de réserves de liquidités importantes.
-1	Nombre	nombre	ADV	_	ExtPos=PRON	20	subj	_	wordform=nombre
+1	Nombre	nombre	ADV	_	ExtPos=PRON	20	subj	_	_
 2	d'	de	ADP	_	_	1	comp:obl	_	SpaceAfter=No
 3	investisseurs	investisseur	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 4	qui	qui	PRON	_	PronType=Rel	8	subj	_	SpaceAfter=No

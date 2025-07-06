@@ -18,10 +18,10 @@ We choose this annotation for *-t-il* :
 {{<conll>}}
 # sent_id = fr-ud-train_04636
 # text = Que se passe-t-il ?
-1	Que	que	PRON	_	Person=3|PronType=Int	3	comp:pred	_	wordform=que
+1	Que	que	PRON	_	Person=3|PronType=Int	3	comp:pred	_	_
 2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@expl	_	_
 3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
+4	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 5	?	?	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 

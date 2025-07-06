@@ -22,7 +22,7 @@ _à part_ can be an adverbal idiom, meaning _separately_
 # sent_id = fr-ud-train_03378
 # text = Je mets l'Algérie à part.
 # text_en = I'll leave Algeria aside.
-1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	wordform=je
+1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	Algérie	Algérie	PROPN	_	Number=Sing	2	comp:obj	_	_
@@ -47,7 +47,7 @@ _à part_ can be an adjectival idiom, meaning either _separate_ or _exceptional_
 # sent_id = fr-ud-train_03783
 # text = Les courses d'obstacles sont une discipline à part, avec un jargon hippique particulier.
 # text_en = Obstacle racing is a discipline in its own right, with its own special jargon.
-1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	courses	course	NOUN	_	Gender=Fem|Number=Plur	5	subj	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 4	obstacles	obstacle	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
@@ -104,7 +104,7 @@ _mis à part_ can be used as a preposional idiom (also with the two other forms 
 {{< conll >}}
 # sent_id = fr-ud-train_03548
 # text = Ils rencontrent rarement les humains, mise à part une incursion occasionnelle dans une communauté rurale
-1	Ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	2	subj	_	wordform=ils
+1	Ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Shared=No	2	subj	_	_
 2	rencontrent	rencontrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	rarement	rarement	ADV	_	_	2	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -136,7 +136,7 @@ _à part entière_ can be used as an adjectival idiom which means _in its own ri
 # sent_id = fr-ud-train_11187
 # text = Il fut élu membre associé de la Royal Academy en 1861 et membre à part entière en 1869
 # text_en = He was elected an Associate Member of the Royal Academy in 1861 and a full member in 1862.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj@pass	_	wordform=il
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj@pass	_	_
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	_
 4	membre	membre	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
@@ -171,7 +171,7 @@ The adverbial idiom _à parts égales_ means _equally_ (for a repartition)
 # sent_id = fr-ud-train_09228
 # text = Il est financé à part égale par l'État et les Départements (au prorata du nombre d'habitants).
 # note = The sentence was shortened and typos were fixed
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	wordform=il
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	financé	financer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	_
 4	à	à	ADP	_	ExtPos=ADV	3	mod	_	Idiom=Yes|highlight=red
@@ -179,10 +179,10 @@ The adverbial idiom _à parts égales_ means _equally_ (for a repartition)
 6	égales	égal	ADJ	_	Gender=Fem|Number=Plur	5	mod	_	InIdiom=Yes|highlight=red
 7	par	par	ADP	_	_	3	comp:obl@agent	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	9	det	_	SpaceAfter=No
-9	État	État	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	wordform=état
+9	État	État	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	Départements	département	NOUN	_	Gender=Masc|Number=Plur	9	conj:coord	_	wordform=départements
+12	Départements	département	NOUN	_	Gender=Masc|Number=Plur	9	conj:coord	_	_
 {{< /conll >}}
 
 {{<grew>}}

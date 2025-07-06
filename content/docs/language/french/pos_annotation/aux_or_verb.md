@@ -10,7 +10,7 @@ It is sometimes not trivial to chose between the part of speech `AUX` and `VERB`
 {{< conll >}}
 # sent_id = fr-ud-train_05039
 # text = L'entrée est gratuite.
-1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|wordform=l'
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	gratuite	gratuit	ADJ	_	Gender=Fem|Number=Sing	3	comp:pred	_	SpaceAfter=No
@@ -20,7 +20,7 @@ It is sometimes not trivial to chose between the part of speech `AUX` and `VERB`
 {{< conll >}}
 # sent_id = fr-ud-train_12904
 # text = C'est notre cantine !
-1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No|wordform=c'
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	cantine	cantine	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
@@ -41,10 +41,10 @@ It is sometimes not trivial to chose between the part of speech `AUX` and `VERB`
 
 {{< conll >}}
 # text = Pourquoi en serait-il autrement cette fois-ci ?
-1	Pourquoi	pourquoi	ADV	_	_	3	mod	_	wordform=pourquoi
+1	Pourquoi	pourquoi	ADV	_	_	3	mod	_	_
 2	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	3	comp@expl	_	_
 3	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il
+4	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 5	autrement	autrement	ADV	_	_	3	mod	_	_
 9	?	?	PUNCT	_	_	3	punct	_	_
 {{< /conll >}}
@@ -53,7 +53,7 @@ It is sometimes not trivial to chose between the part of speech `AUX` and `VERB`
 
 {{< conll >}}
 # text = Ils sont sur Cherbourg depuis 2007.
-1	Ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	wordform=ils
+1	Ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sur	sur	ADP	_	_	2	comp:obl	_	_
 4	Cherbourg	Cherbourg	PROPN	_	_	3	comp:obj	_	_

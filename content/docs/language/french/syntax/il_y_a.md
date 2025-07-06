@@ -71,7 +71,7 @@ pattern : N1 [form="il"]; N2 [lemma="y"]; N3 [lemma="avoir"]; N1 << N2; N2 << N3
 
 {{< conll >}}
 # text = Il a aussi beaucoup travaillé en Allemagne, il y a réalisé par exemple le nouvel hôtel de ville de Mayence, l'entrée du Hannover Concert Hall et le pavillon administratif de la centrale électrique d'Hambourg.
-1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	wordform=il
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aussi	aussi	ADV	_	_	2	mod	_	_
 4	beaucoup	beaucoup	ADV	_	_	5	mod	_	_

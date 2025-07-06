@@ -67,7 +67,7 @@ In the case of **passive reflexive constructions**, the pronoun is labelled `com
 > {{< conll >}}
 # text = Il se situe à environ 13 kilomètres au nord-ouest
 # text_en = It is situated about 13 kilometers to the north-west
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il|Gloss=it
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	Gloss=it
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	Gloss=is
 3	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=situated
 4	à	à	ADP	_	_	3	comp:obl	_	Gloss=at
