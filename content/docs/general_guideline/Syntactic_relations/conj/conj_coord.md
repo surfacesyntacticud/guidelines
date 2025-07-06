@@ -74,7 +74,7 @@ This helps to reduce cumbersome long-distance relations. We also believe it to b
 # text_en = She will be able to combine change and social cohesion, a spirit of initiative and security, modernity and living well together.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=she
 2	saura	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	Gloss=will_know
-3	conjuguer	conjuguer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Gloss=cojugate
+3	conjuguer	conjuguer	VERB	_	VerbForm=Inf	2	comp:obj	_	Gloss=conjugate|Subject=SubjRaising
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Gloss=the
 5	changement	changement	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	Gloss=change
 6	et	et	CCONJ	_	_	8	cc	_	Gloss=and

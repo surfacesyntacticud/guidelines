@@ -76,9 +76,9 @@ The ability of `conj:dicto` to anlyse both disfluencies and reformulations is th
 # text_ortho = We used to use eh, wear mini skirt o.
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=144296|AlignEnd=144584|Gloss=NOM.PL.1|Lang=en
 2	used	use	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=144584|AlignEnd=144872|Gloss=use.IND.PST.FIN|Lang=en
-3	to	to	ADP	_	_	2	comp:obl@x	_	AlignBegin=144872|AlignEnd=145160|Gloss=to|Lang=en
+3	to	to	ADP	_	_	2	comp:obl	_	AlignBegin=144872|AlignEnd=145160|Gloss=to|Lang=en
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=145160|AlignEnd=145160|Gloss=PUNCT
-5	use	use	VERB	_	_	3	comp:obj	_	AlignBegin=145160|AlignEnd=145448|Gloss=use|Lang=en
+5	use	use	VERB	_	_	3	comp:obj	_	AlignBegin=145160|AlignEnd=145448|Gloss=use|Lang=en|Subject=SubjRaising
 6	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=145448|AlignEnd=145736|Gloss=eh|Lang=en
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=145736|AlignEnd=145736|Gloss=PUNCT
 8	wear	wear	VERB	_	_	5	conj:dicto	_	AlignBegin=145736|AlignEnd=146024|Gloss=wear|Lang=en

@@ -121,7 +121,7 @@ Below we can see an example when a speaker starts with one word, then decides it
 6	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	conj:dicto	_	Gloss=the
 7	virus	virus	NOUN	_	Gender=Masc	4	conj:dicto	_	Gloss=virus
 8	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Gloss=knows
-9	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj@x	_	Gloss=make
+9	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj	_	Gloss=make|Subject=SubjRaising
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	12	det	_	Gloss=its
 11	propre	propre	ADJ	_	Number=Sing	12	mod	_	Gloss=own
 12	besogne	besogne	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	Gloss=work

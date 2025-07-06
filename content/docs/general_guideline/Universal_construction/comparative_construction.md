@@ -114,8 +114,8 @@ These constructions are similar to other constructions organized around pairs of
 3	la	le	DET	_	_	5	det	_	Gloss=the
 4	première	premier	ADJ	_	_	5	mod	_	Gloss=first
 5	personne	personne	NOUN	_	_	2	comp:pred	_	Gloss=person
-6	à	à	ADP	_	_	4	comp:obl@x	_	Gloss=to
-7	avoir	avoir	AUX	_	_	6	comp:obj	_	Gloss=have
+6	à	à	ADP	_	_	4	comp:obl	_	Gloss=to
+7	avoir	avoir	AUX	_	_	6	comp:obj	_	Gloss=have|Subject=SubjRaising
 8	gravi	gravir	VERB	_	_	7	comp:aux	_	Gloss=climbed
 9	ce	ce	DET	_	_	10	det	_	Gloss=that
 10	sommet	sommet	NOUN	_	_	8	comp:obj	_	Gloss=summit

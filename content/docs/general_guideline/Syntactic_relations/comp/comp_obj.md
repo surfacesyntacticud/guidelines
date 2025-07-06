@@ -92,8 +92,8 @@ With animate objects this verb takes the preposition *a*, however the object is 
 1	on	on	PRON	_	_	2	subj	_	Gloss=we
 2	a	avoir	AUX	_	_	0	root	_	Gloss=have
 3	décidé	décider	VERB	_	_	2	comp:aux	_	Gloss=decided
-4	d'	de	ADP	_	_	3	comp:obj@x	_	Gloss=to
-5	aller	aller	VERB	_	_	4	comp:obj	_	Gloss=go
+4	d'	de	ADP	_	_	3	comp:obj	_	Gloss=to
+5	aller	aller	VERB	_	_	4	comp:obj	_	Gloss=go|Subject=SubjRaising
 6	à	à	ADP	_	_	5	comp:obl	_	Gloss=to
 7	le	le	DET	_	_	8	det	_	Gloss=the
 8	CROUS	CROUS	PROPN	_	_	6	comp:obj	_	Gloss=CROUS
@@ -171,8 +171,8 @@ With animate objects this verb takes the preposition *a*, however the object is 
 7	y	y	CCONJ	CCONJ	_	8	cc	_	Gloss=and
 8	que	que	SCONJ	SCONJ	_	2	conj	_	Gloss=that
 9	trata	tratar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	Gloss=try
-10	de	de	ADP	ADP	AdpType=Prep	9	comp:obl@x	_	Gloss=of
-11	incentivar	incentivar	VERB	VERB	VerbForm=Inf	10	comp:obj	_	Gloss=to incentivize
+10	de	de	ADP	ADP	AdpType=Prep	9	comp:obl	_	Gloss=of
+11	incentivar	incentivar	VERB	VERB	VerbForm=Inf	10	comp:obj	_	Gloss=to_incentivize|Subject=SubjRaising
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Gloss=the
 13	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	Gloss=market
 {{< /conll >}}
