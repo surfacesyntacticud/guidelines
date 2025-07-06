@@ -10,7 +10,8 @@ In French, adjectives agree with nouns in gender and number. Gender on adjective
 
 Although French adjectives generally agree in gender, many share the same form for masculine and feminine. This raises questions about whether such adjectives should be assigned a `Gender` feature. This phenomenon, already frequent in written French, is even more prevalent in spoken French.
 
-The `ctxt` suffix (e.g., `Gender[ctxt]`, `Number[ctxt]`) indicates that a morphological feature is only recoverable through context rather than from surface form.
+The ctxt suffix (e.g., Gender[ctxt], Number[ctxt]) is used when a morphological feature cannot be retrieved directly from the surface form but must be inferred from syntactic or semantic context.
+This situation arises both in written and spoken French, but is especially frequent in oral corpora, where final inflectional endings are often not pronounced.
 
 ### __Written corpora__
 The `ctxt` feature was introduced in French to specify when the Gender or Number of adjectives, participles, pronouns, or common nouns can only be inferred from context. In written French, some adjectives maintain the same form regardless of gender or number, as illustrated in the example below:
@@ -18,6 +19,7 @@ The `ctxt` feature was introduced in French to specify when the Gender or Number
 {{< conll >}}
 # sent_id = fr-ud-train_01762
 # text = Les sandwichs sont relativement variés et pas mauvais.
+# text_en = The sandwiches are relatively varied and not bad.
 # timestamp = 1749489420114.754
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	sandwichs	sandwich	NOUN	_	Number=Plur	3	subj	_	Gender[lex]=Masc
@@ -33,12 +35,13 @@ The `ctxt` feature was introduced in French to specify when the Gender or Number
 
 ### __Oral corpora__
 
-This phenomenon becomes even more pronounced in spoken French. In many cases, the *-s* marking plural nouns or adjectives is not pronounced, which makes the `Number` feature dependent on context.
+This phenomenon becomes even more pronounced in spoken French. In oral corpora, we annotate what is actually pronounced, not the standard written transcription. In many cases, the *-s* marking plural nouns or adjectives is not pronounced, which makes the `Number` feature dependent on context.
 
 {{< conll >}}
 # macrosyntax = la compagne de l'un des détenus est toujours en garde à vue //
 # sent_id = Rhap_M2006-55
 # text = la compagne de l'un des détenus est toujours en garde à vue.
+# text_en = the partner of one of the detainees is still in custody.
 # timestamp = 1749235252573.8699
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	compagne	compagne	NOUN	_	_	9	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -75,6 +78,7 @@ pattern { X [upos=ADJ, Number=Plur]; X<Y; Y[upos=NOUN, form=re"[a|e|i|o|u|é|è]
 # sent_id = Rhap_D0020-2
 # speaker = L1
 # text = il y a plein d'autres itinéraires possibles.
+# text_en = there are plenty of other possible routes.
 # timestamp = 1750072418889
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
@@ -105,6 +109,7 @@ pattern {
 # sent_id = Rhap_D2005-49
 # speaker = L2
 # text = et j'étais pas un très bon élève.
+# text_en = and i wasn't a very good student.
 # timestamp = 1750087111947
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
