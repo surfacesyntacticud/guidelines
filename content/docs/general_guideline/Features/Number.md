@@ -9,17 +9,24 @@ bookToc: true
 # bookSearchExclude: false 
 ---
 
-# Number 
+# `Number` 
 
-## Universal
+Links:
 
-*Definition from de [UD website](https://universaldependencies.org/u/feat/Number.html)*
+ - [`Number` page on UD website](https://universaldependencies.org/u/feat/Number.html)
+ - Tables built on UD treebanks:
+   - [Treebanks using `Number`](https://tables.grew.fr/?data=ud_feats/FEATS&cols=^Number$)
+   - [Values used with the `Number` feature](https://tables.grew.fr/?data=ud_feats/Number)
+   - [Layered features `Number`](https://tables.grew.fr/?data=ud_feats/FEATS&cols=^Number)
+
+<!-- ## Universal
+
+*Definition from de *
 Number is usually an inflectional feature of [nouns](../Upos/NOUN.md) and, depending on language, other parts of speech ([pronouns](../Upos/PRON.md), [adjectives](../Upos/ADJ.md), [determiners](../Upos/DET.md), [numerals](../Upos/NUM.md), [verbs](../Upos/VERB.md)) that mark agreement with [nouns](../Upos/NOUN.md).
 
 In languages where noun phrases are pluralized using a specific function word (pluralizer), this function word is tagged DET and `Number=Plur` is its lexical feature.
 
 It can have severals [values](https://universaldependencies.org/u/feat/all.html#al-u-feat/Number) and [layered features](https://universaldependencies.org/u/overview/feat-layers.html).
-
 ### Value
 
 [Coll](https://universaldependencies.org/u/feat/Number.html#Coll),
@@ -33,7 +40,7 @@ It can have severals [values](https://universaldependencies.org/u/feat/all.html#
 [Ptang](https://universaldependencies.org/u/feat/Number.html#Ptang),
 [Sing](https://universaldependencies.org/u/feat/Number.html#Sing), 
 [Tri](https://universaldependencies.org/u/feat/Number.html#Tri).
-
+	 
 
 #### Number features in Treebanks
 
@@ -42,6 +49,9 @@ It can have severals [values](https://universaldependencies.org/u/feat/all.html#
 #### Values of Number in treebanks
 
 ![Value Number](/images/General_Guideline/Features/Number/value_number_treebanks.png)
+ -->
+
+
 
 {{< conll >}}
 # text = euh, je pense que la chirurgie, c'est pareil, hein.
@@ -64,9 +74,12 @@ It can have severals [values](https://universaldependencies.org/u/feat/all.html#
 
 ## French 
 
-### Overview
+In French, the two values `Sing` and `Plur` are used for `Number`.
 
-Several upos can have the `Number` features in French, with the two values ̀`Sing` or ̀`Plur`.
+{{<grew key1="X.Number" key2="X.upos" corpus="SUD_French-GSD@latest" >}}
+pattern { X [Number] }
+{{</grew>}}
+
 
 <!-- ![value](/images/General_Guideline/Features/Number/value_french_nb.png) -->
 
@@ -105,31 +118,3 @@ On peut y inclure ce genre de requête par exemple :
 + [les auxiliaires/verbes VerbForm=Part|Inf et Tense=Pres](https://universal.grew.fr/?custom=644912808f930) -> lien vers [AUX](../Upos/AUX.md#specific-features-of-aux)
 + autres exemples 
 {{</hint>}}
-
-<!-- ### validateur ? 
-
-{{<hint info>}}
-On peut se servir des différents patterns pour construire le validateur
-{{</hint>}} -->
-
-
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
