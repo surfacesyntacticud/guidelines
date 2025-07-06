@@ -1,10 +1,10 @@
 ---
 title: "conj & subrels"
-weight: 1
+weight: 4
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
-# bookCollapseSection: true
+bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
@@ -20,9 +20,9 @@ The `conj` relation in SUD corresponds to the three UD relations:
 
 These three relations work as paradigmatic lists. That's why in SUD, we decided to gather these three relations under the main relation `conj` to underline the similarity between the three.
 
-```grew
+{{<grew>}}
 pattern { e : GOV-[1=conj]->DEP}
-```
+{{</grew>}}
 
 We distinguish:
 

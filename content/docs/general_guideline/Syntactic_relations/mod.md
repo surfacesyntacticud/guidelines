@@ -1,6 +1,6 @@
 ---
 title: "mod"
-weight: 4
+weight: 2
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
@@ -48,7 +48,7 @@ The `mod` relation is used for modifiers of verbs, nouns, adjectives, adverbs, a
 
 
 ### Deep syntactic features
-The relation `mod` can have the deep feature `mod@relcl` for relative clauses (see [@relcl](../../Deep/relcl.md)).
+The relation `mod` can have the deep feature `mod@relcl` for relative clauses (see [@relcl](../Deep/relcl.md)).
 
 > __English__
 {{< conll >}}

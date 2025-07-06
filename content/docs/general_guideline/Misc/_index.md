@@ -10,7 +10,7 @@ bookCollapseSection: true
 This section provides an overview of the different features that can be used for various nodes.
 These features are not specific to a particular part of speech, but can be applied to any kind of part of speech:
 - [CorrectForm](CorrectForm.md)
-- [Idiom and Titles](./Idiom_Titles.md)
+- [Idiom and Titles](./Idioms_Titles.md)
 - [Reported](./Reported.md)
 
 More information about the MISC features are available on the [UD website](https://universaldependencies.org/misc.html).

@@ -1,5 +1,5 @@
 ---
-title: "Idiom and Titles"
+title: "Idioms and Titles"
 weight: 1
 # bookFlatSection: false
 # bookToc: true

@@ -14,10 +14,10 @@ conj:dicto,docs/general_guideline/Syntactic_relations/conj/conj_dicto.md
 conj:coord,docs/general_guideline/Syntactic_relations/conj/conj_coord.md
 conj:appos,docs/general_guideline/Syntactic_relations/conj/conj_appos.md
 conj ,docs/general_guideline/Syntactic_relations/conj/_index.md
-mod, docs/general_guideline/Syntactic_relations/mod/mod.md
-udep,docs/general_guideline/Syntactic_relations/udep/udep.md
+mod, docs/general_guideline/Syntactic_relations/mod.md
+udep,docs/general_guideline/Syntactic_relations/udep.md
 compound,docs/general_guideline/Syntactic_relations/compound/compound.md
-discourse,docs/general_guideline/Syntactic_relations/macrosyntaxe/discourse/discourse.md
+discourse,docs/general_guideline/Syntactic_relations/macrosyntaxe/discourse.md
 parataxis:parenth,docs/general_guideline/Syntactic_relations/macrosyntaxe/parataxis/parataxis_parenth.md
 parataxis:obj,docs/general_guideline/Syntactic_relations/macrosyntaxe/parataxis/parataxis_obj.md
 parataxis:insert,docs/general_guideline/Syntactic_relations/macrosyntaxe/parataxis/parataxis_insert.md
@@ -29,7 +29,7 @@ comp:aux,docs/general_guideline/Syntactic_relations/comp/comp_aux.md
 comp:cleft,docs/general_guideline/Syntactic_relations/comp/comp_cleft.md
 comp:obl,docs/general_guideline/Syntactic_relations/comp/comp_obl.md
 comp:pred,docs/general_guideline/Syntactic_relations/comp/comp_pred.md
-comp ,docs/general_guideline/Syntactic_relations/comp/_index.md
+comp,docs/general_guideline/Syntactic_relations/comp/_index.md
 subj,docs/general_guideline/Syntactic_relations/subj.md
 number,docs/general_guideline/Particular_construction/number.md
 disfluency,docs/general_guideline/Particular_construction/disfluency.md
@@ -68,7 +68,7 @@ NOUN,docs/general_guideline/Upos/NOUN.md
 NUM,docs/general_guideline/Upos/NUM.md
 CorrectForm,docs/general_guideline/Misc/CorrectForm.md
 ExtPos,docs/general_guideline/Misc/ExtPos.md
-Idiom_Titles,docs/general_guideline/Misc/Idiom_Titles.md
+Idiom_Titles,docs/general_guideline/Misc/Idioms_Titles.md
 Reported,docs/general_guideline/Misc/Reported.md
 Word_TextForm,docs/general_guideline/Misc/Word_TextForm.md
 Typo,docs/general_guideline/Misc/Typo.md

@@ -120,5 +120,4 @@ pattern {
 7	bon	bon	ADJ	_	_	8	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 8	élève	élève	NOUN	_	_	3	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
-
 {{< /conll >}}

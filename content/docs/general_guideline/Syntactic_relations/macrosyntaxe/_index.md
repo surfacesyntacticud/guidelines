@@ -1,6 +1,6 @@
 ---
 title: "Macrosyntax"
-weight: 20
+weight: 5
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
@@ -30,9 +30,9 @@ However, there are three other cases that are not gathered under the `parataxis`
 The following three relations link elements to the main proposition on a macrosyntactic level.
 In some cases, these elements can be propositions, but also simple elements.
 
- - [`dislocated`](./dislocated/dislocated)
- - [`vocative`](./vocative/vocative)
- - [`discourse`](./discourse/discourse)
+ - [`dislocated`](./dislocated)
+ - [`vocative`](./vocative)
+ - [`discourse`](./discourse)
 
 
  __Note__:
