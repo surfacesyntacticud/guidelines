@@ -9,34 +9,20 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# Aspect
+# `Aspect` 
 
-## Universal
+Related pages:
 
-*Definition from de [UD website](https://universaldependencies.org/u/feat/Aspect.html)*
+ - [`Aspect` page on UD website](https://universaldependencies.org/u/feat/Aspect.html)
+ - Tables built on UD treebanks:
+   - [Treebanks using `Aspect`](https://tables.grew.fr/?data=ud_feats/FEATS&cols=^Aspect$)
+   - [Values used with the `Aspect` feature](https://tables.grew.fr/?data=ud_feats/Aspect)
 
-Aspect is typically a feature of verbs. It may also occur with other parts of speech (nouns, adjectives, adverbs), depending on whether borderline word forms such as gerunds and participles are classified as verbs or as the other category.
+## Beja
 
-Aspect is a feature that specifies duration of the action in time, whether the action has been completed etc. In some languages (e.g. English), some tenses are actually combinations of tense and aspect. In other languages (e.g. Czech), aspect and tense are separate, although not completely independent of each other.
+In Beja, the three values `Perf`, `Imp` and `aor` are used for `Aspect`.
 
-In Czech and other Slavic languages, aspect is a lexical feature. Pairs of imperfective and perfective verbs exist and are often morphologically related but the space is highly irregular and the verbs are considered to belong to separate lemmas.
-
-Since we proceed bottom-up, the current standard covers only a few aspect values found in corpora. See Wikipedia (http://en.wikipedia.org/wiki/Grammatical_aspect) for a long list of other possible aspects.
-
-### Values 
-
-[Imp](https://universaldependencies.org/u/feat/Aspect.html#Imp),
-[Perf](https://universaldependencies.org/u/feat/Aspect.html#Perf),
-[Prosp](https://universaldependencies.org/u/feat/Aspect.html#Prosp),
-[Prog](https://universaldependencies.org/u/feat/Aspect.html#Prog),
-[Hab](https://universaldependencies.org/u/feat/Aspect.html#Hab),
-[Iter](https://universaldependencies.org/u/feat/Aspect.html#Iter).
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
+{{<grew key1="X.Aspect" key2="X.upos" corpus="SUD_Beja-Autogramm@latest" >}}
+pattern { X [Aspect] }
+{{</grew>}}
 

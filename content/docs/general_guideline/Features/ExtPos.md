@@ -5,15 +5,16 @@ weight: 10
 
 # `ExtPos`
 
-## Universal
+The `ExtPos` feature was introduced in SUD and it is now used in many UD treebanks as well. 
 
-Even if the feature `ExtPos` is also now used by [some UD treebanks](https://tables.grew.fr/?data=ud_feats/FEATS&cols=ExtPos), we consider it here as a *SUD feature*.
+Related pages:
 
+ - [`ExtPos` page on UD website](https://universaldependencies.org/u/feat/ExtPos.html)
+ - [Treebanks using `ExtPos`](https://tables.grew.fr/?data=ud_feats/FEATS&cols=^ExtPos$)
+ - [SUD issues about ExtPos](https://github.com/surfacesyntacticud/guidelines/issues?q=label%3A%22feature%3AExtPos%22
+ )
 
-
-
-The `ExtPos` feature was introduced to facilitate the annotation of idioms, titles, and other multi-word units which behave like a certain part of speech, even though none of their constituents necessarily carry that part of speech. This feature allows the annotator to preserve the internal syntactic relationships between the components of these units.
-
+The `ExtPos` feature is used to facilitate the annotation of idioms, titles, and other multi-word units which behave like a certain part of speech, even though none of their constituents necessarily carry that part of speech. This feature allows the annotator to preserve the internal syntactic structure between the components of these units.
 See [Idioms and titles](../Misc/Idioms_Titles.md) for examples.
 
 The usage of `ExtPos` was also generalized to cases of single tokens which are given a `upos` but they are used in the syntactic structure with another role.
@@ -24,9 +25,9 @@ The usage of `ExtPos` was also generalized to cases of single tokens which are g
 pattern { X [ExtPos] }
 {{</grew>}}
 
-In Naija, it is mostly used for adjective used as verbs.
+In Naija, it is frenquently used for adjective used as verbs.
 
-> Naija
+> **Naija**
 {{< conll >}}
 # text_en = It'll get better.
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=307749|AlignEnd=308144|Gloss=NOM.SG.3
@@ -38,21 +39,18 @@ In Naija, it is mostly used for adjective used as verbs.
 
 ## French 
 
-### Overview
-
+Combination of ExtPos and upos in SUD_French-GSD:
 {{<grew key1="X.upos" key2="X.ExtPos" corpus="SUD_French-GSD@latest" >}}
 pattern { X [ExtPos] }
 {{</grew>}}
  
-### Specific Pattern
+### Adverb used as pronoun 
 
-#### Adverb used as pronoun 
+- _**beaucoup** de_ + `NOUN`
+- _**près** de_ + `NOUN`
+- _**peu** de_ + `NOUN`
 
-- *beaucoup* de + NOUN
-- *près* de + NOUN
-- *peu* de + NOUN
-
-> *peu* is an ADV used as a PRON:
+> **French**
 {{<conll>}}
 # text = Elle y incarnera la Poussette de Manon peu de temps après.
 1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
@@ -69,13 +67,13 @@ pattern { X [ExtPos] }
 12	.	.	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 
-#### Noun used as adverbs 
+### Noun used as adverbs 
 
 - _**grâce** à_
 - _**face** à_
 - _**suite** à_
 
-> *grâce* is an NOUN used as an ADV:
+> **French**
 {{<conll>}}
 # text = Elle s'impose grâce à un bond à 7,23 m établi à son sixième et dernier essai.
 1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
@@ -99,9 +97,15 @@ pattern { X [ExtPos] }
 
 {{</conll>}}
 
-#### Symbols 
+### Symbols 
 
-> Most of the tokens with `upos=SYM` have an `ExtPos` feature
+Most of the tokens with `upos=SYM` have an `ExtPos` feature
+
+{{<grew key1="X.ExtPos" corpus="SUD_French-GSD@latest" >}}
+pattern { X [upos=SYM] }
+{{</grew>}}
+
+> **French**
 {{<conll>}}
 # sent_id = fr-ud-train_02956
 # text = Le Nasdaq a quant à lui cédé 8,1%
@@ -115,33 +119,3 @@ pattern { X [ExtPos] }
 8	8,1	8,1	NUM	_	Number=Plur	9	det	_	SpaceAfter=No
 9	%	%	SYM	_	ExtPos=NOUN|Number=Plur	7	comp:obj	_	SpaceAfter=No|highlight=red
 {{</conll>}}
-
-#### Tables
-
- Here is the table where you can find the pattern in the treebanks.
-
-{{< agg table_output_french_ExtPos >}}
-
-
-
-
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
