@@ -1,6 +1,6 @@
 ---
 title: "Feature extensions"
-weight: 10
+weight: 90
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false

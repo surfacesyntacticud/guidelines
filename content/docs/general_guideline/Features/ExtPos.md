@@ -7,6 +7,11 @@ weight: 10
 
 ## Universal
 
+Even if the feature `ExtPos` is also now used by [some UD treebanks](https://tables.grew.fr/?data=ud_feats/FEATS&cols=ExtPos), we consider it here as a *SUD feature*.
+
+
+
+
 The `ExtPos` feature was introduced to facilitate the annotation of idioms, titles, and other multi-word units which behave like a certain part of speech, even though none of their constituents necessarily carry that part of speech. This feature allows the annotator to preserve the internal syntactic relationships between the components of these units.
 
 See [Idioms and titles](../Misc/Idioms_Titles.md) for examples.

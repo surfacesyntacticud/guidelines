@@ -1,21 +1,41 @@
 ---
-title: "UD Morpho-syntactic Features"
+title: "Morpho-syntactic Features"
 weight: 20
 bookCollapseSection: true
 ---
 
-# UD Morpho-syntactic Features
+# Morpho-syntactic Features
 
-You can find more information about the features on the [UD webpage](https://universaldependencies.org/u/feat/) : *"The features distinguish additional lexical and grammatical properties of words, not covered by the POS tags"*
+Most of the morpho-syntactic features used in SUD are shared with UD.
+Consult [Universal features](https://universaldependencies.org/u/feat/) for a full list and detail descriptions.
 
-You can also find more information about the [layered universal features](https://universaldependencies.org/u/overview/feat-layers.html) in the universal dependecies website. 
+Main Morpho-syntactic Features shared with UD:
 
-{{<hint info>}}
-- On pourrait imaginer plutôt des pages pour les valeurs des traits (comme la page pour les valeurs des upos) ? Pourquoi cette différence ? 
-- On pourrait mieux structurer les features : 
-    - lexical 
-    - inflecional
-        - verbal
-        - nominal
-cf : organisation UD. Mais, on double complétement l'information avec UD si on énumère les mêmes traits. Est-ce nécessaire ? 
-{{</hint>}}
+ - [`Aspect`](./Aspect)
+ - [`Case`](./Case) 
+ - [`Definite`](./Definite) 
+ - [`Degree`](./Degree) 
+ - [`Gender`](./Gender) 
+ - [`Mood`](./Mood) 
+ - [`Number`](./Number) 
+ - [`NumType`](./NumType) 
+ - [`Person`](./Person) 
+ - [`Polarity`](./Polarity) 
+ - [`Poss`](./Poss) 
+ - [`Reflex`](./Reflex)
+ - [`Tense`](./Tense) 
+ - [`VerbForm`](./VerbForm) 
+ - [`Voice`](./Voice) 
+
+Other features beyond morpho-syntax:
+
+ - [`ExtPos`](./ExtPos) for external POS in idioms or tilte
+ - [`Foreign`](./Foreign)
+ - [`Shared`](Shared) for encoding the fact that dependants are shored or not in coordination constructions
+ - [`Subject`](Subject) for control verbs
+ - [`Typo`](./Typo)
+
+Related pages:
+ - [UD layered universal features](https://universaldependencies.org/u/overview/feat-layers.html)
+ - [Features extenions](../feature_extensions/)
+
