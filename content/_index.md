@@ -11,7 +11,7 @@ bookSearch: true
 # SUD Guidelines
 
 
-The instruction for the annotation are organized by section, from general to exceptionnal case. You can find in this section the universal SUD guidelines. 
+The instructions for the annotation are organized by section, from general to exceptionnal case. You can find in this section the universal SUD guidelines. 
 
 You will find informations about : 
 - some features 
