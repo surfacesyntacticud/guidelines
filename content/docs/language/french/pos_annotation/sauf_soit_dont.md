@@ -7,16 +7,12 @@ weight: 11
 
 “sauf”, “soit”, “dont” resemble coordination but do not always meet the syntactic criteria for standard conjunctive constructions. This guide clarifies how to annotate them consistently in terms of POS tags and dependency relations.
 
-## Universal
-
-These constructions are often elliptical or appositive, with the second element refining, specifying, or subtracting from the first. They tend to occur in non-clausal coordination-like patterns and raise questions about both part-of-speech and dependency relation annotation.
-
 We distinguish here between:
 
 - **Additive coordination** (`conj:coord`)
 - **Appositive coordination** (`conj:appos`)
 
-### “sauf”
+### __“sauf”__
 **Function:** Subtractive connector, introduces an exception to a preceding phrase.  
 **POS:** `CCONJ`  
 **Deprel:** Prefer `conj:appos` over `conj:coord` when the second conjunct is a proper subset or exception.
@@ -24,7 +20,7 @@ We distinguish here between:
 {{< conll >}}
 # sent_id = fr-ud-train_11240
 # text = Toutes les chansons sont de Pete Townshend, sauf indication contraire.
-# text_eng = All songs by Pete Townshend unless otherwise noted.
+# text_en = All songs by Pete Townshend unless otherwise noted.
 # timestamp = 1751971588519
 1	Toutes	tout	ADJ	_	Gender=Fem|Number=Plur	3	mod	_	wordform=toutes
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
@@ -41,18 +37,19 @@ We distinguish here between:
 {{< /conll >}}
 
 
-### “soit”
+### __“soit”__
 **Function:** introduces alternatives.
 **POS:** always CCONJ, even in non-standard or elliptical uses.
 **Deprel:** `conj:coord` for disjunctions, `conj:appos` for appositional clarification.
 
-> __Coordinative use__
+> __Coordinative use__  
+
 “soit” is a `CCONJ`, and the deprel `conj:coord` is used to connect the two prepositional phrases.
 
 {{< conll >}}
 # sent_id = fr-ud-train_02047
 # text = Ceux qui arrivent à s'organiser, militer etc... finissent par être manipulé soit de l'intérieur, soit de l'extérieur.
-# text_eng = Those who manage to organize, campaign, etc. end up being manipulated either from within or from without.
+# text_en = Those who manage to organize, campaign, etc. end up being manipulated either from within or from without.
 # timestamp = 1749489420114.754
 1	Ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	11	subj	_	wordform=ceux
 2	qui	qui	PRON	_	PronType=Rel	3	subj	_	_
@@ -80,13 +77,14 @@ We distinguish here between:
 24	.	.	PUNCT	_	_	11	punct	_	_
 {{< /conll >}}
 
-> __Appositive use__
+> __Appositive use__  
+
 “soit” is a `CCONJ`, and the deprel `conj:appos` is used to link together the appositive element with the first element.
 
 {{< conll >}}
 # sent_id = fr-ud-train_05057
 # text = Ilonse se situe à une heure de Nice soit 72 km.
-# text_eng = Ilonse is located one hour from Nice, or 72 km.
+# text_en = Ilonse is located one hour from Nice, or 72 km.
 # timestamp = 1751986389702
 1	Ilonse	Ilonse	PROPN	_	_	3	subj@pass	_	Gender[lex]=Unknown
 2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp@pass	_	_
@@ -102,19 +100,20 @@ We distinguish here between:
 12	.	.	PUNCT	_	_	3	punct	_	_
 {{< /conll >}}
 
-### “dont”
+### __“dont”__
 
-**Function:** two distinct uses:
-Relative pronoun ⇒ `PRON` introducing a relative clause.
+**Function:** two distinct uses:  
+Relative pronoun ⇒ `PRON` introducing a relative clause.  
 Appositive connector ⇒ `CCONJ` introducing an appositive subpart.
 
-> __Relative use__
+> __Relative use__  
+
 “dont” is a `PRON`, part of `mod@relcl`.
 
 {{< conll >}}
 # sent_id = fr-ud-train_01125
 # text = Il a trois frères, dont l'un est l'entomologiste Théodore Lacordaire.
-# text_eng = He has three brothers, one of whom is the entomologist Théodore Lacordaire.
+# text_en = He has three brothers, one of whom is the entomologist Théodore Lacordaire.
 # timestamp = 1751292598730
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Case=Nom|wordform=il
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -133,13 +132,14 @@ Appositive connector ⇒ `CCONJ` introducing an appositive subpart.
 {{< /conll >}}
 
 
-> __Appositive use__
+> __Appositive use__  
+
 dont” is a `CCONJ`, and the deprel`conj:appos` is used to link together the appositive element with the first element.
 
 {{< conll >}}
 # sent_id = annodis.er_00386
 # text = Pas moins d'une douzaine d'hommes étaient mobilisés dont l'équipe cynophile.
-# text_eng = No fewer than a dozen men were mobilized, including the canine team.
+# text_en = No fewer than a dozen men were mobilized, including the canine team.
 # timestamp = 1752070709034
 1	Pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 2	moins	moins	ADV	_	ExtPos=PRON	8	subj@pass	_	_
