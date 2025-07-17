@@ -96,8 +96,7 @@ Direct object pronouns (e.g., “me”, “te”, “le”, “la”, “les”)
 2	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
 3	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
-
-{{< /conll }}
+{{< /conll >}}
 
 > __Dative__  
 
