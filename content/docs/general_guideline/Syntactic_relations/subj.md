@@ -40,7 +40,7 @@ The `subj` relation is used for all subjects, regardless of their form, nominal 
 The `subj` relation can be used with two deep syntactic features.
 
 #### `subj@expl`
-The `subj@expl` relation indicates that the subject is present to fill in an obligatory syntactic position bit it has no semantic value (see [`@expl`](../Deep/expl.md)).
+The `subj@expl` relation indicates that the subject is present to fill in an obligatory syntactic position but it has no semantic content (see [`@expl`](../Deep/expl.md)).
 
 > __French__
 {{<conll>}}
@@ -56,7 +56,7 @@ The `subj@expl` relation indicates that the subject is present to fill in an obl
 
 #### `subj@pass`
 
-The relation `subj@pass` is used to indicate a passive construction.
+The relation `subj@pass` is used to indicate a subject in a passive construction.
 This can be used for both standard passive constructions, and for mediopassive constructions (see [`@pass`](../Deep/pass.md)).
 
 > __English__
