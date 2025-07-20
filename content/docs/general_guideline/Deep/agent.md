@@ -9,14 +9,10 @@ bookToc: true
 
 ## Universal
 
-The `@agent` feature is used for arguments that are agents of their governor at the semantic level in various constructions (e.g., causative, passive, impersonal, etc.).
+The `@agent` feature is used for arguments that are deep subjects of their governor. A deep subject is an argument that is subject in the base construction but has been demoted in redistribution of argument position. Typical cases are passive, causative, and impersonal constructions.
 
-> English
+> passive (English)
 {{< conll >}}
-# sent_id = GUM_interview_shalev-6
-# s_prominence = 2
-# s_type = decl
-# transition = continue
 # text = He was interviewed by Wikinews.
 1	He	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
 2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -26,31 +22,33 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 6	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll >}}
 
-> English
+> Impersonal (French)
 {{< conll >}}
-1	it	it	PRON	_	_	2	subj	_	_
-2	occurred	occur	VERB	_	_	0	root	_	_
-3	to	to	ADP	_	_	2	comp:obl	_	_
-4	Quinn	Quinn	PROPN	_	_	3	comp:obj	_	_
-5	that	that	SCONJ	_	_	2	comp:obj@agent	_	_
-6	perhaps	perhaps	ADV	_	_	8	mod	_	_
-7	Stillmann	Stillmann	PROPN	_	_	8	subj	_	_
-8	was	be	PROPN	_	_	5	comp:obj	_	_
-9	blind	blind	ADJ	_	_	8	comp:pred	_	_
+# text = Il existe des variantes
+# text_en=It exists variants
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
+2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	variantes	variante	NOUN	_	Number=Plur	2	comp:obj@agent	_	Gender[lex]=Fem
 {{< /conll >}}
 
-> French 
-{{< conll >}}
-# text = Food was cooked by many hands
-1	Food	food	NOUN	_	_	2	subj	_	_
-2	was	be	AUX	_	_	0	root	_	_
-3	cooked	cook	VERB	_	_	2	comp:aux@pass	_	_
-4	by	by	ADP	_	_	3	comp:obl@agent	_	_
-5	many	many	ADJ	_	_	6	mod	_	_
-6	hands	hand	NOUN	_	_	4	comp:obj	_	_
-{{< /conll >}}
+It makes sense to analyze the deep subject of an impersonal construction as `comp:obj` and not `subj`, because:
+- the verb agrees with the dummy subject *il* and not with the deep subject
+- the deep subject is pronominalized by an object pronoun: *il en existe*
+- French has a quite strong SVO order.
+Note that in UD the dummy subject is analyzed has a pure `expl` and the deep subject as the subject.
+{{< conll_ud >}}
+# text = Il existe des variantes
+# text_en=It exists variants
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	wordform=il
+2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	variantes	variante	NOUN	_	Number=Plur	2	nsubj	_	Gender[lex]=Fem
+5	dialectales	dialectal	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+{{< /conll_ud >}}
 
-> French
+> Causative (French)
+The demoted subject in French causatives can be `comp:obj` or `comp:obl`.
 {{< conll >}}
 # text = Il fait accélérer ses troupes
 # text_en = He makes his troops go faster
@@ -61,7 +59,6 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 5	troupes	troupe	NOUN	_	_	2	comp:obj@agent	_	Gloss=troops
 {{< /conll >}}
 
-> French 
 {{< conll >}}
 # text = Il nous fait manger une pizza
 # text_en = You're making us eat a pizza
@@ -72,24 +69,3 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 5	une	un	DET	_	_	6	det	_	Gloss=a
 6	pizza	pizza	PUNCT	_	_	4	punct	_	Gloss=pizza
 {{< /conll >}}
-
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
