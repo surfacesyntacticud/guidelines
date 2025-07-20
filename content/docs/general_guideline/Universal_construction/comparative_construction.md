@@ -44,7 +44,7 @@ Sometimes, there is no grammatical word introducing the first term of the compar
 1	John	John	PROPN	_	_	2	subj	_	_
 2	is	be	AUX	_	_	0	root	_	_
 3	taller	tall	ADJ	_	_	2	comp:pred	_	highlight=red
-4	than	than	ADV	_	_	3	comp:obj	_	highlight=red
+4	than	than	ADP	_	_	3	comp:obj	_	highlight=red
 5	Mary	Mary	PROPN	_	_	4	comp:obj	_	_
 {{</conll>}}
 
