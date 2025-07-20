@@ -19,6 +19,12 @@ This relation is used for appositions. In an apposition, conjuncts have the same
 pattern { X -[conj:appos]-> Y }
 {{</grew>}}
 
+Be careful: `conj:appos` is only used when the two conjuncts form two separate phrases. When the apposition is a modification, the relation `mod@appos` must be used, like *my friend Mary* or *le boulevard Saint-Michel*.
+
+{{<grew corpus="SUD_French-Rhapsodie@2.15" >}}
+pattern { X -[mod@appos]-> Y }
+{{</grew>}}
+
 > **Spoken French**
 {{< conll >}}
 # text = Nietzsche le philosophe allemand parle de a une définition de l'art
