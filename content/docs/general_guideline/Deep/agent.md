@@ -25,7 +25,7 @@ The `@agent` feature is used for arguments that are deep subjects of their gover
 > Impersonal (French)
 {{< conll >}}
 # text = Il existe des variantes
-# text_en=It exists variants
+# text_en = It exists variants
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
@@ -39,12 +39,11 @@ It makes sense to analyze the deep subject of an impersonal construction as `com
 Note that in UD the dummy subject is analyzed has a pure `expl` and the deep subject as the subject.
 {{< conll_ud >}}
 # text = Il existe des variantes
-# text_en=It exists variants
+# text_en = It exists variants
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	wordform=il
 2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	variantes	variante	NOUN	_	Number=Plur	2	nsubj	_	Gender[lex]=Fem
-5	dialectales	dialectal	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 {{< /conll_ud >}}
 
 > Causative (French)
