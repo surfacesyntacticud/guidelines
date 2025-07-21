@@ -57,11 +57,3 @@ This feature can also be used to annotate clitic doubling, such as repeated subj
 5	?	?	PUNCT	_	_	2	punct	_	Gloss=?
 {{< /conll >}}
 
-
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
