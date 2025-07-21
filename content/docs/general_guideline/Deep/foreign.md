@@ -13,6 +13,7 @@ bookToc: true
 ## Universal 
 
 The `@foreign` feature is used with the `flat` relation for annotation of foreign language phrases.
+Note that foreign tokens are tagged `upos=X` and `Foreign=Yes`. An `ExtPos` feature can indicate the role of the ofreign phrase.
 
 > English
 {{<conll>}}
@@ -23,7 +24,7 @@ The `@foreign` feature is used with the `flat` relation for annotation of foreig
 3	of	of	ADP	E	_	2	udep	_	_
 4	Paris	Paris	PROPN	SP	_	3	comp:obj	_	_
 5	permeates	permeate	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	La	La	X	SW	Foreign=Yes	5	comp:obj	_	_
+6	La	La	X	SW	ExtPos=PROPN|Foreign=Yes	5	comp:obj	_	_
 7	Comédie	Comédie	X	SW	Foreign=Yes	6	flat@foreign	_	SpaceAfter=No
 8	.	.	PUNCT	FS	_	5	punct	_	_
 {{</conll>}}
