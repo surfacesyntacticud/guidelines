@@ -3,14 +3,17 @@ title: "Sauf, soit, dont as CCONJ"
 weight: 11
 ---
 
-# Sauf, soit, dont as CCONJ
+# _Sauf, soit, dont_ as CCONJ
 
-“sauf”, “soit”, “dont” resemble coordination but do not always meet the syntactic criteria for standard conjunctive constructions. This guide clarifies how to annotate them consistently in terms of POS tags and dependency relations.
+_sauf, soit, dont_ can be used as markers in lists. They can link NP, as well as PP:
+- _tous les couches, sauf la première_ 'all layers, except the first one'
+- _partout, sauf en France_ 'everywhere, except in France'
+This property brings these markers closer to coordinating conjunctions than to adpositions. We decided to analyze them as CCONJs.
 
 We distinguish here between:
 
-- **Additive coordination** (`conj:coord`)
-- **Appositive coordination** (`conj:appos`)
+- **Coordination** (`conj:coord`)
+- **Apposition** (`conj:appos`)
 
 ### __“sauf”__
 **Function:** Subtractive connector, introduces an exception to a preceding phrase.  
