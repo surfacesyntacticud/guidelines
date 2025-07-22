@@ -10,21 +10,21 @@ bookToc: true
 ---
 
 
-# conj:coord 
+# `conj:coord` 
 
-## Universal 
+{{< hint info >}}
+For more general information about coordination, see the [coordination construction page](../../Universal_construction/coordination.md).
+{{< /hint >}}
 
-This relation is used to link elements connected with a coordinating conjunction such as *and* and *or*. The conjunction itself is linked to the second element with a `cc` relation. It is analogous to [`conj`](https://universaldependencies.org/u/dep/conj.html) relation in UD.
+The `conj:coord` relation is used to link elements connected with a coordinating conjunction such as *and* and *or*.
+The conjunction itself is linked to the second element with a `cc` relation.
+It is analogous to [`conj`](https://universaldependencies.org/u/dep/conj.html) relation in UD.
 
 {{<grew corpus="SUD_French-Rhapsodie@2.15" >}}
 pattern { X -[conj:coord]-> Y }
 {{</grew>}}
 
-In case of multiple coordinating constructions, we analyze them in a chain in contrast to UD, which analyzes them as a bouquet structure.
 
-This helps to reduce cumbersome long-distance relations. We also believe it to be a more accurate representation of the cognitive process of coordination.
-
-  
 > **French**
 {{< conll >}}
 # text = Elle saura conjuguer le changement et la cohésion sociale l' esprit d' initiative et la sécurité la modernité et le bien vivre ensemble
@@ -83,27 +83,4 @@ This helps to reduce cumbersome long-distance relations. We also believe it to b
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=231552|AlignEnd=231552|Gloss=PUNCT
 {{< /conll >}}
 
-
-For more information about coordination, see the [dedicated page](../../Universal_construction/coordination.md):
-
-- Embedded coordination : `conj:coord@emb`
-- Shared dependents: `Shared=Yes`
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
+The relation can be used with the deep extension `emb`, see [coordination construction page](../../Universal_construction/coordination.md#embedded-coordination).

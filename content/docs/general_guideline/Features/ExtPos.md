@@ -15,7 +15,7 @@ Related pages:
  )
 
 The `ExtPos` feature is used to facilitate the annotation of idioms, titles, and other multi-word units which behave like a certain part of speech, even though none of their constituents necessarily carry that part of speech. This feature allows the annotator to preserve the internal syntactic structure between the components of these units.
-See [Idioms and titles](../Misc/Idioms_Titles.md) for examples.
+See [Idioms and titles](../Universal_construction/Idioms_Titles.md) for examples.
 
 The usage of `ExtPos` was also generalized to cases of single tokens which are given a `upos` but they are used in the syntactic structure with another role.
 

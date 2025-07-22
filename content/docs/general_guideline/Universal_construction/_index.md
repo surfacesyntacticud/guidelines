@@ -1,6 +1,6 @@
 ---
-title: "Universal Construction"
-weight: 50
+title: "Universal Constructions"
+weight: 5
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
@@ -9,7 +9,7 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-# Universal Construction 
+# Universal Constructions
 
 This section brings together the different constructions that are common in treebanks : 
 
@@ -18,3 +18,4 @@ This section brings together the different constructions that are common in tree
 - [disfluency](disfluency.md)
 - [numeral](numeral.md)
 - [reported speech](reported_speech.md)
+- [Idioms and Titles](./Idioms_Titles.md)

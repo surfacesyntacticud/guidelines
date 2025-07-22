@@ -1,5 +1,5 @@
 ---
-title: "Comparative construction"
+title: "Comparative"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -48,7 +48,7 @@ Sometimes, there is no grammatical word introducing the first term of the compar
 5	Mary	Mary	PROPN	_	_	4	comp:obj	_	_
 {{</conll>}}
 
-  
+
 ## Superlative constructions
 
 **Superlative constructions** containing a reference to the group of nouns compared are annotated with a `udep` relation connecting the comparative to the preposition.

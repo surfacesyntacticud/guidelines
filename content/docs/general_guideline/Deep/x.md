@@ -13,7 +13,7 @@ bookToc: true
 ## Universal
 
 {{<hint danger>}}
-NOT USED ANYMORE. REPLACE BY FEATURES [`Subject`](../SUD_features/Subject)
+NOT USED ANYMORE. REPLACE BY FEATURES [`Subject`](../features/Subject.md)
 {{</hint>}}
 
 The `@x` deep feature was used to annotate relationships with verbs that do not have an explicitly marked subject, but whose semantic subject can nevertheless be found in the sentence.
