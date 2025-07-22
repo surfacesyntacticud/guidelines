@@ -83,21 +83,5 @@ pattern { X -[mod@appos]-> Y }
 
 Related discussion: [#59](https://github.com/surfacesyntacticud/guidelines/issues/59)
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

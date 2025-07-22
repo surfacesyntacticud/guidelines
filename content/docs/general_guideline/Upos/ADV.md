@@ -38,21 +38,5 @@ Examples
 - [de] usw. “etc.” (see conj)
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

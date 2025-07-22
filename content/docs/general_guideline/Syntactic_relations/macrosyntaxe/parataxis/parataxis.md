@@ -88,21 +88,5 @@ pattern { X -[parataxis]-> Y }
 {{</conll>}}
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

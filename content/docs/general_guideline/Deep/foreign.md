@@ -30,21 +30,5 @@ Note that foreign tokens are tagged `upos=X` and `Foreign=Yes`. An `ExtPos` feat
 {{</conll>}}
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

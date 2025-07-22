@@ -59,21 +59,6 @@ As shown in the [correspondences between SUD and UD](../../../../_index.md#corre
 7	Balón	balón	PROPN	_	_	6	flat:name	_	Gloss=Balón
 {{< /conll >}}
 
-
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-
-
 ## Haitian Creole
 
 ### Overview

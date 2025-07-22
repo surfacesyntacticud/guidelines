@@ -53,21 +53,5 @@ In English, `compound`s are phonologically distinct, pronounced with an intonati
 Consider the difference in pronunciation between *real estate*, a bona fide `compound`, and *real property*, an adjective and a noun connected with a simple `mod` relation.
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

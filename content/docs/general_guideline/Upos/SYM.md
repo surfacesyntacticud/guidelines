@@ -34,21 +34,5 @@ Examples
 - john.doe@universal.org, http://universaldependencies.org/, 1-800-COMPANY
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

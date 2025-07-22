@@ -102,14 +102,3 @@ More information can be found on the French [pronomional verb](../../../language
 {{<agg comp_french>}}
 
 
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-

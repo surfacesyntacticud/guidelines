@@ -152,21 +152,5 @@ This happens when the noun is part of a light verb construction (for more inform
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

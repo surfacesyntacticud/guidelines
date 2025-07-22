@@ -37,21 +37,5 @@ For these cases, the two words *de* are linked with a `conj:dicto` relation and 
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

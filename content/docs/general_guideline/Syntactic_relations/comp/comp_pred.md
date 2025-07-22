@@ -192,21 +192,5 @@ pattern { X -[comp:pred]-> Y; Y[upos=SCONJ] }
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

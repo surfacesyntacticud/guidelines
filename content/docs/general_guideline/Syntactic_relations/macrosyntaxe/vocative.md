@@ -50,21 +50,5 @@ pattern { X -[vocative]-> Y }
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

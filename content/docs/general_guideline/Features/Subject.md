@@ -165,21 +165,5 @@ You can find this annotation in the treebank [**French-Rhapsodie**](https://univ
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

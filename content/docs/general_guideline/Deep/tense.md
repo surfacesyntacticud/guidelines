@@ -24,21 +24,5 @@ The `@tense` feature is used for the argument of tense auxiliaries.
 6	earned	earn	VERB	_	_	5	comp:aux@tense	_	_
 {{< /conll >}}
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

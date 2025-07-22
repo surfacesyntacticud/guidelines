@@ -32,10 +32,3 @@ For Indo-European speakers, voice means mainly the active-passive distinction. I
 [Cau](https://universaldependencies.org/u/feat/Voice.html#Cau), 
 [Bfoc](https://universaldependencies.org/u/feat/Voice.html#Bfoc).
 
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern

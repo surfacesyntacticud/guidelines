@@ -110,21 +110,5 @@ In this sentence, the proposition *J'ai des copines* (*I have some friends*) doe
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

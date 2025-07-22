@@ -29,14 +29,3 @@ Note that while some languages also have reflexive verbs, these are in fact fuse
 
 [Yes](https://universaldependencies.org/u/feat/Reflex.html#Yes).
 
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-

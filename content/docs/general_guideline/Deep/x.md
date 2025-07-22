@@ -64,21 +64,5 @@ While this feature is most often used in relationships between finite verbs and 
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

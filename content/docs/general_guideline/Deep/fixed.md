@@ -19,21 +19,5 @@ It has been replaced by nodes features: see [here](../Universal_construction/Idi
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

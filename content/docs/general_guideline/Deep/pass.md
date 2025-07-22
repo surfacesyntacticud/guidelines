@@ -74,21 +74,5 @@ Complements of the verbs in a passive construction are marked `comp:obj@pass`
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

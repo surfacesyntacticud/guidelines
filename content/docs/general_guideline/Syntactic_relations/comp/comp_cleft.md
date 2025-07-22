@@ -93,21 +93,5 @@ But if the sentence is uttered in a context where the speaker is referring to on
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

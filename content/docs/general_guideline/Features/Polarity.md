@@ -30,21 +30,5 @@ The Polarity feature can be also used to distinguish response interjections yes 
 [Pos](https://universaldependencies.org/u/feat/Polarity.html#Pos).
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

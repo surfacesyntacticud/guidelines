@@ -33,14 +33,3 @@ Example :
 
 ## Verbal strategy
 
-
-## TODO 
-
-### French
-
-TODO
-#### Overview
-
-#### Specific Pattern
-
-

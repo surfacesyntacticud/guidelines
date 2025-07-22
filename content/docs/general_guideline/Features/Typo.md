@@ -37,21 +37,5 @@ The corresponding tokern should have the feature [`CorrectForm`](../Misc/Correct
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

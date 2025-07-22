@@ -22,21 +22,5 @@ A special usage of X is for cases of code-switching where it is not possible (or
 Examples
 - And then he just ***xfgh pdl jklw*** (keyboard smash)
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

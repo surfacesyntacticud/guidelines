@@ -10,16 +10,6 @@ bookToc: true
 
 See [UD `DET` page](https://universaldependencies.org/u/pos/DET.html) for a definition.
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
 
 
 ## Haitian Creole

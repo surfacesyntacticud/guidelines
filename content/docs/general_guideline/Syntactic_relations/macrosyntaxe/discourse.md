@@ -77,21 +77,5 @@ The `discourse` relation is also used for simple discourse markers such as inter
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

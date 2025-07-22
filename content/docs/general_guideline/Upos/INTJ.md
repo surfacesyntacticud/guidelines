@@ -93,15 +93,3 @@ pattern { N [ExtPos=INTJ, Idiom] }
 Here is the table where you can find the pattern in the treebanks.
 
 {{< agg table_output_french_INTJ >}}
- 
-
-### Specific Pattern
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-

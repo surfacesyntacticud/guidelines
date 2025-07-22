@@ -94,21 +94,5 @@ The syntactic relation `flat` is mainly used with two deep syntactic features:
 See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=flat) for more `flat` based relations.
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

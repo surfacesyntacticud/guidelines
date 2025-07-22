@@ -44,21 +44,5 @@ See [table](https://tables.grew.fr/?data=sud_deps/DEPS&cols=@relcl) for the use 
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

@@ -25,13 +25,3 @@ Definiteness is typically a feature of nouns, adjectives and articles. Its value
 [Construct state](https://universaldependencies.org/u/feat/Definite.html#Cons),
 [Complex](https://universaldependencies.org/u/feat/Definite.html#Com).
 
-
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-

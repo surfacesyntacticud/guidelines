@@ -35,21 +35,5 @@ A global view of `conj` usage in the last release of SUD is shown in this [table
 See also the [Coordination](../../Universal_construction/coordination/) page.
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

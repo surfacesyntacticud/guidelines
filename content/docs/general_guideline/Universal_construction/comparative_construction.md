@@ -121,24 +121,3 @@ These constructions are similar to other constructions organized around pairs of
 9	ce	ce	DET	_	_	10	det	_	Gloss=that
 10	sommet	sommet	NOUN	_	_	8	comp:obj	_	Gloss=summit
 {{</conll>}}
-
-
-
-
-
-## TODO
-### French
-
-TODO
-#### Overview
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-

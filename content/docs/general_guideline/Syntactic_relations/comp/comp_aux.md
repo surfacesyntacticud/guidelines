@@ -110,20 +110,3 @@ Multiple auxiliaries, such as those permitted in [English varieties spoken in th
 8	.	.	PUNCT	.	PunctType=Peri	4	punct	_	Gloss=PUNCT
 {{</conll>}}
 
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
-
-

@@ -114,21 +114,5 @@ For more examples on disfluencies, you can refer to the [disfluency](../../Unive
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

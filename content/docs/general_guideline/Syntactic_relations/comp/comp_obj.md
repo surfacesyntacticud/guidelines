@@ -343,19 +343,6 @@ The head of the reported phrase has the features `Reported=Yes`.
 
 
 
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-
-
 ## Haitian Creole
 
 ### Overview

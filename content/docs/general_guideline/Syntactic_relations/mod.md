@@ -70,21 +70,5 @@ pattern { e: X -[1=mod, deep=*]-> Y; }
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

@@ -27,11 +27,3 @@ Degree of comparison is typically an inflectional feature of some adjectives and
 [Diminutive](https://universaldependencies.org/u/feat/Degree.html#Dim),
 [Augmentative](https://universaldependencies.org/u/feat/Degree.html#Aug).
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-

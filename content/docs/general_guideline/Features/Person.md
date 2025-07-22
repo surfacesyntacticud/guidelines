@@ -26,21 +26,5 @@ Person is typically feature of personal and possessive pronouns / determiners, a
 
 
 
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
-
-
-
-
-## Haitian Creole
-
-TODO
-### Overview
-
-### Specific Pattern
 
 

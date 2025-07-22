@@ -16,10 +16,3 @@ Note: This feature is new in UD version 2. It was used as a language-specific ad
 ### Values
 
 [Yes](https://universaldependencies.org/u/feat/Foreign.html#Yes).
-
-## French
-
-TODO
-### Overview
-
-### Specific Pattern
