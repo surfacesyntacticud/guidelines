@@ -1,65 +1,62 @@
-"""
-Pour lancer le script : 
-
-python3 build_ag-grid_table.py --request_file chemin/vers/requetes/json --corpora_file chemin/vers/json/corpus
-"""
-import datetime
 import argparse
-import sys
 import json
+import sys
 from grewpy import Request, Corpus, set_config
 
-set_config('sud')
+def escape_request(r):
+	"""replace quotes by the urlencoding (%22) for proper rendering when grew-match is called"""
+	return str(r).replace("\"", "%22")
 
-def esc_request (r):
-  string_request = str(r)
-  # replace quotes by the urlencoding (%22) for proper rendering when grew-match is called
-  string_request = string_request.replace("\"", "%22")
-  return string_request
+def load_json_file(filepath):
+	try:
+		with open(filepath, "r", encoding='utf-8') as f:
+			return json.load(f)
+	except Exception as e:
+		print(f"Error reading {filepath}: {e}")
+		sys.exit(1)
+
+def main(request_file, corpora_file):
+	grew_requests = {x["id"]: Request.from_json(x["request"]) for x in load_json_file(request_file)}
+	corpora = {x["id"]: x["directory"] for x in load_json_file(corpora_file)}
+
+	main_dict = {}
+	for corpus_name, corpus_directory in corpora.items():
+		corpus = Corpus(corpus_directory)
+		main_dict[corpus_name] = {req_id: corpus.count(grew_requests[req_id]) for req_id in grew_requests}
+		corpus.clean()
+
+	requests = {req_id: escape_request(grew_requests[req_id]) for req_id in grew_requests}
+	column_defs = [{"field": "row_header", "headerName": "Treebank", "pinned": "left", "lockPinned": True}]
+	column_defs += [{"field": req_id, "headerName": req_id} for req_id in grew_requests]
+
+	row_data = [
+		{"row_header": corpus_name, **{req_id: main_dict[corpus_name][req_id] for req_id in main_dict[corpus_name]}}
+		for corpus_name in main_dict
+	]
+
+	data = {
+		"requests": requests,
+		"grid": {
+			"defaultColDef": {
+				"width": 150,
+				"sortable": True,
+				"sortingOrder": ["desc", "asc"],
+				"resizable": True
+			},
+			"columnDefs": column_defs,
+			"rowData": row_data
+		}
+	}
+
+	print(json.dumps(data, indent=2, ensure_ascii=False))
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--request_file', help='Path to the JSON file containing the requests')
-    parser.add_argument('--corpora_file', help='Path to the JSON file containing the corpora')
-    args = parser.parse_args()
+	parser = argparse.ArgumentParser(description='Build an ag-grid table from requests and corpora.')
+	parser.add_argument('--request_file', required=True, help='Path to the JSON file containing the requests')
+	parser.add_argument('--corpora_file', required=True, help='Path to the JSON file containing the corpora')
+	parser.add_argument('--config', default="sud", help='Config of the corpora (default: sud)')
+	args = parser.parse_args()
+	
+	set_config(args.config)
 
-    request_file = args.request_file
-    corpora_file = args.corpora_file
-
-
-    with open(request_file, "rb") as f:
-      grew_requests = { x["id"]: Request.from_json(x["request"]) for x in json.load(f) }
-
-    with open(corpora_file, "rb") as f:
-      json_data = json.load(f)
-      corpora = { x["id"]: x["directory"] for x in json_data["corpora"] }
-
-    if __name__ == '__main__':
-      main_dict = {}
-      for corpus_name in corpora:
-        corpus = Corpus(corpora[corpus_name])
-
-        main_dict[corpus_name] = { id: corpus.count(grew_requests[id]) for id in grew_requests }
-        corpus.clean()
-
-      requests = { id: esc_request(grew_requests[id]) for id in grew_requests }
-      columnDefs = [ { "field": "row_header", "headerName": "Treebank", "pinned": "left", "lockPinned": True} ] 
-      columnDefs += [ {"field": id, "headerName": id } for id in grew_requests ]
-
-      rowData = [ {"row_header": k1 } | { k2: main_dict[k1][k2] for k2 in main_dict[k1]} for k1 in main_dict]
-
-      data = {
-        "requests": requests,
-        "grid": {
-          "defaultColDef": {
-            "width": 150,
-            "sortable": True,
-            "sortingOrder": ["desc", "asc"],
-            "resizable": True
-          },
-          "columnDefs": columnDefs,
-          "rowData": rowData
-        }
-      }
-
-      print (json.dumps(data, indent=2, ensure_ascii=False))
+	main(args.request_file, args.corpora_file)
