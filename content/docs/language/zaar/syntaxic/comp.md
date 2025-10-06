@@ -5,7 +5,7 @@
 pattern { e:X -[1=comp]-> Y }
 {{< /grew >}}
 
-## `comp:obj@R`
+## `comp:obj@R`: Recipient
 
 {{< conll >}}
 # sent_id = SAY_BC_narr_01_056-056
@@ -26,7 +26,7 @@ pattern { e:X -[1=comp]-> Y }
 {{< /conll >}}
 
 
-## `comp:obj@T`
+## `comp:obj@T`: Theme
 
 {{< conll >}}
 # sent_id = SAY_BC_INT_02_Burial_132-132
@@ -44,9 +44,10 @@ pattern { e:X -[1=comp]-> Y }
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=171601|AlignEnd=171749|Gloss=PUNCT
 {{< /conll >}}
 
+## `comp:obj@G`: Goal
 
 
-## `comp:obj`
+## `comp:obj@L`: Locative
 
 
 {{% hint info %}}

@@ -1,3 +1,7 @@
+
+
+# ============ Old guidelines ============
+
 _J'avais finalement une question concernant le point (1) ordre Verbe-Complément différent pour le progressif % aux autres TAM; ordre qui se retrouve dans les syntagmes nominaux ayant un nom verbal comme tête. Je pensais avoir compris sur le coup, mais en écrivant cette requête_
 
 _pattern { GOV -[comp:aux]-> DEP ; GOV[Aspect="Prog"]; DEP[VerbForm="Vnoun"]}_

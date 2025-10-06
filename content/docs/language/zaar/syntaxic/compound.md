@@ -5,6 +5,9 @@ The base relation `compound` is used without extension or in one of the three re
 pattern { e:X -[1=compound]-> Y }
 {{< /grew >}}
 
+{{% hint info %}}
+Il n'y a que 5 cas (https://universal.grew.fr/?custom=68e2ba235e8b1) entre 2 AUX, je ne sais pas si c'est important de garder l'exemple...
+{{% /hint %}}
 
 
 # ============ Old guidelines ============
@@ -13,10 +16,6 @@ pattern { e:X -[1=compound]-> Y }
 ## compound:svc
 
 The `compound:svc` relation defines a serial verb construction that is normally connecting two (different) verbs. In Zaar, this relation can also connect two auxiliaries that are repeated.
-
-{{% hint info %}}
-Il n'y a que 5 cas (https://universal.grew.fr/?custom=68e2ba235e8b1) entre 2 AUX, je ne sais pas si c'est important de garder l'exemple...
-{{% /hint %}}
 
 ### Example of a serial verb construction with auxiliaries
 
