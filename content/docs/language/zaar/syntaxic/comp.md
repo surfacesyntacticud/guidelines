@@ -1,10 +1,67 @@
-# comp
+# `comp` deprel
 
-  
+
+{{< grew key1="e.label" corpus="SUD_Zaar-Autogramm@latest">}}
+pattern { e:X -[1=comp]-> Y }
+{{< /grew >}}
+
+## `comp:obj@R`
+
+{{< conll >}}
+# sent_id = SAY_BC_narr_01_056-056
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
+# sent_timecode = 68270, 68932
+# text = tə́ gə̀mtə̀ mə́nɗi //
+# text_ortho = tə́ gə̀mtə̀ mə́nɗi //
+# text_en = They gave it to him.
+1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=68270|AlignEnd=68436|Gloss=3Plur.Aor
+2-3	gə̀mtə̀	_	_	_	_	_	_	_	_
+2	gə̀m	gəm	VERB	_	_	1	comp:aux	_	AlignBegin=68436|AlignEnd=68519|Gloss=put|highlight=red
+3	=tə᷅	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=68519|AlignEnd=68602|Gloss=3Sing.Obj|highlight=red
+4-5	mə́nɗi	_	_	_	_	_	_	_	_
+4	mə́n	mə́n	PART	_	Case=Ben|PartType=Adv	2	compound:prt	_	AlignBegin=68602|AlignEnd=68685|Gloss=BEN
+5	ɗi	ɗi	PART	_	PartType=Adv	2	compound:prt	_	AlignBegin=68685|AlignEnd=68768|Gloss=Ctp|wordform==ɗi
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=68768|AlignEnd=68932|Gloss=PUNCT
+{{< /conll >}}
+
+
+## `comp:obj@T`
+
+{{< conll >}}
+# sent_id = SAY_BC_INT_02_Burial_132-132
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
+# sent_timecode = 171151, 171749
+# text = tá gìːʃí ɗân //
+# text_ortho = tá gìːʃí ɗân //
+# text_en = They would bury them there.
+1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=171151|AlignEnd=171301|Gloss=3Plur.Fut
+2-3	gìːʃí	_	_	_	_	_	_	_	_
+2	gìː	giː	VERB	_	_	1	comp:aux	_	AlignBegin=171301|AlignEnd=171376|Gloss=bury|highlight=red
+3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj@T	_	AlignBegin=171376|AlignEnd=171451|Gloss=3Plur.Obj|highlight=red
+4	ɗân	ɗáni	ADV	_	_	2	comp:obl	_	AlignBegin=171451|AlignEnd=171601|Gloss=there
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=171601|AlignEnd=171749|Gloss=PUNCT
+{{< /conll >}}
+
+
+
+## `comp:obj`
+
+
+{{% hint info %}}
+
+@Bernard: un seul `comp:obj` verbal avec le dépendant à gauche:
+{{< grew corpus="SUD_Zaar-Autogramm@latest">}}
+pattern { N1 -[comp:obj]-> N2 ; N1[upos=VERB]; N2 << N1 }
+{{< /grew >}}
+
+{{% /hint %}}
+
+
+# ============ Old guidelines ============
 
 `comp:ben`, `comp:goal`, `comp:loc`, `comp:source` are specific relations used in Zaar.
-
-  
 
 ## comp:ben
 
