@@ -1,8 +1,0 @@
-{
-  "corpora": [
-    {
-      "id": "SUD_Haitian_Creole-Autogramm@latest",
-      "directory": "haitian_creole/corpora/SUD_Haitian_Creole-Autogramm"
-    }
-  ]
-}

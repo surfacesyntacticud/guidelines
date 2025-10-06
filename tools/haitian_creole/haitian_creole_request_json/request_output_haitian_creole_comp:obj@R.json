@@ -1,1 +1,0 @@
-[{"id": "recipient", "request": [{"pattern": ["GOV -[comp:obj@R]-> DEP"]}]}]

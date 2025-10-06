@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   if (global == all_tables.length) { // run the tables rendering only on the last call
     all_tables.forEach(table => {
-      fetch('./'+table.id+'.json')
+      fetch('/tables/'+table.id+'.json')
       .then((response) => response.json())
       .then((json) => {
         let grid = json.grid

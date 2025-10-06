@@ -1,0 +1,130 @@
+{
+  "requests": {
+    "CCONJ": "pattern {X[upos=CCONJ]}",
+    "PRON": "pattern {X[upos=PRON]}",
+    "NOUN": "pattern {X[upos=NOUN]}",
+    "PUNCT": "pattern {X[upos=PUNCT]}",
+    "IDEO": "pattern {X[upos=IDEO]}",
+    "PART": "pattern {X[upos=PART]}",
+    "ADP": "pattern {X[upos=ADP]}",
+    "PROPN": "pattern {X[upos=PROPN]}",
+    "NUM": "pattern {X[upos=NUM]}",
+    "ADJ": "pattern {X[upos=ADJ]}",
+    "AUX": "pattern {X[upos=AUX]}",
+    "ADV": "pattern {X[upos=ADV]}",
+    "X": "pattern {X[upos=X]}",
+    "SCONJ": "pattern {X[upos=SCONJ]}",
+    "DET": "pattern {X[upos=DET]}",
+    "INTJ": "pattern {X[upos=INTJ]}",
+    "VERB": "pattern {X[upos=VERB]}"
+  },
+  "grid": {
+    "defaultColDef": {
+      "width": 100,
+      "sortable": true,
+      "sortingOrder": [
+        "desc",
+        "asc"
+      ],
+      "resizable": true
+    },
+    "columnDefs": [
+      {
+        "field": "row_header",
+        "headerName": "Treebank",
+        "pinned": "left",
+        "lockPinned": true
+      },
+      {
+        "field": "CCONJ",
+        "headerName": "CCONJ"
+      },
+      {
+        "field": "PRON",
+        "headerName": "PRON"
+      },
+      {
+        "field": "NOUN",
+        "headerName": "NOUN"
+      },
+      {
+        "field": "PUNCT",
+        "headerName": "PUNCT"
+      },
+      {
+        "field": "IDEO",
+        "headerName": "IDEO"
+      },
+      {
+        "field": "PART",
+        "headerName": "PART"
+      },
+      {
+        "field": "ADP",
+        "headerName": "ADP"
+      },
+      {
+        "field": "PROPN",
+        "headerName": "PROPN"
+      },
+      {
+        "field": "NUM",
+        "headerName": "NUM"
+      },
+      {
+        "field": "ADJ",
+        "headerName": "ADJ"
+      },
+      {
+        "field": "AUX",
+        "headerName": "AUX"
+      },
+      {
+        "field": "ADV",
+        "headerName": "ADV"
+      },
+      {
+        "field": "X",
+        "headerName": "X"
+      },
+      {
+        "field": "SCONJ",
+        "headerName": "SCONJ"
+      },
+      {
+        "field": "DET",
+        "headerName": "DET"
+      },
+      {
+        "field": "INTJ",
+        "headerName": "INTJ"
+      },
+      {
+        "field": "VERB",
+        "headerName": "VERB"
+      }
+    ],
+    "rowData": [
+      {
+        "row_header": "SUD_Zaar-Autogramm@latest",
+        "CCONJ": 241,
+        "PRON": 1382,
+        "NOUN": 2554,
+        "PUNCT": 3374,
+        "IDEO": 139,
+        "PART": 2060,
+        "ADP": 938,
+        "PROPN": 415,
+        "NUM": 94,
+        "ADJ": 147,
+        "AUX": 2935,
+        "ADV": 910,
+        "X": 205,
+        "SCONJ": 788,
+        "DET": 357,
+        "INTJ": 568,
+        "VERB": 3645
+      }
+    ]
+  }
+}
