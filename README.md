@@ -1,3 +1,12 @@
+# ⚠️⚠️ DEPRECATED SUD guidelines ⚠️⚠️
+
+This repository is outdated.
+
+Guidelines are now maintained in a new repo https://github.com/surfacesyntacticud/docs and rendered at https://docs.surfacesyntacticud.org/
+
+---
+---
+
 # Annotation guidelines
 Source code of https://guidelines.surfacesyntacticud.org/, guidelines for SUD annotation
 This repository contains an annotation guidelines and the necessary tools for its creation for a new language.
